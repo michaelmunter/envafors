@@ -28,6 +28,12 @@ Nødvendig offentlig research og lokal eksekvering er tilladt. Væsentlige beslu
 
 Underagenten `direct_sources_review` gennemgik instruksen om direkte kildesvar og kontrollerede begge adgangsveje mod kilderegisteret. Reviewet førte til, at tilladt adgang blev gjort eksplicit, og at Matriklen Labs-opslaget blev afgrænset til de CVR-numre, der er valgt til ejendomsindsamlingen. Reviewet fandt ingen væsentlige fejl.
 
+## Historik for Matriklen Labs' CVR-opslag
+
+Labs-forsidens arkivkopi fra 13. oktober 2025 har et værktøjskatalog uden link til `/ejerskaber`. Kopien fra 11. november 2025 viser »Ejerskaber« som prototype og linker til værktøjet. Værktøjssiden er arkiveret 9. december 2025. Dens daværende JavaScript-modul kunne ikke hentes fra arkivet. Datoerne viser, hvad der er bevaret i arkivet. Se S058–S060 i [kilderegisteret](sources.csv).
+
+Søgningen 8. november 2026 fandt ingen dateret reference til `CvrEjerskaber` fra før værktøjets omtale. Webarkivets indeks gav ingen fund på det konkrete endepunkt (S061). Det tidligste verificerede belæg i projektet for API-kaldet er det aktuelle Labs-modul (S057). Endepunktets første udgivelsesdato og oprindelige formål står åbne. Underagenten `api_history_review` søgte uafhængigt efter ældre referencer og fandt ingen til det konkrete endepunkt.
+
 ## CVR-kontrol af selskabskandidater
 
 Den 8. november 2026 blev C001–C020 kontrolleret i Erhvervsstyrelsens offentlige CVR. Alle 20 opslag gav en entydig CVR-post: 16 med status »Normal« og fire med status »Opløst efter fusion«. C021 (Cerius A/S) er den nytilføjede kandidat og stod også som »Normal«. Dækningen gælder denne navngivne liste på opslagsdatoen. Den siger ikke, om alle relevante selskaber er fundet.
