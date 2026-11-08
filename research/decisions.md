@@ -16,9 +16,27 @@ Faktiske og tinglyste andele bevares særskilt. Nul, manglende og ugyldige værd
 
 ## Datoen Virkning i Matriklen Labs
 
-S020 beskriver visningsfeltet »Virkning«. S057 viser, at værktøjet sender begge resultatlister til S139. Find `virkningFra`, `virkningTil` og `Virkning:` i S139 for at gentage kontrollen af feltkoblingen. Alle 415 gemte poster i første runde har `virkningFra`. Ingen har `virkningTil`. For BFE `5367067` har SK Vands historiske ejerpost `/ejer/38` (S030) og SK Forsynings gældende ejerpost `/ejer/18` (S081) samme dato, 20. maj 2026. Det stemmer med Labs' beskrivelse af en dato for ophør henholdsvis overtagelse. Oplysningerne kommer fra samme svarsystem og afgør ingen særskilt dato for den tinglyste ejerandel.
+S020 beskriver visningsfeltet »Virkning«. S057 viser, at værktøjet sender begge resultatlister til S139. Find `virkningFra`, `virkningTil` og `Virkning:` i S139 for at gentage kontrollen af feltkoblingen. Alle 415 gemte poster i første runde har `virkningFra`. Ingen har `virkningTil`. For BFE `5367067` har SK Vands historiske ejerpost `/ejer/38` (S030) og SK Forsynings gældende ejerpost `/ejer/18` (S081) samme dato, 20. maj 2026. Det efterfølgende opslag nedenfor viser, at datoen falder sammen med den viste tinglysningsdato for SK Forsyning, mens den viste overtagelsesdato er 1. januar 2026.
 
 Underagenten `virkning_review` efterprøvede begge webmoduler, feltfordelingen og eksemplet. Reviewet bekræftede, at teksten »Siden d.« ikke skifter med status. Datamodellen forklarer nu, hvordan datoen skal læses, mens den oprindelige datostreng fortsat er det eneste datofelt i relationstabellen.
+
+## Faktiske og tinglyste ejerandele på BFE 2539366 og 5367067
+
+Geodatastyrelsen beskriver faktisk ejer og tinglyst ejer som to særskilte oplysninger i Ejerfortegnelsen. Tinglyste oplysninger kommer fra tinglysningsmeddelelser. En kommune kan også registrere faktisk ejerskab. Datafordelerens eksempel viser, hvordan andelene kan variere over tid, og skelner mellem virkning og registrering. Eksemplet dokumenterer ingen af de to konkrete ejendomme (S140–S141).
+
+| BFE | Matriklen Labs | Matriklen.dk, aktuelle ejeroplysninger | Tingbogen, begrænset visning uden login |
+| --- | --- | --- | --- |
+| `2539366` | SK Vand (`27736033`), gældende. Faktisk `1/1`, tinglyst `0/1`, Labs-dato 01.01.2002 (S030, `/ejer/36`). | Samme CVR og begge andele. Vist overtagelsesdato og tinglysningsdato begge 01.01.2002 (S142, S148). | Ingen adkomst kontrolleret. BFE og matrikel kan ikke indtastes i den åbne søgning, og BFE 2539366 har beliggenhedsadresse Vejlagervej uden nummer. Matriklen.dk og OIS viser ejendommen som matrikel 27d, Forlev By, Vemmelev (S142, S146–S147). |
+| `5367067` | SK Vand (`27736033`), historisk. Faktisk `0/1`, tinglyst `1/1` (S030, `/ejer/38`). SK Forsyning (`25797981`), gældende. Begge andele `1/1` (S081, `/ejer/18`). Begge poster har Labs-dato 20.05.2026. | SK Forsyning med samme CVR og begge andele `1/1`. Vist overtagelsesdato 01.01.2026 og tinglysningsdato 20.05.2026. Den aktuelle visning viser ikke SK Vands historiske post (S143, S149). | Nordvej 7, 4200 Slagelse har SK Forsyning som adkomsthaver med `1/1`. Jordstykket 12h, Slagelse Markjorder forbinder opslaget med BFE. Den begrænsede visning viser hverken CVR, tinglysningsdato eller historisk adkomst (S144–S145). |
+
+Historiske Matriklen-opslag på udvalgte virkningstidspunkter viser, hvordan de to andele var fordelt i registerets historiske visning. De rekonstruerer ikke alle mellemliggende poster eller, hvad registeret viste på en bestemt tidligere registreringsdato.
+
+- På BFE `2539366` vises SK Vand ikke i opslaget for 31.12.2001. Ved opslaget for 01.01.2002 vises SK Vand med `1/1` faktisk og `0/1` tinglyst, som ved det aktuelle opslag. Begge datofelter er udfyldt. Andelen `0/1` er en konkret værdi, og den viste tinglysningsdato dokumenterer ikke i sig selv en tinglyst adkomst. Årsagen til forskellen er fortsat uafklaret (S148, S154–S155).
+- På BFE `5367067` vises SK Vand med begge andele `1/1` for 31.12.2025. Ved opslagene for 02.01.2026 og 19.05.2026 vises SK Forsyning med faktisk `1/1` og tinglyst `0/1`. Samtidig står SK Vand med faktisk `0/1` og tinglyst `1/1`. Ved opslaget for 20.05.2026 vises SK Forsyning med begge andele `1/1`, og SK Vand vises ikke. De valgte tidspunkter belyser de to adskilte skift. De angiver ikke registreringstidspunktet i Ejerfortegnelsen eller årsagen til den tidsmæssige forskel (S150–S153).
+
+Gentag kontrollen i Matriklen.dk under »Om ejendommen« → »Ejeroplysninger« eller via den offentlige JSON-adresse i S148–S149. Svaret indeholder `ejere` med bl.a. `cvr`, de to ejerandele, `overtagelsesdato` og `tinglysningsdato`. Matriklen.dk's historiske visning sender det valgte tidspunkt som `virkningstid`. S150–S155 har de konkrete URL'er. Matriklen.dk og Labs behandles som visninger af Ejerfortegnelsens ejerdata. Tingbogen er en direkte kontrol af den viste adkomst. Dens meddelelser indgår i Ejerfortegnelsen, så overensstemmelse for den tinglyste andel tæller ikke som uafhængigt ophav. En fuld kontrol af tidligere adkomst eller opslag på den unummererede ejendom kræver en anden adgang til Tingbogen. Den kontrol er ikke nødvendig for at dokumentere de observerede offentlige oplysninger.
+
+Underagenten `share_review` efterprøvede de aktuelle og historiske ejeroplysninger via Matriklen.dk's offentlige JSON-adresse. Kontrollen bekræftede, at det særskilt viste felt er en tinglysningsdato, og at det skal holdes adskilt fra Ejerfortegnelsens registreringstid og fra `virkningstid` som søgeparameter. Vi har derfor ikke udledt en dato for tinglyst adkomst af et udfyldt datofelt ved andel `0/1`.
 
 ## Kontrol og review
 

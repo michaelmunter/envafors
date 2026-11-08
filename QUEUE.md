@@ -6,7 +6,6 @@ Tilføj vigtige opgaver inden for [projektets rammer](PLAN.md), og placér dem e
 
 ## OPGAVER
 
-- [sol xhigh] Undersøg forskellen mellem faktiske og tinglyste ejerandele for BFE `2539366` og `5367067`. Dokumenter, hvad kilderne viser.
 - [sol xhigh] Kontroller et begrundet udvalg af gældende og historiske ejerposter samt administratorposter i Matriklen. Angiv, om kilderne har fælles registerophav.
 - [sol xhigh] Kontroller mindst ét kendt SK Vand-anlæg ved hjælp af en anlægsbeskrivelse eller Jupiter. Undersøg forbindelsen til pilotens ejendomsfund.
 - [sol xhigh] Undersøg, hvilken historik Matriklen Labs dækker, og om API'et har resultatgrænser eller paginering. Dokumenter, hvad der er afklaret.
