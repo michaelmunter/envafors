@@ -34,6 +34,7 @@ Den 8. november 2026 gav ti opslag poster og seks to tomme lister. Der var ingen
 |---|---|
 | CVR-stamdata | Åbn [CVR-gatewayen, eksempel med Envafors](https://datacvr.virk.dk/gateway/virksomhed/hentVirksomhed?cvrnummer=26863902&locale=da) direkte i browseren. Skift `cvrnummer`, og behold `locale=da`. Det afprøvede `curl`-opslag gav 403. Se [felter, kontrol og alternativ adgang](research/decisions.md#cvr-kontrol-af-selskabskandidater). |
 | Ejendomsrelationer med BFE | Brug [Matriklen Labs `CvrEjerskaber`, eksempel med SK Vand](https://api.labs.matriklen.dk/CvrEjerskaber?cvr=27736033) via scriptet nedenfor. Vælg kun CVR-numre med `property_lookup_mode=cvr` i [kandidatlisten](research/company_candidates.csv). Svaret indeholder listerne `ejer` og `administrerer` med BFE-numre. Geodatastyrelsen mærker webværktøjet som prototype. API'ets egen driftsstatus er uafklaret. [Forbehold om API, roller og dækning](DATA_MODEL.md#faglige-forbehold). |
+| Kontrol af ejer- og administratorposter pr. BFE | Brug [Matriklen.dk `BfeEjer`, eksempel med SK Vand som administrator](https://api.matriklen.dk/api/v3.4/BfeEjer?bfe=2532386). Skift `bfe`, og tilføj eventuelt `virkningstid` som ISO-tidspunkt med tidszone for en historisk stikprøve. Sammenhold `ejere` og eventuel `administrator` med Labs-posten. Se [stikprøver og fælles registerophav](research/decisions.md#stikprøver-af-ejere-og-administratorer-i-matriklendk). |
 
 De konkrete opslag og deres udfald står i [kilderegisteret](research/sources.csv), S030 og S080–S094 for denne runde.
 
