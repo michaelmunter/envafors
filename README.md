@@ -4,7 +4,6 @@ Første fase kortlægger offentlige oplysninger om relaterede selskaber, ejendom
 
 ## Start her
 
-- [Visuelt datakort](datakort.html) — åbn i en browser for at følge kilder, funktioner og datafiler.
 - [Plan og status](PLAN.md).
 - [Arbejdskø for kommende sessioner](QUEUE.md).
 - [Datamodel og kontrolforbehold](DATA_MODEL.md).
