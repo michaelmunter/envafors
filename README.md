@@ -4,6 +4,7 @@ Første fase kortlægger offentlige oplysninger om relaterede selskaber, ejendom
 
 ## Start her
 
+- [Visuelt datakort](datakort.html) — åbn i en browser for at følge kilder, funktioner og datafiler.
 - [Plan og status](PLAN.md).
 - [Datamodel og kontrolforbehold](DATA_MODEL.md).
 - [20 selskabskandidater](research/company_candidates.csv) og [30 kildehenvisninger](research/sources.csv).

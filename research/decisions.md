@@ -20,6 +20,10 @@ Den tidligere JSON-risiko med dublerede nøgler er fortsat dækket af streng ind
 
 Underagenten `method_review` gennemgik forslaget og de færdige filer og godkendte den enklere løsning som teknisk pilot uden væsentlige fund. Reviewet kontrollerede bevarede data, deterministisk genkørsel og de to aftalte outputfiler. Underagenten `official_sources` godkendte kildebelæg, den oprindelige hentetid, uændrede råbytes og alle 42 relationer uden væsentlige indvendinger. Den aktuelle testsuite har 14 beståede tests, herunder kontrol af CVR i kilde-URL, sidste gode svar, indeksafstemning og gendannelse ved skrivefejl.
 
+## Visuelt datakort
+
+`datakort.html` viser, hvad hver kilde og funktion leverer, og forbinder pilotens CVR, ejendomsrelation og BFE. Det er ét lokalt overblik med links til de eksisterende filer og offentlige kilder. Underagenten `datakort_review` kontrollerede pilotens eksempel, dataflow og skellet mellem indsamlede data og åbne arbejdsspor. Bemærkningerne om CVR-linket og afstemningen i `load_sources()` er indarbejdet.
+
 ## Arbejdsproces
 
 Nødvendig offentlig research og lokal eksekvering er tilladt. Væsentlige beslutninger og leverancer reviewes. Arbejdet committes og synkroniseres ved passende milepæle; kildeindeks, kildesvar og genbyggede tabeller hører sammen i samme commit. Begrænsningerne for interne data og systemer gælder fortsat.

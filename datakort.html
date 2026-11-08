@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="da">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Envafors · Datakort</title>
+  <style>
+    :root { --paper:#f5f4ed; --white:#fffefa; --ink:#172923; --muted:#475951; --line:#b6c4b9; --green:#09634e; --mint:#def0e6; --amber:#765018; --sand:#f5e8cb; --mono:ui-monospace, Consolas, monospace; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--paper); color:var(--ink); font:16px/1.55 'Trebuchet MS', sans-serif; }
+    a { color:var(--green); text-underline-offset:.2em; }
+    a:hover { text-decoration-thickness:2px; }
+    a:focus-visible, button:focus-visible { outline:3px solid #a25410; outline-offset:4px; }
+    code { font: .87em/1.5 var(--mono); overflow-wrap:anywhere; }
+    h1,h2,h3,p { margin:0; }
+    h1,h2,h3 { font-family:Georgia, serif; font-weight:normal; line-height:1.12; }
+    h2 { font-size:clamp(1.55rem,3vw,2.15rem); }
+    h3 { font-size:1.4rem; }
+    .wrap { width:min(1160px, 100% - 2.5rem); margin-inline:auto; }
+    .micro { font: .74rem/1.4 var(--mono); letter-spacing:.075em; text-transform:uppercase; }
+    .hero { position:relative; isolation:isolate; overflow:hidden; background:#163a31; color:#fcfcf5; border-bottom:4px solid #83bd9d; }
+    .hero .wrap { padding:2rem 0 2.65rem; }
+    .hero .micro { color:#c4e6d5; }
+    .hero h1 { font-size:clamp(3rem,8vw,5.4rem); letter-spacing:-.045em; margin:.45rem 0 .65rem; }
+    .hero p { max-width:38rem; color:#eef6ef; font-size:1.05rem; }
+    .hero svg { position:absolute; z-index:-1; right:-2rem; top:-1rem; width:42%; height:calc(100% + 2rem); min-width:310px; opacity:.28; }
+    main { padding:2rem 0 3rem; }
+    section + section { margin-top:2.45rem; }
+    .section-head { display:flex; align-items:flex-end; justify-content:space-between; flex-wrap:wrap; gap:.65rem 1.25rem; margin-bottom:1.15rem; }
+    .section-head .micro { display:block; color:var(--green); margin-bottom:.35rem; }
+    .hint { margin:-.6rem 0 .8rem; font-size:.88rem; color:var(--muted); }
+    .badge { display:inline-flex; align-items:center; gap:.5rem; padding:.32rem .65rem; border-radius:2px; font-size:.79rem; font-weight:bold; background:var(--mint); color:var(--green); }
+    .badge::before { content:""; width:.48rem; height:.48rem; background:currentColor; border-radius:50%; }
+    .badge.open { color:var(--amber); background:var(--sand); }
+    .badge.open::before { background:transparent; border:1px solid currentColor; border-radius:0; }
+    .flow { list-style:none; margin:0; padding:0; display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:1.35rem; }
+    .flow li { position:relative; display:flex; min-width:0; }
+    .flow li:not(:last-child)::after { content:"→"; position:absolute; left:100%; width:1.35rem; top:50%; transform:translateY(-50%); text-align:center; color:var(--green); font-weight:bold; }
+    .step { width:100%; background:var(--white); color:var(--ink); text-align:left; padding:.9rem .9rem 1rem; border:1px solid var(--line); border-top:3px solid #6c8f7e; border-radius:3px; font:inherit; cursor:pointer; }
+    .step:hover { border-color:var(--green); background:#eef6ef; }
+    .step[aria-pressed="true"] { background:var(--mint); border-color:var(--green); box-shadow:inset 0 0 0 1px var(--green); }
+    .step .micro { color:var(--green); display:block; }
+    .step strong { display:block; font-size:1.02rem; margin:.45rem 0 .28rem; }
+    .step small { display:block; font-size:.85rem; line-height:1.4; color:var(--muted); }
+    .inspect { margin-top:1rem; background:var(--white); border:1px solid var(--line); border-left:4px solid var(--green); }
+    .inspect article { display:grid; grid-template-columns:minmax(10rem,1fr) minmax(0,2fr); gap:1.25rem; padding:1.15rem 1.25rem; }
+    .inspect article[hidden] { display:none; }
+    .inspect article + article:not([hidden]) { border-top:1px solid var(--line); }
+    .inspect .micro { color:var(--green); margin-bottom:.35rem; }
+    .inspect p + p { margin-top:.6rem; }
+    .links { display:flex; flex-wrap:wrap; gap:.35rem 1rem; margin-top:.75rem; }
+    .links a { font-weight:bold; font-size:.88rem; }
+    .keys { display:grid; grid-template-columns:minmax(0,1fr) auto minmax(0,1.2fr) auto minmax(0,1fr); align-items:stretch; gap:.85rem; }
+    .entity { padding:1rem 1.05rem; border:1px solid var(--line); background:var(--white); border-radius:3px; }
+    .entity:nth-child(3) { border-color:var(--green); background:var(--mint); }
+    .entity .micro { display:block; color:var(--green); margin-bottom:.38rem; }
+    .entity p { margin-top:.35rem; font-size:.88rem; color:var(--muted); }
+    .join { align-self:center; color:var(--green); font: .76rem/1.5 var(--mono); text-align:center; }
+    .join span { display:block; font: bold 1.3rem/1 sans-serif; }
+    .example { margin-top:.8rem; padding:.65rem .8rem; border-left:2px solid var(--line); color:var(--muted); font-size:.88rem; }
+    .work { display:grid; grid-template-columns:1fr 1fr; gap:1rem; }
+    .work article { border-top:2px dashed #aa8450; padding:1rem 0 .4rem; }
+    .work h3 { margin:.6rem 0 .35rem; }
+    .work p { color:var(--muted); max-width:36rem; }
+    footer { padding:1rem 0 1.5rem; border-top:1px solid var(--line); color:var(--muted); font-size:.85rem; }
+    @media (max-width:850px) { .flow { gap:.95rem; } .flow li:not(:last-child)::after { width:.95rem; } .step { padding:.75rem .55rem; } }
+    @media (max-width:680px) {
+      .wrap { width:calc(100% - 1.5rem); }
+      .hero .wrap { padding:1.5rem 0 1.8rem; }
+      .flow,.work,.keys { grid-template-columns:1fr; }
+      .step { padding:.8rem .9rem; }
+      .flow li:not(:last-child)::after { content:"↓"; left:1.15rem; top:100%; width:1rem; height:.95rem; line-height:.95rem; transform:none; }
+      .inspect article { grid-template-columns:1fr; gap:.55rem; padding:1rem; }
+      .join span { display:inline-block; transform:rotate(90deg); margin-left:.45rem; }
+    }
+    @media print { .hero { background:white; color:var(--ink); } .hero .micro,.hero p { color:var(--ink); } .hero svg { display:none; } .inspect article[hidden] { display:grid; } .step { break-inside:avoid; } }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <svg viewBox="0 0 440 240" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+      <g fill="none" stroke="#d4f4de" stroke-width="1">
+        <path d="M-5 82 96 51 137 -8 M96 51l34 54 78 -17 33 -99 M-4 153l134 -48 20 91 61 55 M5 221l145 -25 92 -50 51 40 13 63 M208 88l34 58 102 -34 96 24 M241 36l101 28 99 -36 M342 64l2 48 -51 74 105 30 44 -12 M398 216l-10 36"/>
+        <path d="M130 105l78 -17 34 58 -92 50Z" fill="#a0dabb" fill-opacity=".28"/>
+        <circle cx="130" cy="105" r="4" fill="#e5f6df"/><circle cx="242" cy="146" r="4" fill="#e5f6df"/>
+      </g>
+    </svg>
+    <div class="wrap">
+      <div class="micro">Envafors / Fase 1</div>
+      <h1>Datakort</h1>
+      <p>Fra offentligt opslag til sporbar ejendomsrelation. Følg kilden, funktionerne og filerne gennem den gemte pilot.</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section aria-labelledby="flow-title">
+      <header class="section-head">
+        <div><span class="micro">01 / Dataflow</span><h2 id="flow-title">Sådan bliver data til</h2></div>
+        <span class="badge">Pilot · SK Vand · CVR 27736033</span>
+      </header>
+      <p class="hint">Vælg et trin for at se, hvad det modtager og leverer.</p>
+      <ol class="flow" aria-label="Vælg et trin i dataflowet">
+        <li><button type="button" class="step" aria-controls="kilde" aria-pressed="true"><span class="micro">01 · Kilde</span><strong>Matriklen Labs</strong><small>Opslag på ét CVR</small></button></li>
+        <li><button type="button" class="step" aria-controls="hent" aria-pressed="false"><span class="micro">02 · Funktion</span><strong>Hent og kontrollér</strong><small><code>fetch(cvr)</code></small></button></li>
+        <li><button type="button" class="step" aria-controls="raa" aria-pressed="false"><span class="micro">03 · Data</span><strong>Original og indeks</strong><small><code>&lt;CVR&gt;.json</code> + <code>index.json</code></small></button></li>
+        <li><button type="button" class="step" aria-controls="bearbejd" aria-pressed="false"><span class="micro">04 · Funktion</span><strong>Bearbejd</strong><small><code>transform()</code></small></button></li>
+        <li><button type="button" class="step" aria-controls="resultat" aria-pressed="false"><span class="micro">05 · Data</span><strong>Relationer og fund</strong><small>To fælles CSV-filer</small></button></li>
+      </ol>
+      <div class="inspect" aria-live="polite">
+        <article id="kilde">
+          <div><div class="micro">01 · Kilde</div><h3>Matriklen Labs</h3></div>
+          <div><p>Prototypen svarer på et opslag med CVR og returnerer ejendomsrelationer under <code>ejer</code> og <code>administrerer</code>. Kildens status og ejerandele skal stadig undersøges fagligt.</p>
+            <div class="links"><a href="https://labs.matriklen.dk/ejerskaber/vaerktoej">Åbn Matriklens opslag ↗</a><a href="https://api.labs.matriklen.dk/CvrEjerskaber?cvr=27736033">Åbn API-opslaget for SK Vand ↗</a><a href="https://labs.matriklen.dk/ejerskaber/">Læs kildebeskrivelsen ↗</a></div></div>
+        </article>
+        <article id="hent">
+          <div><div class="micro">02 · Funktion</div><h3>Fra CVR til kildesvar</h3></div>
+          <div><p><code>fetch(cvr)</code> kalder Labs og kontrollerer HTTP 200, gyldig JSON og kendt svarstruktur. Først derefter erstattes det senest gemte svar. Indekset får URL, hentetid og SHA-256.</p>
+            <div class="links"><a href="scripts/fetch_matriklen.py">Se hentefunktionen</a></div></div>
+        </article>
+        <article id="raa">
+          <div><div class="micro">03 · Data</div><h3>Det gemte kildesvar</h3></div>
+          <div><p>Én uændret JSON-fil pr. CVR. Det fælles indeks fortæller, hvor og hvornår svaret er hentet, og indeholder hashværdien, som bruges til at kontrollere filens bytes.</p>
+            <div class="links"><a href="data/raw/matriklen-labs/27736033.json">Åbn pilotens JSON</a><a href="data/raw/matriklen-labs/index.json">Åbn kildeindekset</a></div></div>
+        </article>
+        <article id="bearbejd">
+          <div><div class="micro">04 · Funktion</div><h3>Fra JSON til rækker</h3></div>
+          <div><p><code>load_sources()</code> afstemmer CVR med filnavn og kilde-URL og kontrollerer hash og svarstruktur. <code>normalize()</code> laver én række pr. kildeobjekt, bevarer de to ejerandele separat og markerer konkrete afvigelser. <code>transform()</code> samler rækker og fund på tværs af CVR-numre.</p>
+            <div class="links"><a href="scripts/transform_matriklen.py">Se bearbejdningsfunktionerne</a></div></div>
+        </article>
+        <article id="resultat">
+          <div><div class="micro">05 · Data</div><h3>Det vi arbejder videre med</h3></div>
+          <div><p><code>relations.csv</code> knytter selskab, ejendom, rolle og kildestatus sammen. <code>issues.csv</code> viser de konkrete fund, der skal undersøges, fx forskel mellem faktisk og tinglyst ejerandel.</p>
+            <div class="links"><a href="data/relations.csv">Åbn relationstabellen</a><a href="data/issues.csv">Åbn kontrolfundene</a></div></div>
+        </article>
+      </div>
+    </section>
+
+    <section aria-labelledby="keys-title">
+      <header class="section-head"><div><span class="micro">02 / Datamodel</span><h2 id="keys-title">CVR og BFE forbinder data</h2></div></header>
+      <div class="keys" aria-label="Selskab forbindes via en ejendomsrelation med en ejendom">
+        <div class="entity"><span class="micro">Selskab</span><h3>CVR</h3><p>Identificerer selskabet, som opslaget er lavet på.</p></div>
+        <div class="join" aria-hidden="true">CVR<span>→</span></div>
+        <div class="entity"><span class="micro">Kildeobservation</span><h3>Ejendomsrelation</h3><p>Rolle, kildestatus, original datostreng og eventuelle ejerandele.</p></div>
+        <div class="join" aria-hidden="true">BFE<span>→</span></div>
+        <div class="entity"><span class="micro">Ejendom</span><h3>BFE</h3><p>Identificerer ejendommen i kildesvaret. Flere relationer kan pege på samme BFE.</p></div>
+      </div>
+      <p class="example"><strong>Eksempel fra det gemte pilotopslag:</strong> CVR <code>27736033</code> → <code>administrerer</code> → BFE <code>2532386</code>. Rækken kan følges tilbage til <code>/administrerer/0</code> i kildesvaret.</p>
+    </section>
+
+    <section aria-labelledby="work-title">
+      <header class="section-head"><div><span class="micro">03 / Åbne arbejdsspor</span><h2 id="work-title">Det, der endnu skal afklares</h2></div></header>
+      <div class="work">
+        <article>
+          <span class="badge open">Manuel research</span>
+          <h3>Selskaber og koncernrelationer</h3>
+          <p>CVR og de registrerede kilder bruges til at undersøge selskabernes identitet og relationer. Kandidatlisten er foreløbig.</p>
+          <div class="links"><a href="https://erhvervsstyrelsen.dk/det-centrale-virksomhedsregister-cvr">Om CVR-registret ↗</a><a href="research/company_candidates.csv">Selskabskandidater</a><a href="research/sources.csv">Kilderegister</a></div>
+        </article>
+        <article>
+          <span class="badge open">Sammenkobling udestår</span>
+          <h3>Ejendomme og anlæg</h3>
+          <p>BBR og Jupiter er mulige kilder til bygnings- og anlægsoplysninger. En forbindelse til pilotens ejendomme kræver konkret kildebelæg.</p>
+          <div class="links"><a href="https://bbr.dk/bbr-meddelelsen">BBR ↗</a><a href="https://www.geus.dk/produkter-ydelser-og-faciliteter/data-og-kort/national-boringsdatabase-jupiter/adgang-til-data/">Jupiter ↗</a><a href="PLAN.md">Se planen</a></div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap">Datakortet foretager ingen opslag selv. <a href="DATA_MODEL.md">Datamodel og kildeforbehold</a></footer>
+  <script>
+    const steps = Array.from(document.querySelectorAll('.step'));
+    function showStep(selected) {
+      for (const step of steps) {
+        const active = step === selected;
+        step.setAttribute('aria-pressed', String(active));
+        document.getElementById(step.getAttribute('aria-controls')).hidden = !active;
+      }
+    }
+    for (const step of steps) step.addEventListener('click', () => showStep(step));
+    showStep(steps[0]);
+  </script>
+</body>
+</html>
