@@ -1,6 +1,6 @@
 # Fase 1: selskaber, ejendomme og anlæg
 
-Statusdato: 2026-11-08. Planen gælder det offentlige datagrundlag. Det tekniske ejendomsopslag er afprøvet på SK Vand. Kontrollen af selskaberne og den faglige validering står åbne.
+Statusdato: 2026-11-08. Planen gælder det offentlige datagrundlag. CVR-stamdata er kontrolleret for de 20 oprindelige kandidater og Cerius, som er tilføjet til opfølgning. Det tekniske ejendomsopslag er afprøvet på SK Vand. Selskabernes relevans og den faglige validering står åbne.
 
 ## Mål og afgrænsning
 
@@ -16,8 +16,8 @@ Fasen omfatter ikke interne data, integrationer, DocuNote-opsætning, dokumenth�
 
 | Trin | Leverance | Status | Afslutningskriterium |
 |---|---|---|---|
-| 1. Kilder og søgepunkter | Kilderegister og selskabskandidater | Første version skrevet: 20 kandidater, 30 kilder | Kandidater har kildehenvisning, evidensstatus og næste kontrol. Nye relevante kilder tilføjes løbende |
-| 2. Selskabsstruktur | CVR-enheder, navnehistorik, P-enheder og selskabsrelationer | Aktuel CVR-kontrol står åben | Selskabsrelationer og afgrænsning pr. kandidat er dokumenteret med kilder og datoer. Nye kandidater følges op |
+| 1. Kilder og søgepunkter | Kilderegister og selskabskandidater | 21 kandidater med kilder og opfølgning | Kandidater har kildehenvisning, evidensstatus og næste kontrol. Nye relevante kilder tilføjes løbende |
+| 2. Selskabsstruktur | CVR-enheder, navnehistorik, P-enheder og selskabsrelationer | Status, hovednavn og binavne er kontrolleret i CVR. Fire fusioner har dokumenteret modtager. Relevans, P-enheder og øvrige relationer er åbne | Selskabsrelationer og afgrænsning pr. kandidat er dokumenteret med kilder og datoer. Nye kandidater følges op |
 | 3. Teknisk ejendomspilot | CVR-opslag i Matriklen Labs, bevaret råsvar og BFE-relationer i den fælles tabel | Gennemført for SK Vand (27736033) | Råsvaret kan spores til kilden, og alle poster kan afstemmes og genskabes fra det gemte svar |
 | 4. Ejendomsindsamling | Samme opslag og bearbejdning for de omfattede CVR-numre | Kan begynde for hvert CVR, når identitet og relevans er dokumenteret | Alle omfattede CVR har registreret udfald og kildehenvisning. Kildens roller og status bevares særskilt |
 | 5. Anlæg og krydskontrol | Anlægsoversigt, faglige stikprøver og koblinger til selskaber og ejendomme | Åben | Relevante kilder er gennemgået, og søgeafgrænsning og belæg for driftsansvar er beskrevet pr. sektor. Anlæg uden ejendomsfund og ejendomme uden anlæg er håndteret |

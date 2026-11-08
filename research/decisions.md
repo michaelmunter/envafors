@@ -25,3 +25,18 @@ Underagenten `pilot_scope_review` gennemgik den opdaterede plan for indsamling e
 ## Arbejdsproces
 
 Nødvendig offentlig research og lokal eksekvering er tilladt. Væsentlige beslutninger og leverancer reviewes. Arbejdet committes og synkroniseres ved passende milepæle; kildeindeks, kildesvar og genbyggede tabeller hører sammen i samme commit. Begrænsningerne for interne data og systemer gælder fortsat.
+
+## CVR-kontrol af selskabskandidater
+
+Den 8. november 2026 blev C001–C020 kontrolleret i Erhvervsstyrelsens offentlige CVR. Alle 20 opslag gav en entydig CVR-post: 16 med status »Normal« og fire med status »Opløst efter fusion«. C021 (Cerius A/S) er den nytilføjede kandidat og stod også som »Normal«. Dækningen gælder denne navngivne liste på opslagsdatoen. Den siger ikke, om alle relevante selskaber er fundet.
+
+Gentag kontrollen med CVR-numrene fra [kandidatlisten](company_candidates.csv):
+
+1. Åbn gateway-URL'en fra [kilderegisteret](sources.csv) i en browser, eller slå nummeret op på [CVR.dk](https://datacvr.virk.dk/). Forsøg på at hente gatewayen med `curl` gav HTTP 403; browseren kunne læse JSON. Et afslag eller et svar uden den forventede struktur er et særskilt opslagsudfald.
+2. Kontrollér `stamdata.cvrnummer` mod det søgte nummer. Læs `stamdata.navn`, `status`, `startdato`, `ophoersdato` og `udvidedeOplysninger.binavne`. På CVR.dk findes binavne under »Udvidede virksomhedsoplysninger«; brug også »Fold ud«, når den vises. Gengiv navne og status som i brugerfladen (`NORMAL` → »Normal«, `OPLØSTEFTERFUSION` → »Opløst efter fusion«). Datoerne gemmes som ISO-datoer og binavne i kildens rækkefølge. `stamdata.virkningsdato` var tom for alle 21. Gateway og brugerflade stemte overens og har samme registerophav.
+3. Registrer resultatet i kandidatlisten og URL, opslagstid og udfald i kilderegisteret. Opslagene er læsning; CSV-filerne er de eneste data, der ændres ved registreringen. Hele JSON-svar gemmes ikke: de rummer bl.a. person-, kontakt- og regnskabsoplysninger uden betydning for denne kontrol. Gem det seneste gyldige resultat ved genopslag; registrer fejl som et særskilt udfald frem for at erstatte belagte værdier.
+4. Åbn »Registreringshistorik« ved et konkret fusionsspor. Brug teksten »Gennemførelse af fusion eller spaltning«, og hold datoen ved registreringsteksten adskilt fra datoen, hvor teksten siger, at selskabet blev opløst. CVR's »Historiske stamdata« kan bruges til at kontrollere, hvilket navn et fortsættende selskab havde på det tidspunkt.
+
+Fusionshistorikken i S052–S055 dokumenterer, at NKE-Elnet fusionerede med Cerius, at NK-Vejlys fusionerede med NK-Service, og at både NK-Service og Sorø Forsyningsservice fusionerede med CVR 26863902. Den viser ikke, hvilke anlæg og ejendomme der overgik. Næstved Forsyning `46837592` og NK-Forsyning `28118465` er to forskellige CVR-poster. Deres indbyrdes relation og FITs tilknytning og opløsningsforløb følges op særskilt.
+
+Underagenten `cvr_review` påpegede, at den første aflæsning sprang registrerede binavne over. Alle 20 opslag blev gentaget med kontrol af binavne, og gatewayens fulde navnelister blev afstemt mod visningen for alle 21. Reviewet understregede, at et vist navn på en ophørt post ikke er et aktivt selskabsnavn, og at ophørsdato og registreringstekstens dato skal holdes adskilt. Reviewet fandt derefter ingen væsentlige mangler i den afgrænsede stamdatakontrol. Cerius er alene et opfølgningsspor for den tidligere NKE-portefølje; Fors og KLAR Forsyning er kontekst for FIT.

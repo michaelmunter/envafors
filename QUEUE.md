@@ -6,11 +6,10 @@ Tilføj vigtige opgaver inden for [projektets rammer](PLAN.md), og placér dem e
 
 ## OPGAVER
 
-- [sol xhigh] Kontroller aktuel CVR-status og registrerede navne for de 20 kendte kandidater via officielle kilder. Registrer nye kandidater til opfølgning.
-- [sol xhigh] Vurder de kontrollerede kandidaters relevans for ejendomsopslag og anlæg hver for sig. Registrer med kilde og dato, om kandidaten er omfattet, fravalgt eller uafklaret, og følg op på uafklarede kandidater.
+- [sol xhigh] Vurder de 21 CVR-kandidaters relevans for ejendomsopslag og anlæg hver for sig. Registrer med kilde og dato, om kandidaten er omfattet, fravalgt eller uafklaret. Afgræns Cerius-sporet til det tidligere NKE-net.
 - [sol xhigh] Kør første runde af Matriklen Labs-opslag for de CVR-numre, der er omfattet af ejendomsindsamlingen. Registrer udfald pr. CVR særskilt fra råsvarene, også ved fejl og afslag. Genbyg relationstabellen med de bevarede svar.
 - [sol xhigh] Undersøg med officielle kilder, hvilken relation der kan dokumenteres mellem CVR `46837592` og `28118465`.
-- [sol xhigh] Afklar fusioner, ophør og efterfølgere for tidligere service- og vejlysselskaber samt NKE-Elnet.
+- [sol xhigh] Følg de fire CVR-dokumenterede fusioner op: Afklar, hvilke ejendomme, anlæg og driftsroller der overgik til de fortsættende selskaber.
 - [sol xhigh] Registrer relevante P-enheder og selskabsrelationer for de kontrollerede kandidater med konkret kildebelæg. Afklar FITs identitet og rolle.
 - [sol xhigh] Undersøg betydningen af Matriklen Labs-feltet `virkningFra`, især ved historiske relationer. Opdater datamodellen med det, der kan dokumenteres.
 - [sol xhigh] Undersøg forskellen mellem faktiske og tinglyste ejerandele for BFE `2539366` og `5367067`. Dokumenter, hvad kilderne viser.

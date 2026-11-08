@@ -10,7 +10,7 @@ Første fase kortlægger offentlige oplysninger om relaterede selskaber, ejendom
 - [Selskabskandidater](research/company_candidates.csv) og [kilderegister](research/sources.csv).
 - [Gældende metodevalg og review](research/decisions.md).
 
-Kandidatlisten er ikke en verificeret eller fuldstændig koncernstruktur. Aktuel CVR-status og selskabsrelationer er endnu ikke kontrolleret.
+Den 8. november 2026 blev hovednavn, binavne og status kontrolleret i CVR for de 20 oprindelige kandidater: 16 stod som »Normal« og fire som »Opløst efter fusion«. Cerius A/S blev tilføjet som kandidat til opfølgning på det tidligere NKE-net. Listen dokumenterer ikke en fuldstændig koncernstruktur. Se [CVR-metoden og de åbne spørgsmål](research/decisions.md#cvr-kontrol-af-selskabskandidater).
 
 ## Datafiler
 

@@ -10,8 +10,9 @@ Der oprettes først yderligere tabeller, når vi har relevante data og en konkre
 
 ## Research
 
-- `research/company_candidates.csv`: 20 kandidater med CVR, kilde-ID'er, evidensstatus og næste kontrol. `candidate_kind` er en researchprioritering, ikke en verificeret registreringsstatus. Alle aktuelle CVR- og relationskontroller står som `not_checked`.
-- `research/sources.csv`: URL, udgiver, titel og kildebegrænsninger. `document_date` og `researched_on` er forskellige datoer. `source_ids` i kandidatlisten refererer til `source_id`; flere ID'er adskilles med `|`. En kildehenvisning medfører ikke et krav om at hente og arkivere hele kilden.
+- `research/company_candidates.csv`: Én række pr. CVR-kandidat. `name` bevarer det oprindelige kandidatnavn. `cvr_registered_name` og `current_cvr_status` gengiver CVR-visningen på opslagstidspunktet, også for opløste selskaber. `cvr_secondary_names` er de viste binavne adskilt med `|`; tomt ved et vellykket opslag betyder, at CVR ikke viste nogen. `cvr_start_date` og `cvr_end_date` er CVR's start- og ophørsdato som ISO-datoer; tom ophørsdato betyder, at der ikke blev vist en dato.
+- `cvr_register_record` i `evidence_status` betyder, at en CVR-post og dens stamdata er kontrolleret i registret. `candidate_kind` og `scope_group` er arbejdsinddelinger. `relation_status` dækker kandidatens tilknytning i kortlægningen og ændres ikke ved et stamdataopslag. `successor_candidate` markerer en fusionsmodtager, hvor det relevante omfang skal afklares.
+- `research/sources.csv`: URL, udgiver, titel og kildebegrænsninger. `source_ids` i kandidatlisten refererer til `source_id`; flere ID'er adskilles med `|`. `document_date` er kildedatoen, `researched_on` kalenderdatoen for research og `retrieved_at` tidspunktet for opslaget med tidszone. Et tomt tidspunkt for en ældre kilde betyder, at klokkeslættet ikke er registreret i tabellen; Matriklen Labs-pilotens tid står i JSON-indekset. `lookup_outcome` angiver det konkrete udfald, fx `found`, og er adskilt fra `capture_status`, som angiver arkivering. Tomt udfald på en ældre kilderække betyder, at der ikke er kodet et udfald. En kildehenvisning medfører ikke et krav om at arkivere hele kilden.
 
 ## Kildesvar og fælles indeks
 
