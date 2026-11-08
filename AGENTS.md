@@ -18,6 +18,8 @@ Ingen interne, fortrolige eller ikke-godkendte virksomhedsdata må indføres i d
 
 Agenten må selvstændigt udføre nødvendig research og dataindsamling fra offentlige kilder, herunder køre scripts, shellkommandoer, API-kald og dataudtræk, hente og gemme rådata samt bearbejde og kontrollere data i projektets adskilte arbejdsmiljø. Det kræver ikke manuel eksekvering eller godkendelse af hver enkelt kommando.
 
+Brugeren er den eneste person, agenten må kontakte. Hvis offentlige kilder ikke afklarer et spørgsmål, registrerer agenten hullet og tager det om nødvendigt op med brugeren.
+
 Friheden til eksekvering ændrer ikke kravene til datakvalitet eller begrænsningerne for interne data og systemer. Formålet er et efterprøveligt datagrundlag, hvor kilder, usikkerheder og kontrol er tydelige.
 
 Kode må ikke køres på Envafors' arbejdscomputere uden den nødvendige godkendelse.
