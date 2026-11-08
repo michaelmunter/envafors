@@ -88,6 +88,16 @@ Labs-forsidens arkivkopi fra 13. oktober 2025 har et værktøjskatalog uden link
 
 Søgningen 8. november 2026 fandt ingen dateret reference til `CvrEjerskaber` fra før værktøjets omtale. Webarkivets indeks gav ingen fund på det konkrete endepunkt (S061). Det tidligste verificerede belæg i projektet for API-kaldet er det aktuelle Labs-modul (S057). Endepunktets første udgivelsesdato og oprindelige formål står åbne. Underagenten `api_history_review` søgte uafhængigt efter ældre referencer og fandt ingen til det konkrete endepunkt.
 
+## Historik og resultatgrænser i Matriklen Labs
+
+Kontrol 8. november 2026. De 16 bevarede svar fra første runde rummer 31 historiske poster, heraf 29 ejerposter og to administratorposter. De tidligste viste historiske Labs-datoer er henholdsvis 01.01.2002 og 12.09.2022. Den største respons har 137 poster for CVR `32102611` (S088). Datoerne er observerede værdier, og runden giver ingen nedre grænse for kildens historik eller garanti for, at alle tidligere perioder er med.
+
+Værktøjets formular sender `cvr` til `CvrEjerskaber` (S057). Den delte klient udfører ét `fetch` og bruger svarets JSON direkte (S179). Klienten bruger ingen parametre for side, størrelse eller markør og følger ingen næste side. Som kontrol gav Labs' eget eksempel `41954817` (S180) HTTP 200 med 163 ejerposter og fem administratorposter (S181). Svaret havde kun de to lister og ingen observerede side-, antal- eller intervalheaders blandt `Link`, `Content-Range`, `X-Total-Count`, `X-Next-Page`, `X-Page` og `X-Per-Page`. Det udelukker en grænse på højst 100 ejerposter pr. svar i dette opslag. En eventuel højere grænse, udvælgelse på serveren eller adgang til andre sider er uafklaret.
+
+Gentag ved at genoptælle roller og status i de bevarede svar. Kør eventuelt ét almindeligt GET til eksempeladressen i S181 og kontrollér svarets felter, antal og de nævnte headers. Eksemplet er en kontrol af værktøjet uden for projektets kandidatgruppe. Kun kontrolresultatet er gemt. De åbne spørgsmål om historik og resultatgrænser gælder også de seks tomme svar i første runde.
+
+Underagenten `labs_coverage_review` gentog optællingen, klientkontrollen og eksempelopslaget. Reviewet bekræftede tallene og skellet mellem observeret svarstørrelse og serverens eventuelle grænser. Den offentlige værktøjsbeskrivelse og eksempelsiden angiver ingen grænse for historik eller antal poster.
+
 ## CVR-kontrol af selskabskandidater
 
 Den 8. november 2026 blev C001–C020 kontrolleret i Erhvervsstyrelsens offentlige CVR. Alle 20 opslag gav en entydig CVR-post: 16 med status »Normal« og fire med status »Opløst efter fusion«. C021 (Cerius A/S) er den nytilføjede kandidat og stod også som »Normal«. Dækningen gælder denne navngivne liste på opslagsdatoen. Den siger ikke, om alle relevante selskaber er fundet.

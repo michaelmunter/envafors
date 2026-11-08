@@ -54,6 +54,6 @@ Faktisk og tinglyst ejerandel bevares særskilt. Administrator betyder ikke auto
 
 Geodatastyrelsen mærker webværktøjet »Ejendomme ejet af virksomhed« som prototype. Webværktøjets JavaScript kalder `CvrEjerskaber` på `api.labs.matriklen.dk`. Ved kontrol 8. november 2026 fandt vi ingen særskilt offentlig dokumentation for API'ets driftsstatus, versionspolitik eller stabilitetsgarantier. Se S020, S030 og S057 i [kilderegisteret](research/sources.csv).
 
-API'ets historikdækning og eventuelle resultatgrænser er uafklarede. Et teknisk gyldigt svar dokumenterer ikke fuldstændighed, og et tomt svar dokumenterer ikke fravær af relevante ejendomme. Disse generelle begrænsninger gentages ikke som kontrolrækker for hvert opslag.
+Første runde indeholder både gældende og historiske poster, men startgrænsen og dækningen af historikken er ukendte. Det offentlige Labs-værktøj henter én respons pr. CVR og følger ingen paginering. Det afprøvede eksempel gav 168 poster i én respons. Eventuelle servergrænser er uafklarede. Se [kontrollen af historik og resultatgrænser](research/decisions.md#historik-og-resultatgrænser-i-matriklen-labs). Et tomt svar beskriver det konkrete opslag og kan ikke bruges til at udelukke relevante ejendomme.
 
 CSV er UTF-8 med komma og én overskriftsrække. Identifikatorer importeres som tekst. Ukendte værdier forbliver tomme og forklares af tilstand, kontrolfund eller kildehenvisning. JSON er UTF-8. Opslagstid, dokumentdato og virknings-/registreringsdato holdes adskilt.
