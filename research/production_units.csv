@@ -1,4 +1,9 @@
 cvr,p_number,source_status,registered_name,registered_address,postal_code_and_city,main_industry_code,main_industry_name,start_date,end_date,source_id
+25133277,1007342280,closed,KORSØR TEKNIK A/S,Lilleøvej 3,4220 Korsør,351300,Distribution af elektricitet,2000-01-01,2008-06-20,S225
+25133374,1009313482,active,SK ENERGI A/S,Nordvej 6,4200 Slagelse,354000,Mægler- og agentaktiviteter i forbindelse med forsyning af elektricitet og naturgas,2000-09-28,,S037
+25133374,1007342388,closed,A/S PSE 17 NR. 1170,"C/O Advokatfirmaet Stakemann
+Kronprinsessegade 18",1306 København K,980000,Uoplyst,2000-01-01,2000-06-28,S037
+25133374,1007812406,closed,KORSØR KOMMUNALE ELFORSYNING A/S,Tårnborgvej 4,4220 Korsør,401000,Elforsyning,2000-06-29,2000-09-27,S037
 25797981,1009584796,active,SK Forsyning A/S,Nordvej 6,4200 Slagelse,642120,Ikke-finansielle holdingselskaber,2003-01-01,,S032
 25797981,1008149824,closed,SLAGELSE KOMMUNES NETSELSKAB A/S,Nordvej 11,4200 Slagelse,401000,Elforsyning,2000-12-18,2002-12-31,S032
 26863899,1009480370,active,Zeanet A/S,Nordvej 6,4200 Slagelse,351400,Distribution af elektricitet,2002-11-06,,S038
@@ -44,6 +49,9 @@ Kirke Stillinge",4200 Slagelse,360000,Vandforsyning,2024-01-01,,S033
 Energivej 11",4220 Korsør,353000,Fjernvarmeforsyning,2018-10-22,,S035
 27736904,1010565282,closed,SK Varme A/S,Lilleøvej 3,4220 Korsør,353000,Varmeforsyning,2004-05-05,2011-11-16,S035
 27736904,1015497323,closed,SK Varme A/S,Færøvej 21,4200 Slagelse,353000,Varmeforsyning,2009-09-09,2009-09-09,S035
+28113285,1010781465,active,Cerius A/S,Hovedgaden 36,4520 Svinninge,351400,Distribution af elektricitet,2004-09-16,,S051
+28113285,1028128912,active,Cerius A/S,Teknikerbyen 25,2830 Virum,351400,Distribution af elektricitet,2022-01-01,,S051
+28113285,1019246996,active,Cerius A/S,Energivej 33,4690 Haslev,351400,Distribution af elektricitet,2014-03-25,,S051
 28118465,1010802667,active,NK-FORSYNING A/S,Ved Fjorden 18,4700 Næstved,642120,Ikke-finansielle holdingselskaber,2004-07-01,,S039
 28483708,1008965397,active,SK Spildevand A/S,Genbrugsvej 4,4220 Korsør,370000,Opsamling og behandling af spildevand,2001-12-01,,S034
 28483708,1011123801,active,SK Spildevand A/S,Nordvej 6,4200 Slagelse,370000,Opsamling og behandling af spildevand,2005-02-04,,S034
@@ -62,4 +70,5 @@ Sørbymagle",4200 Slagelse,370000,Opsamling og behandling af spildevand,2009-09-
 33053738,1016159464,active,SORØ SPILDEVAND A/S,Nordvej 6,4200 Slagelse,370000,Opsamling og behandling af spildevand,2010-06-23,,S048
 33053770,1016159510,active,SORØ VAND A/S,Nordvej 6,4200 Slagelse,360000,Vandforsyning,2010-06-23,,S047
 33246447,1016374950,active,SORØ FORSYNING A/S,Nordvej 6,4200 Slagelse,642120,Ikke-finansielle holdingselskaber,2010-10-01,,S046
+40634797,1024841770,active,FIT A/S,Vasebækvej 40,4600 Køge,701010,Ikke-finansielle hovedsæders aktiviteter,2019-07-01,,S050
 46837592,1032852412,active,Næstved Forsyning A/S,Ved Fjorden 18,4700 Næstved,351400,Distribution af elektricitet,2026-10-08,,S045
