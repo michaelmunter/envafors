@@ -12,7 +12,13 @@ De to fælles CSV-filer er den anvendelige relationstabel og konkrete kontrolfun
 
 Pilotens 7.476 kildebytes og SHA-256 er uændrede efter flytning til `27736033.json`. Indeksets hentetid er det oprindeligt registrerede afslutningstidspunkt. Alle 42 relationer er sammenlignet felt for felt med den tidligere tabel. De to konkrete forskelle i ejerandele er bevaret som kontrolfund.
 
-Faktiske og tinglyste andele bevares særskilt. Nul, manglende og ugyldige værdier skelnes. Datoerne fortolkes ikke som start-/slutdatoer. Kandidatlisten er ikke en verificeret selskabsstruktur; Næstved Forsyning `46837592` sidestilles ikke med NK-Forsyning `28118465` ud fra navnet.
+Faktiske og tinglyste andele bevares særskilt. Nul, manglende og ugyldige værdier skelnes. Udtrækket udleder ingen særskilte fra- eller til-datoer. Kandidatlisten er en arbejdsafgrænsning. Næstved Forsyning `46837592` og NK-Forsyning `28118465` har særskilte CVR-numre.
+
+## Datoen Virkning i Matriklen Labs
+
+S020 beskriver visningsfeltet »Virkning«. S057 viser, at værktøjet sender begge resultatlister til S139. Find `virkningFra`, `virkningTil` og `Virkning:` i S139 for at gentage kontrollen af feltkoblingen. Alle 415 gemte poster i første runde har `virkningFra`. Ingen har `virkningTil`. For BFE `5367067` har SK Vands historiske ejerpost `/ejer/38` (S030) og SK Forsynings gældende ejerpost `/ejer/18` (S081) samme dato, 20. maj 2026. Det stemmer med Labs' beskrivelse af en dato for ophør henholdsvis overtagelse. Oplysningerne kommer fra samme svarsystem og afgør ingen særskilt dato for den tinglyste ejerandel.
+
+Underagenten `virkning_review` efterprøvede begge webmoduler, feltfordelingen og eksemplet. Reviewet bekræftede, at teksten »Siden d.« ikke skifter med status. Datamodellen forklarer nu, hvordan datoen skal læses, mens den oprindelige datostreng fortsat er det eneste datofelt i relationstabellen.
 
 ## Kontrol og review
 

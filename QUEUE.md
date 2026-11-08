@@ -6,7 +6,6 @@ Tilføj vigtige opgaver inden for [projektets rammer](PLAN.md), og placér dem e
 
 ## OPGAVER
 
-- [sol xhigh] Undersøg betydningen af Matriklen Labs-feltet `virkningFra`, især ved historiske relationer. Opdater datamodellen med det, der kan dokumenteres.
 - [sol xhigh] Undersøg forskellen mellem faktiske og tinglyste ejerandele for BFE `2539366` og `5367067`. Dokumenter, hvad kilderne viser.
 - [sol xhigh] Kontroller et begrundet udvalg af gældende og historiske ejerposter samt administratorposter i Matriklen. Angiv, om kilderne har fælles registerophav.
 - [sol xhigh] Kontroller mindst ét kendt SK Vand-anlæg ved hjælp af en anlægsbeskrivelse eller Jupiter. Undersøg forbindelsen til pilotens ejendomsfund.

@@ -37,7 +37,7 @@ Kun seneste svar pr. CVR ligger i arbejdsstrukturen. Git bevarer committede vers
 | `cvr`, `source_pointer`, `source_sha256` | CVR-fil og kildeobjekt, fx `/ejer/0`, samt kontrol mod indeksets hash. CVR + pointer identificerer en observation i denne kildeversion |
 | `bfe`, `bfe_state` | BFE som tekst; tilstand `present`, `missing`, `null` eller `invalid` |
 | `role`, `source_status` | Kildens rolle (`ejer`/`administrerer`) og status (`gældende`/`historisk`) bevares |
-| `virkning_fra_original` | Hele kildens datostreng; ingen start-/slutdato udledes |
+| `virkning_fra_original` | Hele Labs-feltet `virkningFra`. Læs datoen sammen med `source_status` og `role` efter [Labsværktøjets visningsregler](#faglige-forbehold) |
 | `actual_share_state`, `actual_share_numerator`, `actual_share_denominator` | Faktisk ejerandel som tilstand og særskilt brøk |
 | `registered_share_state`, `registered_share_numerator`, `registered_share_denominator` | Tinglyst ejerandel, uafhængigt af den faktiske |
 | `verification_status` | `source_only`: kildeudsagn, ikke uafhængig bekræftelse |
@@ -48,7 +48,9 @@ Andelstilstande er `present`, `missing`, `null` og `invalid`. Nul som tæller be
 
 ## Faglige forbehold
 
-`virkningFra` er ikke sikkert koblet til dokumentationens visningsfelt »Virkning« og fortolkes derfor ikke som en fra-/til-dato. Faktisk og tinglyst ejerandel må ikke erstatte hinanden. Administrator betyder ikke automatisk ejer eller driftsansvarlig. Flere visninger af samme register er ikke uafhængige bekræftelser.
+I Matriklen Labs vises `virkningFra` under »Virkning« for både ejere og administratorer. Labs beskriver datoen som første overtagelsesdato ved status `gældende` og som datoen, hvor CVR-nummeret ophørte som ejer eller administrator, ved status `historisk` (S020, S057, S139). Visningen kan bruge teksten »Siden d.« ved begge statusser, når svaret kun indeholder `virkningFra`. Ved en historisk post er det derfor status og dokumentation, der afgør, hvordan datoen læses. Det er Labs' dato for relationen. Den kan ikke bruges som registreringsdato, som en særskilt dato for hver ejerandel eller til at rekonstruere en fuld periode. Vi bevarer hele datostrengen og udleder ingen særskilte fra- eller til-felter.
+
+Faktisk og tinglyst ejerandel bevares særskilt. Administrator betyder ikke automatisk ejer eller driftsansvarlig. Flere visninger af samme register er ikke uafhængige bekræftelser.
 
 Geodatastyrelsen mærker webværktøjet »Ejendomme ejet af virksomhed« som prototype. Webværktøjets JavaScript kalder `CvrEjerskaber` på `api.labs.matriklen.dk`. Ved kontrol 8. november 2026 fandt vi ingen særskilt offentlig dokumentation for API'ets driftsstatus, versionspolitik eller stabilitetsgarantier. Se S020, S030 og S057 i [kilderegisteret](research/sources.csv).
 
