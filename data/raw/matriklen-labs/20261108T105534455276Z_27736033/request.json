@@ -1,0 +1,14 @@
+{
+  "request_url": "https://api.labs.matriklen.dk/CvrEjerskaber?cvr=27736033",
+  "request_method": "GET",
+  "request_parameters": {
+    "cvr": "27736033"
+  },
+  "started_at": "2026-11-08T10:55:34.455276+00:00",
+  "purpose": "Pilot: undersøg faktisk svarstruktur for ét CVR; ingen påstand om fuldstændighed.",
+  "validation_status": "unreviewed",
+  "status": "transport_error",
+  "error_type": "URLError",
+  "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+  "completed_at": "2026-11-08T10:55:34.464460+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "status": "complete",
+  "result_state": "nonempty_result",
+  "created_at": "2026-11-08T11:30:19.312268+00:00",
+  "input_capture": "../../../raw/matriklen-labs/20261108T105618531332Z_27736033",
+  "input_path_base": "run_directory",
+  "source_url": "https://api.labs.matriklen.dk/CvrEjerskaber?cvr=27736033",
+  "request_parameters": {
+    "cvr": "27736033"
+  },
+  "source_completed_at": "2026-11-08T10:56:21.029183+00:00",
+  "input_sha256": "f064f6ba1a5296b31158f4ec0c4b4d07e384a19e98fa4716ac5e54032cd87865",
+  "request_manifest_sha256": "ed3c0fbf6e07aa1f4829850790b2fb0360b68391c04a71f51d9f1681900c6262",
+  "transform_version": "2",
+  "transform_sha256": "d1e4f5234eb4cba7be1519f65e5897c4d6bd51b79605d458f806b77be729d1b6",
+  "output_sha256": {
+    "method/transform_matriklen.py": "d1e4f5234eb4cba7be1519f65e5897c4d6bd51b79605d458f806b77be729d1b6",
+    "processed/properties.csv": "b95a88c8b67f19a41492d13a37ba07357168992323c3ad41b97e0578a27ee31f",
+    "processed/relations.csv": "4864f9c22e2c1e07784f3884c9bd056a4eca9ce5fa71bb87b2c69ac727054b42",
+    "quality/issues.csv": "d3ee06f6c22fa716b25a5f7e2e2b8c04913f0ae5bfba31d1fff303f3743cf4d7",
+    "quality/profile.json": "74d8bb752afd1c94a5c2129bc42c0d1fbc4909b9962ce4b76029253f996e937f"
+  },
+  "verification_status": "source_only",
+  "coverage_status": "unverified"
+}

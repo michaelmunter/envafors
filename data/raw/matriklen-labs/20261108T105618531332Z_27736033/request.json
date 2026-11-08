@@ -1,0 +1,28 @@
+{
+  "request_url": "https://api.labs.matriklen.dk/CvrEjerskaber?cvr=27736033",
+  "request_method": "GET",
+  "request_parameters": {
+    "cvr": "27736033"
+  },
+  "started_at": "2026-11-08T10:56:18.531332+00:00",
+  "fetch_method": "curl; TLS verification enabled; follow redirects; 45 second maximum",
+  "purpose": "Pilot for ét CVR; struktur og dækningsgrad er endnu ikke valideret.",
+  "validation_status": "unreviewed",
+  "curl_exit_code": 0,
+  "http_status": 200,
+  "final_url": "https://api.labs.matriklen.dk/CvrEjerskaber?cvr=27736033",
+  "content_type": "application/json; charset=utf-8",
+  "status": "http_success",
+  "response_headers_file": "response.headers",
+  "response_file": "response.body",
+  "response_bytes": 7476,
+  "response_sha256": "f064f6ba1a5296b31158f4ec0c4b4d07e384a19e98fa4716ac5e54032cd87865",
+  "json_valid": true,
+  "json_root_type": "dict",
+  "json_top_level_count": 2,
+  "json_top_level_keys": [
+    "administrerer",
+    "ejer"
+  ],
+  "completed_at": "2026-11-08T10:56:21.029183+00:00"
+}

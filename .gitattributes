@@ -1,0 +1,6 @@
+# csv.writer uses CRLF; preserve it and treat CR as part of the line ending.
+*.csv -text whitespace=cr-at-eol
+
+# Preserve original downloads and hashed run artifacts byte for byte.
+data/runs/** -text
+data/raw/** -text -whitespace

@@ -1,0 +1,44 @@
+{
+  "input_sha256": "f064f6ba1a5296b31158f4ec0c4b4d07e384a19e98fa4716ac5e54032cd87865",
+  "roles": {
+    "administrerer": {
+      "source_rows": 3,
+      "rows_by_source_status": {
+        "gældende": 3
+      },
+      "field_occurrences": {
+        "bfe": 3,
+        "status": 3,
+        "virkningFra": 3
+      },
+      "exact_duplicate_rows": 0
+    },
+    "ejer": {
+      "source_rows": 39,
+      "rows_by_source_status": {
+        "gældende": 34,
+        "historisk": 5
+      },
+      "field_occurrences": {
+        "bfe": 39,
+        "status": 39,
+        "virkningFra": 39,
+        "faktiskEjerandel": 39,
+        "tinglystEjerandel": 34
+      },
+      "exact_duplicate_rows": 0
+    }
+  },
+  "source_relation_rows": 42,
+  "output_relation_rows": 42,
+  "unique_valid_bfe": 42,
+  "relations_without_valid_bfe": 0,
+  "issue_counts": {
+    "date_semantics_unresolved": 1,
+    "coverage_unverified": 1,
+    "different_share_values": 2
+  },
+  "technical_validation": "passed_with_findings",
+  "verification_status": "source_only",
+  "coverage_status": "unverified"
+}
