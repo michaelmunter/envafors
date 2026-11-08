@@ -1,7 +1,82 @@
 {
+  "25797981": {
+    "retrieved_at": "2026-11-08T16:31:51.165372+00:00",
+    "sha256": "3e5943523517130a1dd32558fa3953cbfaa15c072a6f3147b076561f9f8a1e01",
+    "url": "https://api.labs.matriklen.dk/CvrEjerskaber?cvr=25797981"
+  },
+  "26863899": {
+    "retrieved_at": "2026-11-08T16:31:53.882174+00:00",
+    "sha256": "038ecdb30dbe316ab527d7ea179ff0089c6d999900a4736ac88de6170bd5e489",
+    "url": "https://api.labs.matriklen.dk/CvrEjerskaber?cvr=26863899"
+  },
+  "26863902": {
+    "retrieved_at": "2026-11-08T16:31:50.515136+00:00",
+    "sha256": "95f3260196d60d6401995d1138a5a759335a4fa73e0815a2011dcb05a833da38",
+    "url": "https://api.labs.matriklen.dk/CvrEjerskaber?cvr=26863902"
+  },
+  "27412823": {
+    "retrieved_at": "2026-11-08T16:31:56.597835+00:00",
+    "sha256": "95f3260196d60d6401995d1138a5a759335a4fa73e0815a2011dcb05a833da38",
+    "url": "https://api.labs.matriklen.dk/CvrEjerskaber?cvr=27412823"
+  },
   "27736033": {
-    "url": "https://api.labs.matriklen.dk/CvrEjerskaber?cvr=27736033",
     "retrieved_at": "2026-11-08T10:56:21.029183+00:00",
-    "sha256": "f064f6ba1a5296b31158f4ec0c4b4d07e384a19e98fa4716ac5e54032cd87865"
+    "sha256": "f064f6ba1a5296b31158f4ec0c4b4d07e384a19e98fa4716ac5e54032cd87865",
+    "url": "https://api.labs.matriklen.dk/CvrEjerskaber?cvr=27736033"
+  },
+  "27736904": {
+    "retrieved_at": "2026-11-08T16:31:52.534360+00:00",
+    "sha256": "10b5f5de315e1a687185b66a55eacaa48bc436ba05f191eceb98f60bbcf61f72",
+    "url": "https://api.labs.matriklen.dk/CvrEjerskaber?cvr=27736904"
+  },
+  "28118465": {
+    "retrieved_at": "2026-11-08T16:31:54.529444+00:00",
+    "sha256": "29e32a7fbe89c2d82f878db499e9b721f53be391ffeb43c18aa09e2b34355350",
+    "url": "https://api.labs.matriklen.dk/CvrEjerskaber?cvr=28118465"
+  },
+  "28483708": {
+    "retrieved_at": "2026-11-08T16:31:51.854097+00:00",
+    "sha256": "5f249fa8a86c10b1ff636fb4e7ef8c0e67bf1870d05d5987745863c397758ba3",
+    "url": "https://api.labs.matriklen.dk/CvrEjerskaber?cvr=28483708"
+  },
+  "29193304": {
+    "retrieved_at": "2026-11-08T16:31:57.887161+00:00",
+    "sha256": "95f3260196d60d6401995d1138a5a759335a4fa73e0815a2011dcb05a833da38",
+    "url": "https://api.labs.matriklen.dk/CvrEjerskaber?cvr=29193304"
+  },
+  "29193339": {
+    "retrieved_at": "2026-11-08T16:31:57.230378+00:00",
+    "sha256": "95f3260196d60d6401995d1138a5a759335a4fa73e0815a2011dcb05a833da38",
+    "url": "https://api.labs.matriklen.dk/CvrEjerskaber?cvr=29193339"
+  },
+  "29396361": {
+    "retrieved_at": "2026-11-08T16:31:53.204748+00:00",
+    "sha256": "95f3260196d60d6401995d1138a5a759335a4fa73e0815a2011dcb05a833da38",
+    "url": "https://api.labs.matriklen.dk/CvrEjerskaber?cvr=29396361"
+  },
+  "32102611": {
+    "retrieved_at": "2026-11-08T16:31:55.950132+00:00",
+    "sha256": "1c7271397a3af1ffb87658ad1ff537d2f378e50e016c377a499b58eaa207fd9c",
+    "url": "https://api.labs.matriklen.dk/CvrEjerskaber?cvr=32102611"
+  },
+  "32102654": {
+    "retrieved_at": "2026-11-08T16:31:55.209344+00:00",
+    "sha256": "d09c0bf0edf95f1cb16203d66b5cb2d7746668292e67ce8a3a94f585c899cded",
+    "url": "https://api.labs.matriklen.dk/CvrEjerskaber?cvr=32102654"
+  },
+  "33053673": {
+    "retrieved_at": "2026-11-08T16:32:00.105455+00:00",
+    "sha256": "95f3260196d60d6401995d1138a5a759335a4fa73e0815a2011dcb05a833da38",
+    "url": "https://api.labs.matriklen.dk/CvrEjerskaber?cvr=33053673"
+  },
+  "33053738": {
+    "retrieved_at": "2026-11-08T16:31:59.201624+00:00",
+    "sha256": "f946a8f7c36c89c3db7861337a2f14269a3159bda7b226e91472e314b610f6af",
+    "url": "https://api.labs.matriklen.dk/CvrEjerskaber?cvr=33053738"
+  },
+  "33053770": {
+    "retrieved_at": "2026-11-08T16:31:58.532055+00:00",
+    "sha256": "ed2bda931e5e7ed9c4a34f7ca64bd5374f7ad0546a8699ef52ff698885b24b8e",
+    "url": "https://api.labs.matriklen.dk/CvrEjerskaber?cvr=33053770"
   }
 }

@@ -6,7 +6,6 @@ Tilføj vigtige opgaver inden for [projektets rammer](PLAN.md), og placér dem e
 
 ## OPGAVER
 
-- [sol xhigh] Kør første runde af Matriklen Labs-opslag for kandidater med `property_lookup_mode=cvr` i [kandidatlisten](research/company_candidates.csv). Cerius følges særskilt via tidligere NKE-spor. Registrer udfald pr. CVR særskilt fra råsvarene, også ved fejl og afslag. Genbyg relationstabellen med de bevarede svar.
 - [sol xhigh] Undersøg med officielle kilder, hvilken relation der kan dokumenteres mellem CVR `46837592` og `28118465`.
 - [sol xhigh] Følg de fire CVR-dokumenterede fusioner op: Afklar, hvilke ejendomme, anlæg og driftsroller der overgik til de fortsættende selskaber.
 - [sol xhigh] Registrer relevante P-enheder og selskabsrelationer for de kontrollerede kandidater med konkret kildebelæg. Følg op på FITs eventuelle juridiske opløsning.

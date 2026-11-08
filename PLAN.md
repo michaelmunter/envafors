@@ -1,6 +1,6 @@
 # Fase 1: selskaber, ejendomme og anlæg
 
-Statusdato: 2026-11-08. CVR-stamdata og relevans for ejendomme og anlæg er vurderet for 21 kandidater. Det tekniske ejendomsopslag er afprøvet på SK Vand. Første runde for de øvrige valgte CVR-numre og den faglige validering står åbne.
+Statusdato: 2026-11-08. CVR-stamdata og relevans for ejendomme og anlæg er vurderet for 21 kandidater. Første runde i Matriklen Labs er gennemført for de 16 valgte CVR-numre, inklusive SK Vand-piloten. Målrettet opfølgning på Cerius og faglig validering står åbne.
 
 ## Mål og afgrænsning
 
@@ -19,7 +19,7 @@ Fasen omfatter ikke interne data, integrationer, DocuNote-opsætning, dokumenth�
 | 1. Kilder og søgepunkter | Kilderegister og selskabskandidater | 21 kandidater med kilder og opfølgning | Kandidater har kildehenvisning, evidensstatus og næste kontrol. Nye relevante kilder tilføjes løbende |
 | 2. Selskabsstruktur | CVR-enheder, navnehistorik, P-enheder og selskabsrelationer | CVR-stamdata og fire fusionsmodtagere er kontrolleret. Relevans er vurderet særskilt for ejendomme og anlæg. P-enheder og øvrige relationer følges op | Selskabsrelationer og afgrænsning pr. kandidat er dokumenteret med kilder og datoer. Nye kandidater følges op |
 | 3. Teknisk ejendomspilot | CVR-opslag i Matriklen Labs, bevaret råsvar og BFE-relationer i den fælles tabel | Gennemført for SK Vand (27736033) | Råsvaret kan spores til kilden, og alle poster kan afstemmes og genskabes fra det gemte svar |
-| 4. Ejendomsindsamling | CVR-opslag og målrettet opfølgning på Cerius | 16 kandidater er valgt til CVR-opslag inkl. SK Vand; Cerius følges via konkrete spor til det tidligere NKE-net | Alle valgte opslag har registreret udfald og kildehenvisning. Kildens roller og status bevares særskilt |
+| 4. Ejendomsindsamling | CVR-opslag og målrettet opfølgning på Cerius | 16 af 16 valgte CVR-numre undersøgt pr. 8. november 2026; 10 svar med poster og seks tomme svar. Cerius følges via konkrete spor til det tidligere NKE-net | Alle valgte opslag har registreret udfald og kildehenvisning. Kildens roller og status bevares særskilt |
 | 5. Anlæg og krydskontrol | Anlægsoversigt, faglige stikprøver og koblinger til selskaber og ejendomme | Åben | Relevante kilder er gennemgået, og søgeafgrænsning og belæg for driftsansvar er beskrevet pr. sektor. Anlæg uden ejendomsfund og ejendomme uden anlæg er håndteret |
 | 6. Samlet kvalitetssikring | Sammenhængende CSV/JSON, dækningsbeskrivelse og review | Åben | Kontroller afstemt, huller beskrevet, reviewbemærkninger håndteret og processen gentagelig |
 
