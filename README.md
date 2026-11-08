@@ -10,7 +10,7 @@ Første fase kortlægger offentlige oplysninger om relaterede selskaber, ejendom
 - [Selskabskandidater](research/company_candidates.csv) og [kilderegister](research/sources.csv).
 - [Gældende metodevalg og review](research/decisions.md).
 
-Den 8. november 2026 blev hovednavn, binavne og status kontrolleret i CVR for de 20 oprindelige kandidater: 16 stod som »Normal« og fire som »Opløst efter fusion«. Cerius A/S blev tilføjet som kandidat til opfølgning på det tidligere NKE-net. Listen dokumenterer ikke en fuldstændig koncernstruktur. Se [CVR-metoden og de åbne spørgsmål](research/decisions.md#cvr-kontrol-af-selskabskandidater).
+Pr. 8. november 2026 har alle 21 kandidater kontrollerede CVR-stamdata og en særskilt vurdering af relevans for ejendomme og anlæg. 16 er valgt til CVR-opslag for ejendomme, herunder den gennemførte SK Vand-pilot. Cerius følges kun via konkrete spor til det tidligere NKE-net. Se [metoden, reviewet og de åbne spørgsmål](research/decisions.md#afgrænsning-af-ejendomsopslag-og-anlæg).
 
 ## Datafiler
 
@@ -32,7 +32,7 @@ Piloten for SK Vand `27736033` er hentet 8. november 2026 og har [42 relationer]
 | Opgave | Brug denne adgangsvej |
 |---|---|
 | CVR-stamdata | Åbn [CVR-gatewayen, eksempel med Envafors](https://datacvr.virk.dk/gateway/virksomhed/hentVirksomhed?cvrnummer=26863902&locale=da) direkte i browseren. Skift `cvrnummer`, og behold `locale=da`. Det afprøvede `curl`-opslag gav 403. Se [felter, kontrol og alternativ adgang](research/decisions.md#cvr-kontrol-af-selskabskandidater). |
-| Ejendomsrelationer med BFE | Brug [Matriklen Labs `CvrEjerskaber`, eksempel med SK Vand](https://api.labs.matriklen.dk/CvrEjerskaber?cvr=27736033) via scriptet nedenfor. Sæt `cvr` til nummeret på et selskab, der er omfattet af ejendomsindsamlingen. Svaret indeholder listerne `ejer` og `administrerer` med BFE-numre. Geodatastyrelsen mærker webværktøjet som prototype. API'ets egen driftsstatus er uafklaret. [Forbehold om API, roller og dækning](DATA_MODEL.md#faglige-forbehold). |
+| Ejendomsrelationer med BFE | Brug [Matriklen Labs `CvrEjerskaber`, eksempel med SK Vand](https://api.labs.matriklen.dk/CvrEjerskaber?cvr=27736033) via scriptet nedenfor. Vælg kun CVR-numre med `property_lookup_mode=cvr` i [kandidatlisten](research/company_candidates.csv). Svaret indeholder listerne `ejer` og `administrerer` med BFE-numre. Geodatastyrelsen mærker webværktøjet som prototype. API'ets egen driftsstatus er uafklaret. [Forbehold om API, roller og dækning](DATA_MODEL.md#faglige-forbehold). |
 
 De konkrete opslag og deres kildehenvisninger står i [kilderegisteret](research/sources.csv).
 
