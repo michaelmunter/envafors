@@ -8,7 +8,7 @@ Kortlæg alle juridiske enheder, ejendomme og anlæg med dokumenteret relevans f
 
 Bevar kun kildeindhold, der konkret bruges som belæg eller til nødvendig bearbejdning. Historiske oplysninger i relevante svar bevares, men der oprettes ikke arkiver af alle opslag. Følg tidligere navne, CVR-numre, fusioner og frasalg, når de kan forklare en tilknytning. Registrer uafklarede spor som åbne spørgsmål frem for at udfylde huller ved gæt.
 
-Kommuner, medejere og samarbejdsselskaber kan indgå som kontekst i selskabsstrukturen. Udvidelser af ejendomsindsamlingen kræver en dokumenteret forbindelse til kortlægningen. FIT er identificeret som fælles it-selskab. Det er fortsat uafklaret, hvordan Næstved Forsyning CVR 46837592 hænger sammen med NK-Forsyning CVR 28118465.
+Kommuner, medejere og samarbejdsselskaber kan indgå som kontekst i selskabsstrukturen. Udvidelser af ejendomsindsamlingen kræver en dokumenteret forbindelse til kortlægningen. FIT er identificeret som fælles it-selskab. CVR dokumenterer, at NK-Forsyning (28118465) stiftede og ejer Næstved Forsyning (46837592). Eventuelle ændringer i ejerskab af aktiver og driftsansvar ved udtræden af Envafors står åbne. Se [CVR-kontrollen af Næstved Forsyning](research/decisions.md#nk-forsyning-og-næstved-forsyning).
 
 Fasen omfatter ikke interne data, integrationer, DocuNote-opsætning, dokumenthåndteringsstruktur eller udvikling af en app/database. Kildedokumenter kan bruges som belæg for data; det er ikke en opgave om dokumenthåndtering.
 
