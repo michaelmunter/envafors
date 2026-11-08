@@ -1,10 +1,10 @@
 # Fase 1: selskaber, ejendomme og anlæg
 
-Statusdato: 2026-11-08. Planen gælder det offentlige datagrundlag. Arbejdet er i pilotfasen, og ingen samlet dataleverance er endelig.
+Statusdato: 2026-11-08. Planen gælder det offentlige datagrundlag. Det tekniske ejendomsopslag er afprøvet på SK Vand. Kontrollen af selskaberne og den faglige validering står åbne.
 
 ## Mål og afgrænsning
 
-Kortlæg relevante juridiske enheder, deres dokumenterede relationer samt ejendomme og anlæg, de ejer, administrerer eller driver. Det skal fremgå, hvad der er aktuelt, historisk, besluttet, forventet og uafklaret.
+Kortlæg alle juridiske enheder, ejendomme og anlæg med dokumenteret relevans for Envafors. Det omfatter blandt andet vand, spildevand, varme, el og gadelys, også når et relevant selskab driver et anlæg på en andens ejendom. Ejerskab, administration og drift registreres særskilt. Det skal fremgå, hvad der er aktuelt, historisk, besluttet, forventet og uafklaret.
 
 Bevar kun kildeindhold, der konkret bruges som belæg eller til nødvendig bearbejdning. Historiske oplysninger i relevante svar bevares, men der oprettes ikke arkiver af alle opslag. Følg tidligere navne, CVR-numre, fusioner og frasalg, når de kan forklare en tilknytning. Registrer uafklarede spor som åbne spørgsmål frem for at udfylde huller ved gæt.
 
@@ -17,13 +17,13 @@ Fasen omfatter ikke interne data, integrationer, DocuNote-opsætning, dokumenth�
 | Trin | Leverance | Status | Afslutningskriterium |
 |---|---|---|---|
 | 1. Kilder og søgepunkter | Kilderegister og selskabskandidater | Første version skrevet: 20 kandidater, 30 kilder | Kandidater har kildehenvisning, evidensstatus og næste kontrol. Nye relevante kilder tilføjes løbende |
-| 2. Selskabsstruktur | CVR-enheder, navnehistorik, P-enheder og selskabsrelationer | Åben; aktuel CVR-kontrol ikke udført | Alle identificerede kandidater behandlet; relationer og fravalg dokumenteret; nye kandidater fulgt |
-| 3. Ejendomspilot | Ét CVR-svar, fælles relationstabel og konkrete kontrolfund | Teknisk gennemført for 27736033; faglige kontroller åbne | Format, roller, datoer og begrænsninger undersøgt. Stikprøver mod relevante kilder og kontrol af mindst ét SK Vand-anlæg |
-| 4. Ejendomsindsamling | Samme dokumenterede metode på omfattede CVR-numre | Afventer pilotens metodekontrol og selskabsafgrænsning | Alle omfattede CVR har registreret udfald og kildehenvisning; historik og administration særskilt |
-| 5. Anlæg og krydskontrol | Anlægsoversigt og koblinger til selskaber/ejendomme | Åben | Relevante anlægskilder gennemgået; anlæg uden ejendomsfund og ejendomme uden anlæg håndteret |
+| 2. Selskabsstruktur | CVR-enheder, navnehistorik, P-enheder og selskabsrelationer | Aktuel CVR-kontrol står åben | Selskabsrelationer og afgrænsning pr. kandidat er dokumenteret med kilder og datoer. Nye kandidater følges op |
+| 3. Teknisk ejendomspilot | CVR-opslag i Matriklen Labs, bevaret råsvar og BFE-relationer i den fælles tabel | Gennemført for SK Vand (27736033) | Råsvaret kan spores til kilden, og alle poster kan afstemmes og genskabes fra det gemte svar |
+| 4. Ejendomsindsamling | Samme opslag og bearbejdning for de omfattede CVR-numre | Kan begynde for hvert CVR, når identitet og relevans er dokumenteret | Alle omfattede CVR har registreret udfald og kildehenvisning. Kildens roller og status bevares særskilt |
+| 5. Anlæg og krydskontrol | Anlægsoversigt, faglige stikprøver og koblinger til selskaber og ejendomme | Åben | Relevante kilder er gennemgået, og søgeafgrænsning og belæg for driftsansvar er beskrevet pr. sektor. Anlæg uden ejendomsfund og ejendomme uden anlæg er håndteret |
 | 6. Samlet kvalitetssikring | Sammenhængende CSV/JSON, dækningsbeskrivelse og review | Åben | Kontroller afstemt, huller beskrevet, reviewbemærkninger håndteret og processen gentagelig |
 
-Trin 2 og pilotens faglige kontrol kan fortsætte parallelt. Brede ejendomsudtræk kan begynde, når selskabsafgrænsningen er på plads, piloten har afklaret de væsentlige metodeproblemer, og en underagent har gennemgået pilotens faglige metode. Historiske spørgsmål kan stå åbne, hvis deres betydning og status fremgår.
+Kør ejendomsopslag løbende for de CVR-numre, hvor identitet og relevans er dokumenteret. Faglig kontrol af roller, datoer og dækning kan foregå parallelt. De indsamlede poster har status som kildeudsagn, indtil de er kontrolleret. Indhent underagent-review af selskabsafgrænsningen og den faglige kontrol, før de lægges til grund for den endelige leverance.
 
 ## Arbejdskø
 
@@ -43,6 +43,6 @@ Kildevalg og adgangsforhold skal dokumenteres i kilderegisteret før brug. LER e
 
 Hold fire spørgsmål adskilt: Er data hentet teknisk korrekt? Er kildeværdierne gengivet korrekt? Er deres betydning og tilknytning dokumenteret? Hvor meget af det aftalte omfang er undersøgt?
 
-Rapporter antal kandidater behandlet, omfattede CVR undersøgt, kildeopslag gennemført, relationer fundet og åbne spørgsmål. Undgå en samlet fuldstændighedsprocent, når det samlede antal relevante selskaber, ejendomme eller anlæg er ukendt.
+Registrer seneste opslagsforsøg pr. CVR og kilde med URL, tidspunkt med tidszone og udfald. Skeln mellem fund, tomt svar, delvist svar, adgangsafslag og teknisk fejl. Markér også, hvad der endnu ikke er undersøgt, og om et bevaret råsvar er fra et tidligere opslag. Rapporter dækning pr. kilde og sektor samt åbne spørgsmål. Undgå en samlet fuldstændighedsprocent, når det samlede antal relevante selskaber, ejendomme eller anlæg er ukendt.
 
 En endelig faseleverance skal have en fast referencedato, eksplicit afgrænsning, relevante kildehenvisninger, datamodel, kvalitetsstatus og dokumenteret underagent-review. Brug et fælles kildeindeks frem for metadatafiler for hvert opslag; Git versionerer committede data og kode. Væsentlige uafklarede forhold skal stå i leverancen. Et tomt søgeresultat er alene resultatet af det konkrete opslag.

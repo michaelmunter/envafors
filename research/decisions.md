@@ -20,6 +20,8 @@ Den tidligere JSON-risiko med dublerede nøgler er fortsat dækket af streng ind
 
 Underagenten `method_review` gennemgik forslaget og de færdige filer og godkendte den enklere løsning som teknisk pilot uden væsentlige fund. Reviewet kontrollerede bevarede data, deterministisk genkørsel og de to aftalte outputfiler. Underagenten `official_sources` godkendte kildebelæg, den oprindelige hentetid, uændrede råbytes og alle 42 relationer uden væsentlige indvendinger. Den aktuelle testsuite har 14 beståede tests, herunder kontrol af CVR i kilde-URL, sidste gode svar, indeksafstemning og gendannelse ved skrivefejl.
 
+Underagenten `pilot_scope_review` gennemgik den opdaterede plan for indsamling efter den tekniske pilot. Reviewet førte til, at første runde kun omfatter CVR-numre, der er valgt til ejendomsopslag, at opslagsudfald registreres særskilt fra råsvar, og at relevante anlægskilder skal gennemgås i hver sektor. CVR-afgrænsning og faglig kontrol står fortsat åbne.
+
 ## Arbejdsproces
 
 Nødvendig offentlig research og lokal eksekvering er tilladt. Væsentlige beslutninger og leverancer reviewes. Arbejdet committes og synkroniseres ved passende milepæle; kildeindeks, kildesvar og genbyggede tabeller hører sammen i samme commit. Begrænsningerne for interne data og systemer gælder fortsat.
