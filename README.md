@@ -12,24 +12,6 @@ Første fase kortlægger offentlige oplysninger om relaterede selskaber, ejendom
 
 Kandidatlisten er ikke en verificeret eller fuldstændig koncernstruktur. Aktuel CVR-status og selskabsrelationer er endnu ikke kontrolleret.
 
-## Kildeoverblik i browseren
-
-Kør fra projektroden med Python 3 i udviklingsmiljøet.
-
-```sh
-python3 scripts/show_sources.py
-```
-
-Åbn adressen fra terminalen. Visningen læser kilderegister, kandidathenvisninger, råsvar, indeks og tabeller ved hver genindlæsning. Tilføj nye kilder i `research/sources.csv`, og brug deres `source_id` i kandidatlisten, når der er en henvisning. Nye Matriklen Labs-opslag kommer fra kildeindekset. Visningen læser opslagets URL med CVR-parameter, hentetid og SHA-256 fra indekset og forbinder kun en kilderegisterpost med opslaget, når URL'en er identisk.
-
-Visningen lytter kun på den lokale computer og stoppes med Ctrl+C. Den læser de gemte filer. Ved tekniske uoverensstemmelser viser den årsagen og tilbageholder de afstemte tal. Den faglige vurdering ligger i projektets øvrige kontroller.
-
-En browser på Windows kan åbne et eksporteret øjebliksbillede direkte. Opret filen i projektroden, hvis filhenvisningerne også skal virke i en kopi af projektet. Eksporten afbrydes ved kontrolfejl og bevarer en eventuel tidligere fil.
-
-```sh
-python3 scripts/show_sources.py --output kilder.html
-```
-
 ## Datafiler
 
 ```text
