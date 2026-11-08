@@ -26,7 +26,13 @@ data/
 
 Vi gemmer kun seneste gyldige kildesvar pr. CVR. Historik for committede data og kode ligger i Git. Headers, fejlede forsøg, kodekopier og kørselsarkiver gemmes ikke. Et samlet JSON-eksportformat kan genereres senere, hvis det får en konkret anvendelse; det gemmes ikke som endnu en kopi nu.
 
-Den 8. november 2026 gav ti opslag poster og seks to tomme lister. Der var ingen afslag eller tekniske fejl i runden. De bevarede svar giver [415 kildeposter](data/relations.csv) fordelt på 408 ejerposter og syv administratorposter. [16 kontrolfund](data/issues.csv) vedrører forskellige faktiske og tinglyste ejerandele. Se [de faglige forbehold](DATA_MODEL.md#faglige-forbehold) før brug.
+Den 8. november 2026 gav ti opslag poster, og seks gav tomme svar. Der var ingen afslag eller tekniske fejl i runden. De bevarede svar giver [415 kildeposter](data/relations.csv) fordelt på 408 ejerposter og syv administratorposter. [16 kontrolfund](data/issues.csv) vedrører forskellige faktiske og tinglyste ejerandele. Se [de faglige forbehold](DATA_MODEL.md#faglige-forbehold) før brug.
+
+## Læs og kontrollér rådata
+
+Kør `python3 scripts/preview_matriklen.py` fra projektroden, og åbn mappen, kommandoen udskriver, i VS Code. Den indeholder én indrykket JSON-kopi pr. CVR. Kommandoen kontrollerer først råsvarene mod kildeindekset og stopper ved fejl. Den læser lokale filer og skriver kun kopierne i systemets midlertidige mappe. Kør den igen efter et nyt opslag. Formatering af en fil under `data/raw/` ændrer dens checksum, selv om oplysningerne er de samme.
+
+Brug BFE til at finde en ejendom i `issues.csv` eller `relations.csv` og CVR til at finde selskabet. For at kontrollere et konkret fund i originalen åbner du JSON-kopien med det CVR som filnavn. Eksempelvis henviser `27736033` og `/ejer/36` til element 36 i listen `ejer` i `27736033.json`. Listen starter ved 0, så det er det 37. element. Søg efter BFE `2539366` i filen for at finde posten hurtigt. [Sådan bruges kildehenvisningen](DATA_MODEL.md#samlet-relationstabel).
 
 ## Direkte kildesvar
 

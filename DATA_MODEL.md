@@ -34,7 +34,7 @@ Kun seneste svar pr. CVR ligger i arbejdsstrukturen. Git bevarer committede vers
 
 | Felter | Betydning |
 |---|---|
-| `cvr`, `source_pointer`, `source_sha256` | CVR-fil og kildeobjekt, fx `/ejer/0`, samt kontrol mod indeksets hash. CVR + pointer identificerer en observation i denne kildeversion |
+| `cvr`, `source_pointer`, `source_sha256` | CVR angiver filnavnet, og pointeren angiver placeringen i filen. `/ejer/0` er første element i listen `ejer`. Hashen identificerer versionen af råsvaret |
 | `bfe`, `bfe_state` | BFE som tekst; tilstand `present`, `missing`, `null` eller `invalid` |
 | `role`, `source_status` | Kildens rolle (`ejer`/`administrerer`) og status (`gældende`/`historisk`) bevares |
 | `virkning_fra_original` | Hele Labs-feltet `virkningFra`. Læs datoen sammen med `source_status` og `role` efter [Labsværktøjets visningsregler](#faglige-forbehold) |
@@ -43,6 +43,8 @@ Kun seneste svar pr. CVR ligger i arbejdsstrukturen. Git bevarer committede vers
 | `verification_status` | `source_only`: kildeudsagn, ikke uafhængig bekræftelse |
 
 Andelstilstande er `present`, `missing`, `null` og `invalid`. Nul som tæller bevares; en manglende andel er ikke nul. Ukendte felter og værdier markeres til kontrol og findes fortsat i originalen. En særskilt liste med forskellige BFE-numre kan udledes af tabellen og gemmes ikke som en dublet.
+
+BFE er ejendommens identifikator. Brug BFE sammen med CVR og eventuelt rolle til at finde relevante observationer. Flere kildeposter kan gælde samme ejendom og selskab, og en post kan mangle BFE. `source_pointer` peger derfor på den præcise post i den kildeversion, som `source_sha256` angiver. Et kontrolfund kan pege endnu mere præcist på et felt, fx `/ejer/0/bfe`. Den tilhørende relationsrække har da pointeren `/ejer/0`.
 
 `data/issues.csv` indeholder kun konkrete fund med `cvr`, `code`, `source_pointer`, `bfe`, `message` og `source_sha256`. Piloten har to fund af typen `different_share_values`. Optællinger skrives til terminalen og gemmes ikke som profilfiler. Begge CSV-filer genbygges; de vedligeholdes ikke manuelt.
 
