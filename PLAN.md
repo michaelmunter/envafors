@@ -18,32 +18,16 @@ Fasen omfatter ikke interne data, integrationer, DocuNote-opsætning, dokumenth�
 |---|---|---|---|
 | 1. Kilder og søgepunkter | Kilderegister og selskabskandidater | Første version skrevet: 20 kandidater, 30 kilder | Kandidater har kildehenvisning, evidensstatus og næste kontrol. Nye relevante kilder tilføjes løbende |
 | 2. Selskabsstruktur | CVR-enheder, navnehistorik, P-enheder og selskabsrelationer | Åben; aktuel CVR-kontrol ikke udført | Alle identificerede kandidater behandlet; relationer og fravalg dokumenteret; nye kandidater fulgt |
-| 3. Ejendomspilot | Ét CVR-svar, fælles relationstabel og konkrete kontrolfund | Teknisk gennemført for 27736033; faglige kontroller åbne | Format, roller, datoer og begrænsninger undersøgt; stikprøver mod relevante kilder og mindst ét anlægsspor |
+| 3. Ejendomspilot | Ét CVR-svar, fælles relationstabel og konkrete kontrolfund | Teknisk gennemført for 27736033; faglige kontroller åbne | Format, roller, datoer og begrænsninger undersøgt. Stikprøver mod relevante kilder og kontrol af mindst ét SK Vand-anlæg |
 | 4. Ejendomsindsamling | Samme dokumenterede metode på omfattede CVR-numre | Afventer pilotens metodekontrol og selskabsafgrænsning | Alle omfattede CVR har registreret udfald og kildehenvisning; historik og administration særskilt |
 | 5. Anlæg og krydskontrol | Anlægsoversigt og koblinger til selskaber/ejendomme | Åben | Relevante anlægskilder gennemgået; anlæg uden ejendomsfund og ejendomme uden anlæg håndteret |
 | 6. Samlet kvalitetssikring | Sammenhængende CSV/JSON, dækningsbeskrivelse og review | Åben | Kontroller afstemt, huller beskrevet, reviewbemærkninger håndteret og processen gentagelig |
 
-Trin 2 og pilotens faglige kontrol kan fortsætte parallelt. Brede ejendomsudtræk skal vente på, at piloten har afklaret de væsentlige metodeproblemer. Der kræves ikke, at alle historiske spørgsmål er løst, men deres betydning og status skal være synlig.
+Trin 2 og pilotens faglige kontrol kan fortsætte parallelt. Brede ejendomsudtræk kan begynde, når selskabsafgrænsningen er på plads, piloten har afklaret de væsentlige metodeproblemer, og en underagent har gennemgået pilotens faglige metode. Historiske spørgsmål kan stå åbne, hvis deres betydning og status fremgår.
 
-## Næste konkrete opgaver
+## Arbejdskø
 
-- [x] Gem planen og en eksplicit datamodel i projektet.
-- [x] Gem de hidtidige selskabskandidater og kilder som CSV.
-- [x] Bevar API-prøven som `data/raw/matriklen-labs/27736033.json`, med fælles URL, hentetid og hash i `index.json`.
-- [x] Opret en gentagelig transformation, som bevarer alle 42 kilderelationer.
-- [x] Gem én samlet `data/relations.csv` og konkrete fund i `data/issues.csv`; undlad profiler og kørselsarkiver.
-- [ ] Bevar konkret kildebelæg, når det anvendes til at kontrollere kandidater eller relationer. Der er ingen generel opgave om at arkivere alle kildehenvisninger.
-- [x] Udvid kilderegisteret med dokumentation for CVR, Ejerfortegnelsen, BBR, DAR, Jupiter, PULS, DMA og Plandata.
-- [ ] Kontroller aktuel CVR-status og navne for de 20 kandidater via officielle oplysninger; undersøg nyfundne kandidater løbende.
-- [ ] Opret selskabsrelationer med konkret belæg. Kandidatlisten er ikke koncernstrukturen.
-- [ ] Afklar relationen mellem `46837592` og `28118465`; navnelighed er ikke bevis.
-- [ ] Afklar fusioner/ophør og efterfølgere for tidligere service- og vejlysselskaber samt NKE-Elnet.
-- [ ] Undersøg den præcise betydning af Labs-feltet `virkningFra`, især ved historiske relationer.
-- [ ] Undersøg de to pilotposter med forskellige faktiske og tinglyste ejerandele: BFE `2539366` og `5367067`.
-- [ ] Undersøg et udvalg af pilotens gældende/historiske ejerposter og administratorposter i Matriklen. Fælles registerophav må ikke kaldes uafhængig bekræftelse.
-- [ ] Kontroller mindst ét kendt SK Vand-anlæg via anlægsbeskrivelse/Jupiter og undersøg forbindelsen til ejendomsfundene.
-- [ ] Afklar API'ets historikdækning og eventuelle resultatgrænser/paginering. Én prøve kan ikke bevise fuldstændighed.
-- [ ] Indhent review af pilotens faglige metode, før indsamlingen udvides.
+De konkrete opgaver for kommende sessioner ligger i [QUEUE.md](QUEUE.md).
 
 ## Prioriterede datakilder
 
