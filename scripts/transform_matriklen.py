@@ -29,8 +29,10 @@ def csv_bytes(fields, rows):
     return stream.getvalue().encode("utf-8")
 
 
-def load_sources(raw_root):
-    index = read_index(raw_root)
+def load_sources(raw_root, *, index=None):
+    """Kontrollér råsvar mod et kildeindeks læst med read_index."""
+    if index is None:
+        index = read_index(raw_root)
     if not index:
         raise ValueError("Ingen registrerede kildesvar; det er ikke et tomt CVR-resultat.")
     sources = []
@@ -118,21 +120,27 @@ def normalize(cvr, sha, data):
     return rows, issues
 
 
+def build_outputs(sources):
+    rows, issues = [], []
+    for cvr, sha, data in sources:
+        source_rows, source_issues = normalize(cvr, sha, data)
+        rows.extend(source_rows)
+        issues.extend(source_issues)
+    files = {
+        "relations.csv": csv_bytes(RELATION_FIELDS, rows),
+        "issues.csv": csv_bytes(ISSUE_FIELDS, issues),
+    }
+    return files, rows, issues
+
+
 def transform(raw_root=RAW_ROOT, output=REPO / "data"):
     raw_root, output = Path(raw_root).resolve(), Path(output).resolve()
     if output == raw_root or raw_root in output.parents:
         raise ValueError("Bearbejdede filer skal ligge uden for rådatamappen.")
     # Alle kilder kontrolleres, og begge output beregnes, før eksisterende filer røres.
     sources = load_sources(raw_root)
-    rows, issues = [], []
-    for cvr, sha, data in sources:
-        source_rows, source_issues = normalize(cvr, sha, data)
-        rows.extend(source_rows)
-        issues.extend(source_issues)
-    replace_files({
-        output / "relations.csv": csv_bytes(RELATION_FIELDS, rows),
-        output / "issues.csv": csv_bytes(ISSUE_FIELDS, issues),
-    })
+    files, rows, issues = build_outputs(sources)
+    replace_files({output / name: content for name, content in files.items()})
     return {
         "cvr_count": len(sources), "relation_rows": len(rows),
         "unique_bfe": len({row["bfe"] for row in rows if row["bfe"]}),

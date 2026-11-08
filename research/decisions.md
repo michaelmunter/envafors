@@ -23,3 +23,7 @@ Underagenten `method_review` gennemgik forslaget og de færdige filer og godkend
 ## Arbejdsproces
 
 Nødvendig offentlig research og lokal eksekvering er tilladt. Væsentlige beslutninger og leverancer reviewes. Arbejdet committes og synkroniseres ved passende milepæle; kildeindeks, kildesvar og genbyggede tabeller hører sammen i samme commit. Begrænsningerne for interne data og systemer gælder fortsat.
+
+## Kildeoverblik
+
+Visningen læser kilderegister, kandidathenvisninger og Matriklen Labs-opslag fra de gældende projektfiler. Den genbruger transformationen til at sammenligne de to CSV-filer byte for byte med de registrerede råsvar. Underagent-review førte til, at kildetyper vises særskilt, at kildelinks har egne ID'er, og at en eksport med kontrolfejl bevarer den seneste HTML-fil.
