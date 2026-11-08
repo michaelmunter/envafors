@@ -10,7 +10,7 @@ Første fase kortlægger offentlige oplysninger om relaterede selskaber, ejendom
 - [Selskabskandidater](research/company_candidates.csv) og [kilderegister](research/sources.csv).
 - [CVR-registrerede P-enheder](research/production_units.csv) og [legale ejerandele](research/company_ownership.csv).
 - [Gældende metodevalg og review](research/decisions.md).
-- [Selvstændig genskabelse på Windows 11](windows/README.md).
+- [Selvstændig genskabelse i Excel på Windows 11](windows/README.md).
 
 Pr. 8. november 2026 har alle 22 kandidater kontrollerede CVR-stamdata, P-opslag og et bevaret svar fra Matriklen Labs. P-opslagene viser 67 P-enheder, heraf 52 aktive og 15 ophørte. Den særskilte vurdering af ejendomme og anlæg bruges til faglig opfølgning. Se [P-opslag og efterprøvning](research/decisions.md#p-enheder-og-selskabsejerskab) og [krydskontrol af tre renseanlæg](research/decisions.md#krydskontrol-med-udgangspunkt-i-renseanlæg).
 

@@ -1,73 +1,72 @@
-# Genskab datagrundlaget på Windows 11
+# Genskab datagrundlaget i Excel på Windows 11
 
-Kopiér denne vejledning og de to PowerShell-filer ad den vej, virksomheden godkender. Opret input på virksomhedens side, og hent oplysningerne fra de offentlige registre. Gem virksomhedens egne udtræk, kildesvar og kontrolresultater på virksomhedens godkendte drev. Udtrækket kræver Windows PowerShell 5.1, en almindelig browser og Excel til gennemgang.
+Brug Excel til at importere, forme og kontrollere data. Værktøjet hedder **Power Query** og ligger under **Data → Hent data**. I editorens liste **Anvendte trin** kan du klikke på hvert trin og se, hvordan tabellen ændrer sig. Du kan begynde med ét JSON-svar fra browseren. Det korte script `Get-Labs.ps1` kan bruges til at hente mange Labs-svar, hvis virksomheden godkender det. [Microsofts vejledning til Power Query](https://support.microsoft.com/en-us/excel/about-power-query-in-excel)
 
-Scripts skal være godkendt til kørsel på virksomhedens udstyr. Hvis scripts ikke er godkendt, kan browseren og Excel bruges som beskrevet under [manuel indsamling](#manuel-indsamling-i-browser-og-excel). Afklar også, hvordan data fra sammenligningsgrundlaget må bruges. Det offentlige opslag dokumenterer værdien i virksomhedens datasæt.
+Opret arbejdsbogen og CVR-listen på virksomhedens side. Fastlæg afgrænsningen med virksomhedens egne oplysninger og offentlige opslag. Brug fx CVR's registreringshistorik til at finde direkte forgængere. Gem de offentlige kildesvar og virksomhedens kontrolnoter på et godkendt drev. Notér CVR, kilde-URL, opslagstid med tidszone, udfald og eventuelt filnavn for hvert opslag. Ved sammenligning med et andet udtræk bruges kun data og et miljø, som virksomheden har godkendt.
 
-## Afgræns selskaberne
+## Start med ét Labs-svar
 
-Opret en mappe `input` og skriv `scope.csv` i VS Code med kolonnen `cvr` og ét kontrolleret, ottecifret CVR pr. linje. Start med Envafors' offentlige selskabsoplysninger og slå selskaber, ejere og datterselskaber op i CVR. Brug også registreringshistorikken til at finde direkte forgængere. Virksomheden fastlægger selv, hvilke selskaber der skal undersøges, og gemmer begrundelsen og de konkrete kilder til udvælgelsen.
+1. Find et selskab i CVR. Hvis SK Vand indgår i dit udsnit, kan du prøve CVR `27736033`. Åbn [Labs-svaret for SK Vand](https://api.labs.matriklen.dk/CvrEjerskaber?cvr=27736033), og gem selve JSON-svaret som `27736033.json`. CVR fremgår af URL'en og bruges som filnavn. Kontrollér i VS Code, at filen indeholder et JSON-objekt med listerne `ejer` og `administrerer`.
+2. I Excel vælger du **Data → Hent data → Fra fil → Fra JSON**. Åbn filen i Power Query-editoren. Hvis Excel allerede har foldet noget ud, kan du se råstrukturen i det første trin under **Anvendte trin**. Fjern de senere, automatisk foreslåede trin for at følge vejledningen her.
+3. Gør JSON-objektet til en tabel med **Into Table**, hvis knappen vises. Alternativt kan du vise formellinjen under **Vis → Formellinje**, trykke på **fx** og sætte `Record.ToTable(...)` omkring referencen til forrige trin. Hvis Excel indsætter `= Kilde`, skriver du `= Record.ToTable(Kilde)`. Tabellen har nu to rækker og kolonnerne `Name` og `Value`. Omdøb `Name` til `role`.
+4. Vælg **Tilføj kolonne → Brugerdefineret kolonne**. Navngiv kolonnen `cvr` og skriv det søgte CVR i anførselstegn, fx `"27736033"`. Tilføj også `antal` med formlen `List.Count([Value])`. Afstem antallet med begge lister. Gem denne forespørgsel som `LabsLister`, så også et svar med to tomme lister er synligt.
+5. Højreklik på `LabsLister` og vælg **Reference**. Navngiv den nye forespørgsel `LabsRelationer`. Filtrér `antal` til over nul. Brug dobbeltpilen i `Value` og vælg **Udvid til nye rækker**. Du får én række pr. observation. `cvr` og `role` følger med på hver række.
+6. Brug dobbeltpilen i `Value` igen og vælg `bfe`, `status`, `virkningFra`, `faktiskEjerandel` og `tinglystEjerandel`. Fjern præfiks på feltnavnene, hvis Excel tilbyder det. De to andele er hver et lille objekt. Udvid hver for sig, og behold et særskilt kolonnenavn til hver tæller og nævner. Sæt CVR, BFE og den oprindelige dato til tekst, og fjern et automatisk datatype-trin, hvis Excel har omskrevet dem.
+7. Vælg **Luk og indlæs**. Tæl relationerne efter rolle, og sammenhold dem med `LabsLister`. Behold alle rækker, også når et BFE optræder flere gange. Behold `virkningFra` som kildens dato. Brug et særskilt BFE-opslag, hvis du skal kende overtagelses- eller tinglysningsdatoen.
 
-Start med ét selskab med kendte ejendoms- og P-enhedsopslag, fx SK Vand, hvis det indgår i jeres afgrænsning. Slå CVR op i den offentlige visning før indtastning. Registreringsmeddelelse 13491615 for SK Vand nævner fx Korsør Vand som tidligere fusionsselskab. Kontroller den slags fund særskilt og tilføj CVR, hvis selskabet hører med. Ved det fulde udtræk undersøges hvert CVR i listen. Vurder anlæggenes relevans efter opslaget. [SK Vand i CVR](https://datacvr.virk.dk/enhed/virksomhed/27736033)
+Brug et svar med poster til første udfoldning, så Excel kan vise felterne. Afprøv derefter et gyldigt tomt svar i `LabsLister`. Det har to tællinger på nul og giver ingen relationer. Et manglende opslag, et afslag eller et svar med forkert struktur har sit eget udfald i loggen. [JSON-import i Excel](https://support.microsoft.com/en-us/excel/import-data-from-data-sources-power-query?redirectsourcepath=%252fen-us%252farticle%252fha104019829) · [Udfoldning i Power Query](https://support.microsoft.com/en-us/excel/work-with-a-list-record-or-table-structured-column-power-query)
 
-## Hent kildesvar
+### Bevar forskellen på udeladt felt, null og nul
 
-**Matriklen Labs.** Scriptet kalder `https://api.labs.matriklen.dk/CvrEjerskaber?cvr=<CVR>` for hvert CVR. Hvis computeren kun må behandle lokale filer, kan originale offentlige JSON-svar hentes via en godkendt internetadgang og lægges i `input/labs/<CVR>.json`. Gem den præcise adresse og hentetid for hver fil i henteloggen nedenfor. Labs-svaret indeholder ikke det søgte CVR, så filnavnet og den noterede URL skal afstemmes ved hentningen.
+Ved sammenligning med et andet udtræk skal du registrere andelens tilstand **før** trin 6. Tilføj en brugerdefineret kolonne, mens `Value` stadig indeholder én observation pr. række.
 
-**CVR og P-enheder.** Åbn `https://datacvr.virk.dk/gateway/virksomhed/hentVirksomhed?cvrnummer=<CVR>&locale=da` i en almindelig browser. Gem JSON-svaret midlertidigt som `input/cvr/<CVR>.json`. Kontrollér i VS Code, at filen indeholder JSON og det søgte `stamdata.cvrnummer`. Gem fulde gatewayfiler kun under godkendt, midlertidig behandling. De kan indeholde oplysninger ud over de felter, som udtrækket bruger. Scriptet kopierer kun de valgte felter og et hash til resultatet. Ved afslag eller et ufuldstændigt svar bruges [den offentlige enhedsvisning](#manuel-indsamling-i-browser-og-excel).
-
-Opret `input/captures.csv` i VS Code til hentninger foretaget i browseren eller på den godkendte kildeenhed. Brug komma og UTF-8.
-
-```csv
-cvr,source,url,lookup_at,outcome
+```powerquery
+let
+    felt = "tinglystEjerandel",
+    andel = Record.FieldOrDefault([Value], felt, null)
+in
+    if not Record.HasFields([Value], felt) then "missing"
+    else if andel = null then "null"
+    else if Value.Is(andel, type record)
+        and Record.HasFields(andel, {"tæller", "nævner"})
+        and Value.Is(andel[tæller], type number)
+        and Value.Is(andel[nævner], type number)
+        and andel[tæller] >= 0 and andel[nævner] > 0
+        and Number.RoundDown(andel[tæller]) = andel[tæller]
+        and Number.RoundDown(andel[nævner]) = andel[nævner]
+    then "present" else "invalid"
 ```
 
-- `source` er `cvr` for CVR-gatewayen og `labs` for Matriklen Labs. Brug én linje pr. kilde og CVR.
-- `url` er den fulde adresse med søgeparameter som vist ovenfor. `lookup_at` er det faktiske tidspunkt med tidszone, fx formatet `2026-11-08T13:14:15+01:00`. Kommandoen `Get-Date -Format o` viser det aktuelle tidspunkt.
-- `outcome` er `saved` ved en gemt JSON-fil. Brug `access_denied`, `technical_error`, `partial` eller `invalid_response` ved de respektive udfald. En gemt Labs-fil med to tomme lister registreres som `saved`. Scriptet klassificerer den som `no_result` efter indlæsning. Et manglende opslag vises som `not_checked`.
+Giv kolonnen navnet `registered_share_state`. Gentag med `faktiskEjerandel` og navnet `actual_share_state`. En andel på 0/1 får tilstanden `present`. Undersøg `invalid` i originalen, og behold markeringen til gennemgang. Hvis en ugyldig andelsværdi hindrer udfoldning, kan den sættes til `null` i arbejdstrinnet efter markeringen. Hvis feltvælgeren i trin 6 mangler et felt, kan du først tilføje en brugerdefineret kolonne med `Record.SelectFields([Value], {"bfe", "status", "virkningFra", "faktiskEjerandel", "tinglystEjerandel"}, MissingField.UseNull)` og udfolde den i stedet. Behold tilstandene fra trinnet før dette, så et udeladt felt fortsat kan skelnes fra `null`. [Microsofts vejledning til Record.HasFields](https://learn.microsoft.com/en-us/powerquery-m/record-hasfields)
 
-## Kør og kontrollér
+## Hent flere Labs-svar
 
-Åbn PowerShell i mappen med scriptet. Vælg et nyt mappenavn til resultatet ved hver kørsel.
+Gem ét svar pr. CVR i en mappe, som kun rummer Labs-svar fra samme udtræk. Browseren kan bruges til hvert opslag. Ved mange opslag kan du lave en UTF-8-fil i VS Code med overskriften `cvr` og ét ottecifret CVR pr. linje. Kør derefter det godkendte hentetrin fra PowerShell i mappen med scriptet.
 
 ```powershell
-powershell.exe -NoProfile -File .\Build-Backbone.ps1 -InputFolder .\input -OutputFolder .\run-01
+powershell.exe -NoProfile -File .\Get-Labs.ps1 -ScopeCsv .\scope.csv -OutputFolder .\run-01
 ```
 
-Tilføj `-UseSavedLabs` for kun at læse lokale filer. I den tilstand foretager scriptet ingen netværkskald. CVR-filer læses lokalt i begge tilstande. Ved fejl i enkelte opslag får de øvrige CVR'er deres resultater, og scriptet returnerer statuskode 2. Samme statuskode bruges ved P-numre, der er registreret under flere CVR'er. Læs `lookups.csv` og eventuelle advarsler før brug af udtrækket. Gentag i en ny resultatmappe efter rettelser.
+Vælg en ny resultatmappe for hver kørsel. Scriptet gemmer svarbytes i `labs` og skriver `lookups.csv` med URL, tidspunkt, HTTP-status, udfald og eventuelt filnavn og SHA-256. `downloaded` betyder HTTP 200 og en gemt fil. I Power Query kontrollerer du svarstrukturen og tæller posterne. Et afslag eller en fejl bliver registreret, og scriptet fortsætter med de øvrige CVR'er. Ved mindst én fejl returnerer det statuskode 2. Sammenhold loggen med CVR-listen, før du bruger et udtræk.
 
-| Resultat | Kontrol |
-| --- | --- |
-| `companies.csv` | Afstem CVR, navn, binavne, status og datoer med CVR-visningen. |
-| `production_units.csv` | Sammenhold antal aktive og ophørte enheder pr. CVR med de to lister i kilden. P-enhedens datoer gælder enheden. |
-| `relations.csv` | Én observation pr. objekt i `ejer` eller `administrerer`. Afstem antal med kildens lister. Rolle, kildestatus, original virkningsdato og ejerandele bevares særskilt. |
-| `lookups.csv` | Én linje pr. CVR og kilde med URL, tidspunkt, udfald og relevante antal. Kontrollér, at alle CVR'er er med, og følg op på afslag, fejl og mangler. |
-| `raw/matriklen-labs` | Originale Labs-filer, inklusive gyldige tomme svar. Sammenhold SHA-256 med `lookups.csv` ved behov. |
+I Excel vælger du **Data → Hent data → Fra fil → Fra mappe → Transformér data**. Filtrér til filtypen `.json` og den præcise mappesti, hvis visningen også har fundet undermapper. Behold `Name` og `Content`. Tilføj `cvr` med `Text.BeforeDelimiter([Name], ".")`, og afstem filnavnene med henteloggen.
 
-Gennemgå ét udfyldt og ét tomt Labs-svar før det fulde udtræk. Filtrér `relations.csv` efter CVR og rolle, og sammenhold med den lokale JSON-fil. En manglende tinglyst andel bevares som en særskilt tilstand. En udtrykkelig andel på 0/1 bevares med sine tal. Behold den viste dato som kildeværdi. Brug et særskilt BFE-opslag til at undersøge overtagelses- eller tinglysningsdatoen.
+Tilføj kolonnen `Lister` med `Record.ToTable(Json.Document([Content]))`. Udvid `Lister` til `Name` og `Value` med præfiks, så filnavnets `Name` bevares. Omdøb `Lister.Name` til `role` og `Lister.Value` til `Value`. Kontrollér, at hvert svar har præcis rollerne `ejer` og `administrerer`, og at begge værdier er lister. Fortsæt med optællingen i trin 4 ovenfor. Du har allerede kolonnen `cvr`. Hvis **Fra JSON** mangler, kan du også bruge denne metode på en mappe med én fil. Ved nye kildesvar i samme mappe kan **Data → Opdatér alle** genbruge trinnene. Gem det tidligere udtræk særskilt, hvis det skal kunne genskabes. [Microsofts vejledning til mappeimport](https://support.microsoft.com/en-gb/excel/import-data-from-a-folder-with-multiple-files-power-query)
 
-Brug **Data → Hent data → Fra tekst/CSV** i Excel. Vælg UTF-8 og komma, og sæt CVR, P-nummer, BFE, branchekode, viste andele og originale datoer til tekst i Power Query. Det bevarer værdierne ved dansk tal- og datoformat. [Microsofts vejledning til Power Query](https://support.microsoft.com/en-us/excel/import-data-from-data-sources-power-query)
+## Virk og CVR
 
-## Manuel indsamling i browser og Excel
+Ét gateway-svar kan bruges til både virksomhedsoplysninger og P-enheder. Åbn `https://datacvr.virk.dk/gateway/virksomhed/hentVirksomhed?cvrnummer=<CVR>&locale=da` i browseren. Gem JSON midlertidigt i en særskilt CVR-mappe på et godkendt drev. Kontrollér `stamdata.cvrnummer` mod det søgte nummer. Gatewayen kan fungere i browseren, selv når et direkte opslag fra et andet værktøj giver adgangsafslag. Fulde svar kan indeholde flere oplysninger end dem, der bruges i arbejdsbogen.
 
-- **CVR og P-enheder.** Åbn `https://datacvr.virk.dk/enhed/virksomhed/<CVR>`. Kontrollér CVR, navn, binavne og selskabsdatoer. Åbn **P-enheder**, vis alle relevante poster og åbn også **Vis ophørte P-enheder**. Registrér hver enhed på sin egen række og gem URL, hentetid, udfald og antal for begge lister. Brug kolonnerne fra `companies.csv` og `production_units.csv` ovenfor, eller skriv kolonneoverskrifterne fra scriptets `$companyFields` og `$unitFields` i Excel. Før manuelt indsamlede rækker i virksomhedens arbejdsbog sammen med de afstemte udtræk.
-- **Legale ejere.** Åbn **Ejerforhold** og **Ophørt ejerskab** på samme CVR-side. Registrér udfaldet for begge visninger. Brug ejerlinket til at kontrollere ejerens CVR. Bevar de viste kapital- og stemmeandele med deres perioder, ændringsdato og eventuel afhændelsesdato. En vist intervalværdi bevares som tekst. Opret én række pr. ejer og vist andelsperiode, hvor kapital og stemmer har samme periode. Hvis perioderne afviger, behold kildeoplysningerne særskilt til kontrol. Brug felterne for `company_ownership` i sammenligningsscriptet, og gem kilder og hentetider i arbejdsbogen.
-- **Labs.** Hent JSON fra den offentlige adresse pr. CVR og notér udfaldet. På Excel til Windows kan JSON importeres via **Data → Hent data → Fra fil → Fra JSON**. Udvid først `ejer` og `administrerer` i hver sin tabel, tilføj CVR fra opslagslisten og den tilsvarende rolle, og saml tabellerne. Behold observationsrækker, også når samme BFE går igen. Brug råsvaret til at skelne en udeladt andel fra en andel med værdien `null`. Kontrollér antal rækker mod de to lister.
+- **Virksomheder.** Importér via **Fra JSON** for én virksomhed. Behold trinnet med det oprindelige objekt. Ved flere filer bruges samme mappemetode som for Labs, men den brugerdefinerede kolonne `Svar` har formlen `Json.Document([Content])`. Behold kildesporet pr. fil. Åbn eller udvid `stamdata`, og vælg CVR, navn, status, startdato og ophørsdato. Binavne ligger under `udvidedeOplysninger.binavne`. Behold listen, eller saml dens værdier med `Text.Combine([binavne], "|")` for at sammenligne med projektets binavne.
+- **P-enheder.** Lav en selvstændig forespørgsel fra det samme oprindelige svar. Gå til `produktionsenheder`. Kontrollér og tæl både `aktiveProduktionsenheder` og `ophoerteProduktionsenheder`. Gør de to lister til separate rækker, som ved Labs. Fra en mappe kan du gøre det med `Record.ToTable(Record.SelectFields([Svar][produktionsenheder], {"aktiveProduktionsenheder", "ophoerteProduktionsenheder"}))`. Behold navnet på listen som status, og udvid listens poster til rækker. Hver post har sit eget `stamdata` med CVR, P-nummer, navn, adresse og datoer. Udvid `hovedbranche` for branchekode og titel. Kontrollér P-postens CVR mod opslaget. Brug `active` og `closed` som status ved sammenligning med projektets tabel.
+- **Legale ejere.** Brug den offentlige CVR-visning `https://datacvr.virk.dk/enhed/virksomhed/<CVR>`. Åbn **Ejerforhold** og **Ophørt ejerskab**, og kontrollér ejerens CVR via ejerlinket. Registrér kapital- og stemmeandele og deres perioder manuelt. Gatewayen kan udelade ejerdata, der er synlige i disse paneler. Hvis gatewayen ikke kan læses, kan virksomhed og P-enheder også kontrolleres i enhedsvisningen. Åbn de ophørte poster særskilt og notér udfaldet for hver visning. [Eksempel på en offentlig CVR-visning](https://datacvr.virk.dk/enhed/virksomhed/27736033)
 
-## Gennemgå afvigelser
+## Sammenlign i Excel
 
-Behold virksomhedens egne resultater og kilder som grundlag. Når en separat sammenligning er tilladt, bruges kun de sammenligningsfiler og det miljø, virksomheden har godkendt. Brug samme kolonner og angiv afgrænsning og dato for begge udtræk. PowerShell-sammenligningen kan køres helt lokalt.
+Sammenhold CVR-lister, datoer og opslagsudfald først. En manglende kilde skal gennemgås som sådan. Hvis sammenligningsfilen er en CSV, brug **Fra tekst/CSV**, vælg filens kodning og skilletegn, og behold identifikatorer og originale datoer som tekst. Vælg de samme felter, kolonnenavne og typer i de to forespørgsler. Brug samme repræsentation for tomme celler, mens andelstilstandene bevares. I projektets relationstabel hedder `status` og `virkningFra` fx `source_status` og `virkning_fra_original`. Andelens tæller og nævner hedder `actual_share_numerator` og `actual_share_denominator` for faktisk andel, og `registered_share_numerator` og `registered_share_denominator` for tinglyst andel. Brug CVR og P-nummer til at undersøge en P-enhed. For ejendomsrelationer bevares også rolle, status, virkningsdato og andele.
 
-```powershell
-powershell.exe -NoProfile -File .\Compare-Backbone.ps1 -Table relations -CompanyCsv .\run-01\relations.csv -ComparisonCsv .\comparison\relations.csv -OutputCsv .\afvigelser-relations.csv
-```
+Hvis der kan forekomme dubletter, skal sammenligningen tælle dem. Giv rækker fra virksomhedens udtræk to brugerdefinerede talkolonner med værdierne `1` og `0`, fx `virksomhed_antal` og `reference_antal`. Brug `0` og `1` i den anden tabel. Vælg **Tilføj forespørgsler som ny**, og vælg derefter **Gruppér efter → Avanceret**. Gruppér efter alle sammenligningsfelter, og summér de to talkolonner. Tilføj `[virksomhed_antal] <> [reference_antal]`, og filtrér til sande værdier. Åbn de offentlige kilder for at afgøre hver forskel. [Tilføj forespørgsler](https://support.microsoft.com/en-us/excel/append-queries-power-query) · [Gruppér rækker](https://support.microsoft.com/en-us/excel/group-rows-of-data-power-query)
 
-Vælg `relations`, `companies`, `production_units` eller `company_ownership`. For `companies` kan en kandidattabel med de seks tilsvarende kildefelter bruges. Begge inputfiler skal være UTF-8. Hvis Excel har eksporteret med semikolon, angives `-CompanyDelimiter ';'` eller `-ComparisonDelimiter ';'` for den relevante fil, når kommandoen køres direkte i PowerShell. Scriptet tæller forekomster af hver identisk række og viser kun forskellige antal. Filtrér i Excel på CVR, BFE, rolle og status for at se ændrede ejendomsobservationer sammen. Brug CVR og P-nummer for P-enheder og selskabs-CVR, ejer-CVR og andelsperiode for ejerposter. Afstem først, om begge sider faktisk har undersøgt samme CVR og kilde. Slå derefter afvigelsen op direkte og registrér dato, forskel og afgørelse.
+Kontrollér anlæg og driftsroller særskilt. Find fx anlæggets id i Jupiter eller PULS, og følg matriklen til BFE. Registrér hvilken rolle den konkrete kilde viser.
 
-For anlæg skal identitet og rolle kontrolleres i et sektorregister, en myndighedsafgørelse eller andet konkret belæg. Start fx ved et Jupiter- eller PULS-id og følg matrikel til BFE. Et CVR i en tilladelse, en P-enhed på adressen og en ejerpost er forskellige oplysninger.
-
-## Tekniske grænser
-
-Labs er en prototype, og dækningen af historikken er uafklaret. En ny kørsel kan afvige fra et tidligere udtræk, fordi kilden er ændret. PowerShell læser JSON med den indbyggede parser. Originalerne gør det muligt at undersøge tvetydigheder som gentagne JSON-feltnavne. Adgang til CVR-gatewayen og kørsel af scripts kan variere med virksomhedens udstyr og regler. [Microsofts vejledning til Windows PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-windows-powershell) · [Microsofts vejledning til kørselspolitik](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-5.1)
-
-Underagenten `review_win11_design` kontrollerede gatewayfelterne og Windows PowerShell 5.1-funktionerne. Reviewet førte til kontrol af påkrævede CVR-felter og til, at svarbytes skrives direkte fra PowerShell-svarets datastrøm. På Mac med PowerShell 7 genskabte scriptet alle 604 gemte Labs-observationer og håndterede et nyt opslag med poster og et nyt tomt opslag. Afvigelseskontrollen fandt en ekstra forekomst af en identisk række. Kør pilottrinnet på den administrerede Windows-maskine for at bekræfte lokal adgang og kørsel.
+Excel-trinnene er gennemgået uafhængigt mod Microsofts vejledning og kildernes struktur. Hentescriptet er afprøvet med PowerShell 7 på Mac med et udfyldt svar, et tomt svar og et simuleret afslag. Pilottrinnet på virksomhedens Windows-maskine skal bekræfte menuer, adgang og kørsel.
