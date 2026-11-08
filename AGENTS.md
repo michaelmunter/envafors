@@ -68,9 +68,11 @@ Arbejd i små, kontrollerbare trin.
 
 Begynd med at identificere officielle datakilder og forstå deres datastruktur.
 
+Ved gentagne opslag: Se først efter et direkte, struktureret kildesvar, fx JSON, CSV eller et officielt dataudtræk. Foretræk en dokumenteret adgangsvej. Hvis kildens offentlige webside allerede henter de relevante felter samlet, så undersøg, om det samme svar kan læses direkte med fx CVR, P-nummer eller BFE som parameter. Brug den vej til de afgrænsede opslag, når adgangen er tilladt, og svaret er afprøvet. Brug enkeltvisninger til stikprøver og til oplysninger, som svaret ikke dækker. Se [afprøvede adgangsveje](README.md#direkte-kildesvar).
+
 Udarbejd derefter en metode til udtræk, validering og transformation.
 
-Afprøv metoden på et enkelt CVR-nummer, før den anvendes på flere selskaber.
+Afprøv metoden på et enkelt CVR-nummer, før den anvendes på flere selskaber. Kontrollér sammenhængen mellem søgt identifikator og svar, svarstruktur og nødvendige felter. Afklar, om svaret er opdelt i sider, hvis det har betydning for dækningen. Registrer afslag og fejl særskilt, og brug en anden tilladt adgangsvej ved behov.
 
 Hold research, rådata, transformationer og kvalitetssikring tydeligt adskilt.
 
