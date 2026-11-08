@@ -1,4 +1,4 @@
-"""Hent ét offentligt CVR-opslag og bevar svar og metadata uden normalisering."""
+"""Gem seneste gyldige Labs-svar som <CVR>.json og opdater fælles kildeindeks."""
 
 import argparse
 from datetime import datetime, timezone
@@ -7,12 +7,17 @@ import json
 from pathlib import Path
 import re
 import subprocess
-import sys
+import tempfile
 
 
 REPO = Path(__file__).resolve().parents[1]
+RAW_ROOT = REPO / "data/raw/matriklen-labs"
 API_URL = "https://api.labs.matriklen.dk/CvrEjerskaber"
-VERSION = "1"
+ROLES = ("administrerer", "ejer")
+
+
+def digest(content):
+    return hashlib.sha256(content).hexdigest()
 
 
 def parse_json(content):
@@ -30,90 +35,98 @@ def parse_json(content):
     return json.loads(content, object_pairs_hook=unique_keys, parse_constant=invalid_constant)
 
 
-def fetch(cvr, raw_root):
+def validate_payload(data):
+    if not isinstance(data, dict) or set(data) != set(ROLES):
+        raise ValueError("Ukendt svarstruktur; forventede præcis administrerer og ejer.")
+    if any(not isinstance(data[role], list) for role in ROLES):
+        raise ValueError("Ukendt svarstruktur: begge roller skal være lister.")
+    if any(not isinstance(row, dict) for role in ROLES for row in data[role]):
+        raise ValueError("Ukendt svarstruktur: hver relation skal være et objekt.")
+
+
+def read_index(raw_root):
+    path = raw_root / "index.json"
+    index = parse_json(path.read_bytes()) if path.exists() else {}
+    if not isinstance(index, dict) or any(not re.fullmatch(r"[0-9]{8}", key) for key in index):
+        raise ValueError("Kildeindekset skal være et objekt med CVR-numre som nøgler.")
+    files = {path.stem for path in raw_root.glob("*.json") if path.name != "index.json"}
+    if files != set(index):
+        raise ValueError("Kildeindeks og CVR-filer stemmer ikke; ingen filer må stiltiende udelades.")
+    return index
+
+
+def replace_files(contents):
+    """Forbered alle filer før erstatning; gendan ved håndterbare skrivefejl."""
+    parent = next(iter(contents)).parent
+    if any(path.parent != parent for path in contents):
+        raise ValueError("Filerne skal have samme mappe.")
+    parent.mkdir(parents=True, exist_ok=True)
+    previous = {path: path.read_bytes() if path.exists() else None for path in contents}
+    replaced = []
+    with tempfile.TemporaryDirectory(prefix=".tmp-", dir=parent) as temporary:
+        stage = Path(temporary)
+        for path, content in contents.items():
+            (stage / path.name).write_bytes(content)
+        try:
+            for path in contents:
+                (stage / path.name).replace(path)
+                replaced.append(path)
+        except BaseException:
+            for path in reversed(replaced):
+                if previous[path] is None:
+                    path.unlink()
+                else:
+                    restore = stage / path.name
+                    restore.write_bytes(previous[path])
+                    restore.replace(path)
+            raise
+
+
+def fetch(cvr, raw_root=RAW_ROOT):
     if not re.fullmatch(r"[0-9]{8}", cvr):
-        raise ValueError("CVR skal være otte cifre. Dette kontrollerer ikke registreringen i CVR.")
-    started = datetime.now(timezone.utc)
-    folder = raw_root / (started.strftime("%Y%m%dT%H%M%S%fZ") + "_" + cvr)
-    folder.mkdir(parents=True, exist_ok=False)
-    body_path = folder / "response.body"
-    headers_path = folder / "response.headers"
-    meta = {
-        "request_url": API_URL + "?cvr=" + cvr,
-        "request_method": "GET",
-        "request_parameters": {"cvr": cvr},
-        "started_at": started.isoformat(),
-        "collector_version": VERSION,
-        "collector_sha256": hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
-        "fetch_method": "curl; TLS verification; redirects followed; maximum 45 seconds",
-        "validation_status": "unreviewed",
-        "pagination_status": "not_documented_not_followed",
-        "status": "not_completed",
-    }
-    command = [
-        "curl", "--silent", "--show-error", "--location", "--max-time", "45",
-        "--header", "Accept: application/json",
-        "--user-agent", "Envafors-Public-Data-Research/0.1",
-        "--dump-header", str(headers_path), "--output", str(body_path),
-        "--write-out", "%{http_code}\n%{url_effective}\n%{content_type}\n",
-        meta["request_url"],
-    ]
-    try:
-        result = subprocess.run(command, capture_output=True, text=True, timeout=50)
-        fields = result.stdout.splitlines()
-        code = int(fields[0]) if fields and fields[0].isdigit() else None
-        meta.update({
-            "curl_exit_code": result.returncode,
-            "http_status": code,
-            "final_url": fields[1] if len(fields) > 1 else None,
-            "content_type": fields[2] if len(fields) > 2 else None,
-            "status": "transport_error" if result.returncode else (
-                "http_success" if code and 200 <= code < 300 else "http_error"
-            ),
-        })
-        if result.stderr:
-            meta["error"] = result.stderr.strip()
-    except (OSError, subprocess.TimeoutExpired) as error:
-        meta.update({"status": "transport_error", "error": str(error)})
-    finally:
-        if headers_path.exists():
-            meta["response_headers_file"] = headers_path.name
-        if body_path.exists():
-            body = body_path.read_bytes()
-            meta.update({
-                "response_file": body_path.name,
-                "response_bytes": len(body),
-                "response_sha256": hashlib.sha256(body).hexdigest(),
-            })
-            try:
-                parsed = parse_json(body)
-                meta["json_valid"] = True
-                meta["json_root_type"] = type(parsed).__name__
-                if isinstance(parsed, (dict, list)):
-                    meta["json_top_level_count"] = len(parsed)
-                if isinstance(parsed, dict):
-                    meta["json_top_level_keys"] = list(parsed)
-            except (ValueError, UnicodeDecodeError) as error:
-                meta.update({"json_valid": False, "json_error": str(error)})
-        meta["completed_at"] = datetime.now(timezone.utc).isoformat()
-        (folder / "request.json").write_text(
-            json.dumps(meta, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
-        )
-    return folder, meta
+        raise ValueError("CVR skal være otte cifre; dette kontrollerer ikke registreringsstatus.")
+    raw_root = Path(raw_root)
+    index = read_index(raw_root)
+    url = API_URL + "?cvr=" + cvr
+    with tempfile.TemporaryDirectory(prefix="envafors-fetch-") as temporary:
+        body_path = Path(temporary) / "response"
+        command = [
+            "curl", "--silent", "--show-error", "--location", "--max-time", "45",
+            "--header", "Accept: application/json",
+            "--user-agent", "Envafors-Public-Data-Research/0.1",
+            "--output", str(body_path), "--write-out", "%{http_code}", url,
+        ]
+        try:
+            result = subprocess.run(command, capture_output=True, text=True, timeout=50)
+        except (OSError, subprocess.TimeoutExpired) as error:
+            raise ValueError("Transportfejl: " + str(error)) from error
+        if result.returncode:
+            raise ValueError("Transportfejl: " + result.stderr.strip())
+        if result.stdout.strip() != "200":
+            raise ValueError("HTTP-fejl: " + result.stdout.strip())
+        raw = body_path.read_bytes()
+        data = parse_json(raw)
+        validate_payload(data)
+    entry = {"url": url, "retrieved_at": datetime.now(timezone.utc).isoformat(), "sha256": digest(raw)}
+    index[cvr] = entry
+    replace_files({
+        raw_root / (cvr + ".json"): raw,
+        raw_root / "index.json": (json.dumps(index, ensure_ascii=False, indent=2, sort_keys=True) + "\n").encode("utf-8"),
+    })
+    return {"cvr": cvr, "rows": sum(len(data[role]) for role in ROLES), **entry}
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--cvr", required=True)
-    parser.add_argument("--raw-root", type=Path, default=REPO / "data/raw/matriklen-labs")
+    parser.add_argument("--raw-root", type=Path, default=RAW_ROOT)
     args = parser.parse_args()
     try:
-        folder, meta = fetch(args.cvr, args.raw_root)
+        summary = fetch(args.cvr, args.raw_root)
     except (ValueError, OSError) as error:
         parser.exit(1, str(error) + "\n")
-    print(json.dumps({"capture": str(folder), **meta}, ensure_ascii=False, indent=2))
-    return 0 if meta["status"] == "http_success" and meta.get("json_valid") else 1
+    print(json.dumps(summary, ensure_ascii=False, indent=2))
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    main()

@@ -1,5 +1,0 @@
-issue_id,severity,code,source_pointer,bfe,message
-Q0001,info,date_semantics_unresolved,,,virkningFra bevares ufortolket; ingen start- eller slutdato udledes.
-Q0002,info,coverage_unverified,,,"Ét CVR-opslag; API-historik, paginering og fuldstændighed er ikke dokumenteret."
-Q0003,warning,different_share_values,/ejer/36,2539366,Faktisk og tinglyst ejerandel er forskellige; ingen af dem vælges som facit.
-Q0004,warning,different_share_values,/ejer/38,5367067,Faktisk og tinglyst ejerandel er forskellige; ingen af dem vælges som facit.

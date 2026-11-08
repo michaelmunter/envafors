@@ -1,93 +1,50 @@
-# Datamodel, version 1
+# Datamodel
 
-Status: research- og pilotmodel pr. 2026-11-08. Modellen gør ikke kandidatfund eller API-status til verificerede juridiske forhold.
+Status: pilot pr. 2026-11-08. Kun filer med en aktuel anvendelse gemmes. Metode og kode versioneres i Git.
 
-## Sammenhængen
+## Hvad der forbindes
 
-```mermaid
-flowchart LR
-  K[Kilder og originalsvar] --> C[Selskaber / CVR]
-  C --> CR[Selskabsrelationer]
-  CR --> C
-  C --> P[Produktionsenheder / P-nummer]
-  C --> R[Ejendomsrelationer: ejer eller administrator]
-  R --> E[Ejendomme / BFE]
-  E --> J[Jordstykker / ejerlav og matrikel]
-  C --> D[Anlægsrelationer: ejer eller drift]
-  D --> A[Anlæg / kilde-ID]
-  A --> L[Placeringer og ejendomskoblinger]
-  L --> E
-```
+Juridiske selskaber identificeres med CVR. Selskabsrelationer skal dokumenteres særskilt; de kan ikke udledes af en navneliste. Ejendomsrelationer forbinder CVR med BFE og en bestemt rolle. Senere forbindes anlæg med selskaber og ejendomme, når der er konkret kildebelæg. Et anlæg kan omfatte flere ejendomme og omvendt. P-enheder, ejendomme og anlæg er forskellige objekter.
 
-Kildehenvisninger og kontrolstatus skal følge alle relationer, selv om pilene ikke er gentaget i diagrammet. Et CVR kan have flere ejendomme/anlæg, og et anlæg kan omfatte flere ejendomme. En administrator er ikke automatisk ejer eller driftsansvarlig. P-enheder og anlæg er forskellige objekter.
+Der oprettes først yderligere tabeller, når vi har relevante data og en konkret anvendelse. Der gemmes ingen tomme tabeller eller alternative eksporter for mulige fremtidige behov.
 
-## Implementeret nu
+## Research
 
-### Researchtabeller
+- `research/company_candidates.csv`: 20 kandidater med CVR, kilde-ID'er, evidensstatus og næste kontrol. `candidate_kind` er en researchprioritering, ikke en verificeret registreringsstatus. Alle aktuelle CVR- og relationskontroller står som `not_checked`.
+- `research/sources.csv`: URL, udgiver, titel og kildebegrænsninger. `document_date` og `researched_on` er forskellige datoer. `source_ids` i kandidatlisten refererer til `source_id`; flere ID'er adskilles med `|`. En kildehenvisning medfører ikke et krav om at hente og arkivere hele kilden.
 
-- `research/sources.csv`: `source_id` er nøgle. `url`, udgiver og titel angiver belæg; `document_date` er dokumentdato, når den er kendt. `researched_on` er researchdato, ikke præcist hentetidspunkt eller gyldighedsdato. `capture_status` viser, om råbelæg er arkiveret. `origin_system` beskriver ophav, når det er kendt.
-- `research/company_candidates.csv`: `candidate_id` er nøgle, CVR er tekst på otte cifre. `source_ids` er en `|`-separeret liste af fremmednøgler til kilder. `candidate_kind` er en researchprioritering, ikke registreret selskabsstatus. `evidence_status` beskriver belæg for kandidatens navn/nummer. `current_cvr_status` og `relation_status` er særskilte kontroller. Noter om et salg, en fusion eller et navneskifte er kildeudsagn, ikke en implementeret selskabsrelation.
+## Kildesvar og fælles indeks
 
-Researchtabellerne må ændres, når nye kilder og kontroller tilkommer; ændringer kan ses i Git, når de er versionsstyret. De må ikke bruges som bevis for en komplet selskabsstruktur. De hidtidige præcise researchklokkeslæt kendes ikke og er ikke rekonstrueret.
+`data/raw/matriklen-labs/<CVR>.json` er API'ets uændrede svarbytes. CVR ligger i filnavnet og føjes ikke til kildeobjekterne. `index.json` har CVR som nøgle og tre oplysninger pr. svar:
 
-### Rådata
+- `url`: det konkrete kildeopslag inklusive CVR-parameter.
+- `retrieved_at`: afslutningstidspunkt for hentningen med tidszone. Pilotens værdi er overført fra den oprindeligt registrerede `completed_at`; tidspunktet er ikke rekonstrueret.
+- `sha256`: kontrol af, at kildeindholdet er uændret i forhold til indekset.
 
-Hver hentning har sin egen mappe med `request.json`, `response.body` og eventuelt `response.headers`. Kildebytes ændres ikke. Manifestet indeholder URL, parametre, tidsstempler med UTC-offset, HTTP-/transportstatus og SHA-256 for svaret. Manglende body ved transportfejl er ikke et tomt resultat.
+Kun seneste svar pr. CVR ligger i arbejdsstrukturen. Git bevarer committede versioner. Fejl og headers er ikke selvstændige datafiler. Manglende CVR-fil, uregistreret fil, forkert hash, dublerede JSON-nøgler, ugyldige JSON-tal eller ukendt svarstruktur stopper bearbejdningen. Et gyldigt svar med to tomme lister er et tomt kildeopslag; ingen indsamlede svar er en fejl.
 
-De to allerede eksisterende pilotforsøg er bevaret. Det første fejlede før et HTTP-svar; det andet gav HTTP 200. Ny hentning er implementeret i `scripts/fetch_matriklen.py`. Manifestet registrerer, at paginering ikke er dokumenteret eller fulgt.
+## Samlet relationstabel
 
-### Kørselsmanifest
+`data/relations.csv` har én række pr. kildeobjekt i `ejer` eller `administrerer`, samlet for alle registrerede CVR-numre. Dubletter og poster med manglende BFE bevares. Rækkeantal afstemmes mod kilderne.
 
-`data/runs/matriklen-labs/<run>/manifest.json` er indgangen til en bearbejdning. `status=complete` betyder kun, at den tekniske bearbejdning er skrevet færdig. Manifestet angiver kilde, inputhash, metadatahash, kodeversion/-hash og hash af outputfilerne. Fra metodeversion 2 er `input_capture` relativ til kørselsmappen (`input_path_base=run_directory`); den præcise kode gemmes også i `method/transform_matriklen.py` og medtages i outputhashene. `verification_status=source_only` og `coverage_status=unverified` må ikke omfortolkes til faglig verifikation.
-
-Output skrives i en midlertidig mappe og flyttes samlet til den valgte kørselsmappe. Eksisterende kørsler afvises. Ukendt JSON-topstruktur, dublerede objektnøgler, ugyldige JSON-tal, forkert inputhash og mislykkede HTTP-svar afvises før et færdigt run oprettes. Et kendt format med to tomme lister er derimod et teknisk gyldigt `empty_result`.
-
-### Ejendomsrelationer: `processed/relations.csv`
-
-Én række svarer til ét objekt i API'ets `ejer`- eller `administrerer`-liste. Ingen poster fjernes som dubletter. CSV-rækkernes antal afstemmes med kildens antal objekter.
-
-| Felt | Betydning |
+| Felter | Betydning |
 |---|---|
-| `relation_id` | Capture-ID, rolle og nulbaseret arrayindeks. Identificerer kildeobservationen, ikke et globalt juridisk forhold |
-| `cvr` | Det søgte CVR fra hentningsmanifestet |
-| `bfe`, `bfe_state` | Kildens BFE som tekst, hvis positivt heltal/ciffertekst. Tilstand: `present`, `missing`, `null` eller `invalid` |
-| `role` | API'ets listebetegnelse uændret: `ejer` eller `administrerer` |
-| `source_status` | Kildens tekst, eksempelvis `gældende` eller `historisk`; ikke vores kontrolstatus |
-| `virkning_fra_original` | Hele kilde-datostrengen inklusive offset og eventuelt `[Europe/Copenhagen]`. Ingen start-/slutdato udledes |
-| `actual_share_state`, `actual_share_numerator`, `actual_share_denominator` | Faktisk ejerandel fra `faktiskEjerandel`; tilstand og brøk holdes adskilt |
-| `registered_share_state`, `registered_share_numerator`, `registered_share_denominator` | Tinglyst ejerandel fra `tinglystEjerandel`; selvstændig brøk |
-| `source_capture_id`, `source_pointer`, `source_sha256` | Sporbarhed til råmappe og konkret objekt, eksempelvis `/ejer/0`, samt råfilens hash |
-| `verification_status` | `source_only`: gengivelse af kilde, ikke uafhængig bekræftelse |
+| `cvr`, `source_pointer`, `source_sha256` | CVR-fil og kildeobjekt, fx `/ejer/0`, samt kontrol mod indeksets hash. CVR + pointer identificerer en observation i denne kildeversion |
+| `bfe`, `bfe_state` | BFE som tekst; tilstand `present`, `missing`, `null` eller `invalid` |
+| `role`, `source_status` | Kildens rolle (`ejer`/`administrerer`) og status (`gældende`/`historisk`) bevares |
+| `virkning_fra_original` | Hele kildens datostreng; ingen start-/slutdato udledes |
+| `actual_share_state`, `actual_share_numerator`, `actual_share_denominator` | Faktisk ejerandel som tilstand og særskilt brøk |
+| `registered_share_state`, `registered_share_numerator`, `registered_share_denominator` | Tinglyst ejerandel, uafhængigt af den faktiske |
+| `verification_status` | `source_only`: kildeudsagn, ikke uafhængig bekræftelse |
 
-Andelstilstande er `present`, `missing`, `null` og `invalid`. Tæller `0` bevares som nul og bliver ikke til en manglende værdi. Positiv nævner kræves for normalisering. Ugyldige værdier forbliver i råsvaret og markeres i kvalitetsloggen. Manglende/nonnumeriske BFE medfører en bevaret relationsrække med tomt BFE og en kontrolbemærkning. Ukendte statusser og ekstra felter markeres; nye topstrukturer kræver en eksplicit metodeændring.
+Andelstilstande er `present`, `missing`, `null` og `invalid`. Nul som tæller bevares; en manglende andel er ikke nul. Ukendte felter og værdier markeres til kontrol og findes fortsat i originalen. En særskilt liste med forskellige BFE-numre kan udledes af tabellen og gemmes ikke som en dublet.
 
-### Ejendomsreferencer: `processed/properties.csv`
+`data/issues.csv` indeholder kun konkrete fund med `cvr`, `code`, `source_pointer`, `bfe`, `message` og `source_sha256`. Piloten har to fund af typen `different_share_values`. Optællinger skrives til terminalen og gemmes ikke som profilfiler. Begge CSV-filer genbygges; de vedligeholdes ikke manuelt.
 
-Afledt oversigt med én række per forskellig gyldig BFE-tekst. Felter: `bfe`, `relation_count`, `relation_ids` (separeret med `|`), `source_capture_id`, `source_sha256`, `verification_status`. Flere relationer til samme BFE samles som henvisninger, ikke som én foretrukken ejerrelation. Ingen adresse, matrikel, areal eller ejendomstype udfyldes uden selvstændigt belæg.
+## Faglige forbehold
 
-Listen er fundne ejendomsreferencer fra én hentning, ikke et autoritativt ejendomsregister. Rækker uden gyldigt BFE indgår kun i relationstabellen og tælles særskilt i profilen.
+`virkningFra` er ikke sikkert koblet til dokumentationens visningsfelt »Virkning« og fortolkes derfor ikke som en fra-/til-dato. Faktisk og tinglyst ejerandel må ikke erstatte hinanden. Administrator betyder ikke automatisk ejer eller driftsansvarlig. Flere visninger af samme register er ikke uafhængige bekræftelser.
 
-### Kvalitet
+API'ets historikdækning og eventuelle resultatgrænser er uafklarede. Et teknisk gyldigt svar dokumenterer ikke fuldstændighed, og et tomt svar dokumenterer ikke fravær af relevante ejendomme. Disse generelle begrænsninger gentages ikke som kontrolrækker for hvert opslag.
 
-`quality/profile.json` indeholder antal kilderækker, antal outputrækker, kildefelter, roller/statusser, forskellige gyldige BFE og kontrolfund. `quality/issues.csv` har `issue_id`, `severity`, `code`, `source_pointer`, `bfe`, `message`.
-
-En forskel mellem faktisk og tinglyst ejerandel markeres til undersøgelse, uden at en andel vælges som korrekt. Generelle spørgsmål om datosemantik og dækning er altid synlige. Teknisk kontrol og fagligt review er forskellige forhold; væsentlige reviewbeslutninger registreres i `research/decisions.md`.
-
-## Næste tabeller: defineret, endnu ikke udfyldt
-
-| Tabel | Nøgle og minimumsfelter |
-|---|---|
-| `companies` | CVR; officielt navn, status, kilde, observationstidspunkt, kontrolstatus |
-| `company_names` | Navneobservation-ID; CVR, navn, navnetype, fra/til når dokumenteret, kilde |
-| `company_relations` | Relations-ID; fra-CVR, til-CVR, relationstype, ejerandel som kildeværdi, virknings-/registreringsperioder når kendte, kilde, kontrolstatus |
-| `production_units` | P-nummer; CVR, navn, adresse-ID, status, datoer, kilde |
-| `parcels` | Kildens jordstykke-ID; BFE, ejerlavskode, matrikelnummer, areal, kilde. Matrikelnummer alene er ikke en nøgle |
-| `facilities` | Lokalt anlægs-ID; navn, type, kilde-ID med systemnavn, status, placering og koordinatsystem når kendt, kilde |
-| `facility_relations` | Relations-ID; anlægs-ID, CVR, præcis rolle, datoer, kilde, kontrolstatus |
-| `facility_properties` | Koblings-ID; anlægs-ID, BFE/jordstykke-ID, matchgrundlag, kilde, kontrolstatus |
-
-Der oprettes først datafiler til disse tabeller, når der er kildebelagte rækker. Modellen er således ikke et løfte om, at selskabsstruktur eller anlægsbestand allerede er kortlagt. Sammenkoblinger på navn/adresse alene skal blive kandidater til kontrol.
-
-## Fælles formater
-
-CSV: UTF-8, komma, én overskriftsrække, citerede felter efter CSV-regler. JSON: UTF-8. Identifikatorer behandles som tekst ved import i regneark. Ukendte værdier er tomme felter og forklares med tilstand/kontrolstatus eller kildereference; de udfyldes ikke med gæt. Publiceringsdato, opslagstid og virknings-/registreringsdato er forskellige felter. Pipelister bruges kun til kilde- og række-ID'er, som ikke selv indeholder `|`.
+CSV er UTF-8 med komma og én overskriftsrække. Identifikatorer importeres som tekst. Ukendte værdier forbliver tomme og forklares af tilstand, kontrolfund eller kildehenvisning. JSON er UTF-8. Opslagstid, dokumentdato og virknings-/registreringsdato holdes adskilt.

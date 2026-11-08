@@ -26,9 +26,9 @@ Kode må ikke køres på Envafors' arbejdscomputere uden den nødvendige godkend
 
 Kilder skal angives med URL og opslagstidspunkt med tidszone. Kildens dokumentdato samt oplysningernes virknings- og registreringsdatoer skal registreres særskilt, når de fremgår. Ukendte datoer og usikre oplysninger skal markeres som ukendte eller usikre.
 
-Originale data skal bevares uændret. Bearbejdede data skal placeres separat.
+Bevar kun originalsvar, der konkret bruges som kildebelæg eller er nødvendige for at gentage den valgte bearbejdning. De bevarede svar skal være uændrede; bearbejdede data skal placeres separat. Der er ikke et generelt krav om at arkivere alle fund eller opslag.
 
-Ved dataudtræk skal søgeparametre uden adgangsoplysninger, svarstatus, eventuel paginering og henvisning til det bevarede originalsvar registreres. Ingen fund, teknisk fejl, adgangsafslag, delvist resultat, manglende feltværdi og ikke undersøgt er forskellige forhold og må ikke sammenblandes.
+Registrer kilde-URL med relevante søgeparametre, hentetid og reference til bevaret indhold i et fælles kildeindeks. Suppler kun med andre metadata, hvis de har et konkret kontrolformål. Ingen fund, teknisk fejl, adgangsafslag, delvist resultat, manglende feltværdi og ikke undersøgt er forskellige forhold og må ikke sammenblandes; det kræver ikke en arkivfil for hvert udfald.
 
 Enhver transformation skal kunne reproduceres og efterprøves.
 
@@ -53,6 +53,14 @@ Windows 11 uden installation af yderligere programmer er målmiljøet for eventu
 CSV og JSON foretrækkes som udvekslingsformater.
 
 Væsentlige udtræks- og bearbejdningsmetoder skal beskrives med input, output, relevante sideeffekter og fejlmuligheder, så de kan gentages og kontrolleres. Beskrivelsen kræver ikke forhåndsgodkendelse af almindelig research eller lokal, reversibel bearbejdning.
+
+## Begrænsning af data og filer
+
+Hver fil i repoet skal have en konkret funktion i den aktuelle opgave: data, der skal bruges, nødvendigt kildebelæg, en aktiv kontrol eller en nødvendig arbejdsinstruktion. At noget er tilgængeligt eller måske kan blive relevant er ikke tilstrækkeligt. Undlad at hente eller gemme det uden et begrundet behov.
+
+Foretræk én gældende fil pr. kilde/enhed og få fælles tabeller eller indeks. Gem ikke automatisk HTTP-headers, fejlede forsøg, mapper pr. kørsel, kodekopier, profiler eller flere udgaver af samme afledte data. Brug Git til historik over committede versioner. Midlertidige svar mellem commits er ikke et arkiv.
+
+Fjern overflødige artefakter, og ret henvisninger, når strukturen forenkles. Generelle metodeforbehold beskrives ét sted; kontrollister skal primært vise konkrete fund. Nye tabeller og eksportformater oprettes først, når der er data og en konkret anvendelse.
 
 ## Arbejdsproces
 

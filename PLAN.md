@@ -6,7 +6,7 @@ Statusdato: 2026-11-08. Planen gælder det offentlige datagrundlag. Arbejdet er 
 
 Kortlæg relevante juridiske enheder, deres dokumenterede relationer samt ejendomme og anlæg, de ejer, administrerer eller driver. Det skal fremgå, hvad der er aktuelt, historisk, besluttet, forventet og uafklaret.
 
-Bevar hele relevante originalsvar og let tilgængelig historik. Følg tidligere navne, CVR-numre, fusioner og frasalg, når de kan forklare en tilknytning. Registrer vanskelige eller uafklarede spor som åbne spørgsmål frem for at udfylde huller ved gæt.
+Bevar kun kildeindhold, der konkret bruges som belæg eller til nødvendig bearbejdning. Historiske oplysninger i relevante svar bevares, men der oprettes ikke arkiver af alle opslag. Følg tidligere navne, CVR-numre, fusioner og frasalg, når de kan forklare en tilknytning. Registrer uafklarede spor som åbne spørgsmål frem for at udfylde huller ved gæt.
 
 Kommuner, medejere og samarbejdsselskaber kan indgå som kontekst i selskabsstrukturen. Deres øvrige selskaber omfattes ikke automatisk af ejendomsindsamlingen. Udvidelser skal begrundes med en dokumenteret forbindelse til den aftalte kortlægning. Særligt FIT og det mulige nye Næstved Forsyning skal undersøges, før deres rolle fastlægges.
 
@@ -18,7 +18,7 @@ Fasen omfatter ikke interne data, integrationer, DocuNote-opsætning, dokumenth�
 |---|---|---|---|
 | 1. Kilder og søgepunkter | Kilderegister og selskabskandidater | Første version skrevet: 20 kandidater, 30 kilder | Kandidater har kildehenvisning, evidensstatus og næste kontrol. Nye relevante kilder tilføjes løbende |
 | 2. Selskabsstruktur | CVR-enheder, navnehistorik, P-enheder og selskabsrelationer | Åben; aktuel CVR-kontrol ikke udført | Alle identificerede kandidater behandlet; relationer og fravalg dokumenteret; nye kandidater fulgt |
-| 3. Ejendomspilot | Ét CVR, råsvar, CSV og kvalitetsprofil | Teknisk gennemført for 27736033; faglige kontroller åbne | Format, roller, datoer og begrænsninger undersøgt; stikprøver mod relevante kilder og mindst ét anlægsspor |
+| 3. Ejendomspilot | Ét CVR-svar, fælles relationstabel og konkrete kontrolfund | Teknisk gennemført for 27736033; faglige kontroller åbne | Format, roller, datoer og begrænsninger undersøgt; stikprøver mod relevante kilder og mindst ét anlægsspor |
 | 4. Ejendomsindsamling | Samme dokumenterede metode på omfattede CVR-numre | Afventer pilotens metodekontrol og selskabsafgrænsning | Alle omfattede CVR har registreret udfald og kildehenvisning; historik og administration særskilt |
 | 5. Anlæg og krydskontrol | Anlægsoversigt og koblinger til selskaber/ejendomme | Åben | Relevante anlægskilder gennemgået; anlæg uden ejendomsfund og ejendomme uden anlæg håndteret |
 | 6. Samlet kvalitetssikring | Sammenhængende CSV/JSON, dækningsbeskrivelse og review | Åben | Kontroller afstemt, huller beskrevet, reviewbemærkninger håndteret og processen gentagelig |
@@ -29,10 +29,10 @@ Trin 2 og pilotens faglige kontrol kan fortsætte parallelt. Brede ejendomsudtr�
 
 - [x] Gem planen og en eksplicit datamodel i projektet.
 - [x] Gem de hidtidige selskabskandidater og kilder som CSV.
-- [x] Bevar API-prøven for `27736033`, inklusive svarstatus, tidspunkt og hash.
+- [x] Bevar API-prøven som `data/raw/matriklen-labs/27736033.json`, med fælles URL, hentetid og hash i `index.json`.
 - [x] Opret en gentagelig transformation, som bevarer alle 42 kilderelationer.
-- [x] Opret teknisk profil og kontrolliste separat fra bearbejdede data.
-- [ ] Arkiver kildebelæg for kandidaterne; researchregisterets henvisninger er endnu ikke råarkiv.
+- [x] Gem én samlet `data/relations.csv` og konkrete fund i `data/issues.csv`; undlad profiler og kørselsarkiver.
+- [ ] Bevar konkret kildebelæg, når det anvendes til at kontrollere kandidater eller relationer. Der er ingen generel opgave om at arkivere alle kildehenvisninger.
 - [x] Udvid kilderegisteret med dokumentation for CVR, Ejerfortegnelsen, BBR, DAR, Jupiter, PULS, DMA og Plandata.
 - [ ] Kontroller aktuel CVR-status og navne for de 20 kandidater via officielle oplysninger; undersøg nyfundne kandidater løbende.
 - [ ] Opret selskabsrelationer med konkret belæg. Kandidatlisten er ikke koncernstrukturen.
@@ -61,4 +61,4 @@ Hold fire spørgsmål adskilt: Er data hentet teknisk korrekt? Er kildeværdiern
 
 Rapporter antal kandidater behandlet, omfattede CVR undersøgt, kildeopslag gennemført, relationer fundet og åbne spørgsmål. Undgå en samlet fuldstændighedsprocent, når det samlede antal relevante selskaber, ejendomme eller anlæg er ukendt.
 
-En endelig faseleverance skal have en fast referencedato, eksplicit afgrænsning, kilde- og kørselsmanifest, datamodel, kvalitetsstatus og dokumenteret underagent-review. Væsentlige uafklarede forhold skal stå i leverancen. Et tomt søgeresultat er alene resultatet af det konkrete opslag.
+En endelig faseleverance skal have en fast referencedato, eksplicit afgrænsning, relevante kildehenvisninger, datamodel, kvalitetsstatus og dokumenteret underagent-review. Brug et fælles kildeindeks frem for metadatafiler for hvert opslag; Git versionerer committede data og kode. Væsentlige uafklarede forhold skal stå i leverancen. Et tomt søgeresultat er alene resultatet af det konkrete opslag.
