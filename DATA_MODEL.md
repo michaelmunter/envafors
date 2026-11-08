@@ -1,6 +1,6 @@
 # Datamodel
 
-Status: første runde af CVR-opslag i Matriklen Labs pr. 2026-11-08. Kun filer med en aktuel anvendelse gemmes. Metode og kode versioneres i Git.
+Status: 18 CVR-opslag i Matriklen Labs pr. 2026-11-08. Kun filer med en aktuel anvendelse gemmes. Metode og kode versioneres i Git.
 
 ## Hvad der forbindes
 
@@ -10,13 +10,13 @@ Der oprettes først yderligere tabeller, når vi har relevante data og en konkre
 
 ## Research
 
-- `research/company_candidates.csv`: Én række pr. CVR-kandidat. `name` bevarer det oprindelige kandidatnavn. `cvr_registered_name` og `current_cvr_status` gengiver CVR-visningen på opslagstidspunktet, også for opløste selskaber. `cvr_secondary_names` er de viste binavne adskilt med `|`; tomt ved et vellykket opslag betyder, at CVR ikke viste nogen. `cvr_start_date` og `cvr_end_date` er CVR's start- og ophørsdato som ISO-datoer; tom ophørsdato betyder, at der ikke blev vist en dato.
-- `cvr_register_record` i `evidence_status` betyder, at en CVR-post og dens stamdata er kontrolleret i registret. `candidate_kind` og `scope_group` er arbejdsinddelinger. `relation_status` dækker kandidatens tilknytning i kortlægningen og ændres ikke ved et rent stamdataopslag. `documented_founder_and_ownership` angiver en dokumenteret stiftelses- og ejerrelation til det CVR, som er angivet i noten. Status beskriver selskabsrelationen og siger intet om ejendoms- eller driftsroller. `successor_candidate` markerer en fusionsmodtager, hvor det relevante omfang skal afklares.
+- `research/company_candidates.csv`: Én række pr. kandidat med kontrolleret CVR. `cvr_registered_name` og `current_cvr_status` gengiver CVR-visningen på opslagstidspunktet, også for opløste selskaber. `cvr_secondary_names` er de viste binavne adskilt med `|`; tomt ved et vellykket opslag betyder, at CVR ikke viste nogen. `cvr_start_date` og `cvr_end_date` er CVR's start- og ophørsdato som ISO-datoer; tom ophørsdato betyder, at der ikke blev vist en dato.
+- `scope_group` bruges til at finde kandidater inden for en forsyningsgruppe. Selskabsrelationer fremgår af noterne og ejertabellen.
 - `property_scope` og `facility_scope` er separate valg for henholdsvis ejendomsopslag og anlægsindsamling: `omfattet`, `fravalgt` eller `uafklaret`. `scope_assessed_on` er vurderingsdatoen. Hvert spor har egne `*_scope_source_ids` og `*_scope_basis` med kildehenvisninger og begrundelse. Valget angiver søgeomfang, ikke verificeret ejerskab, administration eller drift. `property_lookup_mode` styrer næste skridt: `cvr` er ét Matriklen Labs-opslag på kandidatens CVR, `targeted_nke` er konkret opfølgning via identificerede NKE-spor uden bredt Cerius-opslag, og `none` betyder intet ejendomsopslag i denne runde.
-- `research/sources.csv`: URL, udgiver, titel og kildebegrænsninger. Kandidatlistens kildefelter refererer til `source_id`; flere ID'er adskilles med `|`. `document_date` er kildedatoen, `researched_on` kalenderdatoen for research og `retrieved_at` tidspunktet for opslaget med tidszone. Datoer for regnskabsperiode, virkning og registrering holdes adskilt i noten eller kandidatfelterne. Et tomt tidspunkt for en ældre kilde betyder, at klokkeslættet ikke er registreret i tabellen. `lookup_outcome` angiver udfaldet og er adskilt fra `capture_status`, som angiver arkivering. For Matriklen Labs betyder `found` et gyldigt svar med poster og `no_result` et gyldigt svar med to tomme lister. Registrér `partial` for et kendt delvist svar, `access_denied` for et afslag og `technical_error` for en teknisk fejl. Et tomt felt angiver intet kodet udfald og er ikke et tomt svar. En kildehenvisning medfører ikke et krav om at arkivere hele kilden.
+- `research/sources.csv`: URL, udgiver, titel og kildebegrænsninger. Andre tabeller refererer til `source_id`. Flere ID'er adskilles med `|`. `document_date` er kildens dato. `lookup_at` er opslagstidspunktet med tidszone, eller opslagsdatoen alene hvis klokkeslættet er ukendt. Datoer for regnskabsperiode, virkning og registrering holdes adskilt i noten eller kandidatfelterne. `lookup_outcome` skelner mellem fund (`found`), tomt resultat (`no_result`), delvist svar (`partial`), afslag (`access_denied`) og teknisk fejl (`technical_error`). En tom værdi betyder, at udfaldet ikke blev kodet. Noten peger på råfilen, hvis svaret er bevaret.
 
 - `research/production_units.csv`: Én række pr. synligt P-nummer under et valgt CVR. `source_status` følger CVR-svarets lister for aktive og ophørte enheder. `registered_name`, `registered_address`, `postal_code_and_city`, `main_industry_code` og `main_industry_name` gengiver stamdata. `start_date` og `end_date` gælder enheden, ikke en bestemt adresseperiode. Adresse og branche er søgespor til videre kontrol af anlæg. De beviser ikke i sig selv ejerskab eller aktuel driftsrolle.
-- `research/company_ownership.csv`: Én række pr. ejerlink og andelsperiode i den offentlige CVR-visning, hvor kapital og stemmer har samme viste periode. `company_cvr` er det selskab, som ejerforholdet gælder for. Slå nummeret op i `company_candidates.csv` under `cvr`, og kopiér `cvr_registered_name` til `registered_company_name`. Navnet gælder ved opslaget af stamdata, også når rækken viser en ældre ejerperiode. `owner_cvr` er afstemt via `owner_entity_id` og `owner_link_source_id`. `source_section` skelner mellem ejere i det aktuelle og det ophørte panel. Et aktuelt ejerpanel kan også indeholde afsluttede andelsperioder. Kapital og stemmer bevares som to separate viste værdier, inklusive intervaller. `displayed_owner_change_date` er ændringsdatoen på ejerkortet, ikke startdatoen for hver andelsperiode. `disposal_date` udfyldes, når visningen angiver afhændelsesdato. Tabellen dækker CVR's offentlige legale ejere og udgør ikke en komplet ejerbog. Se [afgrænsning og kontrol](research/decisions.md#p-enheder-og-selskabsejerskab).
+- `research/company_ownership.csv`: Én række pr. ejerlink og andelsperiode i den offentlige CVR-visning, hvor kapital og stemmer har samme viste periode. `company_cvr` er det selskab, som ejerforholdet gælder for. Slå nummeret op i `company_candidates.csv` under `cvr`, og kopiér `cvr_registered_name` til `registered_company_name`. Navnet gælder ved opslaget af stamdata, også når rækken viser en ældre ejerperiode. `owner_cvr` er afstemt via ejerlinket i `owner_link_source_id`. Læs den viste andelsperiode for at afgøre, om den er afsluttet. CVR kan vise afsluttede andelsperioder i panelet med aktuelle ejere. Kapital og stemmer bevares som to separate viste værdier, inklusive intervaller. `displayed_owner_change_date` er ændringsdatoen på ejerkortet, ikke startdatoen for hver andelsperiode. `disposal_date` udfyldes, når visningen angiver afhændelsesdato. Tabellen dækker CVR's offentlige legale ejere og udgør ikke en komplet ejerbog. Se [afgrænsning og kontrol](research/decisions.md#p-enheder-og-selskabsejerskab).
 
 ## Kildesvar og fælles indeks
 
@@ -34,19 +34,18 @@ Kun seneste svar pr. CVR ligger i arbejdsstrukturen. Git bevarer committede vers
 
 | Felter | Betydning |
 |---|---|
-| `cvr`, `source_pointer`, `source_sha256` | CVR angiver filnavnet, og pointeren angiver placeringen i filen. `/ejer/0` er første element i listen `ejer`. Hashen identificerer versionen af råsvaret |
-| `bfe`, `bfe_state` | BFE som tekst; tilstand `present`, `missing`, `null` eller `invalid` |
+| `cvr` | Selskabets CVR og råsvarets filnavn |
+| `bfe` | Ejendommens BFE som tekst. Tomt, når kilden ikke giver et gyldigt BFE |
 | `role`, `source_status` | Kildens rolle (`ejer`/`administrerer`) og status (`gældende`/`historisk`) bevares |
 | `virkning_fra_original` | Hele Labs-feltet `virkningFra`. Læs datoen sammen med `source_status` og `role` efter [Labsværktøjets visningsregler](#faglige-forbehold) |
 | `actual_share_state`, `actual_share_numerator`, `actual_share_denominator` | Faktisk ejerandel som tilstand og særskilt brøk |
 | `registered_share_state`, `registered_share_numerator`, `registered_share_denominator` | Tinglyst ejerandel, uafhængigt af den faktiske |
-| `verification_status` | `source_only`: kildeudsagn, ikke uafhængig bekræftelse |
 
 Andelstilstande er `present`, `missing`, `null` og `invalid`. Nul som tæller bevares; en manglende andel er ikke nul. Ukendte felter og værdier markeres til kontrol og findes fortsat i originalen. En særskilt liste med forskellige BFE-numre kan udledes af tabellen og gemmes ikke som en dublet.
 
-BFE er ejendommens identifikator. Brug BFE sammen med CVR og eventuelt rolle til at finde relevante observationer. Flere kildeposter kan gælde samme ejendom og selskab, og en post kan mangle BFE. `source_pointer` peger derfor på den præcise post i den kildeversion, som `source_sha256` angiver. Et kontrolfund kan pege endnu mere præcist på et felt, fx `/ejer/0/bfe`. Den tilhørende relationsrække har da pointeren `/ejer/0`.
+Brug CVR, BFE og rolle til at sammenholde en observation med råsvaret. Flere observationer kan vedrøre samme ejendom og selskab. Tabellen gengiver Labs' oplysninger. Faglige stikprøver er dokumenteret særskilt i [research/decisions.md](research/decisions.md).
 
-`data/issues.csv` indeholder kun konkrete fund med `cvr`, `code`, `source_pointer`, `bfe`, `message` og `source_sha256`. Piloten har to fund af typen `different_share_values`. Optællinger skrives til terminalen og gemmes ikke som profilfiler. Begge CSV-filer genbygges; de vedligeholdes ikke manuelt.
+`data/issues.csv` angiver CVR, BFE, rolle og en forklaring af hvert fund. Hvis et BFE mangler eller er ugyldigt, er BFE-feltet tomt, og fundet forklarer årsagen. Begge CSV-filer genbygges fra råsvarene.
 
 ## Faglige forbehold
 

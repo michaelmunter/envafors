@@ -50,8 +50,11 @@ class MatriklenDataIntegrityTests(unittest.TestCase):
         self.assertEqual(summary["relation_rows"], 3)
         self.assertEqual(summary["unique_bfe"], 1)
         rows = self.read_csv("relations.csv")
-        self.assertEqual(len({row["source_pointer"] for row in rows}), 3)
-        self.assertEqual(rows[2]["bfe_state"], "missing")
+        self.assertEqual([(row["role"], row["bfe"]) for row in rows],
+                         [("administrerer", "123"), ("administrerer", "123"), ("ejer", "")])
+        findings = {row["finding"] for row in self.read_csv("issues.csv")}
+        self.assertIn("Identisk kildepost gentaget.", findings)
+        self.assertIn("BFE-feltet mangler.", findings)
 
     def test_zero_null_and_missing_shares_and_historical_date_remain_distinct(self):
         date = "2018-01-01T00:00:00+01:00[Europe/Copenhagen]"
@@ -71,7 +74,8 @@ class MatriklenDataIntegrityTests(unittest.TestCase):
         self.assertNotIn("end_date", rows[0])
         self.assertEqual(rows[1]["actual_share_state"], "null")
         self.assertEqual(rows[1]["registered_share_state"], "missing")
-        self.assertTrue(any(row["code"] == "different_share_values" for row in self.read_csv("issues.csv")))
+        self.assertTrue(any(row["bfe"] == "1" and "ejerandel er forskellige" in row["finding"]
+                            for row in self.read_csv("issues.csv")))
 
     def test_modified_raw_bytes_are_rejected_without_output(self):
         self.save_source({"administrerer": [], "ejer": []})
@@ -108,7 +112,7 @@ class MatriklenDataIntegrityTests(unittest.TestCase):
         self.assertEqual({path.name: path.read_bytes() for path in self.output.iterdir()}, before)
         self.assertEqual(set(before), {"relations.csv", "issues.csv"})
 
-    def test_multiple_cvrs_are_combined_with_unambiguous_source_pointers(self):
+    def test_same_bfe_can_have_relations_to_multiple_cvrs(self):
         payload = {"administrerer": [{"bfe": 123, "status": "gældende", "virkningFra": "original"}], "ejer": []}
         self.save_source(payload)
         self.save_source(payload, "26863902")
@@ -116,8 +120,8 @@ class MatriklenDataIntegrityTests(unittest.TestCase):
         self.assertEqual(summary["cvr_count"], 2)
         self.assertEqual(summary["relation_rows"], 2)
         rows = self.read_csv("relations.csv")
-        self.assertEqual({row["cvr"] for row in rows}, {"27736033", "26863902"})
-        self.assertEqual(len({(row["cvr"], row["source_pointer"]) for row in rows}), 2)
+        self.assertEqual({(row["cvr"], row["bfe"], row["role"]) for row in rows},
+                         {("27736033", "123", "administrerer"), ("26863902", "123", "administrerer")})
 
     def test_index_and_file_mismatch_does_not_replace_previous_output(self):
         self.save_source({"administrerer": [], "ejer": []})

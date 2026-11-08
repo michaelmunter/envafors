@@ -14,7 +14,7 @@ def main():
         folder = Path(tempfile.mkdtemp(prefix="envafors-json-"))
         replace_files({
             folder / f"{cvr}.json": (json.dumps(data, ensure_ascii=False, indent=2) + "\n").encode("utf-8")
-            for cvr, _, data in sources
+            for cvr, data in sources
         })
     except (OSError, ValueError, TypeError) as error:
         raise SystemExit(str(error)) from error

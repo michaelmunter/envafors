@@ -78,5 +78,15 @@
     "retrieved_at": "2026-11-08T16:31:58.532055+00:00",
     "sha256": "ed2bda931e5e7ed9c4a34f7ca64bd5374f7ad0546a8699ef52ff698885b24b8e",
     "url": "https://api.labs.matriklen.dk/CvrEjerskaber?cvr=33053770"
+  },
+  "33246447": {
+    "retrieved_at": "2026-11-08T20:41:32.633906+00:00",
+    "sha256": "95f3260196d60d6401995d1138a5a759335a4fa73e0815a2011dcb05a833da38",
+    "url": "https://api.labs.matriklen.dk/CvrEjerskaber?cvr=33246447"
+  },
+  "46837592": {
+    "retrieved_at": "2026-11-08T20:41:33.244239+00:00",
+    "sha256": "95f3260196d60d6401995d1138a5a759335a4fa73e0815a2011dcb05a833da38",
+    "url": "https://api.labs.matriklen.dk/CvrEjerskaber?cvr=46837592"
   }
 }

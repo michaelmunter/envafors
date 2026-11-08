@@ -13,12 +13,11 @@ from fetch_matriklen import API_URL, RAW_ROOT, REPO, ROLES, digest, parse_json, 
 
 
 RELATION_FIELDS = [
-    "cvr", "bfe", "bfe_state", "role", "source_status", "virkning_fra_original",
+    "cvr", "bfe", "role", "source_status", "virkning_fra_original",
     "actual_share_state", "actual_share_numerator", "actual_share_denominator",
     "registered_share_state", "registered_share_numerator", "registered_share_denominator",
-    "source_pointer", "source_sha256", "verification_status",
 ]
-ISSUE_FIELDS = ["cvr", "code", "source_pointer", "bfe", "message", "source_sha256"]
+ISSUE_FIELDS = ["cvr", "bfe", "role", "finding"]
 
 
 def csv_bytes(fields, rows):
@@ -50,17 +49,17 @@ def load_sources(raw_root, *, index=None):
             raise ValueError("Råsvarets SHA-256 stemmer ikke med indekset for CVR " + cvr)
         data = parse_json(raw)
         validate_payload(data)
-        sources.append((cvr, meta["sha256"], data))
+        sources.append((cvr, data))
     return sources
 
 
-def normalize(cvr, sha, data):
+def normalize(cvr, data):
     rows, issues = [], []
 
-    def issue(code, pointer, bfe, message):
-        issues.append(dict(zip(ISSUE_FIELDS, [cvr, code, pointer, bfe, message, sha])))
+    def issue(bfe, role, finding):
+        issues.append(dict(cvr=cvr, bfe=bfe, role=role, finding=finding))
 
-    def share(row, key, pointer, bfe):
+    def share(row, key, bfe, role):
         if key not in row:
             return "missing", "", ""
         value = row[key]
@@ -70,50 +69,50 @@ def normalize(cvr, sha, data):
             numerator, denominator = value.get("tæller"), value.get("nævner")
             if type(numerator) is int and type(denominator) is int and numerator >= 0 and denominator > 0:
                 if numerator > denominator or set(value) != {"tæller", "nævner"}:
-                    issue("unusual_share", pointer + "/" + key, bfe, "Usædvanlig brøk; se originalen.")
+                    issue(bfe, role, f"Usædvanlig brøk i {key}.")
                 return "present", numerator, denominator
-        issue("invalid_share", pointer + "/" + key, bfe, "Brøken kan ikke normaliseres; se originalen.")
+        issue(bfe, role, f"Ugyldig brøk i {key}.")
         return "invalid", "", ""
 
     for role in ROLES:
         seen = set()
-        for index, original in enumerate(data[role]):
-            pointer = "/" + role + "/" + str(index)
+        for original in data[role]:
             value = original.get("bfe")
+            bfe = ""
             if "bfe" not in original:
-                bfe_state, bfe = "missing", ""
+                issue(bfe, role, "BFE-feltet mangler.")
             elif value is None:
-                bfe_state, bfe = "null", ""
+                issue(bfe, role, "BFE er angivet som null.")
             elif (type(value) is int and value > 0) or (isinstance(value, str) and re.fullmatch(r"[0-9]+", value) and int(value) > 0):
-                bfe_state, bfe = "present", str(value)
+                bfe = str(value)
             else:
-                bfe_state, bfe = "invalid", ""
-            if bfe_state != "present":
-                issue("invalid_or_missing_bfe", pointer + "/bfe", bfe, "Relationen bevares uden et gyldigt BFE.")
+                issue(bfe, role, "BFE-værdien er ugyldig.")
             status = original.get("status")
             if not isinstance(status, str):
                 status = ""
             if status not in ("gældende", "historisk"):
-                issue("unknown_source_status", pointer + "/status", bfe, "Ukendt kildestatus; se originalen.")
+                issue(bfe, role, "Ukendt kildestatus.")
             date = original.get("virkningFra")
             if not isinstance(date, str):
                 date = ""
-                issue("invalid_or_missing_date", pointer + "/virkningFra", bfe, "Dato mangler eller har ukendt type.")
-            actual = share(original, "faktiskEjerandel", pointer, bfe)
-            registered = share(original, "tinglystEjerandel", pointer, bfe)
+                issue(bfe, role, "Feltet virkningFra mangler eller har ukendt type.")
+            actual = share(original, "faktiskEjerandel", bfe, role)
+            registered = share(original, "tinglystEjerandel", bfe, role)
             if actual[0] == registered[0] == "present" and actual[1] * registered[2] != registered[1] * actual[2]:
-                issue("different_share_values", pointer, bfe, "Faktisk og tinglyst ejerandel er forskellige; ingen vælges som facit.")
-            if role == "ejer" and actual[0] != "present":
-                issue("missing_actual_share", pointer, bfe, "Ejerpost uden normaliserbar faktisk ejerandel.")
+                issue(bfe, role, "Faktisk og tinglyst ejerandel er forskellige.")
+            if role == "ejer" and actual[0] == "missing":
+                issue(bfe, role, "Faktisk ejerandel mangler.")
+            elif role == "ejer" and actual[0] == "null":
+                issue(bfe, role, "Faktisk ejerandel er angivet som null.")
             fingerprint = json.dumps(original, sort_keys=True, ensure_ascii=False)
             if fingerprint in seen:
-                issue("duplicate_source_row", pointer, bfe, "Identisk kildepost gentaget; begge rækker bevares.")
+                issue(bfe, role, "Identisk kildepost gentaget.")
             seen.add(fingerprint)
             unknown = set(original) - {"bfe", "status", "virkningFra", "faktiskEjerandel", "tinglystEjerandel"}
             if unknown:
-                issue("unknown_fields", pointer, bfe, "Ekstra kildefelter findes i originalen: " + ", ".join(sorted(unknown)))
+                issue(bfe, role, "Ekstra kildefelter: " + ", ".join(sorted(unknown)))
             rows.append(dict(zip(RELATION_FIELDS, [
-                cvr, bfe, bfe_state, role, status, date, *actual, *registered, pointer, sha, "source_only",
+                cvr, bfe, role, status, date, *actual, *registered,
             ])))
     if len(rows) != sum(len(data[role]) for role in ROLES):
         raise ValueError("Afstemning fejlede for CVR " + cvr)
@@ -122,8 +121,8 @@ def normalize(cvr, sha, data):
 
 def build_outputs(sources):
     rows, issues = [], []
-    for cvr, sha, data in sources:
-        source_rows, source_issues = normalize(cvr, sha, data)
+    for cvr, data in sources:
+        source_rows, source_issues = normalize(cvr, data)
         rows.extend(source_rows)
         issues.extend(source_issues)
     files = {

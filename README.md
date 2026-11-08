@@ -11,7 +11,7 @@ Første fase kortlægger offentlige oplysninger om relaterede selskaber, ejendom
 - [CVR-registrerede P-enheder](research/production_units.csv) og [legale ejerandele](research/company_ownership.csv).
 - [Gældende metodevalg og review](research/decisions.md).
 
-Pr. 8. november 2026 har alle 21 kandidater kontrollerede CVR-stamdata og en særskilt vurdering af relevans for ejendomme og anlæg. Første runde af Matriklen Labs-opslag dækker alle 16 CVR-numre, der er valgt til ejendomsopslag, herunder den bevarede SK Vand-pilot. Cerius følges kun via konkrete spor til det tidligere NKE-net. Se [metoden, reviewet og de åbne spørgsmål](research/decisions.md#afgrænsning-af-ejendomsopslag-og-anlæg).
+Pr. 8. november 2026 har alle 21 kandidater kontrollerede CVR-stamdata og en særskilt vurdering af relevans for ejendomme og anlæg. Der er gennemført Matriklen Labs-opslag for 18 CVR-numre. Cerius følges via konkrete spor til det tidligere NKE-net, mens SK Energi og FIT kun indgår i selskabsoversigten. Se [grundlaget for opslagene](research/decisions.md#afgrænsning-af-ejendomsopslag-og-anlæg).
 
 ## Datafiler
 
@@ -26,13 +26,13 @@ data/
 
 Vi gemmer kun seneste gyldige kildesvar pr. CVR. Historik for committede data og kode ligger i Git. Headers, fejlede forsøg, kodekopier og kørselsarkiver gemmes ikke. Et samlet JSON-eksportformat kan genereres senere, hvis det får en konkret anvendelse; det gemmes ikke som endnu en kopi nu.
 
-Den 8. november 2026 gav ti opslag poster, og seks gav tomme svar. Der var ingen afslag eller tekniske fejl i runden. De bevarede svar giver [415 kildeposter](data/relations.csv) fordelt på 408 ejerposter og syv administratorposter. [16 kontrolfund](data/issues.csv) vedrører forskellige faktiske og tinglyste ejerandele. Se [de faglige forbehold](DATA_MODEL.md#faglige-forbehold) før brug.
+Den 8. november 2026 gav ti opslag poster, og otte gav tomme svar. De bevarede svar giver [415 kildeposter](data/relations.csv) fordelt på 408 ejerposter og syv administratorposter. [16 kontrolfund](data/issues.csv) vedrører forskellige faktiske og tinglyste ejerandele. Se [de faglige forbehold](DATA_MODEL.md#faglige-forbehold) før brug.
 
 ## Læs og kontrollér rådata
 
 Kør `python3 scripts/preview_matriklen.py` fra projektroden, og åbn mappen, kommandoen udskriver, i VS Code. Den indeholder én indrykket JSON-kopi pr. CVR. Kommandoen kontrollerer først råsvarene mod kildeindekset og stopper ved fejl. Den læser lokale filer og skriver kun kopierne i systemets midlertidige mappe. Kør den igen efter et nyt opslag. Formatering af en fil under `data/raw/` ændrer dens checksum, selv om oplysningerne er de samme.
 
-Brug BFE til at finde en ejendom i `issues.csv` eller `relations.csv` og CVR til at finde selskabet. For at kontrollere et konkret fund i originalen åbner du JSON-kopien med det CVR som filnavn. Eksempelvis henviser `27736033` og `/ejer/36` til element 36 i listen `ejer` i `27736033.json`. Listen starter ved 0, så det er det 37. element. Søg efter BFE `2539366` i filen for at finde posten hurtigt. [Sådan bruges kildehenvisningen](DATA_MODEL.md#samlet-relationstabel).
+Brug BFE til at finde en ejendom og CVR til at finde selskabet. Et kontrolfund for BFE `2539366` og CVR `27736033` kan læses i relationstabellen eller kontrolleres ved at søge efter `2539366` i `27736033.json` under den angivne rolle. [Samlet relationstabel](DATA_MODEL.md#samlet-relationstabel).
 
 ## Direkte kildesvar
 
@@ -42,7 +42,7 @@ Brug BFE til at finde en ejendom i `issues.csv` eller `relations.csv` og CVR til
 | Ejendomsrelationer med BFE | Brug [Matriklen Labs `CvrEjerskaber`, eksempel med SK Vand](https://api.labs.matriklen.dk/CvrEjerskaber?cvr=27736033) via scriptet nedenfor. Vælg kun CVR-numre med `property_lookup_mode=cvr` i [kandidatlisten](research/company_candidates.csv). Svaret indeholder listerne `ejer` og `administrerer` med BFE-numre. Geodatastyrelsen mærker webværktøjet som prototype. API'ets egen driftsstatus er uafklaret. [Forbehold om API, roller og dækning](DATA_MODEL.md#faglige-forbehold). |
 | Kontrol af ejer- og administratorposter pr. BFE | Brug [Matriklen.dk `BfeEjer`, eksempel med SK Vand som administrator](https://api.matriklen.dk/api/v3.4/BfeEjer?bfe=2532386). Skift `bfe`, og tilføj eventuelt `virkningstid` som ISO-tidspunkt med tidszone for en historisk stikprøve. Sammenhold `ejere` og eventuel `administrator` med Labs-posten. Se [stikprøver og fælles registerophav](research/decisions.md#stikprøver-af-ejere-og-administratorer-i-matriklendk). |
 
-De konkrete opslag og deres udfald står i [kilderegisteret](research/sources.csv), S030 og S080–S094 for denne runde.
+De konkrete Labs-opslag og deres udfald står i [kilderegisteret](research/sources.csv) under S030, S080–S094 og S205–S206.
 
 ## Opdatering og kontrol
 
