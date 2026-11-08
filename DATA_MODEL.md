@@ -46,6 +46,8 @@ Andelstilstande er `present`, `missing`, `null` og `invalid`. Nul som tæller be
 
 `virkningFra` er ikke sikkert koblet til dokumentationens visningsfelt »Virkning« og fortolkes derfor ikke som en fra-/til-dato. Faktisk og tinglyst ejerandel må ikke erstatte hinanden. Administrator betyder ikke automatisk ejer eller driftsansvarlig. Flere visninger af samme register er ikke uafhængige bekræftelser.
 
+Geodatastyrelsen mærker webværktøjet »Ejendomme ejet af virksomhed« som prototype. Webværktøjets JavaScript kalder `CvrEjerskaber` på `api.labs.matriklen.dk`. Ved kontrol 8. november 2026 fandt vi ingen særskilt offentlig dokumentation for API'ets driftsstatus, versionspolitik eller stabilitetsgarantier. Se S020, S030 og S057 i [kilderegisteret](research/sources.csv).
+
 API'ets historikdækning og eventuelle resultatgrænser er uafklarede. Et teknisk gyldigt svar dokumenterer ikke fuldstændighed, og et tomt svar dokumenterer ikke fravær af relevante ejendomme. Disse generelle begrænsninger gentages ikke som kontrolrækker for hvert opslag.
 
 CSV er UTF-8 med komma og én overskriftsrække. Identifikatorer importeres som tekst. Ukendte værdier forbliver tomme og forklares af tilstand, kontrolfund eller kildehenvisning. JSON er UTF-8. Opslagstid, dokumentdato og virknings-/registreringsdato holdes adskilt.
