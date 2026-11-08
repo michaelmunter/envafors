@@ -1,4 +1,9 @@
 {
+  "25133374": {
+    "retrieved_at": "2026-11-08T21:12:36.723540+00:00",
+    "sha256": "95f3260196d60d6401995d1138a5a759335a4fa73e0815a2011dcb05a833da38",
+    "url": "https://api.labs.matriklen.dk/CvrEjerskaber?cvr=25133374"
+  },
   "25797981": {
     "retrieved_at": "2026-11-08T16:31:51.165372+00:00",
     "sha256": "3e5943523517130a1dd32558fa3953cbfaa15c072a6f3147b076561f9f8a1e01",
@@ -28,6 +33,11 @@
     "retrieved_at": "2026-11-08T16:31:52.534360+00:00",
     "sha256": "10b5f5de315e1a687185b66a55eacaa48bc436ba05f191eceb98f60bbcf61f72",
     "url": "https://api.labs.matriklen.dk/CvrEjerskaber?cvr=27736904"
+  },
+  "28113285": {
+    "retrieved_at": "2026-11-08T21:12:37.740987+00:00",
+    "sha256": "421413a5ec6bcb92aaa65a6ffd296fc60b93b1d34d44c3c6d5b0746eba26730a",
+    "url": "https://api.labs.matriklen.dk/CvrEjerskaber?cvr=28113285"
   },
   "28118465": {
     "retrieved_at": "2026-11-08T16:31:54.529444+00:00",
@@ -83,6 +93,11 @@
     "retrieved_at": "2026-11-08T20:41:32.633906+00:00",
     "sha256": "95f3260196d60d6401995d1138a5a759335a4fa73e0815a2011dcb05a833da38",
     "url": "https://api.labs.matriklen.dk/CvrEjerskaber?cvr=33246447"
+  },
+  "40634797": {
+    "retrieved_at": "2026-11-08T21:12:37.127040+00:00",
+    "sha256": "95f3260196d60d6401995d1138a5a759335a4fa73e0815a2011dcb05a833da38",
+    "url": "https://api.labs.matriklen.dk/CvrEjerskaber?cvr=40634797"
   },
   "46837592": {
     "retrieved_at": "2026-11-08T20:41:33.244239+00:00",

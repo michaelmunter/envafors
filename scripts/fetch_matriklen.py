@@ -1,17 +1,20 @@
 """Gem seneste gyldige Labs-svar som <CVR>.json og opdater fælles kildeindeks."""
 
 import argparse
+import csv
 from datetime import datetime, timezone
 import hashlib
 import json
 from pathlib import Path
 import re
 import subprocess
+import sys
 import tempfile
 
 
 REPO = Path(__file__).resolve().parents[1]
 RAW_ROOT = REPO / "data/raw/matriklen-labs"
+CANDIDATES = REPO / "research/company_candidates.csv"
 API_URL = "https://api.labs.matriklen.dk/CvrEjerskaber"
 ROLES = ("administrerer", "ejer")
 
@@ -116,12 +119,48 @@ def fetch(cvr, raw_root=RAW_ROOT):
     return {"cvr": cvr, "rows": sum(len(data[role]) for role in ROLES), **entry}
 
 
+def refresh_candidates(raw_root):
+    with CANDIDATES.open(encoding="utf-8", newline="") as handle:
+        reader = csv.DictReader(handle)
+        if "cvr" not in (reader.fieldnames or []):
+            raise ValueError("Kandidatlisten mangler kolonnen cvr.")
+        cvrs = [row["cvr"] for row in reader]
+    if not cvrs or any(not re.fullmatch(r"[0-9]{8}", cvr or "") for cvr in cvrs):
+        raise ValueError("Kandidatlisten skal indeholde gyldige CVR-numre på otte cifre.")
+    if len(cvrs) != len(set(cvrs)):
+        raise ValueError("Kandidatlisten indeholder gentagne CVR-numre.")
+    extra = set(read_index(raw_root)) - set(cvrs)
+    if extra:
+        raise ValueError("Kildeindekset indeholder CVR uden for kandidatlisten: " + ", ".join(sorted(extra)))
+
+    failed = False
+    for cvr in cvrs:
+        try:
+            summary = fetch(cvr, raw_root)
+        except (ValueError, OSError) as error:
+            failed = True
+            print(json.dumps({
+                "cvr": cvr,
+                "url": API_URL + "?cvr=" + cvr,
+                "attempted_at": datetime.now(timezone.utc).isoformat(),
+                "error": str(error),
+            }, ensure_ascii=False), file=sys.stderr, flush=True)
+        else:
+            print(json.dumps(summary, ensure_ascii=False), flush=True)
+    return int(failed)
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--cvr", required=True)
+    mode = parser.add_mutually_exclusive_group(required=True)
+    mode.add_argument("--cvr")
+    mode.add_argument("--all-candidates", action="store_true",
+                      help="Opdatér hvert CVR i research/company_candidates.csv.")
     parser.add_argument("--raw-root", type=Path, default=RAW_ROOT)
     args = parser.parse_args()
     try:
+        if args.all_candidates:
+            return refresh_candidates(args.raw_root)
         summary = fetch(args.cvr, args.raw_root)
     except (ValueError, OSError) as error:
         parser.exit(1, str(error) + "\n")
@@ -129,4 +168,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

@@ -1,7 +1,9 @@
 """Regressionskontrol af datatab, sidste gode svar og den flade datastruktur."""
 
+from contextlib import redirect_stderr, redirect_stdout
 import csv
 import hashlib
+from io import StringIO
 import json
 from pathlib import Path
 from types import SimpleNamespace
@@ -174,6 +176,44 @@ class MatriklenDataIntegrityTests(unittest.TestCase):
         index = json.loads((self.raw / "index.json").read_bytes())
         self.assertEqual(index["27736033"]["sha256"], hashlib.sha256(payload).hexdigest())
         self.assertEqual({path.name for path in self.raw.iterdir()}, {"27736033.json", "index.json"})
+
+    def test_candidate_refresh_keeps_empty_results_and_reports_failed_lookups(self):
+        candidates = self.root / "candidates.csv"
+        candidates.write_text(
+            "cvr,property_scope\n25133374,fravalgt\n27736033,omfattet\n28113285,omfattet\n",
+            encoding="utf-8",
+        )
+        self.save_source({"administrerer": [], "ejer": [{"bfe": 456}]})
+        old_response = (self.raw / "27736033.json").read_bytes()
+        old_entry = FETCH.read_index(self.raw)["27736033"]
+        empty_response = b'{"administrerer":[],"ejer":[]}'
+        populated_response = b'{"administrerer":[],"ejer":[{"bfe":123}]}'
+
+        def fake_curl(command, **kwargs):
+            cvr = command[-1].split("=")[-1]
+            if cvr == "27736033":
+                return SimpleNamespace(returncode=0, stdout="503", stderr="")
+            payload = empty_response if cvr == "25133374" else populated_response
+            Path(command[command.index("--output") + 1]).write_bytes(payload)
+            return SimpleNamespace(returncode=0, stdout="200", stderr="")
+
+        stdout, stderr = StringIO(), StringIO()
+        argv = ["fetch_matriklen.py", "--all-candidates", "--raw-root", str(self.raw)]
+        with patch.object(sys, "argv", argv), patch.object(FETCH, "CANDIDATES", candidates), \
+                patch.object(FETCH.subprocess, "run", side_effect=fake_curl), \
+                redirect_stdout(stdout), redirect_stderr(stderr):
+            self.assertEqual(FETCH.main(), 1)
+
+        summaries = [json.loads(line) for line in stdout.getvalue().splitlines()]
+        self.assertEqual([(row["cvr"], row["rows"]) for row in summaries],
+                         [("25133374", 0), ("28113285", 1)])
+        failure = json.loads(stderr.getvalue())
+        self.assertEqual(failure["cvr"], "27736033")
+        self.assertIn("503", failure["error"])
+        self.assertEqual((self.raw / "25133374.json").read_bytes(), empty_response)
+        self.assertEqual((self.raw / "28113285.json").read_bytes(), populated_response)
+        self.assertEqual((self.raw / "27736033.json").read_bytes(), old_response)
+        self.assertEqual(FETCH.read_index(self.raw)["27736033"], old_entry)
 
     def test_write_failure_restores_both_previous_outputs(self):
         self.save_source({"administrerer": [], "ejer": []})

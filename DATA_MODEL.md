@@ -1,6 +1,6 @@
 # Datamodel
 
-Status: 18 CVR-opslag i Matriklen Labs pr. 2026-11-08. Kun filer med en aktuel anvendelse gemmes. Metode og kode versioneres i Git.
+Pr. 8. november 2026 er der bevaret Matriklen Labs-svar for alle 21 kandidater. Metode og kode versioneres i Git.
 
 ## Hvad der forbindes
 
@@ -12,7 +12,7 @@ Der oprettes først yderligere tabeller, når vi har relevante data og en konkre
 
 - `research/company_candidates.csv`: Én række pr. kandidat med kontrolleret CVR. `cvr_registered_name` og `current_cvr_status` gengiver CVR-visningen på opslagstidspunktet, også for opløste selskaber. `cvr_secondary_names` er de viste binavne adskilt med `|`; tomt ved et vellykket opslag betyder, at CVR ikke viste nogen. `cvr_start_date` og `cvr_end_date` er CVR's start- og ophørsdato som ISO-datoer; tom ophørsdato betyder, at der ikke blev vist en dato.
 - `scope_group` bruges til at finde kandidater inden for en forsyningsgruppe. Selskabsrelationer fremgår af noterne og ejertabellen.
-- `property_scope` og `facility_scope` er separate valg for henholdsvis ejendomsopslag og anlægsindsamling: `omfattet`, `fravalgt` eller `uafklaret`. `scope_assessed_on` er vurderingsdatoen. Hvert spor har egne `*_scope_source_ids` og `*_scope_basis` med kildehenvisninger og begrundelse. Valget angiver søgeomfang, ikke verificeret ejerskab, administration eller drift. `property_lookup_mode` styrer næste skridt: `cvr` er ét Matriklen Labs-opslag på kandidatens CVR, `targeted_nke` er konkret opfølgning via identificerede NKE-spor uden bredt Cerius-opslag, og `none` betyder intet ejendomsopslag i denne runde.
+- `property_scope` og `facility_scope` afgrænser henholdsvis faglig ejendomsopfølgning og anlægsindsamling. Begge kan være `omfattet`, `fravalgt` eller `uafklaret`. `scope_assessed_on` er vurderingsdatoen. Hvert spor har egne `*_scope_source_ids` og `*_scope_basis` med kildehenvisninger og begrundelse. Alle kandidater medtages i det ensartede CVR-opslag i Labs. Verificerede roller ved konkrete ejendomme og anlæg kræver særskilt belæg.
 - `research/sources.csv`: URL, udgiver, titel og kildebegrænsninger. Andre tabeller refererer til `source_id`. Flere ID'er adskilles med `|`. `document_date` er kildens dato. `lookup_at` er opslagstidspunktet med tidszone, eller opslagsdatoen alene hvis klokkeslættet er ukendt. Datoer for regnskabsperiode, virkning og registrering holdes adskilt i noten eller kandidatfelterne. `lookup_outcome` skelner mellem fund (`found`), tomt resultat (`no_result`), delvist svar (`partial`), afslag (`access_denied`) og teknisk fejl (`technical_error`). En tom værdi betyder, at udfaldet ikke blev kodet. Noten peger på råfilen, hvis svaret er bevaret.
 
 - `research/production_units.csv`: Én række pr. synligt P-nummer under et valgt CVR. `source_status` følger CVR-svarets lister for aktive og ophørte enheder. `registered_name`, `registered_address`, `postal_code_and_city`, `main_industry_code` og `main_industry_name` gengiver stamdata. `start_date` og `end_date` gælder enheden, ikke en bestemt adresseperiode. Adresse og branche er søgespor til videre kontrol af anlæg. De beviser ikke i sig selv ejerskab eller aktuel driftsrolle.
@@ -26,11 +26,11 @@ Der oprettes først yderligere tabeller, når vi har relevante data og en konkre
 - `retrieved_at`: afslutningstidspunkt for hentningen med tidszone. Pilotens værdi er overført fra den oprindeligt registrerede `completed_at`; tidspunktet er ikke rekonstrueret.
 - `sha256`: kontrol af, at kildeindholdet er uændret i forhold til indekset.
 
-Kun seneste svar pr. CVR ligger i arbejdsstrukturen. Git bevarer committede versioner. Fejl og headers er ikke selvstændige datafiler. Manglende CVR-fil, uregistreret fil, forkert hash, dublerede JSON-nøgler, ugyldige JSON-tal eller ukendt svarstruktur stopper bearbejdningen. Gyldige svar med to tomme lister kan bevares som belæg for et konkret tomt opslag og giver ingen rækker i relationstabellen. Når ingen kildesvar er bevaret, stopper bearbejdningen med en fejl. Kilderegisteret beskriver det seneste opslag; et bevaret råsvar kan være fra et tidligere vellykket opslag.
+Kun seneste gyldige svar pr. CVR ligger i arbejdsstrukturen. Git bevarer committede versioner. Fejl og headers er ikke selvstændige datafiler. Manglende indeksført CVR-fil, uregistreret fil, forkert hash, dublerede JSON-nøgler, ugyldige JSON-tal eller ukendt svarstruktur stopper bearbejdningen. Hvert gyldigt svar med to tomme lister gemmes og giver ingen rækker i relationstabellen. Når ingen kildesvar er bevaret, stopper bearbejdningen med en fejl. Kilderegisteret beskriver det seneste opslag. Et bevaret råsvar kan være fra et tidligere vellykket opslag.
 
 ## Samlet relationstabel
 
-`data/relations.csv` har én række pr. kildeobjekt i `ejer` eller `administrerer`, samlet for alle registrerede CVR-numre. Dubletter og poster med manglende BFE bevares. Rækkeantal afstemmes mod kilderne.
+`data/relations.csv` har én række pr. kildeobjekt i `ejer` eller `administrerer`, samlet for alle registrerede CVR-numre. Den viser Labs-observationer, også hvor forbindelsen til Envafors på ejendomsniveau er uafklaret. Dubletter og poster med manglende BFE bevares. Rækkeantal afstemmes mod kilderne.
 
 | Felter | Betydning |
 |---|---|
