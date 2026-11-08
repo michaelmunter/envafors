@@ -1,0 +1,65 @@
+cvr,p_number,source_status,registered_name,registered_address,postal_code_and_city,main_industry_code,main_industry_name,start_date,end_date,source_id
+25797981,1009584796,active,SK Forsyning A/S,Nordvej 6,4200 Slagelse,642120,Ikke-finansielle holdingselskaber,2003-01-01,,S032
+25797981,1008149824,closed,SLAGELSE KOMMUNES NETSELSKAB A/S,Nordvej 11,4200 Slagelse,401000,Elforsyning,2000-12-18,2002-12-31,S032
+26863899,1009480370,active,Zeanet A/S,Nordvej 6,4200 Slagelse,351400,Distribution af elektricitet,2002-11-06,,S038
+26863902,1015496351,active,Envafors A/S,Nordvej 6,4200 Slagelse,353000,Fjernvarmeforsyning,2009-09-09,,S031
+26863902,1015496416,active,SK Service A/S,Nordvej 7,4200 Slagelse,360000,Vandforsyning,2009-09-09,,S031
+26863902,1015500677,active,SK Service A/S,Slagelse Landevej 30,4220 Korsør,370000,Opsamling og behandling af spildevand,2009-09-10,,S031
+26863902,1015500693,active,SK Service A/S,Dalsvinget 7 - 9,4200 Slagelse,370000,Opsamling og behandling af spildevand,2009-09-10,,S031
+26863902,1015500707,active,SK Service A/S,Ladebovej 5,4230 Skælskør,370000,Opsamling og behandling af spildevand,2009-09-10,,S031
+26863902,1028238092,active,NK EL,"C/O NK-Forsyning
+Ærøvej 2",4700 Næstved,351400,Distribution af elektricitet,2022-05-25,,S031
+26863902,1028238106,active,NK VAND og Spildevand,"C/O NK-Forsyning
+Ved Fjorden 18",4700 Næstved,360000,Vandforsyning,2022-05-25,,S031
+26863902,1031802616,active,Sorø Rensningsanlæg - Sorø Spildevand,St. Ladegårdsvej 7,4180 Sorø,370000,Opsamling og behandling af spildevand,2025-10-28,,S031
+26863902,1031810058,active,Stenlille Rensningsanlæg - Sorø Spildevand,Skuerupvej 4B,4295 Stenlille,370000,Opsamling og behandling af spildevand,2025-10-30,,S031
+26863902,1032320933,active,Korsør Varmeværk - SK Varme,Energivej 11,4220 Korsør,353000,Fjernvarmeforsyning,2026-04-15,,S031
+26863902,1009480389,closed,SK Service A/S,Lilleøvej 3,4220 Korsør,701010,Ikke-finansielle hovedsæders virksomhed,2002-11-06,2018-12-31,S031
+26863902,1015496467,closed,SK Service A/S,Nordvej 11,4200 Slagelse,351400,Distribution af elektricitet,2009-09-09,2026-06-19,S031
+26863902,1015496513,closed,SK Service A/S,Nordvej 6,4200 Slagelse,439990,"Anden bygge- og anlægsvirksomhed, som kræver specialisering",2009-09-09,2009-09-09,S031
+26863902,1031475305,closed,Sorø Forsyning,Hovedgaden 60,4295 Stenlille,360000,Vandforsyning,2025-06-04,2025-12-31,S031
+27412823,1010181131,closed,NKE-ELNET A/S,Ærøvej 2,4700 Næstved,351400,Distribution af elektricitet,2003-07-01,2025-10-31,S042
+27736033,1010564278,active,SK Vand A/S,Nordvej 6,4200 Slagelse,360000,Vandforsyning,2004-05-05,,S033
+27736033,1015133771,active,SK Vand A/S,Lodshusvej 2,4230 Skælskør,360000,Vandforsyning,2009-03-11,,S033
+27736033,1015133836,active,SK Vand A/S,Nordvej 7,4200 Slagelse,360000,Vandforsyning,2009-03-11,,S033
+27736033,1015133844,active,SK Vand A/S,Stillingevej 1,4200 Slagelse,360000,Vandforsyning,2009-03-11,,S033
+27736033,1015133860,active,SK Vand A/S,Baunehøjvej 7,4242 Boeslunde,360000,Vandforsyning,2009-03-11,,S033
+27736033,1015133887,active,SK Vand A/S,Brovej 8A,4241 Vemmelev,360000,Vandforsyning,2009-03-11,,S033
+27736033,1015496661,active,SK Vand A/S,Assensvej 6,4200 Slagelse,360000,Vandforsyning,2009-09-09,,S033
+27736033,1015496882,active,SK Vand A/S,Præstemarken 3,4230 Skælskør,360000,Vandforsyning,2009-09-09,,S033
+27736033,1030158829,active,Kirke Stillinge Vandværk,"Bildsøvej 35
+Kirke Stillinge",4200 Slagelse,360000,Vandforsyning,2024-01-01,,S033
+27736033,1030158837,active,Frølunde Vandværk,Smøgen 2,4220 Korsør,360000,Vandforsyning,2024-01-01,,S033
+27736033,1030158845,active,Slots Bjergby Vandværk,Lundbæksvej 4,4200 Slagelse,360000,Vandforsyning,2024-01-01,,S033
+27736904,1010782917,active,SK Varme A/S,Sdr.Stationsvej 1,4200 Slagelse,353000,Fjernvarmeforsyning,2004-05-05,,S035
+27736904,1010782941,active,SK Varme A/S,Idagårdsvej 5,4200 Slagelse,353000,Fjernvarmeforsyning,2004-05-05,,S035
+27736904,1014985081,active,SK Varme A/S,Norbrinken 5,4220 Korsør,353000,Fjernvarmeforsyning,2009-01-09,,S035
+27736904,1015497315,active,SK Varme A/S,Færøvej 21,4200 Slagelse,353000,Fjernvarmeforsyning,2009-09-09,,S035
+27736904,1015497331,active,Sk Varme A/S,Gasværksvej 5,4220 Korsør,353000,Fjernvarmeforsyning,2009-09-09,,S035
+27736904,1017310611,active,SK Varme A/S,Rosenkildevej 45,4200 Slagelse,353000,Fjernvarmeforsyning,2011-12-02,,S035
+27736904,1017411671,active,SK Varme A/S,Assensvej 1,4200 Slagelse,353000,Fjernvarmeforsyning,2012-01-17,,S035
+27736904,1018959867,active,SK Varme A/S,Nordvej 6,4200 Slagelse,353000,Fjernvarmeforsyning,2013-12-11,,S035
+27736904,1020134417,active,SK Varme A/S,Trafikcenter Alle 32,4200 Slagelse,353000,Fjernvarmeforsyning,2015-01-01,,S035
+27736904,1024476274,active,SK Varme A/S,"C/O Halsskov Halmvarmeværk
+Energivej 11",4220 Korsør,353000,Fjernvarmeforsyning,2018-10-22,,S035
+27736904,1010565282,closed,SK Varme A/S,Lilleøvej 3,4220 Korsør,353000,Varmeforsyning,2004-05-05,2011-11-16,S035
+27736904,1015497323,closed,SK Varme A/S,Færøvej 21,4200 Slagelse,353000,Varmeforsyning,2009-09-09,2009-09-09,S035
+28118465,1010802667,active,NK-FORSYNING A/S,Ved Fjorden 18,4700 Næstved,642120,Ikke-finansielle holdingselskaber,2004-07-01,,S039
+28483708,1008965397,active,SK Spildevand A/S,Genbrugsvej 4,4220 Korsør,370000,Opsamling og behandling af spildevand,2001-12-01,,S034
+28483708,1011123801,active,SK Spildevand A/S,Nordvej 6,4200 Slagelse,370000,Opsamling og behandling af spildevand,2005-02-04,,S034
+28483708,1015499520,active,SK Spildevand A/S,Dalsvinget 7 - 9,4200 Slagelse,370000,Opsamling og behandling af spildevand,2009-09-10,,S034
+28483708,1015499539,active,SK Spildevand A/S,"Slagelse Landevej 7
+Sørbymagle",4200 Slagelse,370000,Opsamling og behandling af spildevand,2009-09-10,,S034
+28483708,1015499571,active,SK Spildevand A/S,Ladebovej 5,4230 Skælskør,370000,Opsamling og behandling af spildevand,2009-09-10,,S034
+28483708,1015499598,active,SK Spildevand A/S,Mosevej 19,4261 Dalmose,370000,Opsamling og behandling af spildevand,2009-09-10,,S034
+29193304,1011867797,closed,NK-VEJLYS A/S,Ærøvej 2,4700 Næstved,432100,El-installation,2005-12-01,2018-06-27,S044
+29193339,1011867843,closed,NK-SERVICE A/S,Ærøvej 2,4700 Næstved,701010,Ikke-finansielle hovedsæders virksomhed,2005-12-01,2022-05-25,S043
+29193339,1021504862,closed,NK-Spildevand A/S,Ved Fjorden 18,4700 Næstved,370000,Opsamling og behandling af spildevand,2016-06-14,2022-05-25,S043
+29396361,1012066356,active,SK Gadelys A/S,Nordvej 6,4200 Slagelse,351400,Distribution af elektricitet,2006-02-20,,S036
+32102611,1015221190,active,NK-SPILDEVAND A/S,Ved Fjorden 18,4700 Næstved,370000,Opsamling og behandling af spildevand,2009-04-20,,S041
+32102654,1015221271,active,NK-VAND A/S,Ved Fjorden 18,4700 Næstved,360000,Vandforsyning,2009-04-20,,S040
+33053673,1016159413,closed,SORØ FORSYNINGSSERVICE A/S,Hovedgaden 60,4295 Stenlille,701010,Ikke-finansielle hovedsæders aktiviteter,2010-06-23,2025-06-04,S049
+33053738,1016159464,active,SORØ SPILDEVAND A/S,Nordvej 6,4200 Slagelse,370000,Opsamling og behandling af spildevand,2010-06-23,,S048
+33053770,1016159510,active,SORØ VAND A/S,Nordvej 6,4200 Slagelse,360000,Vandforsyning,2010-06-23,,S047
+33246447,1016374950,active,SORØ FORSYNING A/S,Nordvej 6,4200 Slagelse,642120,Ikke-finansielle holdingselskaber,2010-10-01,,S046
+46837592,1032852412,active,Næstved Forsyning A/S,Ved Fjorden 18,4700 Næstved,351400,Distribution af elektricitet,2026-10-08,,S045

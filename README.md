@@ -8,6 +8,7 @@ Første fase kortlægger offentlige oplysninger om relaterede selskaber, ejendom
 - [Arbejdskø for kommende sessioner](QUEUE.md).
 - [Datamodel og kontrolforbehold](DATA_MODEL.md).
 - [Selskabskandidater](research/company_candidates.csv) og [kilderegister](research/sources.csv).
+- [CVR-registrerede P-enheder](research/production_units.csv) og [legale ejerandele](research/company_ownership.csv).
 - [Gældende metodevalg og review](research/decisions.md).
 
 Pr. 8. november 2026 har alle 21 kandidater kontrollerede CVR-stamdata og en særskilt vurdering af relevans for ejendomme og anlæg. Første runde af Matriklen Labs-opslag dækker alle 16 CVR-numre, der er valgt til ejendomsopslag, herunder den bevarede SK Vand-pilot. Cerius følges kun via konkrete spor til det tidligere NKE-net. Se [metoden, reviewet og de åbne spørgsmål](research/decisions.md#afgrænsning-af-ejendomsopslag-og-anlæg).

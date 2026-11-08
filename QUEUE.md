@@ -6,7 +6,6 @@ Tilføj vigtige opgaver inden for [projektets rammer](PLAN.md), og placér dem e
 
 ## OPGAVER
 
-- [sol xhigh] Registrer relevante P-enheder og selskabsrelationer for de kontrollerede kandidater med konkret kildebelæg. Følg op på FITs eventuelle juridiske opløsning.
 - [sol xhigh] Undersøg betydningen af Matriklen Labs-feltet `virkningFra`, især ved historiske relationer. Opdater datamodellen med det, der kan dokumenteres.
 - [sol xhigh] Undersøg forskellen mellem faktiske og tinglyste ejerandele for BFE `2539366` og `5367067`. Dokumenter, hvad kilderne viser.
 - [sol xhigh] Kontroller et begrundet udvalg af gældende og historiske ejerposter samt administratorposter i Matriklen. Angiv, om kilderne har fælles registerophav.
