@@ -2,6 +2,10 @@
 
 Første fase kortlægger offentlige oplysninger om relaterede selskaber, ejendomme og anlæg. Repoet indeholder kun aktuelle arbejdsfiler og det kildebelæg, de kræver.
 
+## Seneste kontrol af data
+
+[Kontrollen af de 24 leverede filer fra Matriklen Labs og Virk](research/udtraekskontrol.md) beskriver data fra Git-version `dd06ea4` og genopslag 20. november 2026. Her findes status for de 15 delte BFE-numre, datoafvigelser, kilder og kommandoer til at gentage kontrollen. De to kildemapper er `data/labs.matriklen/` og `data/virk/`.
+
 ## Start her
 
 - [Plan og status](PLAN.md).
@@ -14,7 +18,9 @@ Første fase kortlægger offentlige oplysninger om relaterede selskaber, ejendom
 
 Pr. 8. november 2026 har alle 22 kandidater kontrollerede CVR-stamdata, P-opslag og et bevaret svar fra Matriklen Labs. P-opslagene viser 67 P-enheder, heraf 52 aktive og 15 ophørte. Den særskilte vurdering af ejendomme og anlæg bruges til faglig opfølgning. Se [P-opslag og efterprøvning](research/decisions.md#p-enheder-og-selskabsejerskab) og [krydskontrol af tre renseanlæg](research/decisions.md#krydskontrol-med-udgangspunkt-i-renseanlæg).
 
-## Datafiler
+## Datafiler i den tidligere indsamling
+
+Den følgende filoversigt og arbejdsgang gælder [versionen fra 8. november 2026](https://github.com/michaelmunter/envafors/tree/da676e7/data). For de leverede filer fra 20. november bruges kontrollen ovenfor.
 
 ```text
 data/
