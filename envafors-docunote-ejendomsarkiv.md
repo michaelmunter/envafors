@@ -1,6 +1,6 @@
 # Ejendomsarkiv i DocuNote
 
-**Envafors · Forslag til pilot · Version 0.3 · 20. november 2026**
+**Envafors · Forslag til pilot · Version 0.4 · 20. november 2026**
 
 Læg ejendomssagen direkte i ejerens selskabsmappe. Brug selskabets registrerede navn og CVR som mappenavn. Begynd sagstitlen med BFE-nummeret, og tilføj kendenavn eller kort adresse, når det er kendt. For hver BFE med en dokumenteret, gældende ejer i arkivet bruges én hovedsag af typen **Ejendom** med ni faste emnemapper. Herfra skal brugeren kunne finde skøde, aftaler, tilladelser og tegninger, også når originalen ligger på en fælles sag eller i et fagsystem.
 
@@ -59,15 +59,70 @@ Sagsmapper oprettes til et konkret forløb. Nye, faste underemner indføres kun 
 
 ## Stamdata og ansvar
 
+Hver række beskriver ét felt. Genbrug DocuNotes sagsnummer og kontrollerede registeroplysninger. Felter om jordstykker, anlæg og selskabsforhold knyttes til den post, de beskriver, så samme ejendom kan have flere af hver.
+
+### På ejendomssagen
+
 | Felt | Udfyldelse |
 |---|---|
-| **BFE, BFE-type og sagsførende CVR** | Identificér ejendommen med BFE og hovedsagen med sagsnummer. Hent BFE-typen fra kilden, fx samlet fast ejendom, ejerlejlighed eller bygning på fremmed grund. Angiv det selskab, som fører sagen efter ejerreglen ovenfor. |
-| **Beliggenhed og matrikler** | Genbrug officiel beliggenhedsadresse og matrikelnummer med ejerlav, hvor kilden findes. Understøt flere matrikler under samme BFE. Brug kortreference, hvis beliggenhedsadressen er upraktisk i felten. |
-| **Kendenavn, anvendelse og anlæg** | Gør det daglige navn og anvendelsen søgbare, fx administrationsbygning eller ubebygget areal. Knyt relevante anlægs-ID’er eller GIS-referencer til sagen. En BFE kan omfatte flere anlæg, og et anlæg kan berøre flere BFE’er. |
-| **Selskabets relation til BFE** | Angiv CVR, rolle, gældende eller historisk status, dokumenterede datoer og kilde med opslagstidspunkt. Registrér faktisk og tinglyst ejerandel hver for sig. En uoplyst andel markeres som ukendt, og en oplyst nulandel bevares som nul. Virks selskabsstatus hører til CVR-stamdata. |
-| **Ejendomsansvarlig og seneste faglige gennemgang** | Angiv den ansvarlige funktion og datoen for den seneste gennemgang. En tom dato betyder, at der endnu ikke er registreret en gennemgang. Hentetid og eventuel importdato registreres særskilt. |
+| **BFE-nummer** | Ejendommens entydige nummer i Matriklen, fx `5367067`. |
+| **BFE-type** | Den registrerede ejendomstype. Værdien er *samlet fast ejendom*, *ejerlejlighed* eller *bygning på fremmed grund*. [Geodatastyrelsen om BFE](https://gst.dk/ansvarsomraader/matrikel-og-ejendomsregistrering/matriklen/bfe-nummer) |
+| **Sagsnummer i DocuNote** | Nummeret på ejendommens hovedsag. Bruges i henvisninger til sagen. |
+| **Sagsførende CVR** | CVR-nummeret på det ejerselskab, som fører hovedsagen. |
+| **Beliggenhedsadresse** | Ejendommens officielle beliggenhedsadresse fra Ejendomsbeliggenhedsregistret. |
+| **Kortreference til ejendommen** | Henvisning til ejendommen på et kort, når adressen er upraktisk i felten. |
+| **Kendenavn** | Det navn medarbejderne søger på i det daglige, fx navnet på et vandværk. |
+| **Anvendelse** | Hvad ejendommen bruges til, fx administrationsbygning eller ubebygget areal. Gøres søgbart. |
+| **Ejendomsansvarlig** | Den funktion, der holder oplysningerne om ejendommen ajour. |
+| **Dato for seneste faglige gennemgang** | Udfyldes, når ejendommen er gennemgået. En tom dato betyder, at der endnu ikke er registreret en gennemgang. |
 
-Genbrug kontrollerede registeroplysninger. Tilføj arealer og BBR-referencer, når de skal bruges til søgning eller opfølgning. Hvis miljødata indgår, registreres V1/V2-kortlægning og områdeklassificering særskilt med kilde og dato på det relevante areal eller matrikelniveau. [Geodatastyrelsen om BFE](https://gst.dk/ansvarsomraader/matrikel-og-ejendomsregistrering/matriklen/bfe-nummer) · [Miljøstyrelsen om kortlægning og områdeklassificering](https://mst.dk/erhverv/rent-miljoe-og-sikker-forsyning/jord/forurenede-grunde/kortlaegning-og-omraadeklassificering)
+### Jordstykker, bygninger og anlæg
+
+Registrér matrikelnummer og ejerlav sammen for hvert jordstykke. For hvert anlæg kan der angives et anlægs-ID, en GIS-reference eller begge dele. Flere BFE’er kan henvise til samme anlæg. Medtag arealer, BBR-referencer og miljøoplysninger, når de bruges til søgning eller opfølgning. Knyt hver miljøoplysning til dens kilde og opslagstidspunkt. Angiv også virkningsdatoen, hvis den fremgår.
+
+| Felt | Hører til | Udfyldelse |
+|---|---|---|
+| **Matrikelnummer** | Jordstykke | Jordstykkets matrikelnummer fra Matriklen. |
+| **Ejerlavsnummer** | Jordstykke | Nummeret identificerer jordstykket sammen med matrikelnummeret. [Geodatastyrelsen om Matrikelregistret](https://gst.dk/data-og-kort/matrikelkort-og-data/matrikelregistret) |
+| **Ejerlavsnavn** | Jordstykke | Vis det registrerede navn sammen med matrikelnummeret. Navnet hentes ud fra ejerlavsnummeret. |
+| **Jordstykkets areal** | Jordstykke | Det registrerede areal i m² fra Matriklen. |
+| **BBR-reference** | Bygning eller teknisk anlæg | Henvisning til den konkrete post i BBR. |
+| **Bebygget areal** | Bygning | Bygningens bebyggede areal i m² fra BBR. |
+| **Anlægs-ID** | Anlæg | Anlæggets identifikator i det relevante fagsystem. |
+| **GIS-reference til anlægget** | Anlæg | Henvisning til det konkrete anlæg i GIS. |
+| **Kortlægningsniveau for jordforurening** | Berørt areal | Kildens angivelse af V1 eller V2 for det konkrete areal, når det er kortlagt. |
+| **Områdeklassificering** | Berørt areal | Kommunens registrering for det pågældende areal. [Miljøstyrelsen om kortlægning og områdeklassificering](https://mst.dk/erhverv/rent-miljoe-og-sikker-forsyning/jord/forurenede-grunde/kortlaegning-og-omraadeklassificering) |
+
+### Selskaber og deres relationer til ejendommen
+
+Selskabets navn og status hentes fra CVR-stamdata. Hvert selskab kan have flere roller på samme BFE. Bevar hver rolle og dens historik særskilt. For begge slags ejerandel bevares en oplyst nulandel som nul, mens en uoplyst andel markeres som ukendt.
+
+| Felt | Hører til | Udfyldelse |
+|---|---|---|
+| **Selskabets CVR-nummer** | Selskabsrelation | Henvisning til det selskab, der har rollen på ejendommen. Omfatter også en medejer, når et andet selskab fører hovedsagen. |
+| **Registreret selskabsnavn** | Selskab | Navnet fra Virk for det pågældende CVR-nummer. |
+| **Selskabsstatus i Virk** | Selskab | Virks status for virksomheden på opslagstidspunktet, fx `NORMAL`. |
+| **Rolle på ejendommen** | Selskabsrelation | Fx ejer, administrator, lejer, rettighedshaver eller driftsansvarlig. |
+| **Relationsstatus** | Selskabsrelation | Om den konkrete rolle er gældende eller historisk. |
+| **Rollens startdato** | Selskabsrelation | Den dokumenterede dato for rollens begyndelse, når den kendes. |
+| **Rollens ophørsdato** | Selskabsrelation | Den dokumenterede dato for rollens ophør, når den kendes. |
+| **Faktisk ejerandel** | Ejerforhold | Den faktiske andel, som kilden viser, angivet som brøk. |
+| **Tinglyst ejerandel** | Ejerforhold | Den tinglyste andel, som kilden viser, angivet som brøk. |
+
+### Kilde og ajourføring
+
+Knyt kildebelæg til den oplysning, det underbygger. Samme kildepost kan bruges til flere oplysninger.
+
+| Felt | Udfyldelse |
+|---|---|
+| **Kildehenvisning** | Reference til det konkrete registeropslag eller dokument. For et offentligt opslag bevares URL med søgeparametre i kildeindekset. |
+| **Kildens dokumentdato** | Datoen på kildedokumentet, når den fremgår. |
+| **Virkningsdato** | Datoen, hvor oplysningen gælder fra, hvis kilden angiver den. |
+| **Registreringstidspunkt i kilden** | Hvornår oplysningen blev registreret i kilderegistret, hvis tidspunktet fremgår. |
+| **Opslagstidspunkt** | Hvornår kildesvaret blev hentet, med tidszone. |
+| **Importtidspunkt** | Hvornår oplysningerne eventuelt blev indlæst i arkivet. |
+
+Ved kontrol af ejerhistorik bevares Labs-feltet `virkningFra` og ejendomsopslagets overtagelsesdato og tinglysningsdato hver for sig i kildesvarene. Brug kun en dato som rollens start eller ophør, når kilden dokumenterer den betydning. [Projektets kontrol af datoerne i Matriklen](research/udtraekskontrol.md#datoer-der-kræver-afklaring)
 
 ## Metadata på dokumenter og sager
 
