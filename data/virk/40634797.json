@@ -1,0 +1,1569 @@
+{
+    "aktiveEjerforholdDto": null,
+    "antalAnsatte": {
+      "kvartalsbeskaeftigelse": [],
+      "maanedsbeskaeftigelse": [
+        {
+          "aar": "2026",
+          "antalAarsvaerk": "1",
+          "antalAnsatte": "1",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 1,
+          "periode": "Januar 2026"
+        },
+        {
+          "aar": "2025",
+          "antalAarsvaerk": "1",
+          "antalAnsatte": "1",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 12,
+          "periode": "December 2025"
+        },
+        {
+          "aar": "2025",
+          "antalAarsvaerk": "1",
+          "antalAnsatte": "1",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 11,
+          "periode": "November 2025"
+        },
+        {
+          "aar": "2025",
+          "antalAarsvaerk": "1",
+          "antalAnsatte": "1",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 10,
+          "periode": "Oktober 2025"
+        },
+        {
+          "aar": "2025",
+          "antalAarsvaerk": "2",
+          "antalAnsatte": "2",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 9,
+          "periode": "September 2025"
+        },
+        {
+          "aar": "2025",
+          "antalAarsvaerk": "8",
+          "antalAnsatte": "8",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 8,
+          "periode": "August 2025"
+        },
+        {
+          "aar": "2025",
+          "antalAarsvaerk": "11",
+          "antalAnsatte": "11",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 7,
+          "periode": "Juli 2025"
+        },
+        {
+          "aar": "2025",
+          "antalAarsvaerk": "12",
+          "antalAnsatte": "12",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 6,
+          "periode": "Juni 2025"
+        },
+        {
+          "aar": "2025",
+          "antalAarsvaerk": "12",
+          "antalAnsatte": "12",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 5,
+          "periode": "Maj 2025"
+        },
+        {
+          "aar": "2025",
+          "antalAarsvaerk": "15",
+          "antalAnsatte": "15",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 4,
+          "periode": "April 2025"
+        },
+        {
+          "aar": "2025",
+          "antalAarsvaerk": "16",
+          "antalAnsatte": "16",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 3,
+          "periode": "Marts 2025"
+        },
+        {
+          "aar": "2025",
+          "antalAarsvaerk": "15",
+          "antalAnsatte": "15",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 2,
+          "periode": "Februar 2025"
+        },
+        {
+          "aar": "2025",
+          "antalAarsvaerk": "15",
+          "antalAnsatte": "15",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 1,
+          "periode": "Januar 2025"
+        },
+        {
+          "aar": "2024",
+          "antalAarsvaerk": "15",
+          "antalAnsatte": "15",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 12,
+          "periode": "December 2024"
+        },
+        {
+          "aar": "2024",
+          "antalAarsvaerk": "15",
+          "antalAnsatte": "15",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 11,
+          "periode": "November 2024"
+        },
+        {
+          "aar": "2024",
+          "antalAarsvaerk": "15",
+          "antalAnsatte": "15",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 10,
+          "periode": "Oktober 2024"
+        },
+        {
+          "aar": "2024",
+          "antalAarsvaerk": "16",
+          "antalAnsatte": "17",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 9,
+          "periode": "September 2024"
+        },
+        {
+          "aar": "2024",
+          "antalAarsvaerk": "17",
+          "antalAnsatte": "17",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 8,
+          "periode": "August 2024"
+        },
+        {
+          "aar": "2024",
+          "antalAarsvaerk": "17",
+          "antalAnsatte": "17",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 7,
+          "periode": "Juli 2024"
+        },
+        {
+          "aar": "2024",
+          "antalAarsvaerk": "17",
+          "antalAnsatte": "17",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 6,
+          "periode": "Juni 2024"
+        },
+        {
+          "aar": "2024",
+          "antalAarsvaerk": "15",
+          "antalAnsatte": "15",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 5,
+          "periode": "Maj 2024"
+        },
+        {
+          "aar": "2024",
+          "antalAarsvaerk": "15",
+          "antalAnsatte": "15",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 4,
+          "periode": "April 2024"
+        },
+        {
+          "aar": "2024",
+          "antalAarsvaerk": "15",
+          "antalAnsatte": "15",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 3,
+          "periode": "Marts 2024"
+        },
+        {
+          "aar": "2024",
+          "antalAarsvaerk": "15",
+          "antalAnsatte": "15",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 2,
+          "periode": "Februar 2024"
+        },
+        {
+          "aar": "2024",
+          "antalAarsvaerk": "15",
+          "antalAnsatte": "15",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 1,
+          "periode": "Januar 2024"
+        },
+        {
+          "aar": "2023",
+          "antalAarsvaerk": "15",
+          "antalAnsatte": "15",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 12,
+          "periode": "December 2023"
+        },
+        {
+          "aar": "2023",
+          "antalAarsvaerk": "15",
+          "antalAnsatte": "15",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 11,
+          "periode": "November 2023"
+        },
+        {
+          "aar": "2023",
+          "antalAarsvaerk": "13",
+          "antalAnsatte": "14",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 10,
+          "periode": "Oktober 2023"
+        },
+        {
+          "aar": "2023",
+          "antalAarsvaerk": "14",
+          "antalAnsatte": "14",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 9,
+          "periode": "September 2023"
+        },
+        {
+          "aar": "2023",
+          "antalAarsvaerk": "12",
+          "antalAnsatte": "13",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 8,
+          "periode": "August 2023"
+        },
+        {
+          "aar": "2023",
+          "antalAarsvaerk": "12",
+          "antalAnsatte": "13",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 7,
+          "periode": "Juli 2023"
+        },
+        {
+          "aar": "2023",
+          "antalAarsvaerk": "13",
+          "antalAnsatte": "13",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 6,
+          "periode": "Juni 2023"
+        },
+        {
+          "aar": "2023",
+          "antalAarsvaerk": "13",
+          "antalAnsatte": "13",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 5,
+          "periode": "Maj 2023"
+        },
+        {
+          "aar": "2023",
+          "antalAarsvaerk": "12",
+          "antalAnsatte": "12",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 4,
+          "periode": "April 2023"
+        },
+        {
+          "aar": "2023",
+          "antalAarsvaerk": "8",
+          "antalAnsatte": "8",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 3,
+          "periode": "Marts 2023"
+        },
+        {
+          "aar": "2023",
+          "antalAarsvaerk": "9",
+          "antalAnsatte": "9",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 2,
+          "periode": "Februar 2023"
+        },
+        {
+          "aar": "2023",
+          "antalAarsvaerk": "9",
+          "antalAnsatte": "9",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 1,
+          "periode": "Januar 2023"
+        },
+        {
+          "aar": "2022",
+          "antalAarsvaerk": "9",
+          "antalAnsatte": "9",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 12,
+          "periode": "December 2022"
+        },
+        {
+          "aar": "2022",
+          "antalAarsvaerk": "9",
+          "antalAnsatte": "9",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 11,
+          "periode": "November 2022"
+        },
+        {
+          "aar": "2022",
+          "antalAarsvaerk": "7",
+          "antalAnsatte": "7",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 10,
+          "periode": "Oktober 2022"
+        },
+        {
+          "aar": "2022",
+          "antalAarsvaerk": "7",
+          "antalAnsatte": "7",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 9,
+          "periode": "September 2022"
+        },
+        {
+          "aar": "2022",
+          "antalAarsvaerk": "7",
+          "antalAnsatte": "7",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 8,
+          "periode": "August 2022"
+        },
+        {
+          "aar": "2022",
+          "antalAarsvaerk": "7",
+          "antalAnsatte": "7",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 7,
+          "periode": "Juli 2022"
+        },
+        {
+          "aar": "2022",
+          "antalAarsvaerk": "7",
+          "antalAnsatte": "7",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 6,
+          "periode": "Juni 2022"
+        },
+        {
+          "aar": "2022",
+          "antalAarsvaerk": "7",
+          "antalAnsatte": "7",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 5,
+          "periode": "Maj 2022"
+        },
+        {
+          "aar": "2022",
+          "antalAarsvaerk": "8",
+          "antalAnsatte": "8",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 4,
+          "periode": "April 2022"
+        },
+        {
+          "aar": "2022",
+          "antalAarsvaerk": "8",
+          "antalAnsatte": "8",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 3,
+          "periode": "Marts 2022"
+        },
+        {
+          "aar": "2022",
+          "antalAarsvaerk": "8",
+          "antalAnsatte": "8",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 2,
+          "periode": "Februar 2022"
+        },
+        {
+          "aar": "2022",
+          "antalAarsvaerk": "8",
+          "antalAnsatte": "8",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 1,
+          "periode": "Januar 2022"
+        },
+        {
+          "aar": "2021",
+          "antalAarsvaerk": "8",
+          "antalAnsatte": "8",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 12,
+          "periode": "December 2021"
+        },
+        {
+          "aar": "2021",
+          "antalAarsvaerk": "8",
+          "antalAnsatte": "8",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 11,
+          "periode": "November 2021"
+        },
+        {
+          "aar": "2021",
+          "antalAarsvaerk": "8",
+          "antalAnsatte": "8",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 10,
+          "periode": "Oktober 2021"
+        },
+        {
+          "aar": "2021",
+          "antalAarsvaerk": "7",
+          "antalAnsatte": "8",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 9,
+          "periode": "September 2021"
+        },
+        {
+          "aar": "2021",
+          "antalAarsvaerk": "8",
+          "antalAnsatte": "8",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 8,
+          "periode": "August 2021"
+        },
+        {
+          "aar": "2021",
+          "antalAarsvaerk": "8",
+          "antalAnsatte": "8",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 7,
+          "periode": "Juli 2021"
+        },
+        {
+          "aar": "2021",
+          "antalAarsvaerk": "8",
+          "antalAnsatte": "9",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 6,
+          "periode": "Juni 2021"
+        },
+        {
+          "aar": "2021",
+          "antalAarsvaerk": "8",
+          "antalAnsatte": "9",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 5,
+          "periode": "Maj 2021"
+        },
+        {
+          "aar": "2021",
+          "antalAarsvaerk": "8",
+          "antalAnsatte": "9",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 4,
+          "periode": "April 2021"
+        },
+        {
+          "aar": "2021",
+          "antalAarsvaerk": "8",
+          "antalAnsatte": "8",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 3,
+          "periode": "Marts 2021"
+        },
+        {
+          "aar": "2021",
+          "antalAarsvaerk": "8",
+          "antalAnsatte": "8",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 2,
+          "periode": "Februar 2021"
+        },
+        {
+          "aar": "2021",
+          "antalAarsvaerk": "8",
+          "antalAnsatte": "8",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 1,
+          "periode": "Januar 2021"
+        },
+        {
+          "aar": "2020",
+          "antalAarsvaerk": "8",
+          "antalAnsatte": "8",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 12,
+          "periode": "December 2020"
+        },
+        {
+          "aar": "2020",
+          "antalAarsvaerk": "9",
+          "antalAnsatte": "9",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 11,
+          "periode": "November 2020"
+        },
+        {
+          "aar": "2020",
+          "antalAarsvaerk": "6",
+          "antalAnsatte": "6",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 10,
+          "periode": "Oktober 2020"
+        },
+        {
+          "aar": "2020",
+          "antalAarsvaerk": "6",
+          "antalAnsatte": "6",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 9,
+          "periode": "September 2020"
+        },
+        {
+          "aar": "2020",
+          "antalAarsvaerk": "5",
+          "antalAnsatte": "7",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 8,
+          "periode": "August 2020"
+        },
+        {
+          "aar": "2020",
+          "antalAarsvaerk": "7",
+          "antalAnsatte": "7",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 7,
+          "periode": "Juli 2020"
+        },
+        {
+          "aar": "2020",
+          "antalAarsvaerk": "6",
+          "antalAnsatte": "6",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 6,
+          "periode": "Juni 2020"
+        },
+        {
+          "aar": "2020",
+          "antalAarsvaerk": "6",
+          "antalAnsatte": "6",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 5,
+          "periode": "Maj 2020"
+        },
+        {
+          "aar": "2020",
+          "antalAarsvaerk": "6",
+          "antalAnsatte": "6",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 4,
+          "periode": "April 2020"
+        },
+        {
+          "aar": "2020",
+          "antalAarsvaerk": "6",
+          "antalAnsatte": "6",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 3,
+          "periode": "Marts 2020"
+        },
+        {
+          "aar": "2020",
+          "antalAarsvaerk": "7",
+          "antalAnsatte": "7",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 2,
+          "periode": "Februar 2020"
+        },
+        {
+          "aar": "2020",
+          "antalAarsvaerk": "6",
+          "antalAnsatte": "6",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 1,
+          "periode": "Januar 2020"
+        },
+        {
+          "aar": "2019",
+          "antalAarsvaerk": "6",
+          "antalAnsatte": "6",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 12,
+          "periode": "December 2019"
+        },
+        {
+          "aar": "2019",
+          "antalAarsvaerk": "3.42",
+          "antalAnsatte": "4",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 11,
+          "periode": "November 2019"
+        },
+        {
+          "aar": "2019",
+          "antalAarsvaerk": "4",
+          "antalAnsatte": "4",
+          "intervalKodeAntalAarsvaerk": null,
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": null,
+          "maaned": 10,
+          "periode": "Oktober 2019"
+        }
+      ]
+    },
+    "ejerforhold": {
+      "aktiveLegaleEjere": [],
+      "aktiveReelleEjere": [],
+      "begunstigetGruppeNavn": null,
+      "begunstigetGruppeRetskrav": null,
+      "bestyrelseAnsesSomReelleEjere": false,
+      "ejerregistreringUnderFemProcent": false,
+      "ophoerteLegaleEjere": [],
+      "ophoerteReelleEjere": [],
+      "virksomhedHarIkkeKunnetIdentificereReelleEjereLedelseErIndsat": false,
+      "virksomhedHarIkkeReelleEjereOgLedelseErIndsat": false,
+      "virksomhedsFormTilladerReelleEjerOplysninger": false
+    },
+    "foreningsrepraesentanter": [],
+    "harManuelSignering": true,
+    "historiskStamdata": {
+      "adresse": [
+        {
+          "gyldigFra": "2019-10-14",
+          "gyldigTil": "2026-02-09",
+          "vaerdi": "Rolighed 7, 2.\u003Cbr /\u003E4180 Sorø"
+        },
+        {
+          "gyldigFra": "2019-07-01",
+          "gyldigTil": "2019-10-13",
+          "vaerdi": "Vasebækvej 40\u003Cbr /\u003E4600 Køge"
+        }
+      ],
+      "bibranche": [],
+      "branchekode": [
+        {
+          "gyldigFra": "2019-07-01",
+          "gyldigTil": "2024-12-31",
+          "vaerdi": "701010 Ikke-finansielle hovedsæders virksomhed"
+        }
+      ],
+      "formaal": [],
+      "navn": [],
+      "registreretKapital": [],
+      "senesteVedtaegtsdato": [],
+      "status": [],
+      "tegningsregel": [],
+      "udenlandskAdresse": [],
+      "virksomhedsform": []
+    },
+    "hovedselskab": null,
+    "kanHaveLegaleEjere": true,
+    "kanHaveReelleEjere": true,
+    "ophoerteEjerforholdDto": null,
+    "oplysningerOmRevisionsvirksomhed": null,
+    "personkreds": {
+      "ejerborgLink": "",
+      "ophoerteFad": [],
+      "personkredser": [
+        {
+          "personRoller": [
+            {
+              "adresse": "Klosterlunden 6\n4700 Næstved",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "",
+              "ekstraDataList": [],
+              "enhedstype": "PERSON",
+              "id": "4000561858",
+              "personType": "deltager",
+              "senesteNavn": "Anders Frederik Gjesing",
+              "sorteringsVaredi": 3,
+              "titlePrefix": [
+                "erstdist-organisation-rolle-direktoerer"
+              ]
+            }
+          ],
+          "rolle": {
+            "declaringClass": "integration.erstdist.konstanter.OrganisationsMappning",
+            "funktionsVaerdi": [
+              "DIREKTØR",
+              "DIEKTØR",
+              "DIREKTØRx",
+              "RIREKTØR",
+              "ANSAT DIREKTØR",
+              "ANSVARLIG DIREKTØR",
+              "DIREKTØR OG BESTYRELSESMEDLEM",
+              "DIREKTØR EAPPLICATIONS",
+              "DIREKTØR ESOLUTIONS",
+              "DIREKTØR FOR INFRA SOLUTIONS",
+              "DIREKTØR FOR VERTIKALER",
+              "DIREKTØR FACILITY MANAGEMENT"
+            ],
+            "hovedType": [
+              "LEDELSESORGAN"
+            ],
+            "sorteringsVaerdi": 3,
+            "tekstnogle": "erstdist-organisation-rolle-direktoerer",
+            "name": "DIREKTOERER",
+            "ordinal": 73
+          },
+          "rolleTekstnogle": "erstdist-organisation-rolle-direktion"
+        },
+        {
+          "personRoller": [
+            {
+              "adresse": "Egebækvænge 7\n4600 Køge",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "Valgform: Generalforsamling",
+              "ekstraDataList": [
+                {
+                  "tekstnogle": "personkreds-valgform-label",
+                  "vaerdi": "Generalforsamling",
+                  "vaerdiTekstnogle": null
+                }
+              ],
+              "enhedstype": "PERSON",
+              "id": "4004101118",
+              "personType": "deltager",
+              "senesteNavn": "Line von Benzon Hollesen",
+              "sorteringsVaredi": 4,
+              "titlePrefix": [
+                "erstdist-organisation-rolle-formand"
+              ]
+            },
+            {
+              "adresse": "Lerhøj 9B\n4220 Korsør",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "Valgform: Generalforsamling",
+              "ekstraDataList": [
+                {
+                  "tekstnogle": "personkreds-valgform-label",
+                  "vaerdi": "Generalforsamling",
+                  "vaerdiTekstnogle": null
+                }
+              ],
+              "enhedstype": "PERSON",
+              "id": "4004114897",
+              "personType": "deltager",
+              "senesteNavn": "Henrik Rosendal Birch",
+              "sorteringsVaredi": 99,
+              "titlePrefix": []
+            },
+            {
+              "adresse": "Kastanievej 10\n4850 Stubbekøbing",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "Valgform: Generalforsamling",
+              "ekstraDataList": [
+                {
+                  "tekstnogle": "personkreds-valgform-label",
+                  "vaerdi": "Generalforsamling",
+                  "vaerdiTekstnogle": null
+                }
+              ],
+              "enhedstype": "PERSON",
+              "id": "4004187531",
+              "personType": "deltager",
+              "senesteNavn": "Steen Lindhardt",
+              "sorteringsVaredi": 99,
+              "titlePrefix": []
+            }
+          ],
+          "rolle": {
+            "declaringClass": "integration.erstdist.konstanter.OrganisationsMappning",
+            "funktionsVaerdi": [
+              "FORMAND",
+              "FORMAND (KOMMITTERET)', 'FORMAND FOR ØKONOMIUDVALGET', 'FORMAND, FORRETNINGSUDVALGET', 'FORRETNINGSUDVALG, FORMAND', 'FORRETNINGSUDVALG,FORMAND"
+            ],
+            "hovedType": [
+              "LEDELSESORGAN"
+            ],
+            "sorteringsVaerdi": 5,
+            "tekstnogle": "erstdist-organisation-rolle-formand",
+            "name": "FORMAND",
+            "ordinal": 83
+          },
+          "rolleTekstnogle": "erstdist-organisation-rolle-bestyrelsesmedlemmer"
+        },
+        {
+          "personRoller": [
+            {
+              "adresse": "Nordvej 6\n4200 Slagelse",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "",
+              "ekstraDataList": [],
+              "enhedstype": "VIRKSOMHED",
+              "id": "4001383547",
+              "personType": null,
+              "senesteNavn": "Envafors A/S",
+              "sorteringsVaredi": 10,
+              "titlePrefix": []
+            },
+            {
+              "adresse": "Tåstrup Møllevej 5\n4300 Holbæk",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "",
+              "ekstraDataList": [],
+              "enhedstype": "VIRKSOMHED",
+              "id": "4001811625",
+              "personType": null,
+              "senesteNavn": "FORS A/S",
+              "sorteringsVaredi": 10,
+              "titlePrefix": []
+            },
+            {
+              "adresse": "Vasebækvej 40\n4600 Køge",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "",
+              "ekstraDataList": [],
+              "enhedstype": "VIRKSOMHED",
+              "id": "4003843526",
+              "personType": null,
+              "senesteNavn": "KLAR Forsyning A/S",
+              "sorteringsVaredi": 10,
+              "titlePrefix": []
+            }
+          ],
+          "rolle": {
+            "declaringClass": "integration.erstdist.konstanter.OrganisationsMappning",
+            "funktionsVaerdi": [
+              "STIFTERE",
+              "STIFTER",
+              "ST*IFTERE",
+              "STI*FTERE",
+              "STIFERE"
+            ],
+            "hovedType": [
+              "STIFTERE"
+            ],
+            "sorteringsVaerdi": 10,
+            "tekstnogle": "erstdist-organisation-rolle-stiftere",
+            "name": "STIFTERE",
+            "ordinal": 0
+          },
+          "rolleTekstnogle": "erstdist-organisation-rolle-stiftere"
+        },
+        {
+          "personRoller": [
+            {
+              "adresse": "Strandvejen 44\n2900 Hellerup",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "",
+              "ekstraDataList": [],
+              "enhedstype": "VIRKSOMHED",
+              "id": "4000769917",
+              "personType": null,
+              "senesteNavn": "PRICEWATERHOUSECOOPERS STATSAUTORISERET REVISIONSPARTNERSELSKAB",
+              "sorteringsVaredi": 10,
+              "titlePrefix": []
+            }
+          ],
+          "rolle": {
+            "declaringClass": "integration.erstdist.konstanter.OrganisationsMappning",
+            "funktionsVaerdi": [
+              "REVISION"
+            ],
+            "hovedType": [
+              "REVISION"
+            ],
+            "sorteringsVaerdi": 10,
+            "tekstnogle": "erstdist-organisation-rolle-revision",
+            "name": "REVISION",
+            "ordinal": 97
+          },
+          "rolleTekstnogle": "erstdist-organisation-rolle-revision"
+        }
+      ],
+      "tegningsregel": "Selskabet tegnes af direktøren i forening med et bestyrelsesmedlem."
+    },
+    "produktionsenheder": {
+      "aktiveProduktionsenheder": [
+        {
+          "antalAnsatte": null,
+          "historiskStamdata": null,
+          "revisionsvirksomhed": null,
+          "stamdata": {
+            "adresse": "Vasebækvej 40",
+            "bibrancher": [],
+            "bygningsnummer": null,
+            "cvrnummer": "40634797",
+            "email": null,
+            "helligdagsaabent": false,
+            "hovedbranche": {
+              "branchekode": "701010",
+              "titel": "Ikke-finansielle hovedsæders aktiviteter"
+            },
+            "navn": "FIT A/S",
+            "ophoersdato": null,
+            "pnummer": "1024841770",
+            "postnummerOgBy": "4600 Køge",
+            "registreretIHvidvaskregistret": false,
+            "regnskabsperiodeSlut": null,
+            "regnskabsperiodeStart": null,
+            "reklamebeskyttet": false,
+            "startdato": "2019-07-01",
+            "telefon": null,
+            "udenlandskAdresse": null,
+            "udenlandskAdresseLand": "Danmark",
+            "udenlandskAdresseLandekode": "DK",
+            "virksomhedsnavn": null
+          }
+        }
+      ],
+      "ophoerteProduktionsenheder": []
+    },
+    "sammenhaengendeRegnskaber": [
+      {
+        "periodeFormateret": "01.01.2025 - 31.12.2025",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "40634797",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": "Anders Frederik Gjesing",
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "amNsb3VkczovLzAzL2NhLzdiLzZmL2VkL2M0ZDQtNDcxYi04NjIxLWFiYTk5ZTE3NTMwZg",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              },
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzQ3LzQwL2JmLzZkL2IxYjgtNGQ5Ny1hMzExLTQ0NWUwMDVjZGVjMw",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XHTML"
+              }
+            ],
+            "godkendelsesdato": "18.05.2026",
+            "hovednavn": "FIT A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "39273403",
+            "offentliggoerelseTidsstempel": "2026-05-21T15:29:26.658Z",
+            "offentliggoerelseTidsstempelFormateret": "21.05.2026",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2025 - 31.12.2025",
+            "regnskabsperiodeFra": "01.01.2025",
+            "regnskabsperiodeTil": "31.12.2025",
+            "sagsnummer": "X26-CH-74-CQ",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2025",
+        "regnskabsperiodeTil": "31.12.2025"
+      },
+      {
+        "periodeFormateret": "01.01.2024 - 31.12.2024",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "40634797",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": "Anders Frederik Gjesing",
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzQ3LzBkLzJiLzQ5LzEyZjktNDg4Mi04MzJlLWNmMTAyYWFhMzk0MQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              },
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzFjLzk2LzNmL2Y5LzM4ZmYtNGJkMy1hYTE4LTk3NWFhNTVjYzVmOQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "28.05.2025",
+            "hovednavn": "FIT A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "37604016",
+            "offentliggoerelseTidsstempel": "2025-06-12T05:35:50.860Z",
+            "offentliggoerelseTidsstempelFormateret": "12.06.2025",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2024 - 31.12.2024",
+            "regnskabsperiodeFra": "01.01.2024",
+            "regnskabsperiodeTil": "31.12.2024",
+            "sagsnummer": "X25-CN-08-DM",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2024",
+        "regnskabsperiodeTil": "31.12.2024"
+      },
+      {
+        "periodeFormateret": "01.01.2023 - 31.12.2023",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "40634797",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": "Kenneth Bjørk Sieck",
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "amNsb3VkczovLzAzL2I5L2YzL2U1L2IzL2YyOTUtNDIxOC04YTE1LWM1YzVkMGY4ZmY0Yg",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              },
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzg3L2E1L2VhL2JkLzU2NzUtNGVkMy1hYjFlLTBmOGY4NTRlZmUxNg",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              }
+            ],
+            "godkendelsesdato": "16.05.2024",
+            "hovednavn": "FIT A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "35722804",
+            "offentliggoerelseTidsstempel": "2024-05-23T15:33:31.492Z",
+            "offentliggoerelseTidsstempelFormateret": "23.05.2024",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2023 - 31.12.2023",
+            "regnskabsperiodeFra": "01.01.2023",
+            "regnskabsperiodeTil": "31.12.2023",
+            "sagsnummer": "X24-HP-03-HY",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2023",
+        "regnskabsperiodeTil": "31.12.2023"
+      },
+      {
+        "periodeFormateret": "01.01.2022 - 31.12.2022",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "40634797",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": "Per Houg Lund",
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzA0LzY0L2ZkL2VlL2EzNjQtNDEyZi04NzdkLTgzN2I3YjZkZGI3ZQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              },
+              {
+                "dokumentId": "amNsb3VkczovLzAzL2RlLzk1L2I4LzI5LzExNmMtNDA4MS04ZTVlLTFhYmMwYzg2ZWI5MQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "16.05.2023",
+            "hovednavn": "FIT A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "34098681",
+            "offentliggoerelseTidsstempel": "2023-06-06T16:20:53.679Z",
+            "offentliggoerelseTidsstempelFormateret": "06.06.2023",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2022 - 31.12.2022",
+            "regnskabsperiodeFra": "01.01.2022",
+            "regnskabsperiodeTil": "31.12.2022",
+            "sagsnummer": "X23-EG-74-UW",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2022",
+        "regnskabsperiodeTil": "31.12.2022"
+      },
+      {
+        "periodeFormateret": "01.01.2021 - 31.12.2021",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "40634797",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": "Per Houg Lund",
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzQ1LzE2Lzg4L2RiLzM1Y2YtNGJhYi1iOTIxLWM4N2YxYmVlOTZiNA",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              },
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzIwL2EyLzczL2Y2L2M5NDEtNDNiOC1iMWM0LWEwYTIyMDY1OWJjZA",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "12.05.2022",
+            "hovednavn": "FIT A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "32615293",
+            "offentliggoerelseTidsstempel": "2022-06-27T14:47:35.129Z",
+            "offentliggoerelseTidsstempelFormateret": "27.06.2022",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2021 - 31.12.2021",
+            "regnskabsperiodeFra": "01.01.2021",
+            "regnskabsperiodeTil": "31.12.2021",
+            "sagsnummer": "X22-DB-13-KL",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2021",
+        "regnskabsperiodeTil": "31.12.2021"
+      },
+      {
+        "periodeFormateret": "01.01.2020 - 31.12.2020",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "40634797",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": "Per Houg Lund",
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzg3LzdjLzNlLzhhLzQ2NzUtNDFmNy1iMmNjLWFkNzdmNGJhZmVjMQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              },
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzE2LzIyLzJlLzBkLzk3ODEtNGIzYS04YjA3LWFlMWUzMjJhNmFiZQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "18.05.2021",
+            "hovednavn": "FIT A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "30642094",
+            "offentliggoerelseTidsstempel": "2021-05-31T13:17:40.556Z",
+            "offentliggoerelseTidsstempelFormateret": "31.05.2021",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2020 - 31.12.2020",
+            "regnskabsperiodeFra": "01.01.2020",
+            "regnskabsperiodeTil": "31.12.2020",
+            "sagsnummer": "X21-CA-99-ML",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2020",
+        "regnskabsperiodeTil": "31.12.2020"
+      },
+      {
+        "periodeFormateret": "01.07.2019 - 31.12.2019",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "40634797",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "amNsb3VkczovLzAzL2U5L2I4LzQxLzMzLzQwODMtNDc4ZC05MzUzLWRjYWQyMzY3YTdhMA",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              },
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzQ3LzY0Lzc0LzIzLzc0NjAtNDQ0NC04MDVmLTBlZDJkZDEyMGEzMA",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "FIT A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "28860529",
+            "offentliggoerelseTidsstempel": "2020-05-28T08:51:36.454Z",
+            "offentliggoerelseTidsstempelFormateret": "28.05.2020",
+            "omgjort": false,
+            "periodeFormateret": "01.07.2019 - 31.12.2019",
+            "regnskabsperiodeFra": "01.07.2019",
+            "regnskabsperiodeTil": "31.12.2019",
+            "sagsnummer": "X20-CH-84-MY",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.07.2019",
+        "regnskabsperiodeTil": "31.12.2019"
+      }
+    ],
+    "skjulEjerforhold": false,
+    "skjulOevrigeDokumenter": false,
+    "stamdata": {
+      "adresse": "Vasebækvej 40",
+      "aktiviteterOmfattetAfHvidvaskloven": [],
+      "bygningsnummer": null,
+      "cvrnummer": "40634797",
+      "enhedsnummer": "4008135854",
+      "harPseudoCvr": false,
+      "kreditoplysningskode": null,
+      "modervirksomhederVedFranchise": [],
+      "navn": "FIT A/S",
+      "omfattetAfHvidvaskloven": false,
+      "ophoersdato": null,
+      "postnummerOgBy": "4600 Køge",
+      "regnummer": null,
+      "reklamebeskyttet": true,
+      "socialoekonomiskVirksomhed": false,
+      "startdato": "2019-07-01",
+      "statsligVirksomhed": false,
+      "status": "NORMAL",
+      "stiftetFor1900Tekstnogle": null,
+      "udenlandskAdresse": null,
+      "udenlandskAdresseLand": "Danmark",
+      "udenlandskAdresseLandekode": "DK",
+      "virkningsdato": "",
+      "virksomhedsform": "Aktieselskab",
+      "virksomhedsformKode": "60",
+      "visNavnPostfix": false
+    },
+    "udvidedeOplysninger": {
+      "bibrancher": [],
+      "binavne": [],
+      "boersnoteret": null,
+      "delvistIndbetaltKapital": false,
+      "email": null,
+      "fax": null,
+      "foersteRegnskabsperiodeSlut": "2019-12-31",
+      "foersteRegnskabsperiodeStart": "2019-07-01",
+      "formaal": "Selskabets formål er at sælge IT-ydelser, herunder servicere og varetage IT-drift samt al virksomhed, som efter bestyrelsens skøn er beslægtet hermed.\r\n Selskabet skal desuden understøtte aktionærernes strategiske udvikling af IT-området. Dette omfatter ikke egenudvikling af software-løsninger.",
+      "hovedbranche": {
+        "branchekode": "701010",
+        "titel": "Ikke-finansielle hovedsæders aktiviteter"
+      },
+      "kapitalklasser": false,
+      "kommune": "Køge",
+      "kommunekode": "259",
+      "koncessionsdato": null,
+      "omlaegningsperiodeSlut": null,
+      "omlaegningsperiodeStart": null,
+      "postadresse": null,
+      "registreretKapital": "2.000.000,00 DKK",
+      "regnskabsaarSlut": "31.12",
+      "regnskabsaarStart": "01.01",
+      "senesteVedtaegtsdato": "2019-07-01",
+      "senesteVedtaegtsdatoFoer1900": false,
+      "stadfaestelsesdato": null,
+      "stadfaestetAf": null,
+      "telefon": null,
+      "telefonSekundaert": null,
+      "udenlandskPostadresse": null,
+      "udenlandskPostadresseLand": null,
+      "udenlandskPostadresseLandekode": null
+    },
+    "virksomhedRegistreringer": [
+      {
+        "adresse": "Rolighed 7, 2., 4180 Sorø",
+        "cvrNummer": "40634797",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "FIT A/S",
+        "offentliggoerelseId": "38763543",
+        "offentliggoerelseTidsstempel": "10.02.2026",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003ENy adresse: Vasebækvej 40, 4600 Køge\n\u003Cbr /\u003ENy kommune: Køge\n\u003Cbr /\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003ENy adresse: Vasebækvej 40, 4600 Køge\u003Cbr/\u003E\u003Cbr /\u003ENy kommune: Køge\u003Cbr/\u003E\u003Cbr /\u003E\u003Cbr/\u003E\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_adresse"
+        ]
+      },
+      {
+        "adresse": "Rolighed 7, 2., 4180 Sorø",
+        "cvrNummer": "40634797",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "FIT A/S",
+        "offentliggoerelseId": "37187953",
+        "offentliggoerelseTidsstempel": "31.03.2025",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EDirektion:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EJohn Ekmann Callesen, den 31.03.2025.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000561858/deltager\" target=\"_blank\"\u003EAnders Frederik Gjesing\u003C/a\u003E, den 31.03.2025.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EDirektion:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EJohn Ekmann Callesen, den 31.03.2025.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EAnders Frederik Gjesing, den 31.03.2025.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Rolighed 7, 2., 4180 Sorø",
+        "cvrNummer": "40634797",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "FIT A/S",
+        "offentliggoerelseId": "35583146",
+        "offentliggoerelseTidsstempel": "24.04.2024",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EMichael Brandt, den 18.04.2024.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004187531/deltager\" target=\"_blank\"\u003ESteen Lindhardt\u003C/a\u003E, den 18.04.2024.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EMichael Brandt, den 18.04.2024.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003ESteen Lindhardt, den 18.04.2024.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Rolighed 7, 2., 4180 Sorø",
+        "cvrNummer": "40634797",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "FIT A/S",
+        "offentliggoerelseId": "34344422",
+        "offentliggoerelseTidsstempel": "29.06.2023",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003ERevision:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EDELOITTE STATSAUTORISERET REVISIONSPARTNERSELSKAB, den 16.05.2023.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003ECVR-NR. 33771231 PRICEWATERHOUSECOOPERS STATSAUTORISERET REVISIONSPARTNERSELSKAB, Strandvejen 44, 2900 Hellerup, den 16.05.2023.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003ERevision:\u003Cbr/\u003E\u003Cbr /\u003E\u003C/h1\u003E\u003Cbr/\u003E\u003Ch2\u003EFratrådte:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003EDELOITTE STATSAUTORISERET REVISIONSPARTNERSELSKAB, den 16.05.2023.\u003C/p\u003E\u003Cbr/\u003E\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003ECVR-NR. 33771231 PRICEWATERHOUSECOOPERS STATSAUTORISERET REVISIONSPARTNERSELSKAB, Strandvejen 44, 2900 Hellerup, den 16.05.2023.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_revision"
+        ]
+      },
+      {
+        "adresse": "Rolighed 7, 2., 4180 Sorø",
+        "cvrNummer": "40634797",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "FIT A/S",
+        "offentliggoerelseId": "33577381",
+        "offentliggoerelseTidsstempel": "24.02.2023",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EDirektion:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EHenrik Rosendal Birch, den 01.02.2023.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000098644/deltager\" target=\"_blank\"\u003EJohn Ekmann Callesen\u003C/a\u003E, den 01.02.2023.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EDirektion:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EHenrik Rosendal Birch, den 01.02.2023.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EJohn Ekmann Callesen, den 01.02.2023.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Vasebækvej 40, 4600 Køge",
+        "cvrNummer": "40634797",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "FIT A/S",
+        "offentliggoerelseId": "27919646",
+        "offentliggoerelseTidsstempel": "14.10.2019",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003ENy adresse: Rolighed 7, 2., 4180 Sorø\n\u003Cbr /\u003ENy kommune: Sorø\n\u003Cbr /\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003ENy adresse: Rolighed 7, 2., 4180 Sorø\u003Cbr/\u003E\u003Cbr /\u003ENy kommune: Sorø\u003Cbr/\u003E\u003Cbr /\u003E\u003Cbr/\u003E\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_adresse"
+        ]
+      },
+      {
+        "adresse": "Vasebækvej 40, 4600 Køge",
+        "cvrNummer": "40634797",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "FIT A/S",
+        "offentliggoerelseId": "27650740",
+        "offentliggoerelseTidsstempel": "04.07.2019",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003EFormål ændret: Selskabets formål er at sælge IT-ydelser, herunder servicere og varetage IT-drift samt al virksomhed, som efter bestyrelsens skøn er beslægtet hermed. Selskabet skal desuden understøtte aktionærernes strategiske udvikling af IT-området. Dette omfatter ikke egenudvikling af software-løsninger.\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003EFormål ændret: Selskabets formål er at sælge IT-ydelser, herunder servicere og varetage IT-drift samt al virksomhed, som efter bestyrelsens skøn er beslægtet hermed. Selskabet skal desuden understøtte aktionærernes strategiske udvikling af IT-området. Dette omfatter ikke egenudvikling af software-løsninger.\u003Cbr/\u003E\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Vasebækvej 40, 4600 Køge",
+        "cvrNummer": "40634797",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "FIT A/S",
+        "offentliggoerelseId": "27647769",
+        "offentliggoerelseTidsstempel": "03.07.2019",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003EStiftelsesdato: 01.07.2019.\n\u003Cbr /\u003EVirkningsdato: 01.07.2019.\n\u003Cbr /\u003ESeneste vedtægtsdato: 01.07.2019.\n\u003Cbr /\u003E\n\u003Ch1\u003EKapital:\u003C/h1\u003Ekr. 2.000.000,00.\n\u003Cbr /\u003E\n\u003Cp\u003EKapitalklasser: Nej\u003C/p\u003E\u003Cbr /\u003E\n\u003Cp\u003EIndbetalingsmåde:    Indbetalt i værdier kr. 1.618.323,00      til kurs 393,00, fuldt indbetalt.Indbetalt kontant kr. 381.677,00      til kurs 393,00, fuldt indbetalt.\u003C/p\u003E\u003Cbr /\u003E\n\u003Ch1\u003EStiftere:\u003C/h1\u003E\n\u003Cp\u003ECVR-NR. 26863902 SK SERVICE A/S, Nordvej 6, 4200 Slagelse, den 01.07.2019, CVR-NR. 33032838 FORS A/S, Tåstrup Møllevej 5, 4300 Holbæk, den 01.07.2019, CVR-NR. 36484438 KLAR Forsyning A/S, Vasebækvej 40, 4600 Køge, den 01.07.2019.\u003C/p\u003E\n\u003Cbr /\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004101118/deltager\" target=\"_blank\"\u003ELine von Benzon Hollesen\u003C/a\u003E, (formand), den 01.07.2019, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004114897/deltager\" target=\"_blank\"\u003EHenrik Rosendal Birch\u003C/a\u003E, den 01.07.2019, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000105434/deltager\" target=\"_blank\"\u003EMichael Brandt\u003C/a\u003E, den 01.07.2019.\u003C/p\u003E\n\u003Cbr /\u003E\n\u003Cbr /\u003E\n\u003Ch1\u003EDirektion:\u003C/h1\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004114897/deltager\" target=\"_blank\"\u003EHenrik Rosendal Birch\u003C/a\u003E, den 01.07.2019.\u003C/p\u003E\n\u003Cp\u003ESelskabet tegnes af direktøren i forening med et bestyrelsesmedlem..\u003C/p\u003E\u003Cbr /\u003E\n\u003Ch1\u003ERevision:\u003C/h1\u003E\n\u003Cp\u003ECVR-NR. 33963556 DELOITTE STATSAUTORISERET REVISIONSPARTNERSELSKAB, Weidekampsgade 6, 2300 København S, den 01.07.2019.\u003C/p\u003E\n\u003Ch1\u003EFørste regnskabsår:\u003C/h1\u003E\u003Cp\u003E01.07.2019 - 31.12.2019.\u003C/p\u003E\u003Cbr /\u003E\u003Ch1\u003ERegnskabsår:\u003C/h1\u003E\u003Cp\u003E01.01 - 31.12.\u003C/p\u003E\n\u003Ch1\u003EFormål:\u003C/h1\u003ESelskabets formål er at sælge IT-ydelser, herunder servicere og varetage IT-drift samt al virksomhed, som efter bestyrelsens skøn er beslægtet hermed.\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003EStiftelsesdato: 01.07.2019.\n\u003Cbr /\u003EVirkningsdato: 01.07.2019.\n\u003Cbr /\u003ESeneste vedtægtsdato: 01.07.2019.\n\u003Cbr /\u003E\n\u003Ch1\u003EKapital:\u003C/h1\u003Ekr. 2.000.000,00.\n\u003Cbr /\u003E\n\u003Cp\u003EKapitalklasser: Nej\u003C/p\u003E\u003Cbr /\u003E\n\u003Cp\u003EIndbetalingsmåde:    Indbetalt i værdier kr. 1.618.323,00      til kurs 393,00, fuldt indbetalt.Indbetalt kontant kr. 381.677,00      til kurs 393,00, fuldt indbetalt.\u003C/p\u003E\u003Cbr /\u003E\n\u003Ch1\u003EStiftere:\u003C/h1\u003E\n\u003Cp\u003ECVR-NR. 26863902 SK SERVICE A/S, Nordvej 6, 4200 Slagelse, den 01.07.2019, CVR-NR. 33032838 FORS A/S, Tåstrup Møllevej 5, 4300 Holbæk, den 01.07.2019, CVR-NR. 36484438 KLAR Forsyning A/S, Vasebækvej 40, 4600 Køge, den 01.07.2019.\u003C/p\u003E\n\u003Cbr /\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Cp\u003ELine von Benzon Hollesen, (formand), den 01.07.2019, Henrik Rosendal Birch, den 01.07.2019, Michael Brandt, den 01.07.2019.\u003C/p\u003E\n\u003Cbr /\u003E\n\u003Cbr /\u003E\n\u003Ch1\u003EDirektion:\u003C/h1\u003E\n\u003Cp\u003EHenrik Rosendal Birch, den 01.07.2019.\u003C/p\u003E\n\u003Cp\u003ESelskabet tegnes af direktøren i forening med et bestyrelsesmedlem..\u003C/p\u003E\u003Cbr /\u003E\n\u003Ch1\u003ERevision:\u003C/h1\u003E\n\u003Cp\u003ECVR-NR. 33963556 DELOITTE STATSAUTORISERET REVISIONSPARTNERSELSKAB, Weidekampsgade 6, 2300 København S, den 01.07.2019.\u003C/p\u003E\n\u003Ch1\u003EFørste regnskabsår:\u003C/h1\u003E\u003Cp\u003E01.07.2019 - 31.12.2019.\u003C/p\u003E\u003Cbr /\u003E\u003Ch1\u003ERegnskabsår:\u003C/h1\u003E\u003Cp\u003E01.01 - 31.12.\u003C/p\u003E\n\u003Ch1\u003EFormål:\u003C/h1\u003ESelskabets formål er at sælge IT-ydelser, herunder servicere og varetage IT-drift samt al virksomhed, som efter bestyrelsens skøn er beslægtet hermed.\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-nyt_selskab"
+        ]
+      }
+    ],
+    "virksomhedsMeddelelser": []
+  }

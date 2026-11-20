@@ -1,0 +1,2173 @@
+{
+    "aktiveEjerforholdDto": null,
+    "antalAnsatte": {
+      "kvartalsbeskaeftigelse": [],
+      "maanedsbeskaeftigelse": []
+    },
+    "ejerforhold": {
+      "aktiveLegaleEjere": [],
+      "aktiveReelleEjere": [],
+      "begunstigetGruppeNavn": null,
+      "begunstigetGruppeRetskrav": null,
+      "bestyrelseAnsesSomReelleEjere": false,
+      "ejerregistreringUnderFemProcent": false,
+      "ophoerteLegaleEjere": [],
+      "ophoerteReelleEjere": [],
+      "virksomhedHarIkkeKunnetIdentificereReelleEjereLedelseErIndsat": false,
+      "virksomhedHarIkkeReelleEjereOgLedelseErIndsat": false,
+      "virksomhedsFormTilladerReelleEjerOplysninger": false
+    },
+    "foreningsrepraesentanter": [],
+    "harManuelSignering": true,
+    "historiskStamdata": {
+      "adresse": [
+        {
+          "gyldigFra": "2018-11-29",
+          "gyldigTil": "2018-12-31",
+          "vaerdi": "Lilleøvej 3\u003Cbr /\u003E4220 Korsør"
+        },
+        {
+          "gyldigFra": "2008-07-16",
+          "gyldigTil": "2018-11-28",
+          "vaerdi": "Lilleøvej 3\u003Cbr /\u003E4220 Korsør"
+        },
+        {
+          "gyldigFra": "2007-01-01",
+          "gyldigTil": "2008-07-15",
+          "vaerdi": "Nordvej 11\u003Cbr /\u003E4200 Slagelse"
+        },
+        {
+          "gyldigFra": "2002-11-06",
+          "gyldigTil": "2006-12-31",
+          "vaerdi": "Nordvej 11\u003Cbr /\u003E4200 Slagelse"
+        }
+      ],
+      "bibranche": [],
+      "branchekode": [
+        {
+          "gyldigFra": "2008-01-01",
+          "gyldigTil": "2024-12-31",
+          "vaerdi": "351300 Distribution af elektricitet"
+        },
+        {
+          "gyldigFra": "2003-01-01",
+          "gyldigTil": "2007-12-31",
+          "vaerdi": "401300 Distribution af og handel med elektricitet"
+        },
+        {
+          "gyldigFra": "2002-11-06",
+          "gyldigTil": "2002-12-31",
+          "vaerdi": "401000 Elforsyning"
+        }
+      ],
+      "formaal": [],
+      "navn": [
+        {
+          "gyldigFra": "2018-05-23",
+          "gyldigTil": "2019-05-21",
+          "vaerdi": "Elnet Zealand A/S"
+        },
+        {
+          "gyldigFra": "2008-06-20",
+          "gyldigTil": "2018-05-22",
+          "vaerdi": "SK ELNET A/S"
+        },
+        {
+          "gyldigFra": "2004-04-22",
+          "gyldigTil": "2008-06-19",
+          "vaerdi": "SK-EL A/S"
+        },
+        {
+          "gyldigFra": "2002-11-06",
+          "gyldigTil": "2004-04-21",
+          "vaerdi": "SK-NET A/S"
+        }
+      ],
+      "registreretKapital": [
+        {
+          "gyldigFra": "2002-11-06",
+          "gyldigTil": "2008-06-19",
+          "vaerdi": "5.000.000,00 DKK"
+        }
+      ],
+      "senesteVedtaegtsdato": [
+        {
+          "gyldigFra": "2019-05-22",
+          "gyldigTil": "2023-12-30",
+          "vaerdi": "2019-05-22"
+        },
+        {
+          "gyldigFra": "2018-05-23",
+          "gyldigTil": "2019-05-21",
+          "vaerdi": "2018-05-23"
+        },
+        {
+          "gyldigFra": "2014-03-19",
+          "gyldigTil": "2018-05-22",
+          "vaerdi": "2014-03-19"
+        }
+      ],
+      "status": [],
+      "tegningsregel": [],
+      "udenlandskAdresse": [],
+      "virksomhedsform": []
+    },
+    "hovedselskab": null,
+    "kanHaveLegaleEjere": true,
+    "kanHaveReelleEjere": true,
+    "ophoerteEjerforholdDto": null,
+    "oplysningerOmRevisionsvirksomhed": null,
+    "personkreds": {
+      "ejerborgLink": "",
+      "ophoerteFad": [],
+      "personkredser": [
+        {
+          "personRoller": [
+            {
+              "adresse": "Lerhøj 9B\n4220 Korsør",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "",
+              "ekstraDataList": [],
+              "enhedstype": "PERSON",
+              "id": "4004114897",
+              "personType": "deltager",
+              "senesteNavn": "Henrik Rosendal Birch",
+              "sorteringsVaredi": 1,
+              "titlePrefix": [
+                "erstdist-organisation-rolle-adm_dir"
+              ]
+            },
+            {
+              "adresse": "Triangelvej 11\n4200 Slagelse",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "",
+              "ekstraDataList": [],
+              "enhedstype": "PERSON",
+              "id": "4010294260",
+              "personType": "deltager",
+              "senesteNavn": "Margit Jensen",
+              "sorteringsVaredi": 3,
+              "titlePrefix": [
+                "erstdist-organisation-rolle-direktoerer"
+              ]
+            }
+          ],
+          "rolle": {
+            "declaringClass": "integration.erstdist.konstanter.OrganisationsMappning",
+            "funktionsVaerdi": [
+              "ADM. DIR.",
+              "ADM. DIR",
+              "ADM. DIREKTØR",
+              "ADM.DIR.",
+              "ADM.DIRE R",
+              "ADM.DIREKTØR",
+              "ADMINISTRERENDE DIREKTØR",
+              "ANS.CHEFREDAKTØR & ADM.DIREKTØ",
+              "DIREKTØR, ADMINISTRATION",
+              "FUNGERENDE ADM. DIREKTØR",
+              "SIDEORDNET ADM. DIREKTØR"
+            ],
+            "hovedType": [
+              "LEDELSESORGAN"
+            ],
+            "sorteringsVaerdi": 1,
+            "tekstnogle": "erstdist-organisation-rolle-adm_dir",
+            "name": "ADM_DIR",
+            "ordinal": 68
+          },
+          "rolleTekstnogle": "erstdist-organisation-rolle-direktion"
+        },
+        {
+          "personRoller": [
+            {
+              "adresse": "Sjællandsvej 27\n4200 Slagelse",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "Valgform: Generalforsamling",
+              "ekstraDataList": [
+                {
+                  "tekstnogle": "personkreds-valgform-label",
+                  "vaerdi": "Generalforsamling",
+                  "vaerdiTekstnogle": null
+                }
+              ],
+              "enhedstype": "PERSON",
+              "id": "4004171164",
+              "personType": "deltager",
+              "senesteNavn": "Lis Tribler",
+              "sorteringsVaredi": 4,
+              "titlePrefix": [
+                "erstdist-organisation-rolle-formand"
+              ]
+            },
+            {
+              "adresse": "Lokesvej 8\n4220 Korsør",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "Valgform: Generalforsamling",
+              "ekstraDataList": [
+                {
+                  "tekstnogle": "personkreds-valgform-label",
+                  "vaerdi": "Generalforsamling",
+                  "vaerdiTekstnogle": null
+                }
+              ],
+              "enhedstype": "PERSON",
+              "id": "4007718334",
+              "personType": "deltager",
+              "senesteNavn": "Johnny Kim Hjulsager Persson",
+              "sorteringsVaredi": 6,
+              "titlePrefix": [
+                "erstdist-organisation-rolle-naestformand"
+              ]
+            },
+            {
+              "adresse": "Dronning Sofies Vej 14\n4000 Roskilde",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "Valgform: Generalforsamling",
+              "ekstraDataList": [
+                {
+                  "tekstnogle": "personkreds-valgform-label",
+                  "vaerdi": "Generalforsamling",
+                  "vaerdiTekstnogle": null
+                }
+              ],
+              "enhedstype": "PERSON",
+              "id": "4000145213",
+              "personType": "deltager",
+              "senesteNavn": "Susan Hørlyck Münster",
+              "sorteringsVaredi": 99,
+              "titlePrefix": []
+            },
+            {
+              "adresse": "Nødbrøndsvej 23\nDøjringe\n4180 Sorø",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "Valgform: Generalforsamling",
+              "ekstraDataList": [
+                {
+                  "tekstnogle": "personkreds-valgform-label",
+                  "vaerdi": "Generalforsamling",
+                  "vaerdiTekstnogle": null
+                }
+              ],
+              "enhedstype": "PERSON",
+              "id": "4000317025",
+              "personType": "deltager",
+              "senesteNavn": "Thomas Skovgaard Wraa Frosch",
+              "sorteringsVaredi": 99,
+              "titlePrefix": []
+            },
+            {
+              "adresse": "Seerdrupvej 18\nFårdrup\n4200 Slagelse",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "Valgform: Generalforsamling",
+              "ekstraDataList": [
+                {
+                  "tekstnogle": "personkreds-valgform-label",
+                  "vaerdi": "Generalforsamling",
+                  "vaerdiTekstnogle": null
+                }
+              ],
+              "enhedstype": "PERSON",
+              "id": "4000709428",
+              "personType": "deltager",
+              "senesteNavn": "Joshua Bjørkman",
+              "sorteringsVaredi": 99,
+              "titlePrefix": []
+            },
+            {
+              "adresse": "A N Hansens Alle 32\n2900 Hellerup",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "Valgform: Generalforsamling",
+              "ekstraDataList": [
+                {
+                  "tekstnogle": "personkreds-valgform-label",
+                  "vaerdi": "Generalforsamling",
+                  "vaerdiTekstnogle": null
+                }
+              ],
+              "enhedstype": "PERSON",
+              "id": "4003888200",
+              "personType": "deltager",
+              "senesteNavn": "Lars Therkildsen",
+              "sorteringsVaredi": 99,
+              "titlePrefix": []
+            },
+            {
+              "adresse": "Omøvej 11\n4220 Korsør",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "Valgform: Generalforsamling",
+              "ekstraDataList": [
+                {
+                  "tekstnogle": "personkreds-valgform-label",
+                  "vaerdi": "Generalforsamling",
+                  "vaerdiTekstnogle": null
+                }
+              ],
+              "enhedstype": "PERSON",
+              "id": "4003998369",
+              "personType": "deltager",
+              "senesteNavn": "Henrik Bach Jensen",
+              "sorteringsVaredi": 99,
+              "titlePrefix": []
+            },
+            {
+              "adresse": "Jonsgården 1\n4200 Slagelse",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "Valgform: Generalforsamling",
+              "ekstraDataList": [
+                {
+                  "tekstnogle": "personkreds-valgform-label",
+                  "vaerdi": "Generalforsamling",
+                  "vaerdiTekstnogle": null
+                }
+              ],
+              "enhedstype": "PERSON",
+              "id": "4008935854",
+              "personType": "deltager",
+              "senesteNavn": "Ali Yavuz",
+              "sorteringsVaredi": 99,
+              "titlePrefix": []
+            },
+            {
+              "adresse": "Spegerborgvej 22\n4230 Skælskør",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "Valgform: Generalforsamling",
+              "ekstraDataList": [
+                {
+                  "tekstnogle": "personkreds-valgform-label",
+                  "vaerdi": "Generalforsamling",
+                  "vaerdiTekstnogle": null
+                }
+              ],
+              "enhedstype": "PERSON",
+              "id": "4009455589",
+              "personType": "deltager",
+              "senesteNavn": "Anders Michael Bagge Kolding",
+              "sorteringsVaredi": 99,
+              "titlePrefix": []
+            },
+            {
+              "adresse": "Skrænten 1\n4220 Korsør",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "Valgform: Generalforsamling",
+              "ekstraDataList": [
+                {
+                  "tekstnogle": "personkreds-valgform-label",
+                  "vaerdi": "Generalforsamling",
+                  "vaerdiTekstnogle": null
+                }
+              ],
+              "enhedstype": "PERSON",
+              "id": "4010835863",
+              "personType": "deltager",
+              "senesteNavn": "Rasmus Trebbien Tribler",
+              "sorteringsVaredi": 99,
+              "titlePrefix": []
+            }
+          ],
+          "rolle": {
+            "declaringClass": "integration.erstdist.konstanter.OrganisationsMappning",
+            "funktionsVaerdi": [
+              "BESTYRELSE",
+              "BESTYRELSESMEDLEM",
+              "BESTYRELSESMELDEM",
+              "BESTYRELSESMEDLEM - REGNSKABSC",
+              "BESTYRELSE/DIREKTION",
+              "BESTYRELSESFORMAND",
+              "ALM.BESTYRELSESMEDLEM",
+              "GENERALFORSAMLINGSVALGT BESTYR",
+              "KOMMITTERET BESTYRELSESMEDLEM"
+            ],
+            "hovedType": [
+              "LEDELSESORGAN"
+            ],
+            "sorteringsVaerdi": 100,
+            "tekstnogle": "erstdist-organisation-rolle-bestyrelsesmedlemmer",
+            "name": "BESTYRELSESMEDLEMMER",
+            "ordinal": 7
+          },
+          "rolleTekstnogle": "erstdist-organisation-rolle-bestyrelsesmedlemmer"
+        },
+        {
+          "personRoller": [
+            {
+              "adresse": "Nordvej 6\n4200 Slagelse",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "",
+              "ekstraDataList": [],
+              "enhedstype": "VIRKSOMHED",
+              "id": "2894541",
+              "personType": null,
+              "senesteNavn": "SK FORSYNING A/S",
+              "sorteringsVaredi": 10,
+              "titlePrefix": []
+            }
+          ],
+          "rolle": {
+            "declaringClass": "integration.erstdist.konstanter.OrganisationsMappning",
+            "funktionsVaerdi": [
+              "STIFTERE",
+              "STIFTER",
+              "ST*IFTERE",
+              "STI*FTERE",
+              "STIFERE"
+            ],
+            "hovedType": [
+              "STIFTERE"
+            ],
+            "sorteringsVaerdi": 10,
+            "tekstnogle": "erstdist-organisation-rolle-stiftere",
+            "name": "STIFTERE",
+            "ordinal": 0
+          },
+          "rolleTekstnogle": "erstdist-organisation-rolle-stiftere"
+        },
+        {
+          "personRoller": [
+            {
+              "adresse": "Strandvejen 44\n2900 Hellerup",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "",
+              "ekstraDataList": [],
+              "enhedstype": "VIRKSOMHED",
+              "id": "4000769917",
+              "personType": null,
+              "senesteNavn": "PRICEWATERHOUSECOOPERS STATSAUTORISERET REVISIONSPARTNERSELSKAB",
+              "sorteringsVaredi": 10,
+              "titlePrefix": []
+            }
+          ],
+          "rolle": {
+            "declaringClass": "integration.erstdist.konstanter.OrganisationsMappning",
+            "funktionsVaerdi": [
+              "REVISION"
+            ],
+            "hovedType": [
+              "REVISION"
+            ],
+            "sorteringsVaerdi": 10,
+            "tekstnogle": "erstdist-organisation-rolle-revision",
+            "name": "REVISION",
+            "ordinal": 97
+          },
+          "rolleTekstnogle": "erstdist-organisation-rolle-revision"
+        }
+      ],
+      "tegningsregel": "Selskabet tegnes af et bestyrelsesmedlem og en direktør eller af bestyrelsesformanden sammen med et bestyrelsesmedlem eller af den samlede bestyrelse."
+    },
+    "produktionsenheder": {
+      "aktiveProduktionsenheder": [
+        {
+          "antalAnsatte": null,
+          "historiskStamdata": null,
+          "revisionsvirksomhed": null,
+          "stamdata": {
+            "adresse": "Nordvej 6",
+            "bibrancher": [],
+            "bygningsnummer": null,
+            "cvrnummer": "26863899",
+            "email": "kontakt@zeanet.dk",
+            "helligdagsaabent": false,
+            "hovedbranche": {
+              "branchekode": "351400",
+              "titel": "Distribution af elektricitet"
+            },
+            "navn": "Zeanet A/S",
+            "ophoersdato": null,
+            "pnummer": "1009480370",
+            "postnummerOgBy": "4200 Slagelse",
+            "registreretIHvidvaskregistret": false,
+            "regnskabsperiodeSlut": null,
+            "regnskabsperiodeStart": null,
+            "reklamebeskyttet": false,
+            "startdato": "2002-11-06",
+            "telefon": "58362600",
+            "udenlandskAdresse": null,
+            "udenlandskAdresseLand": "Danmark",
+            "udenlandskAdresseLandekode": "DK",
+            "virksomhedsnavn": null
+          }
+        }
+      ],
+      "ophoerteProduktionsenheder": []
+    },
+    "sammenhaengendeRegnskaber": [
+      {
+        "periodeFormateret": "01.01.2025 - 31.12.2025",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "26863899",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": "Henrik Rosendal Birch",
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "amNsb3VkczovLzAzL2U1Lzg0LzJlL2RlL2ZkN2YtNDkxZS1iNTBlLTQzMjY5YTMyZjcyNA",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XHTML"
+              },
+              {
+                "dokumentId": "amNsb3VkczovLzAzL2FkLzVhLzZkLzU3L2U0MGQtNGUyMy04ODBkLWQ1MmU0OTY1NjY1MQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              }
+            ],
+            "godkendelsesdato": "04.06.2026",
+            "hovednavn": "Zeanet A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "39452760",
+            "offentliggoerelseTidsstempel": "2026-06-15T10:25:53.822Z",
+            "offentliggoerelseTidsstempelFormateret": "15.06.2026",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2025 - 31.12.2025",
+            "regnskabsperiodeFra": "01.01.2025",
+            "regnskabsperiodeTil": "31.12.2025",
+            "sagsnummer": "X26-CU-22-UN",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2025",
+        "regnskabsperiodeTil": "31.12.2025"
+      },
+      {
+        "periodeFormateret": "01.01.2024 - 31.12.2024",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "26863899",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": "Henrik Rosendal Birch",
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzEwLzA3L2RiLzc1LzRhZDMtNDI5MS05NTMxLTU3MzcwYjc3OWY0Yw",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              },
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzZmL2Q1LzYyLzVlLzA4NzQtNDc0OC05ZmQyLTc1ODAzMGI1ZjQxMg",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "03.06.2025",
+            "hovednavn": "Zeanet A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "37593425",
+            "offentliggoerelseTidsstempel": "2025-06-11T06:40:49.818Z",
+            "offentliggoerelseTidsstempelFormateret": "11.06.2025",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2024 - 31.12.2024",
+            "regnskabsperiodeFra": "01.01.2024",
+            "regnskabsperiodeTil": "31.12.2024",
+            "sagsnummer": "X25-CM-86-CJ",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2024",
+        "regnskabsperiodeTil": "31.12.2024"
+      },
+      {
+        "periodeFormateret": "01.01.2023 - 31.12.2023",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "26863899",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": "Henrik Rosendal Birch",
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzgwLzJmLzJmLzM2L2QyMWYtNDM0OC05MTFiLTcwMDRmOTU5NzhlZg",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              },
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzg4LzE2LzBiLzllLzgxMmMtNGZlZS04OGM1LTExNzk2Zjg2YjFmOQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "23.05.2024",
+            "hovednavn": "Zeanet A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "35764144",
+            "offentliggoerelseTidsstempel": "2024-05-28T08:16:00.937Z",
+            "offentliggoerelseTidsstempelFormateret": "28.05.2024",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2023 - 31.12.2023",
+            "regnskabsperiodeFra": "01.01.2023",
+            "regnskabsperiodeTil": "31.12.2023",
+            "sagsnummer": "X24-HS-51-JJ",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2023",
+        "regnskabsperiodeTil": "31.12.2023"
+      },
+      {
+        "periodeFormateret": "01.01.2022 - 31.12.2022",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "26863899",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": "Henrik Rosendal Birch",
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzQ3LzMyL2ZmLzEzL2JmOWMtNGIwMi1hMzc5LWU2YmI4OTY2ZWE3Yg",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              },
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzdjL2ZkLzkyL2I0LzFiNGItNDg3Ny04ZWRiLWQ0OTQzYjlmZGRkZg",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "23.05.2023",
+            "hovednavn": "Zeanet A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "34139726",
+            "offentliggoerelseTidsstempel": "2023-06-12T14:10:44.038Z",
+            "offentliggoerelseTidsstempelFormateret": "12.06.2023",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2022 - 31.12.2022",
+            "regnskabsperiodeFra": "01.01.2022",
+            "regnskabsperiodeTil": "31.12.2022",
+            "sagsnummer": "X23-EJ-31-CF",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2022",
+        "regnskabsperiodeTil": "31.12.2022"
+      },
+      {
+        "periodeFormateret": "01.01.2021 - 31.12.2021",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "26863899",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": "Henrik Rosendal Birch",
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzIwLzJkLzA2L2IyLzFlODktNDM1OC1hNDdiLWNjNTQ3ZGVkZWFkYQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              },
+              {
+                "dokumentId": "amNsb3VkczovLzAzL2Y0L2M3L2RiL2M2LzgzOWUtNDAyOC05ODc5LWUxY2YwMWU1ZjM1Zg",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "19.05.2022",
+            "hovednavn": "Zeanet A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "32425007",
+            "offentliggoerelseTidsstempel": "2022-06-02T14:05:48.939Z",
+            "offentliggoerelseTidsstempelFormateret": "02.06.2022",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2021 - 31.12.2021",
+            "regnskabsperiodeFra": "01.01.2021",
+            "regnskabsperiodeTil": "31.12.2021",
+            "sagsnummer": "X22-CT-62-XW",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2021",
+        "regnskabsperiodeTil": "31.12.2021"
+      },
+      {
+        "periodeFormateret": "01.01.2020 - 31.12.2020",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "26863899",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": "Henrik Rosendal Birch",
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzBjLzZkL2E0L2VhL2Q5OGItNDQ3Yi1iZTEzLWY5NzUyODJlNGM5ZA",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              },
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzA2L2EzL2MyLzQ1LzlmNjQtNDVlZC05NjY1LTc1NjkxMDI5NzIzNQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              }
+            ],
+            "godkendelsesdato": "26.05.2021",
+            "hovednavn": "Zeanet A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "30857106",
+            "offentliggoerelseTidsstempel": "2021-06-28T11:56:01.056Z",
+            "offentliggoerelseTidsstempelFormateret": "28.06.2021",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2020 - 31.12.2020",
+            "regnskabsperiodeFra": "01.01.2020",
+            "regnskabsperiodeTil": "31.12.2020",
+            "sagsnummer": "X21-CN-32-TR",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2020",
+        "regnskabsperiodeTil": "31.12.2020"
+      },
+      {
+        "periodeFormateret": "01.01.2019 - 31.12.2019",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "26863899",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzRiLzM4L2Y2Lzk1LzI0NzEtNGQxMy04ZjQ2LTgyMzk1YjE5Y2ViOQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              },
+              {
+                "dokumentId": "amNsb3VkczovLzAzL2IyL2ZkL2RmLzkxLzM5NDItNDBiZC05YTk4LTk2ZTE0MDI0ZGI4MA",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "Zeanet A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "28879714",
+            "offentliggoerelseTidsstempel": "2020-05-31T16:15:49.265Z",
+            "offentliggoerelseTidsstempelFormateret": "31.05.2020",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2019 - 31.12.2019",
+            "regnskabsperiodeFra": "01.01.2019",
+            "regnskabsperiodeTil": "31.12.2019",
+            "sagsnummer": "X20-CJ-82-JV",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2019",
+        "regnskabsperiodeTil": "31.12.2019"
+      },
+      {
+        "periodeFormateret": "01.01.2018 - 31.12.2018",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "26863899",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzLzMyLzU5LzYxLzRkLzVjYzEtNDRkYS1hZDc1LTI0NGIyZmVmYjE2ZQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              },
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzL2UxLzBkL2VkLzZkLzE0ZGUtNGY2Mi04YmIxLTA4MTVlOTg5MWVjZQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "Zeanet A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "27300602",
+            "offentliggoerelseTidsstempel": "2019-05-29T16:42:06.546Z",
+            "offentliggoerelseTidsstempelFormateret": "29.05.2019",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2018 - 31.12.2018",
+            "regnskabsperiodeFra": "01.01.2018",
+            "regnskabsperiodeTil": "31.12.2018",
+            "sagsnummer": "X19-BJ-42-LZ",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2018",
+        "regnskabsperiodeTil": "31.12.2018"
+      },
+      {
+        "periodeFormateret": "01.01.2017 - 31.12.2017",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "26863899",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzLzAxLzMyLzgxLzQyL2FjNDgtNDFiZS1iODE4LWYxMmQ0NzhkZDg2NA",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              },
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzLzhlLzk5LzhkLzgwL2E4ZjktNDBhNC1iNjRmLTcxNGVlYmU5Y2NhMw",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK ELNET A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "25590153",
+            "offentliggoerelseTidsstempel": "2018-05-29T15:29:58.002Z",
+            "offentliggoerelseTidsstempelFormateret": "29.05.2018",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2017 - 31.12.2017",
+            "regnskabsperiodeFra": "01.01.2017",
+            "regnskabsperiodeTil": "31.12.2017",
+            "sagsnummer": "X18-AN-04-UG",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2017",
+        "regnskabsperiodeTil": "31.12.2017"
+      },
+      {
+        "periodeFormateret": "01.01.2016 - 31.12.2016",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "26863899",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzL2Y1L2FkLzA4L2EzLzU4MzAtNGFiNS04ZTk3LWI0MTk2YmZkMTk3Mw",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              },
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzLzc0LzY0LzkwLzI5Lzc1OWItNDBjYy1iZjIyLTUyYzEyYzgyYjNmNA",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK ELNET A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "23992275",
+            "offentliggoerelseTidsstempel": "2017-05-30T16:55:22.181Z",
+            "offentliggoerelseTidsstempelFormateret": "30.05.2017",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2016 - 31.12.2016",
+            "regnskabsperiodeFra": "01.01.2016",
+            "regnskabsperiodeTil": "31.12.2016",
+            "sagsnummer": "X17-AK-58-CE",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2016",
+        "regnskabsperiodeTil": "31.12.2016"
+      },
+      {
+        "periodeFormateret": "01.01.2015 - 31.12.2015",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "26863899",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzLzNhLzhiLzVmL2JkLzM1NjYtNGVjNi04YzkwLTY3NTkzMGI3Y2ViMQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              },
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzL2ViL2Q2LzdlLzI5LzhjZGMtNGRmNC04NTQwLTIwMjc3YTYwMTRiNA",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK ELNET A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "22453450",
+            "offentliggoerelseTidsstempel": "2016-05-26T12:26:03.687Z",
+            "offentliggoerelseTidsstempelFormateret": "26.05.2016",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2015 - 31.12.2015",
+            "regnskabsperiodeFra": "01.01.2015",
+            "regnskabsperiodeTil": "31.12.2015",
+            "sagsnummer": "X16-AW-86-CW",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2015",
+        "regnskabsperiodeTil": "31.12.2015"
+      },
+      {
+        "periodeFormateret": "01.01.2014 - 31.12.2014",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "26863899",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzLzg1L2EwLzEzLzhlLzViMjQtNDUyZi1hODBjLTgxOTYzZDc2ZWU0Yg",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              },
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzL2Q4L2I0Lzc1LzZjLzI5ZTMtNDhmZS1hOTczLWU4YTMxZjdkZWVlMA",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK ELNET A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "5362895",
+            "offentliggoerelseTidsstempel": "2015-05-29T15:17:12.849Z",
+            "offentliggoerelseTidsstempelFormateret": "29.05.2015",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2014 - 31.12.2014",
+            "regnskabsperiodeFra": "01.01.2014",
+            "regnskabsperiodeTil": "31.12.2014",
+            "sagsnummer": "X15-AC-60-NS",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2014",
+        "regnskabsperiodeTil": "31.12.2014"
+      },
+      {
+        "periodeFormateret": "01.01.2013 - 31.12.2013",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "26863899",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8veGJybHMvWC03RENCRUIxMi0yMDE0MDYwMl8xMDIyNTBfMDky",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              },
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yNjg2Mzg5OTtBL1MzMDYwNjk7MjAxMzAxMDE7MjAxMzEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK ELNET A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "20944130",
+            "offentliggoerelseTidsstempel": "2014-06-04T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "05.06.2014",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2013 - 31.12.2013",
+            "regnskabsperiodeFra": "01.01.2013",
+            "regnskabsperiodeTil": "31.12.2013",
+            "sagsnummer": "14-54.276",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2013",
+        "regnskabsperiodeTil": "31.12.2013"
+      },
+      {
+        "periodeFormateret": "01.01.2012 - 31.12.2012",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "26863899",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yNjg2Mzg5OTtBL1MzMDYwNjk7MjAxMjAxMDE7MjAxMjEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK ELNET A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "20944128",
+            "offentliggoerelseTidsstempel": "2013-05-30T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "31.05.2013",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2012 - 31.12.2012",
+            "regnskabsperiodeFra": "01.01.2012",
+            "regnskabsperiodeTil": "31.12.2012",
+            "sagsnummer": "13-63.331",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2012",
+        "regnskabsperiodeTil": "31.12.2012"
+      },
+      {
+        "periodeFormateret": "01.01.2011 - 31.12.2011",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "26863899",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yNjg2Mzg5OTtBL1MzMDYwNjk7MjAxMTAxMDE7MjAxMTEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK ELNET A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "20944126",
+            "offentliggoerelseTidsstempel": "2012-06-03T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "04.06.2012",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2011 - 31.12.2011",
+            "regnskabsperiodeFra": "01.01.2011",
+            "regnskabsperiodeTil": "31.12.2011",
+            "sagsnummer": "12-60.763",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2011",
+        "regnskabsperiodeTil": "31.12.2011"
+      },
+      {
+        "periodeFormateret": "01.01.2010 - 31.12.2010",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "26863899",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yNjg2Mzg5OTtBL1MzMDYwNjk7MjAxMDAxMDE7MjAxMDEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK ELNET A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "20944124",
+            "offentliggoerelseTidsstempel": "2011-09-25T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "26.09.2011",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2010 - 31.12.2010",
+            "regnskabsperiodeFra": "01.01.2010",
+            "regnskabsperiodeTil": "31.12.2010",
+            "sagsnummer": "11-67.565",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2010",
+        "regnskabsperiodeTil": "31.12.2010"
+      },
+      {
+        "periodeFormateret": "01.01.2009 - 31.12.2009",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "26863899",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yNjg2Mzg5OTtBL1MzMDYwNjk7MjAwOTAxMDE7MjAwOTEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK ELNET A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "20944122",
+            "offentliggoerelseTidsstempel": "2010-05-26T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "27.05.2010",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2009 - 31.12.2009",
+            "regnskabsperiodeFra": "01.01.2009",
+            "regnskabsperiodeTil": "31.12.2009",
+            "sagsnummer": "10-74.152",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2009",
+        "regnskabsperiodeTil": "31.12.2009"
+      },
+      {
+        "periodeFormateret": "01.01.2008 - 31.12.2008",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "26863899",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yNjg2Mzg5OTtBL1MzMDYwNjk7MjAwODAxMDE7MjAwODEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK ELNET A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "20944120",
+            "offentliggoerelseTidsstempel": "2009-06-24T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "25.06.2009",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2008 - 31.12.2008",
+            "regnskabsperiodeFra": "01.01.2008",
+            "regnskabsperiodeTil": "31.12.2008",
+            "sagsnummer": "09-83.719",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2008",
+        "regnskabsperiodeTil": "31.12.2008"
+      },
+      {
+        "periodeFormateret": "01.01.2007 - 31.12.2007",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "26863899",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yNjg2Mzg5OTtBL1MzMDYwNjk7MjAwNzAxMDE7MjAwNzEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK-EL A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "20944118",
+            "offentliggoerelseTidsstempel": "2008-04-21T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "22.04.2008",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2007 - 31.12.2007",
+            "regnskabsperiodeFra": "01.01.2007",
+            "regnskabsperiodeTil": "31.12.2007",
+            "sagsnummer": "08-81.990",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2007",
+        "regnskabsperiodeTil": "31.12.2007"
+      },
+      {
+        "periodeFormateret": "01.01.2006 - 31.12.2006",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "26863899",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yNjg2Mzg5OTtBL1MzMDYwNjk7MjAwNjAxMDE7MjAwNjEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK-EL A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "20944116",
+            "offentliggoerelseTidsstempel": "2007-05-24T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "25.05.2007",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2006 - 31.12.2006",
+            "regnskabsperiodeFra": "01.01.2006",
+            "regnskabsperiodeTil": "31.12.2006",
+            "sagsnummer": "07-84.067",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2006",
+        "regnskabsperiodeTil": "31.12.2006"
+      },
+      {
+        "periodeFormateret": "01.01.2005 - 31.12.2005",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "26863899",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yNjg2Mzg5OTtBL1MzMDYwNjk7MjAwNTAxMDE7MjAwNTEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK-EL A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "20944114",
+            "offentliggoerelseTidsstempel": "2006-04-26T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "27.04.2006",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2005 - 31.12.2005",
+            "regnskabsperiodeFra": "01.01.2005",
+            "regnskabsperiodeTil": "31.12.2005",
+            "sagsnummer": "06-81.413",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2005",
+        "regnskabsperiodeTil": "31.12.2005"
+      },
+      {
+        "periodeFormateret": "01.01.2004 - 31.12.2004",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "26863899",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yNjg2Mzg5OTtBL1MzMDYwNjk7MjAwNDAxMDE7MjAwNDEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK-EL A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "20944112",
+            "offentliggoerelseTidsstempel": "2005-05-07T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "08.05.2005",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2004 - 31.12.2004",
+            "regnskabsperiodeFra": "01.01.2004",
+            "regnskabsperiodeTil": "31.12.2004",
+            "sagsnummer": "05-80.101",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2004",
+        "regnskabsperiodeTil": "31.12.2004"
+      },
+      {
+        "periodeFormateret": "01.01.2003 - 31.12.2003",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "26863899",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yNjg2Mzg5OTtBL1MzMDYwNjk7MjAwMzAxMDE7MjAwMzEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK-EL A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "20944110",
+            "offentliggoerelseTidsstempel": "2004-05-04T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "05.05.2004",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2003 - 31.12.2003",
+            "regnskabsperiodeFra": "01.01.2003",
+            "regnskabsperiodeTil": "31.12.2003",
+            "sagsnummer": "04-81.868",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2003",
+        "regnskabsperiodeTil": "31.12.2003"
+      },
+      {
+        "periodeFormateret": "01.01.2002 - 31.12.2002",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "26863899",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yNjg2Mzg5OTtBL1MzMDYwNjk7MjAwMjAxMDE7MjAwMjEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK-NET A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "20944108",
+            "offentliggoerelseTidsstempel": "2003-04-13T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "14.04.2003",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2002 - 31.12.2002",
+            "regnskabsperiodeFra": "01.01.2002",
+            "regnskabsperiodeTil": "31.12.2002",
+            "sagsnummer": "03-6.407",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2002",
+        "regnskabsperiodeTil": "31.12.2002"
+      }
+    ],
+    "skjulEjerforhold": false,
+    "skjulOevrigeDokumenter": false,
+    "stamdata": {
+      "adresse": "Nordvej 6",
+      "aktiviteterOmfattetAfHvidvaskloven": [],
+      "bygningsnummer": null,
+      "cvrnummer": "26863899",
+      "enhedsnummer": "4001383546",
+      "harPseudoCvr": false,
+      "kreditoplysningskode": null,
+      "modervirksomhederVedFranchise": [],
+      "navn": "Zeanet A/S",
+      "omfattetAfHvidvaskloven": false,
+      "ophoersdato": null,
+      "postnummerOgBy": "4200 Slagelse",
+      "regnummer": null,
+      "reklamebeskyttet": false,
+      "socialoekonomiskVirksomhed": false,
+      "startdato": "2002-11-06",
+      "statsligVirksomhed": false,
+      "status": "NORMAL",
+      "stiftetFor1900Tekstnogle": null,
+      "udenlandskAdresse": null,
+      "udenlandskAdresseLand": "Danmark",
+      "udenlandskAdresseLandekode": "DK",
+      "virkningsdato": "",
+      "virksomhedsform": "Aktieselskab",
+      "virksomhedsformKode": "60",
+      "visNavnPostfix": false
+    },
+    "udvidedeOplysninger": {
+      "bibrancher": [],
+      "binavne": [
+        "Elnet Zealand A/S"
+      ],
+      "boersnoteret": null,
+      "delvistIndbetaltKapital": false,
+      "email": "kontakt@zeanet.dk",
+      "fax": null,
+      "foersteRegnskabsperiodeSlut": "2002-12-31",
+      "foersteRegnskabsperiodeStart": "2002-01-01",
+      "formaal": "Selskabets formål er at drive elnetvirksomhed i henhold til bevilling efter elforsyningsloven. Selskabet kan endvidere besidde ejerandele i elproduktionsvirksomheder, transmissionsvirksomheder og andre netvirksomheder, systemansvarlige virksomheder og forsyningspligtige virksomheder, såfremt aktiviteterne udøves i selvstændige selskaber med begrænset ansvar",
+      "hovedbranche": {
+        "branchekode": "351400",
+        "titel": "Distribution af elektricitet"
+      },
+      "kapitalklasser": null,
+      "kommune": "Slagelse",
+      "kommunekode": "330",
+      "koncessionsdato": null,
+      "omlaegningsperiodeSlut": null,
+      "omlaegningsperiodeStart": null,
+      "postadresse": null,
+      "registreretKapital": "9.600.000,00 DKK",
+      "regnskabsaarSlut": "31.12",
+      "regnskabsaarStart": "01.01",
+      "senesteVedtaegtsdato": "2023-12-31",
+      "senesteVedtaegtsdatoFoer1900": false,
+      "stadfaestelsesdato": null,
+      "stadfaestetAf": null,
+      "telefon": "58362500",
+      "telefonSekundaert": null,
+      "udenlandskPostadresse": null,
+      "udenlandskPostadresseLand": null,
+      "udenlandskPostadresseLandekode": null
+    },
+    "virksomhedRegistreringer": [
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "26863899",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "Zeanet A/S",
+        "offentliggoerelseId": "39510333",
+        "offentliggoerelseTidsstempel": "19.06.2026",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003ELars Erik Clausen, den 04.06.2026, Leif Bjarne Clausen, den 04.06.2026, Hans Ole Drost, den 04.06.2026, Kenneth Martin Hansen, den 04.06.2026, Erik Lynge Skovgaard Jensen, (næstformand), den 04.06.2026, Jane Nielsen, den 04.06.2026, Tina Højlund Pedersen, den 04.06.2026, Lars Therkildsen, (formand), den 04.06.2026, Lis Tribler, den 04.06.2026.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000317025/deltager\" target=\"_blank\"\u003EThomas Skovgaard Wraa Frosch\u003C/a\u003E, den 04.06.2026, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4003998369/deltager\" target=\"_blank\"\u003EHenrik Bach Jensen\u003C/a\u003E, den 04.06.2026, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4009455589/deltager\" target=\"_blank\"\u003EAnders Michael Bagge Kolding\u003C/a\u003E, den 04.06.2026, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000145213/deltager\" target=\"_blank\"\u003ESusan Hørlyck Münster\u003C/a\u003E, den 04.06.2026, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4007718334/deltager\" target=\"_blank\"\u003EJohnny Kim Hjulsager Persson\u003C/a\u003E, (næstformand), den 04.06.2026, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4003888200/deltager\" target=\"_blank\"\u003ELars Therkildsen\u003C/a\u003E, den 04.06.2026, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004171164/deltager\" target=\"_blank\"\u003ELis Tribler\u003C/a\u003E, (formand), den 04.06.2026, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4010835863/deltager\" target=\"_blank\"\u003ERasmus Trebbien Tribler\u003C/a\u003E, den 04.06.2026, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4008935854/deltager\" target=\"_blank\"\u003EAli Yavuz\u003C/a\u003E, den 04.06.2026.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003ELars Erik Clausen, den 04.06.2026, Leif Bjarne Clausen, den 04.06.2026, Hans Ole Drost, den 04.06.2026, Kenneth Martin Hansen, den 04.06.2026, Erik Lynge Skovgaard Jensen, (næstformand), den 04.06.2026, Jane Nielsen, den 04.06.2026, Tina Højlund Pedersen, den 04.06.2026, Lars Therkildsen, (formand), den 04.06.2026, Lis Tribler, den 04.06.2026.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EThomas Skovgaard Wraa Frosch, den 04.06.2026, Henrik Bach Jensen, den 04.06.2026, Anders Michael Bagge Kolding, den 04.06.2026, Susan Hørlyck Münster, den 04.06.2026, Johnny Kim Hjulsager Persson, (næstformand), den 04.06.2026, Lars Therkildsen, den 04.06.2026, Lis Tribler, (formand), den 04.06.2026, Rasmus Trebbien Tribler, den 04.06.2026, Ali Yavuz, den 04.06.2026.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "26863899",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "Zeanet A/S",
+        "offentliggoerelseId": "37533990",
+        "offentliggoerelseTidsstempel": "02.06.2025",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EDirektion:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EJan Østerskov Hansen, den 31.05.2025.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003EDirektion:\u003Cbr/\u003E\u003Cbr /\u003E\u003C/h1\u003E\u003Cbr/\u003E\u003Ch2\u003EFratrådte:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003EJan Østerskov Hansen, den 31.05.2025.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "26863899",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "Zeanet A/S",
+        "offentliggoerelseId": "37110454",
+        "offentliggoerelseTidsstempel": "18.03.2025",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EDirektion:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4010294260/deltager\" target=\"_blank\"\u003EMargit Jensen\u003C/a\u003E, den 17.03.2025.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EDirektion:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EMargit Jensen, den 17.03.2025.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "26863899",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "Zeanet A/S",
+        "offentliggoerelseId": "35956415",
+        "offentliggoerelseTidsstempel": "20.06.2024",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EAnders Frederik Gjesing, den 19.06.2024.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004175292/deltager\" target=\"_blank\"\u003ETina Højlund Pedersen\u003C/a\u003E, den 19.06.2024.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EAnders Frederik Gjesing, den 19.06.2024.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003ETina Højlund Pedersen, den 19.06.2024.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "26863899",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "Zeanet A/S",
+        "offentliggoerelseId": "35131097",
+        "offentliggoerelseTidsstempel": "09.01.2024",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003EVedtægter ændret: 31.12.2023\n\u003Cbr /\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EJoshua Bjørkman, den 31.12.2023, Villum Christensen, den 31.12.2023, Leif Bjarne Clausen, den 31.12.2023, Hans Ole Drost, (formand), den 31.12.2023, Pernille Ivalo Frandsen, den 31.12.2023, Ole Ernstsen Hansen, den 31.12.2023, Stina Abelone Madsen, den 31.12.2023, Svend Aage Nielsen, den 31.12.2023, Anna Strøbæk, den 31.12.2023, Lis Tribler, (næstformand), den 31.12.2023, Ali Yavuz, den 31.12.2023.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000709428/deltager\" target=\"_blank\"\u003EJoshua Bjørkman\u003C/a\u003E, den 31.12.2023, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004123652/deltager\" target=\"_blank\"\u003ELars Erik Clausen\u003C/a\u003E, den 31.12.2023, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4007658227/deltager\" target=\"_blank\"\u003ELeif Bjarne Clausen\u003C/a\u003E, den 31.12.2023, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000222171/deltager\" target=\"_blank\"\u003EHans Ole Drost\u003C/a\u003E, den 31.12.2023, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000561858/deltager\" target=\"_blank\"\u003EAnders Frederik Gjesing\u003C/a\u003E, den 31.12.2023, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004192209/deltager\" target=\"_blank\"\u003EKenneth Martin Hansen\u003C/a\u003E, den 31.12.2023, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4003987365/deltager\" target=\"_blank\"\u003EErik Lynge Skovgaard Jensen\u003C/a\u003E, (næstformand), den 31.12.2023, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000083473/deltager\" target=\"_blank\"\u003EJane Nielsen\u003C/a\u003E, den 31.12.2023, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4003888200/deltager\" target=\"_blank\"\u003ELars Therkildsen\u003C/a\u003E, (formand), den 31.12.2023, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004171164/deltager\" target=\"_blank\"\u003ELis Tribler\u003C/a\u003E, den 31.12.2023.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003EVedtægter ændret: 31.12.2023\n\u003Cbr /\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EJoshua Bjørkman, den 31.12.2023, Villum Christensen, den 31.12.2023, Leif Bjarne Clausen, den 31.12.2023, Hans Ole Drost, (formand), den 31.12.2023, Pernille Ivalo Frandsen, den 31.12.2023, Ole Ernstsen Hansen, den 31.12.2023, Stina Abelone Madsen, den 31.12.2023, Svend Aage Nielsen, den 31.12.2023, Anna Strøbæk, den 31.12.2023, Lis Tribler, (næstformand), den 31.12.2023, Ali Yavuz, den 31.12.2023.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EJoshua Bjørkman, den 31.12.2023, Lars Erik Clausen, den 31.12.2023, Leif Bjarne Clausen, den 31.12.2023, Hans Ole Drost, den 31.12.2023, Anders Frederik Gjesing, den 31.12.2023, Kenneth Martin Hansen, den 31.12.2023, Erik Lynge Skovgaard Jensen, (næstformand), den 31.12.2023, Jane Nielsen, den 31.12.2023, Lars Therkildsen, (formand), den 31.12.2023, Lis Tribler, den 31.12.2023.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "26863899",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "Zeanet A/S",
+        "offentliggoerelseId": "34147812",
+        "offentliggoerelseTidsstempel": "13.06.2023",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004031938/deltager\" target=\"_blank\"\u003EAnna Strøbæk\u003C/a\u003E, den 24.05.2023.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EAnna Strøbæk, den 24.05.2023.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "26863899",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "Zeanet A/S",
+        "offentliggoerelseId": "33830073",
+        "offentliggoerelseTidsstempel": "20.04.2023",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EJacob Raagaard Rasmussen, den 13.04.2023.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003EBestyrelse:\u003Cbr/\u003E\u003Cbr /\u003E\u003C/h1\u003E\u003Cbr/\u003E\u003Ch2\u003EFratrådte:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003EJacob Raagaard Rasmussen, den 13.04.2023.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "26863899",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "Zeanet A/S",
+        "offentliggoerelseId": "32343193",
+        "offentliggoerelseTidsstempel": "23.05.2022",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EFlemming Aarup Erichsen, den 19.05.2022, Bodil Knudsen, den 19.05.2022, Anders Koefoed, den 19.05.2022, Anders Peter Møller Nielsen, den 19.05.2022, Ole Olsen, den 19.05.2022, Erling Lindharth Stuhr, den 19.05.2022, Irene Juul Vissing, den 19.05.2022, Lillian Pia Wismann, den 19.05.2022.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000709428/deltager\" target=\"_blank\"\u003EJoshua Bjørkman\u003C/a\u003E, den 19.05.2022, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000327392/deltager\" target=\"_blank\"\u003EVillum Christensen\u003C/a\u003E, den 19.05.2022, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4009273027/deltager\" target=\"_blank\"\u003EJacob Raagaard Rasmussen\u003C/a\u003E, den 19.05.2022, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4008935854/deltager\" target=\"_blank\"\u003EAli Yavuz\u003C/a\u003E, den 19.05.2022.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EFlemming Aarup Erichsen, den 19.05.2022, Bodil Knudsen, den 19.05.2022, Anders Koefoed, den 19.05.2022, Anders Peter Møller Nielsen, den 19.05.2022, Ole Olsen, den 19.05.2022, Erling Lindharth Stuhr, den 19.05.2022, Irene Juul Vissing, den 19.05.2022, Lillian Pia Wismann, den 19.05.2022.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EJoshua Bjørkman, den 19.05.2022, Villum Christensen, den 19.05.2022, Jacob Raagaard Rasmussen, den 19.05.2022, Ali Yavuz, den 19.05.2022.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "26863899",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "Zeanet A/S",
+        "offentliggoerelseId": "31370814",
+        "offentliggoerelseTidsstempel": "12.10.2021",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EHans Ole Drost, (næstformand), den 06.10.2021, Flemming Aarup Erichsen, (formand), den 06.10.2021, Lis Tribler, den 06.10.2021.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000222171/deltager\" target=\"_blank\"\u003EHans Ole Drost\u003C/a\u003E, (formand), den 06.10.2021, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004006163/deltager\" target=\"_blank\"\u003EFlemming Aarup Erichsen\u003C/a\u003E, den 06.10.2021, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004171164/deltager\" target=\"_blank\"\u003ELis Tribler\u003C/a\u003E, (næstformand), den 06.10.2021.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EHans Ole Drost, (næstformand), den 06.10.2021, Flemming Aarup Erichsen, (formand), den 06.10.2021, Lis Tribler, den 06.10.2021.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EHans Ole Drost, (formand), den 06.10.2021, Flemming Aarup Erichsen, den 06.10.2021, Lis Tribler, (næstformand), den 06.10.2021.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "26863899",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "Zeanet A/S",
+        "offentliggoerelseId": "31289842",
+        "offentliggoerelseTidsstempel": "23.09.2021",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4007486996/deltager\" target=\"_blank\"\u003EIrene Juul Vissing\u003C/a\u003E, den 16.09.2021.\u003C/p\u003E\n\u003Ch1\u003EValgt af medarbejderne i koncernen:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EIrene Juul Vissing, den 16.09.2021.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EIrene Juul Vissing, den 16.09.2021.\u003C/p\u003E\n\u003Ch1\u003EValgt af medarbejderne i koncernen:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EIrene Juul Vissing, den 16.09.2021.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "26863899",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "Zeanet A/S",
+        "offentliggoerelseId": "31283367",
+        "offentliggoerelseTidsstempel": "22.09.2021",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EJan Michael Jørgensen, den 16.09.2021.\u003C/p\u003E\n\u003Ch1\u003EValgt af medarbejderne i koncernen:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4007486996/deltager\" target=\"_blank\"\u003EIrene Juul Vissing\u003C/a\u003E, den 16.09.2021.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EJan Michael Jørgensen, den 16.09.2021.\u003C/p\u003E\n\u003Ch1\u003EValgt af medarbejderne i koncernen:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EIrene Juul Vissing, den 16.09.2021.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "26863899",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "Zeanet A/S",
+        "offentliggoerelseId": "27650767",
+        "offentliggoerelseTidsstempel": "04.07.2019",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003ERevision:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EERNST &amp; YOUNG Godkendt Revisionspartnerselskab, den 22.05.2019.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003ECVR-NR. 33771231 PRICEWATERHOUSECOOPERS STATSAUTORISERET REVISIONSPARTNERSELSKAB, Strandvejen 44, 2900 Hellerup, den 22.05.2019.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003ERevision:\u003Cbr/\u003E\u003Cbr /\u003E\u003C/h1\u003E\u003Cbr/\u003E\u003Ch2\u003EFratrådte:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003EERNST &amp; YOUNG Godkendt Revisionspartnerselskab, den 22.05.2019.\u003C/p\u003E\u003Cbr/\u003E\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003ECVR-NR. 33771231 PRICEWATERHOUSECOOPERS STATSAUTORISERET REVISIONSPARTNERSELSKAB, Strandvejen 44, 2900 Hellerup, den 22.05.2019.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_revision"
+        ]
+      },
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "26863899",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "Elnet Zealand A/S",
+        "offentliggoerelseId": "27214927",
+        "offentliggoerelseTidsstempel": "23.05.2019",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003EVedtægter ændret: 22.05.2019\n\u003Cbr /\u003ENyt navn: Zeanet A/S\n\u003Cbr /\u003ENyt binavn: Elnet Zealand A/S\n\u003Cbr /\u003ESlettet binavn: Zeanet A/S\n\u003Cbr /\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003EVedtægter ændret: 22.05.2019\u003Cbr/\u003E\u003Cbr /\u003ENyt navn: Zeanet A/S\u003Cbr/\u003E\u003Cbr /\u003ENyt binavn: Elnet Zealand A/S\u003Cbr/\u003E\u003Cbr /\u003ESlettet binavn: Zeanet A/S\u003Cbr/\u003E\u003Cbr /\u003E\u003Cbr/\u003E\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "26863899",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "Elnet Zealand A/S",
+        "offentliggoerelseId": "26516397",
+        "offentliggoerelseTidsstempel": "01.01.2019",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003ENy adresse: Nordvej 6, 4200 Slagelse\n\u003Cbr /\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003ENy adresse: Nordvej 6, 4200 Slagelse\u003Cbr/\u003E\u003Cbr /\u003E\u003Cbr/\u003E\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_adresse"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "26863899",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "Elnet Zealand A/S",
+        "offentliggoerelseId": "25637269",
+        "offentliggoerelseTidsstempel": "31.05.2018",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004062602/deltager\" target=\"_blank\"\u003EBodil Knudsen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000725668/deltager\" target=\"_blank\"\u003EOle Olsen\u003C/a\u003E, den 23.05.2018.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004062602/deltager\" target=\"_blank\"\u003EBodil Knudsen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000725668/deltager\" target=\"_blank\"\u003EOle Olsen\u003C/a\u003E, den 23.05.2018.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EBodil Knudsen, den 23.05.2018, Ole Olsen, den 23.05.2018.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EBodil Knudsen, den 23.05.2018, Ole Olsen, den 23.05.2018.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "26863899",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "Elnet Zealand A/S",
+        "offentliggoerelseId": "25627122",
+        "offentliggoerelseTidsstempel": "31.05.2018",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003EVedtægterne er yderligere ændret\n\u003Cbr /\u003EVedtægter ændret: 23.05.2018\n\u003Cbr /\u003ESlettet binavn: SLAGELSE ELNET A/S\n\u003Cbr /\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003EVedtægterne er yderligere ændret\u003Cbr/\u003E\u003Cbr /\u003EVedtægter ændret: 23.05.2018\u003Cbr/\u003E\u003Cbr /\u003ESlettet binavn: SLAGELSE ELNET A/S\u003Cbr/\u003E\u003Cbr /\u003E\u003Cbr/\u003E\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "26863899",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK ELNET A/S",
+        "offentliggoerelseId": "25600608",
+        "offentliggoerelseTidsstempel": "30.05.2018",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003EVedtægter ændret: 23.05.2018\n\u003Cbr /\u003ENyt navn: Elnet Zealand A/S\n\u003Cbr /\u003ENyt binavn: Zeanet A/S\n\u003Cbr /\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004161320/deltager\" target=\"_blank\"\u003EHenrik Urban Brodersen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000464012/deltager\" target=\"_blank\"\u003ETroels Christensen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000327392/deltager\" target=\"_blank\"\u003EVillum Christensen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000222171/deltager\" target=\"_blank\"\u003EHans Ole Drost\u003C/a\u003E (formand), den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004006163/deltager\" target=\"_blank\"\u003EFlemming Aarup Erichsen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004029290/deltager\" target=\"_blank\"\u003EStina Abelone Hansen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004018658/deltager\" target=\"_blank\"\u003EJan Michael Jørgensen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000079846/deltager\" target=\"_blank\"\u003ENiels Bo Jørgensen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004018654/deltager\" target=\"_blank\"\u003EHanne Anette Kamienski\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004062602/deltager\" target=\"_blank\"\u003EBodil Knudsen\u003C/a\u003E (næstformand), den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004177460/deltager\" target=\"_blank\"\u003EAxel Larsen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004063836/deltager\" target=\"_blank\"\u003EAnders Peter Møller Nielsen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000030224/deltager\" target=\"_blank\"\u003ESvend Aage Nielsen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004177457/deltager\" target=\"_blank\"\u003EMalene Sadowski\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004177456/deltager\" target=\"_blank\"\u003EErling Lindharth Stuhr\u003C/a\u003E, den 23.05.2018.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4007658227/deltager\" target=\"_blank\"\u003ELeif Bjarne Clausen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000222171/deltager\" target=\"_blank\"\u003EHans Ole Drost\u003C/a\u003E (næstformand), den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004006163/deltager\" target=\"_blank\"\u003EFlemming Aarup Erichsen\u003C/a\u003E (formand), den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000346807/deltager\" target=\"_blank\"\u003EPernille Ivalo Frandsen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004033089/deltager\" target=\"_blank\"\u003EOle Ernstsen Hansen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004029290/deltager\" target=\"_blank\"\u003EStina Abelone Hansen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004018658/deltager\" target=\"_blank\"\u003EJan Michael Jørgensen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004062602/deltager\" target=\"_blank\"\u003EBodil Knudsen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000771746/deltager\" target=\"_blank\"\u003EAnders Koefoed\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004063836/deltager\" target=\"_blank\"\u003EAnders Peter Møller Nielsen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000030224/deltager\" target=\"_blank\"\u003ESvend Aage Nielsen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000725668/deltager\" target=\"_blank\"\u003EOle Olsen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004177456/deltager\" target=\"_blank\"\u003EErling Lindharth Stuhr\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004171164/deltager\" target=\"_blank\"\u003ELis Tribler\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4007658228/deltager\" target=\"_blank\"\u003ELillian Pia Wismann\u003C/a\u003E, den 23.05.2018.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003EVedtægter ændret: 23.05.2018\n\u003Cbr /\u003ENyt navn: Elnet Zealand A/S\n\u003Cbr /\u003ENyt binavn: Zeanet A/S\n\u003Cbr /\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EHenrik Urban Brodersen, den 23.05.2018, Troels Christensen, den 23.05.2018, Villum Christensen, den 23.05.2018, Hans Ole Drost (formand), den 23.05.2018, Flemming Aarup Erichsen, den 23.05.2018, Stina Abelone Hansen, den 23.05.2018, Jan Michael Jørgensen, den 23.05.2018, Niels Bo Jørgensen, den 23.05.2018, Hanne Anette Kamienski, den 23.05.2018, Bodil Knudsen (næstformand), den 23.05.2018, Axel Larsen, den 23.05.2018, Anders Peter Møller Nielsen, den 23.05.2018, Svend Aage Nielsen, den 23.05.2018, Malene Sadowski, den 23.05.2018, Erling Lindharth Stuhr, den 23.05.2018.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003ELeif Bjarne Clausen, den 23.05.2018, Hans Ole Drost (næstformand), den 23.05.2018, Flemming Aarup Erichsen (formand), den 23.05.2018, Pernille Ivalo Frandsen, den 23.05.2018, Ole Ernstsen Hansen, den 23.05.2018, Stina Abelone Hansen, den 23.05.2018, Jan Michael Jørgensen, den 23.05.2018, Bodil Knudsen, den 23.05.2018, Anders Koefoed, den 23.05.2018, Anders Peter Møller Nielsen, den 23.05.2018, Svend Aage Nielsen, den 23.05.2018, Ole Olsen, den 23.05.2018, Erling Lindharth Stuhr, den 23.05.2018, Lis Tribler, den 23.05.2018, Lillian Pia Wismann, den 23.05.2018.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet",
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "26863899",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK ELNET A/S",
+        "offentliggoerelseId": "24741412",
+        "offentliggoerelseTidsstempel": "27.11.2017",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003ERevision:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EPRICEWATERHOUSECOOPERS STATSAUTORISERET REVISIONSPARTNERSELSKAB, den 17.05.2017.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003ECVR-NR. 30700228 ERNST &amp; YOUNG Godkendt Revisionspartnerselskab, Værkmestergade 25, 8000 Aarhus C, den 17.05.2017.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003ERevision:\u003Cbr/\u003E\u003Cbr /\u003E\u003C/h1\u003E\u003Cbr/\u003E\u003Ch2\u003EFratrådte:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003EPRICEWATERHOUSECOOPERS STATSAUTORISERET REVISIONSPARTNERSELSKAB, den 17.05.2017.\u003C/p\u003E\u003Cbr/\u003E\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003ECVR-NR. 30700228 ERNST &amp; YOUNG Godkendt Revisionspartnerselskab, Værkmestergade 25, 8000 Aarhus C, den 17.05.2017.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_revision"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "26863899",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK ELNET A/S",
+        "offentliggoerelseId": "24188801",
+        "offentliggoerelseTidsstempel": "13.06.2017",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EDirektion:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004114897/deltager\" target=\"_blank\"\u003EHenrik Rosendal Birch\u003C/a\u003E, den 01.06.2017, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000433191/deltager\" target=\"_blank\"\u003EHenrik Lundgaard\u003C/a\u003E (adm. dir), den 31.05.2017.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004114897/deltager\" target=\"_blank\"\u003EHenrik Rosendal Birch\u003C/a\u003E (adm. dir), den 01.06.2017.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EDirektion:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EHenrik Rosendal Birch, den 01.06.2017, Henrik Lundgaard (adm. dir), den 31.05.2017.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EHenrik Rosendal Birch (adm. dir), den 01.06.2017.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "26863899",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK ELNET A/S",
+        "offentliggoerelseId": "12841926",
+        "offentliggoerelseTidsstempel": "11.06.2014",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Cp\u003EFratrådt som næstformand tiltrådt som   formand: \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000222171/deltager\" target=\"_blank\"\u003EHans Ole Drost\u003C/a\u003E, den 27.05.2014,   Fratrådt som formand tiltrådt som   næstformand: \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004062602/deltager\" target=\"_blank\"\u003EBodil Knudsen\u003C/a\u003E, den 27.05.2014.\u003C/p\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004129265/deltager\" target=\"_blank\"\u003ESten Knuth\u003C/a\u003E, den   27.05.2014, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004077794/deltager\" target=\"_blank\"\u003ENiels Nordskov Nielsen\u003C/a\u003E, den   27.05.2014, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004064083/deltager\" target=\"_blank\"\u003EVagn Møller Petersen\u003C/a\u003E, den   27.05.2014.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EByrådsmedlem \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000464012/deltager\" target=\"_blank\"\u003ETroels   Christensen\u003C/a\u003E, den 27.05.2014, CVU-Rektor \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000327392/deltager\" target=\"_blank\"\u003EVillum   Christensen\u003C/a\u003E, den 27.05.2014, Havnechef   \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004006163/deltager\" target=\"_blank\"\u003EFlemming Aarup Erichsen\u003C/a\u003E, den 27.05.2014, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000079846/deltager\" target=\"_blank\"\u003ENiels Bo Jørgensen\u003C/a\u003E,   den 27.05.2014, Lagerforv \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004177460/deltager\" target=\"_blank\"\u003EAxel Larsen\u003C/a\u003E, den   27.05.2014.\u003C/p\u003E\n\u003Cp\u003EValgt af medarbejderne i koncernen:\n\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EKommunikationskonsulent \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004177457/deltager\" target=\"_blank\"\u003EMalene Nielsen\u003C/a\u003E, den   27.05.2014, Varmemontør \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004177456/deltager\" target=\"_blank\"\u003EErling Lindharth   Stuhr\u003C/a\u003E, den   27.05.2014.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Cp\u003EFratrådt som næstformand tiltrådt som   formand: Hans Ole Drost, den 27.05.2014,   Fratrådt som formand tiltrådt som   næstformand: Bodil Knudsen, den 27.05.2014.\u003C/p\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003ESten Knuth, den   27.05.2014, Niels Nordskov Nielsen, den   27.05.2014, Vagn Møller Petersen, den   27.05.2014.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EByrådsmedlem Troels   Christensen, den 27.05.2014, CVU-Rektor Villum   Christensen, den 27.05.2014, Havnechef   Flemming Aarup Erichsen, den 27.05.2014, Niels Bo Jørgensen,   den 27.05.2014, Lagerforv Axel Larsen, den   27.05.2014.\u003C/p\u003E\n\u003Cp\u003EValgt af medarbejderne i koncernen:\n\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EKommunikationskonsulent Malene Nielsen, den   27.05.2014, Varmemontør Erling Lindharth   Stuhr, den   27.05.2014.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet",
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "26863899",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK ELNET A/S",
+        "offentliggoerelseId": "12841929",
+        "offentliggoerelseTidsstempel": "11.06.2014",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Cp\u003EFratrådt som valgt af medarbejderne i   koncernen tiltrådt som   generalforsamlingsvalgt: Malene Nielsen,   Fratrådt som valgt af medarbejderne i   koncernen tiltrådt som   generalforsamlingsvalgt: \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004177456/deltager\" target=\"_blank\"\u003EErling Lindharth   Stuhr\u003C/a\u003E.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Cp\u003EFratrådt som valgt af medarbejderne i   koncernen tiltrådt som   generalforsamlingsvalgt: Malene Nielsen,   Fratrådt som valgt af medarbejderne i   koncernen tiltrådt som   generalforsamlingsvalgt: Erling Lindharth   Stuhr.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds",
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "26863899",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK ELNET A/S",
+        "offentliggoerelseId": "12841924",
+        "offentliggoerelseTidsstempel": "08.04.2014",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E19.03.2014.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\u003Cbr/\u003E\u003Cp\u003E19.03.2014.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "26863899",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK ELNET A/S",
+        "offentliggoerelseId": "12841922",
+        "offentliggoerelseTidsstempel": "18.06.2013",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E21.05.2013.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\u003Cbr/\u003E\u003Cp\u003E21.05.2013.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "26863899",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK ELNET A/S",
+        "offentliggoerelseId": "12841919",
+        "offentliggoerelseTidsstempel": "21.09.2011",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003ERevision:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af revisionen:\u003C/h2\u003E\n\u003Cp\u003EPRICEWATERHOUSECOOPERS   STATSAUTORISERET REVISIONSAKTIESELSKAB, den   01.07.2011.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i revisionen:\u003C/h2\u003E\n\u003Cp\u003EPRICEWATERHOUSECOOPERS   STATSAUTORISERET REVISIONSPARTNERSELSKAB,   Ndr.Ringgade 70 C, 4200 Slagelse, den   01.07.2011.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003ERevision:\u003C/h1\u003E\u003Cbr/\u003E\u003Ch2\u003EUdtrådt af revisionen:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003EPRICEWATERHOUSECOOPERS   STATSAUTORISERET REVISIONSAKTIESELSKAB, den   01.07.2011.\u003C/p\u003E\u003Cbr/\u003E\u003Ch2\u003EIndtrådt i revisionen:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003EPRICEWATERHOUSECOOPERS   STATSAUTORISERET REVISIONSPARTNERSELSKAB,   Ndr.Ringgade 70 C, 4200 Slagelse, den   01.07.2011.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_revision",
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "26863899",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK ELNET A/S",
+        "offentliggoerelseId": "12841916",
+        "offentliggoerelseTidsstempel": "29.06.2011",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000169119/deltager\" target=\"_blank\"\u003ELene Birgit Wibroe\u003C/a\u003E,   den 19.05.2011.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EFolketingsmedlem   \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004161320/deltager\" target=\"_blank\"\u003EHenrik Urban Brodersen\u003C/a\u003E, den 19.05.2011.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003ELene Birgit Wibroe,   den 19.05.2011.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EFolketingsmedlem   Henrik Urban Brodersen, den 19.05.2011.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet",
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "26863899",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK ELNET A/S",
+        "offentliggoerelseId": "12841914",
+        "offentliggoerelseTidsstempel": "28.05.2010",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E20.05.2010.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\u003Cbr/\u003E\u003Cp\u003E20.05.2010.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "26863899",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK ELNET A/S",
+        "offentliggoerelseId": "12841911",
+        "offentliggoerelseTidsstempel": "28.05.2010",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004006163/deltager\" target=\"_blank\"\u003EFlemming Aarup   Erichsen\u003C/a\u003E, den 20.05.2010, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004029842/deltager\" target=\"_blank\"\u003EEjler Vilhelm   Nielsen\u003C/a\u003E, den 20.05.2010.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EOverassistent \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004029290/deltager\" target=\"_blank\"\u003EStina   Abelone Hansen\u003C/a\u003E, den 20.05.2010, Driftschef \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004018658/deltager\" target=\"_blank\"\u003EJan   Michael Jørgensen\u003C/a\u003E, den 20.05.2010,   Teknisk designer \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004018654/deltager\" target=\"_blank\"\u003EHanne Anette Kamienski\u003C/a\u003E, den 20.05.2010, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004129265/deltager\" target=\"_blank\"\u003ESten Knuth\u003C/a\u003E, den   20.05.2010, Brandchef \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004077794/deltager\" target=\"_blank\"\u003ENiels Nordskov   Nielsen\u003C/a\u003E, den   20.05.2010, Byrådsmedlem \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004063836/deltager\" target=\"_blank\"\u003EAnders Peter   Møller Nielsen\u003C/a\u003E, den 20.05.2010, Elektriker \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004064083/deltager\" target=\"_blank\"\u003EVagn   Møller Petersen\u003C/a\u003E, den 20.05.2010, Zoneterapeut \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000169119/deltager\" target=\"_blank\"\u003ELene   Birgit Wibroe\u003C/a\u003E, den 20.05.2010.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EFlemming Aarup   Erichsen, den 20.05.2010, Ejler Vilhelm   Nielsen, den 20.05.2010.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EOverassistent Stina   Abelone Hansen, den 20.05.2010, Driftschef Jan   Michael Jørgensen, den 20.05.2010,   Teknisk designer Hanne Anette Kamienski, den 20.05.2010, Sten Knuth, den   20.05.2010, Brandchef Niels Nordskov   Nielsen, den   20.05.2010, Byrådsmedlem Anders Peter   Møller Nielsen, den 20.05.2010, Elektriker Vagn   Møller Petersen, den 20.05.2010, Zoneterapeut Lene   Birgit Wibroe, den 20.05.2010.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds",
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Nordvej 11, 4220 Korsør",
+        "cvrNummer": "26863899",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK ELNET A/S",
+        "offentliggoerelseId": "13226255",
+        "offentliggoerelseTidsstempel": "16.07.2008",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003ENy adresse:\u003C/h1\u003E\n\u003Cp\u003ELilleøvej 3, 4220 Korsør.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003ENy adresse:\u003C/h1\u003E\u003Cbr/\u003E\u003Cp\u003ELilleøvej 3, 4220 Korsør.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Nordvej 11, 4200 Slagelse",
+        "cvrNummer": "26863899",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK-EL A/S",
+        "offentliggoerelseId": "13226244",
+        "offentliggoerelseTidsstempel": "11.07.2008",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E20.06.2008.\u003C/p\u003E\n\u003Ch1\u003ENyt navn:\u003C/h1\u003E\n\u003Cp\u003ESK ELNET A/S.\u003C/p\u003E\n\u003Cp\u003ENyt binavn: SLAGELSE ELNET A/S (SK ELNET   A/S).\n\u003C/p\u003E\n\u003Ch2\u003ESlettede binavne:\u003C/h2\u003E\n\u003Cp\u003ESLAGELSE KOMMUNES   EL-NETSELSKAB A/S (SK-EL A/S), SK-NET A/S   (SK-EL A/S).\u003C/p\u003E\n\u003Ch2\u003EKapitalforhøjelse:\u003C/h2\u003E\n\u003Cp\u003Ekr. 4.600.000,00 indbetalt   ved fusion, kurs 3.626,76.\u003C/p\u003E\n\u003Cp\u003EKapitalen udgør herefter kr. 9.600.000,00.\n\u003C/p\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003ESteen Bach Nielsen,   den 20.06.2008, Leif Keld Hansen, den   20.06.2008, Niels Nordskov Nielsen, den   20.06.2008.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003ESkolekonsulent Hans   Ole Drost, (næstformand), Sorø Landevej   275, Eggeslevmagle, 4230 Skælskør, den   20.06.2008, Havnechef Flemming Aarup   Erichsen, Sylowsvej 55, 4220 Korsør, den   20.06.2008, Direktør Svend Aage Nielsen,   Uffesvej 3, 4200 Slagelse, den 20.06.2008.\u003C/p\u003E\n\u003Ch1\u003EDirektion:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af direktionen:\u003C/h2\u003E\n\u003Cp\u003EMogens Bach Nielsen,   den 20.06.2008.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i direktionen:\u003C/h2\u003E\n\u003Cp\u003ETeknisk direktør   Henrik Rosendal Birch, Lerhøj 9 B, 4220   Korsør, den 20.06.2008, Økonomidirektør Jan   Østergaard Hansen, Skovvangsvej 23, Strøby   Egede, 4600 Køge, den 20.06.2008,   Administrerende direktør Henrik Lundgaard,   (adm. dir), Blindeport 1, 1., 4220 Korsør,   den 20.06.2008.\u003C/p\u003E\n\u003Cp\u003ESelskabet tegnes af et bestyrelsesmedlem og   en direktør eller af bestyrelsesformanden   sammen med et bestyrelsesmedlem eller af   den samlede bestyrelse.\n\u003Cbr /\u003ESelskabet er fusioneret med CVR-NR. 25673794   KORSØR ELNET A/S, der samtidig er opløst.\n\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\u003Cbr/\u003E\u003Cp\u003E20.06.2008.\u003C/p\u003E\u003Cbr/\u003E\u003Ch1\u003ENyt navn:\u003C/h1\u003E\u003Cbr/\u003E\u003Cp\u003ESK ELNET A/S.\u003C/p\u003E\u003Cbr/\u003E\u003Cp\u003ENyt binavn: SLAGELSE ELNET A/S (SK ELNET   A/S).\u003Cbr/\u003E\u003C/p\u003E\u003Cbr/\u003E\u003Ch2\u003ESlettede binavne:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003ESLAGELSE KOMMUNES   EL-NETSELSKAB A/S (SK-EL A/S), SK-NET A/S   (SK-EL A/S).\u003C/p\u003E\u003Cbr/\u003E\u003Ch2\u003EKapitalforhøjelse:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003Ekr. 4.600.000,00 indbetalt   ved fusion, kurs 3.626,76.\u003C/p\u003E\u003Cbr/\u003E\u003Cp\u003EKapitalen udgør herefter kr. 9.600.000,00.\u003Cbr/\u003E\u003C/p\u003E\u003Cbr/\u003E\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\u003Cbr/\u003E\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003ESteen Bach Nielsen,   den 20.06.2008, Leif Keld Hansen, den   20.06.2008, Niels Nordskov Nielsen, den   20.06.2008.\u003C/p\u003E\u003Cbr/\u003E\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003ESkolekonsulent Hans   Ole Drost, (næstformand), Sorø Landevej   275, Eggeslevmagle, 4230 Skælskør, den   20.06.2008, Havnechef Flemming Aarup   Erichsen, Sylowsvej 55, 4220 Korsør, den   20.06.2008, Direktør Svend Aage Nielsen,   Uffesvej 3, 4200 Slagelse, den 20.06.2008.\u003C/p\u003E\u003Cbr/\u003E\u003Ch1\u003EDirektion:\u003C/h1\u003E\u003Cbr/\u003E\u003Ch2\u003EUdtrådt af direktionen:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003EMogens Bach Nielsen,   den 20.06.2008.\u003C/p\u003E\u003Cbr/\u003E\u003Ch2\u003EIndtrådt i direktionen:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003ETeknisk direktør   Henrik Rosendal Birch, Lerhøj 9 B, 4220   Korsør, den 20.06.2008, Økonomidirektør Jan   Østergaard Hansen, Skovvangsvej 23, Strøby   Egede, 4600 Køge, den 20.06.2008,   Administrerende direktør Henrik Lundgaard,   (adm. dir), Blindeport 1, 1., 4220 Korsør,   den 20.06.2008.\u003C/p\u003E\u003Cbr/\u003E\u003Cp\u003ESelskabet tegnes af et bestyrelsesmedlem og   en direktør eller af bestyrelsesformanden   sammen med et bestyrelsesmedlem eller af   den samlede bestyrelse.\u003Cbr/\u003E\u003Cbr /\u003ESelskabet er fusioneret med CVR-NR. 25673794   KORSØR ELNET A/S, der samtidig er opløst.\u003Cbr/\u003E\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_status",
+          "virksomhedsregistreringsstatus-aendring_personkreds",
+          "virksomhedsregistreringsstatus-aendring_kapital"
+        ]
+      },
+      {
+        "adresse": "Nordvej 11, 4200 Slagelse",
+        "cvrNummer": "26863899",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK-EL A/S",
+        "offentliggoerelseId": "13226236",
+        "offentliggoerelseTidsstempel": "28.05.2008",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E21.05.2008.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\u003Cbr/\u003E\u003Cp\u003E21.05.2008.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Nordvej 11, 4200 Slagelse",
+        "cvrNummer": "26863899",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK-EL A/S",
+        "offentliggoerelseId": "13226233",
+        "offentliggoerelseTidsstempel": "22.05.2008",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Cp\u003EErhvervs- og Selskabsstyrelsen har modtaget\n\u003Cbr /\u003Efusionsplan i henhold til aktieselskabslovens § 134 a\n\u003Cbr /\u003Efor fusion mellem\n\u003Cbr /\u003ECVR-NR. 26863899 SK-EL A/S. der tillige   driver virksomhed under navnene SLAGELSE   KOMMUNES EL-NETSELSKAB A/S (SK-EL A/S),   SK-NET A/S (SK-EL A/S).\n\u003Cbr /\u003ECVR-NR. 25673794 KORSØR ELNET A/S.\n\u003Cbr /\u003EEndvidere er modtaget erklæring fra\n\u003Cbr /\u003Evurderingsmændene i henhold til aktieselskabslovens §\n\u003Cbr /\u003E134 c, stk. 4.\n\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Cp\u003EErhvervs- og Selskabsstyrelsen har modtaget\u003Cbr/\u003E\u003Cbr /\u003Efusionsplan i henhold til aktieselskabslovens § 134 a\u003Cbr/\u003E\u003Cbr /\u003Efor fusion mellem\u003Cbr/\u003E\u003Cbr /\u003ECVR-NR. 26863899 SK-EL A/S. der tillige   driver virksomhed under navnene SLAGELSE   KOMMUNES EL-NETSELSKAB A/S (SK-EL A/S),   SK-NET A/S (SK-EL A/S).\u003Cbr/\u003E\u003Cbr /\u003ECVR-NR. 25673794 KORSØR ELNET A/S.\u003Cbr/\u003E\u003Cbr /\u003EEndvidere er modtaget erklæring fra\u003Cbr/\u003E\u003Cbr /\u003Evurderingsmændene i henhold til aktieselskabslovens §\u003Cbr/\u003E\u003Cbr /\u003E134 c, stk. 4.\u003Cbr/\u003E\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Nordvej 11, 4200 Slagelse",
+        "cvrNummer": "26863899",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK-EL A/S",
+        "offentliggoerelseId": "13226222",
+        "offentliggoerelseTidsstempel": "05.07.2007",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003Evicevært \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004053546/deltager\" target=\"_blank\"\u003ELeif Keld   Hansen\u003C/a\u003E, den   24.05.2007, Områdeleder \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004077794/deltager\" target=\"_blank\"\u003ENiels Nordskov   Nielsen\u003C/a\u003E, den   24.05.2007.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003Evicevært Leif Keld   Hansen, den   24.05.2007, Områdeleder Niels Nordskov   Nielsen, den   24.05.2007.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds",
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Nordvej 11, 4200 Slagelse",
+        "cvrNummer": "26863899",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK-EL A/S",
+        "offentliggoerelseId": "13226219",
+        "offentliggoerelseTidsstempel": "01.01.2007",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Cp\u003EVed kommunalreformen den 1. januar 2007 er   hjemstedskommunen ændret.\n\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Cp\u003EVed kommunalreformen den 1. januar 2007 er   hjemstedskommunen ændret.\u003Cbr/\u003E\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_adresse"
+        ]
+      },
+      {
+        "adresse": "Nordvej 11, 4200 Slagelse",
+        "cvrNummer": "26863899",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK-EL A/S",
+        "offentliggoerelseId": "13226214",
+        "offentliggoerelseTidsstempel": "11.05.2006",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003ERevision:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af revisionen:\u003C/h2\u003E\n\u003Cp\u003EPricewaterhouseCoopers   I/S, den 21.04.2006.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i revisionen:\u003C/h2\u003E\n\u003Cp\u003EPRICEWATERHOUSECOOPERS   STATSAUTORISERET REVISIONSAKTIESELSKAB,   Sdr. Stationsvej 28, 4200 Slagelse, den   21.04.2006.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003ERevision:\u003C/h1\u003E\u003Cbr/\u003E\u003Ch2\u003EUdtrådt af revisionen:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003EPricewaterhouseCoopers   I/S, den 21.04.2006.\u003C/p\u003E\u003Cbr/\u003E\u003Ch2\u003EIndtrådt i revisionen:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003EPRICEWATERHOUSECOOPERS   STATSAUTORISERET REVISIONSAKTIESELSKAB,   Sdr. Stationsvej 28, 4200 Slagelse, den   21.04.2006.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_revision",
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Nordvej 11, 4200 Slagelse",
+        "cvrNummer": "26863899",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK-EL A/S",
+        "offentliggoerelseId": "13226207",
+        "offentliggoerelseTidsstempel": "22.05.2005",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E15.04.2005.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\u003Cbr/\u003E\u003Cp\u003E15.04.2005.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Nordvej 11, 4200 Slagelse",
+        "cvrNummer": "26863899",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK-NET A/S",
+        "offentliggoerelseId": "7375774",
+        "offentliggoerelseTidsstempel": "11.05.2004",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E22.04.2004.\u003C/p\u003E\n\u003Ch1\u003ENyt navn:\u003C/h1\u003E\n\u003Cp\u003ESK-EL A/S.\u003C/p\u003E\n\u003Ch2\u003EBinavn:\u003C/h2\u003E\n\u003Cp\u003ESLAGELSE KOMMUNES EL-NETSELSKAB A/S   (SK-EL A/S).\u003C/p\u003E\n\u003Cp\u003ENyt binavn: SK-NET A/S (SK-EL A/S).\n\u003C/p\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003ETiltrådt som næstformand:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4003937806/deltager\" target=\"_blank\"\u003ESteen Bach Nielsen\u003C/a\u003E,   den 22.04.2004.\u003C/p\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000293541/deltager\" target=\"_blank\"\u003EPoul Bruno Frederik   Hansen\u003C/a\u003E, den 22.04.2004, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000141861/deltager\" target=\"_blank\"\u003EArne Ejgil Beyer\u003C/a\u003E,   den 22.04.2004, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004053546/deltager\" target=\"_blank\"\u003ELeif Keld Hansen\u003C/a\u003E, den   22.04.2004.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004029842/deltager\" target=\"_blank\"\u003EEjler Vilhelm   Nielsen\u003C/a\u003E, den 22.04.2004.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E22.04.2004.\u003C/p\u003E\n\u003Ch1\u003ENyt navn:\u003C/h1\u003E\n\u003Cp\u003ESK-EL A/S.\u003C/p\u003E\n\u003Ch2\u003EBinavn:\u003C/h2\u003E\n\u003Cp\u003ESLAGELSE KOMMUNES EL-NETSELSKAB A/S   (SK-EL A/S).\u003C/p\u003E\n\u003Cp\u003ENyt binavn: SK-NET A/S (SK-EL A/S).\n\u003C/p\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003ETiltrådt som næstformand:\u003C/h2\u003E\n\u003Cp\u003ESteen Bach Nielsen,   den 22.04.2004.\u003C/p\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EPoul Bruno Frederik   Hansen, den 22.04.2004, Arne Ejgil Beyer,   den 22.04.2004, Leif Keld Hansen, den   22.04.2004.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EEjler Vilhelm   Nielsen, den 22.04.2004.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds",
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Nordvej 11, 4200 Slagelse",
+        "cvrNummer": "26863899",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK-NET A/S",
+        "offentliggoerelseId": "7375770",
+        "offentliggoerelseTidsstempel": "18.11.2002",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch2\u003EBinavn:\u003C/h2\u003E\n\u003Cp\u003ESLAGELSE KOMMUNES EL-NETSELSKAB A/S   (SK-NET A/S).\u003C/p\u003E\n\u003Ch1\u003EStiftelsesdato:\u003C/h1\u003E\n\u003Cp\u003E06.11.2002.\u003C/p\u003E\n\u003Ch1\u003ESeneste vedtægtsdato:\u003C/h1\u003E\n\u003Cp\u003E06.11.2002.\u003C/p\u003E\n\u003Ch1\u003EKapital:\u003C/h1\u003E\n\u003Cp\u003Ekr. 5.000.000,00.\u003C/p\u003E\n\u003Ch2\u003EIndbetalingsmåde:\u003C/h2\u003E\n\u003Cp\u003Ei værdier kr. 5.000.000,00   til kurs 2.829,34.\u003C/p\u003E\n\u003Ch1\u003EStifter:\u003C/h1\u003E\n\u003Cp\u003ECVR-NR. 25797981 SLAGELSE KOMMUNES   NETSELSKAB A/S, Nordvej 11, 4200 Slagelse,   den 06.11.2002.\u003C/p\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Cp\u003Elærer \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004062602/deltager\" target=\"_blank\"\u003EBodil Knudsen\u003C/a\u003E (formand), den   06.11.2002, snedkermester \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000293541/deltager\" target=\"_blank\"\u003EPoul Bruno   Frederik Hansen\u003C/a\u003E (næstformand), den   06.11.2002, viceskoleinspektør \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000141861/deltager\" target=\"_blank\"\u003EArne Ejgil   Beyer\u003C/a\u003E, den   06.11.2002, vicevært \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004053546/deltager\" target=\"_blank\"\u003ELeif Keld Hansen\u003C/a\u003E, den 06.11.2002,   forretningsfører \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4003937806/deltager\" target=\"_blank\"\u003ESteen Bach Nielsen\u003C/a\u003E, den   06.11.2002.\u003C/p\u003E\n\u003Ch1\u003EDirektion:\u003C/h1\u003E\n\u003Cp\u003Edirektør \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004028761/deltager\" target=\"_blank\"\u003EMogens Bach Nielsen\u003C/a\u003E, den 06.11.2002.\u003C/p\u003E\n\u003Cp\u003ESelskabet tegnes af bestyrelsens formand   eller næstformand i forening med et andet   bestyrelsesmedlem eller i forening med en   direktør eller af den samlede bestyrelse.\n\u003C/p\u003E\n\u003Ch1\u003ERevision:\u003C/h1\u003E\n\u003Cp\u003EPricewaterhouseCoopers, Sdr.   Stationsvej 28, 4200 Slagelse, den   06.11.2002.\u003C/p\u003E\n\u003Ch1\u003EFørste regnskabsår:\u003C/h1\u003E\n\u003Cp\u003E01.01.2002 - 31.12.2002.\u003C/p\u003E\n\u003Ch1\u003ERegnskabsår:\u003C/h1\u003E\n\u003Cp\u003E01.01 - 31.12.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch2\u003EBinavn:\u003C/h2\u003E\n\u003Cp\u003ESLAGELSE KOMMUNES EL-NETSELSKAB A/S   (SK-NET A/S).\u003C/p\u003E\n\u003Ch1\u003EStiftelsesdato:\u003C/h1\u003E\n\u003Cp\u003E06.11.2002.\u003C/p\u003E\n\u003Ch1\u003ESeneste vedtægtsdato:\u003C/h1\u003E\n\u003Cp\u003E06.11.2002.\u003C/p\u003E\n\u003Ch1\u003EKapital:\u003C/h1\u003E\n\u003Cp\u003Ekr. 5.000.000,00.\u003C/p\u003E\n\u003Ch2\u003EIndbetalingsmåde:\u003C/h2\u003E\n\u003Cp\u003Ei værdier kr. 5.000.000,00   til kurs 2.829,34.\u003C/p\u003E\n\u003Ch1\u003EStifter:\u003C/h1\u003E\n\u003Cp\u003ECVR-NR. 25797981 SLAGELSE KOMMUNES   NETSELSKAB A/S, Nordvej 11, 4200 Slagelse,   den 06.11.2002.\u003C/p\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Cp\u003Elærer Bodil Knudsen (formand), den   06.11.2002, snedkermester Poul Bruno   Frederik Hansen (næstformand), den   06.11.2002, viceskoleinspektør Arne Ejgil   Beyer, den   06.11.2002, vicevært Leif Keld Hansen, den 06.11.2002,   forretningsfører Steen Bach Nielsen, den   06.11.2002.\u003C/p\u003E\n\u003Ch1\u003EDirektion:\u003C/h1\u003E\n\u003Cp\u003Edirektør Mogens Bach Nielsen, den 06.11.2002.\u003C/p\u003E\n\u003Cp\u003ESelskabet tegnes af bestyrelsens formand   eller næstformand i forening med et andet   bestyrelsesmedlem eller i forening med en   direktør eller af den samlede bestyrelse.\n\u003C/p\u003E\n\u003Ch1\u003ERevision:\u003C/h1\u003E\n\u003Cp\u003EPricewaterhouseCoopers, Sdr.   Stationsvej 28, 4200 Slagelse, den   06.11.2002.\u003C/p\u003E\n\u003Ch1\u003EFørste regnskabsår:\u003C/h1\u003E\n\u003Cp\u003E01.01.2002 - 31.12.2002.\u003C/p\u003E\n\u003Ch1\u003ERegnskabsår:\u003C/h1\u003E\n\u003Cp\u003E01.01 - 31.12.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-nyt_selskab"
+        ]
+      }
+    ],
+    "virksomhedsMeddelelser": []
+  }

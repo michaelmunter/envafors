@@ -1,0 +1,1948 @@
+{
+    "aktiveEjerforholdDto": null,
+    "antalAnsatte": {
+      "kvartalsbeskaeftigelse": [
+        {
+          "aar": "2006",
+          "antalAarsvaerk": "0 årsværk",
+          "antalAnsatte": "",
+          "intervalKodeAntalAarsvaerk": "ANTAL_0_0",
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": "4",
+          "maaned": null,
+          "periode": "4. kvt 2006"
+        },
+        {
+          "aar": "2006",
+          "antalAarsvaerk": "0 årsværk",
+          "antalAnsatte": "",
+          "intervalKodeAntalAarsvaerk": "ANTAL_0_0",
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": "3",
+          "maaned": null,
+          "periode": "3. kvt 2006"
+        }
+      ],
+      "maanedsbeskaeftigelse": []
+    },
+    "ejerforhold": {
+      "aktiveLegaleEjere": [],
+      "aktiveReelleEjere": [],
+      "begunstigetGruppeNavn": null,
+      "begunstigetGruppeRetskrav": null,
+      "bestyrelseAnsesSomReelleEjere": false,
+      "ejerregistreringUnderFemProcent": false,
+      "ophoerteLegaleEjere": [],
+      "ophoerteReelleEjere": [],
+      "virksomhedHarIkkeKunnetIdentificereReelleEjereLedelseErIndsat": false,
+      "virksomhedHarIkkeReelleEjereOgLedelseErIndsat": false,
+      "virksomhedsFormTilladerReelleEjerOplysninger": false
+    },
+    "foreningsrepraesentanter": [],
+    "harManuelSignering": true,
+    "historiskStamdata": {
+      "adresse": [
+        {
+          "gyldigFra": "2018-11-29",
+          "gyldigTil": "2018-12-31",
+          "vaerdi": "Lilleøvej 3\u003Cbr /\u003E4220 Korsør"
+        },
+        {
+          "gyldigFra": "2008-07-16",
+          "gyldigTil": "2018-11-28",
+          "vaerdi": "Lilleøvej 3\u003Cbr /\u003E4220 Korsør"
+        },
+        {
+          "gyldigFra": "2007-01-01",
+          "gyldigTil": "2008-07-15",
+          "vaerdi": "Nordvej 11\u003Cbr /\u003E4200 Slagelse"
+        },
+        {
+          "gyldigFra": "2006-02-20",
+          "gyldigTil": "2006-12-31",
+          "vaerdi": "Nordvej 11\u003Cbr /\u003E4200 Slagelse"
+        }
+      ],
+      "bibranche": [],
+      "branchekode": [
+        {
+          "gyldigFra": "2008-01-01",
+          "gyldigTil": "2024-12-31",
+          "vaerdi": "351300 Distribution af elektricitet"
+        },
+        {
+          "gyldigFra": "2006-02-20",
+          "gyldigTil": "2007-12-31",
+          "vaerdi": "741200 Revisions- og bogføringsvirksomhed"
+        }
+      ],
+      "formaal": [],
+      "navn": [
+        {
+          "gyldigFra": "2006-02-20",
+          "gyldigTil": "2008-06-19",
+          "vaerdi": "SAF-ENERGI A/S"
+        }
+      ],
+      "registreretKapital": [
+        {
+          "gyldigFra": "2006-02-20",
+          "gyldigTil": "2008-12-15",
+          "vaerdi": "500.000,00 DKK"
+        }
+      ],
+      "senesteVedtaegtsdato": [
+        {
+          "gyldigFra": "2014-03-19",
+          "gyldigTil": "2024-05-28",
+          "vaerdi": "2014-03-19"
+        }
+      ],
+      "status": [],
+      "tegningsregel": [],
+      "udenlandskAdresse": [],
+      "virksomhedsform": []
+    },
+    "hovedselskab": null,
+    "kanHaveLegaleEjere": true,
+    "kanHaveReelleEjere": true,
+    "ophoerteEjerforholdDto": null,
+    "oplysningerOmRevisionsvirksomhed": null,
+    "personkreds": {
+      "ejerborgLink": "",
+      "ophoerteFad": [],
+      "personkredser": [
+        {
+          "personRoller": [
+            {
+              "adresse": "Lerhøj 9B\n4220 Korsør",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "",
+              "ekstraDataList": [],
+              "enhedstype": "PERSON",
+              "id": "4004114897",
+              "personType": "deltager",
+              "senesteNavn": "Henrik Rosendal Birch",
+              "sorteringsVaredi": 1,
+              "titlePrefix": [
+                "erstdist-organisation-rolle-adm_dir"
+              ]
+            },
+            {
+              "adresse": "Triangelvej 11\n4200 Slagelse",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "",
+              "ekstraDataList": [],
+              "enhedstype": "PERSON",
+              "id": "4010294260",
+              "personType": "deltager",
+              "senesteNavn": "Margit Jensen",
+              "sorteringsVaredi": 3,
+              "titlePrefix": [
+                "erstdist-organisation-rolle-direktoerer"
+              ]
+            }
+          ],
+          "rolle": {
+            "declaringClass": "integration.erstdist.konstanter.OrganisationsMappning",
+            "funktionsVaerdi": [
+              "ADM. DIR.",
+              "ADM. DIR",
+              "ADM. DIREKTØR",
+              "ADM.DIR.",
+              "ADM.DIRE R",
+              "ADM.DIREKTØR",
+              "ADMINISTRERENDE DIREKTØR",
+              "ANS.CHEFREDAKTØR & ADM.DIREKTØ",
+              "DIREKTØR, ADMINISTRATION",
+              "FUNGERENDE ADM. DIREKTØR",
+              "SIDEORDNET ADM. DIREKTØR"
+            ],
+            "hovedType": [
+              "LEDELSESORGAN"
+            ],
+            "sorteringsVaerdi": 1,
+            "tekstnogle": "erstdist-organisation-rolle-adm_dir",
+            "name": "ADM_DIR",
+            "ordinal": 68
+          },
+          "rolleTekstnogle": "erstdist-organisation-rolle-direktion"
+        },
+        {
+          "personRoller": [
+            {
+              "adresse": "A N Hansens Alle 32\n2900 Hellerup",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "Valgform: Generalforsamling",
+              "ekstraDataList": [
+                {
+                  "tekstnogle": "personkreds-valgform-label",
+                  "vaerdi": "Generalforsamling",
+                  "vaerdiTekstnogle": null
+                }
+              ],
+              "enhedstype": "PERSON",
+              "id": "4003888200",
+              "personType": "deltager",
+              "senesteNavn": "Lars Therkildsen",
+              "sorteringsVaredi": 4,
+              "titlePrefix": [
+                "erstdist-organisation-rolle-formand"
+              ]
+            },
+            {
+              "adresse": "Dronning Sofies Vej 14\n4000 Roskilde",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "Valgform: Generalforsamling",
+              "ekstraDataList": [
+                {
+                  "tekstnogle": "personkreds-valgform-label",
+                  "vaerdi": "Generalforsamling",
+                  "vaerdiTekstnogle": null
+                }
+              ],
+              "enhedstype": "PERSON",
+              "id": "4000145213",
+              "personType": "deltager",
+              "senesteNavn": "Susan Hørlyck Münster",
+              "sorteringsVaredi": 6,
+              "titlePrefix": [
+                "erstdist-organisation-rolle-naestformand"
+              ]
+            },
+            {
+              "adresse": "Nødbrøndsvej 23\nDøjringe\n4180 Sorø",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "Valgform: Generalforsamling",
+              "ekstraDataList": [
+                {
+                  "tekstnogle": "personkreds-valgform-label",
+                  "vaerdi": "Generalforsamling",
+                  "vaerdiTekstnogle": null
+                }
+              ],
+              "enhedstype": "PERSON",
+              "id": "4000317025",
+              "personType": "deltager",
+              "senesteNavn": "Thomas Skovgaard Wraa Frosch",
+              "sorteringsVaredi": 99,
+              "titlePrefix": []
+            },
+            {
+              "adresse": "Seerdrupvej 18\nFårdrup\n4200 Slagelse",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "Valgform: Generalforsamling",
+              "ekstraDataList": [
+                {
+                  "tekstnogle": "personkreds-valgform-label",
+                  "vaerdi": "Generalforsamling",
+                  "vaerdiTekstnogle": null
+                }
+              ],
+              "enhedstype": "PERSON",
+              "id": "4000709428",
+              "personType": "deltager",
+              "senesteNavn": "Joshua Bjørkman",
+              "sorteringsVaredi": 99,
+              "titlePrefix": []
+            },
+            {
+              "adresse": "Omøvej 11\n4220 Korsør",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "Valgform: Generalforsamling",
+              "ekstraDataList": [
+                {
+                  "tekstnogle": "personkreds-valgform-label",
+                  "vaerdi": "Generalforsamling",
+                  "vaerdiTekstnogle": null
+                }
+              ],
+              "enhedstype": "PERSON",
+              "id": "4003998369",
+              "personType": "deltager",
+              "senesteNavn": "Henrik Bach Jensen",
+              "sorteringsVaredi": 99,
+              "titlePrefix": []
+            },
+            {
+              "adresse": "Sjællandsvej 27\n4200 Slagelse",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "Valgform: Generalforsamling",
+              "ekstraDataList": [
+                {
+                  "tekstnogle": "personkreds-valgform-label",
+                  "vaerdi": "Generalforsamling",
+                  "vaerdiTekstnogle": null
+                }
+              ],
+              "enhedstype": "PERSON",
+              "id": "4004171164",
+              "personType": "deltager",
+              "senesteNavn": "Lis Tribler",
+              "sorteringsVaredi": 99,
+              "titlePrefix": []
+            },
+            {
+              "adresse": "Lokesvej 8\n4220 Korsør",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "Valgform: Generalforsamling",
+              "ekstraDataList": [
+                {
+                  "tekstnogle": "personkreds-valgform-label",
+                  "vaerdi": "Generalforsamling",
+                  "vaerdiTekstnogle": null
+                }
+              ],
+              "enhedstype": "PERSON",
+              "id": "4007718334",
+              "personType": "deltager",
+              "senesteNavn": "Johnny Kim Hjulsager Persson",
+              "sorteringsVaredi": 99,
+              "titlePrefix": []
+            },
+            {
+              "adresse": "Jonsgården 1\n4200 Slagelse",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "Valgform: Generalforsamling",
+              "ekstraDataList": [
+                {
+                  "tekstnogle": "personkreds-valgform-label",
+                  "vaerdi": "Generalforsamling",
+                  "vaerdiTekstnogle": null
+                }
+              ],
+              "enhedstype": "PERSON",
+              "id": "4008935854",
+              "personType": "deltager",
+              "senesteNavn": "Ali Yavuz",
+              "sorteringsVaredi": 99,
+              "titlePrefix": []
+            },
+            {
+              "adresse": "Spegerborgvej 22\n4230 Skælskør",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "Valgform: Generalforsamling",
+              "ekstraDataList": [
+                {
+                  "tekstnogle": "personkreds-valgform-label",
+                  "vaerdi": "Generalforsamling",
+                  "vaerdiTekstnogle": null
+                }
+              ],
+              "enhedstype": "PERSON",
+              "id": "4009455589",
+              "personType": "deltager",
+              "senesteNavn": "Anders Michael Bagge Kolding",
+              "sorteringsVaredi": 99,
+              "titlePrefix": []
+            },
+            {
+              "adresse": "Skrænten 1\n4220 Korsør",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "Valgform: Generalforsamling",
+              "ekstraDataList": [
+                {
+                  "tekstnogle": "personkreds-valgform-label",
+                  "vaerdi": "Generalforsamling",
+                  "vaerdiTekstnogle": null
+                }
+              ],
+              "enhedstype": "PERSON",
+              "id": "4010835863",
+              "personType": "deltager",
+              "senesteNavn": "Rasmus Trebbien Tribler",
+              "sorteringsVaredi": 99,
+              "titlePrefix": []
+            }
+          ],
+          "rolle": {
+            "declaringClass": "integration.erstdist.konstanter.OrganisationsMappning",
+            "funktionsVaerdi": [
+              "NÆSTFORMAND",
+              "NÆSTFORMAND",
+              "2. NÆSTFORMAND"
+            ],
+            "hovedType": [
+              "LEDELSESORGAN"
+            ],
+            "sorteringsVaerdi": 7,
+            "tekstnogle": "erstdist-organisation-rolle-naestformand",
+            "name": "NAESTFORMAND",
+            "ordinal": 87
+          },
+          "rolleTekstnogle": "erstdist-organisation-rolle-bestyrelsesmedlemmer"
+        },
+        {
+          "personRoller": [
+            {
+              "adresse": "Nordvej 6\n4200 Slagelse",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "",
+              "ekstraDataList": [],
+              "enhedstype": "VIRKSOMHED",
+              "id": "2894541",
+              "personType": null,
+              "senesteNavn": "SK FORSYNING A/S",
+              "sorteringsVaredi": 10,
+              "titlePrefix": []
+            },
+            {
+              "adresse": "Lilleøvej 3\n4220 Korsør",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "",
+              "ekstraDataList": [],
+              "enhedstype": "VIRKSOMHED",
+              "id": "3636616",
+              "personType": null,
+              "senesteNavn": "KORSØR FORSYNING A/S",
+              "sorteringsVaredi": 10,
+              "titlePrefix": []
+            }
+          ],
+          "rolle": {
+            "declaringClass": "integration.erstdist.konstanter.OrganisationsMappning",
+            "funktionsVaerdi": [
+              "STIFTERE",
+              "STIFTER",
+              "ST*IFTERE",
+              "STI*FTERE",
+              "STIFERE"
+            ],
+            "hovedType": [
+              "STIFTERE"
+            ],
+            "sorteringsVaerdi": 10,
+            "tekstnogle": "erstdist-organisation-rolle-stiftere",
+            "name": "STIFTERE",
+            "ordinal": 0
+          },
+          "rolleTekstnogle": "erstdist-organisation-rolle-stiftere"
+        },
+        {
+          "personRoller": [
+            {
+              "adresse": "Strandvejen 44\n2900 Hellerup",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "",
+              "ekstraDataList": [],
+              "enhedstype": "VIRKSOMHED",
+              "id": "4000769917",
+              "personType": null,
+              "senesteNavn": "PRICEWATERHOUSECOOPERS STATSAUTORISERET REVISIONSPARTNERSELSKAB",
+              "sorteringsVaredi": 10,
+              "titlePrefix": []
+            }
+          ],
+          "rolle": {
+            "declaringClass": "integration.erstdist.konstanter.OrganisationsMappning",
+            "funktionsVaerdi": [
+              "REVISION"
+            ],
+            "hovedType": [
+              "REVISION"
+            ],
+            "sorteringsVaerdi": 10,
+            "tekstnogle": "erstdist-organisation-rolle-revision",
+            "name": "REVISION",
+            "ordinal": 97
+          },
+          "rolleTekstnogle": "erstdist-organisation-rolle-revision"
+        }
+      ],
+      "tegningsregel": "Selskabet tegnes af et bestyrelsesmedlem og en direktør eller af bestyrelsensformanden sammen med et bestyrelsesmedlem eller af den samlede bestyrelse."
+    },
+    "produktionsenheder": {
+      "aktiveProduktionsenheder": [
+        {
+          "antalAnsatte": null,
+          "historiskStamdata": null,
+          "revisionsvirksomhed": {
+            "adresse": "Nordvej 6",
+            "navn": "SK Gadelys A/S",
+            "pNummer": "1012066356",
+            "postnummerOgBy": "4200 Slagelse",
+            "tilknyttedeRevisorer": null
+          },
+          "stamdata": {
+            "adresse": "Nordvej 6",
+            "bibrancher": [],
+            "bygningsnummer": null,
+            "cvrnummer": "29396361",
+            "email": "kontakt@envafors.dk",
+            "helligdagsaabent": false,
+            "hovedbranche": {
+              "branchekode": "351400",
+              "titel": "Distribution af elektricitet"
+            },
+            "navn": "SK Gadelys A/S",
+            "ophoersdato": null,
+            "pnummer": "1012066356",
+            "postnummerOgBy": "4200 Slagelse",
+            "registreretIHvidvaskregistret": false,
+            "regnskabsperiodeSlut": null,
+            "regnskabsperiodeStart": null,
+            "reklamebeskyttet": false,
+            "startdato": "2006-02-20",
+            "telefon": "58362500",
+            "udenlandskAdresse": null,
+            "udenlandskAdresseLand": "Danmark",
+            "udenlandskAdresseLandekode": "DK",
+            "virksomhedsnavn": null
+          }
+        }
+      ],
+      "ophoerteProduktionsenheder": []
+    },
+    "sammenhaengendeRegnskaber": [
+      {
+        "periodeFormateret": "01.01.2025 - 31.12.2025",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "29396361",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": "Henrik Rosendal Birch",
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "amNsb3VkczovLzAzL2Q5LzhmL2ZiLzg3L2M5MzAtNGZhMS05ZDJkLTg5NTk5MjVhZWQxNg",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              },
+              {
+                "dokumentId": "amNsb3VkczovLzAzL2JjLzgxLzMzL2NiLzEzMWQtNDVlZi1iYzZkLWYwZTkwZDJmZTE2Mg",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XHTML"
+              }
+            ],
+            "godkendelsesdato": "04.06.2026",
+            "hovednavn": "SK GADELYS A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "39412350",
+            "offentliggoerelseTidsstempel": "2026-06-10T11:26:36.410Z",
+            "offentliggoerelseTidsstempelFormateret": "10.06.2026",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2025 - 31.12.2025",
+            "regnskabsperiodeFra": "01.01.2025",
+            "regnskabsperiodeTil": "31.12.2025",
+            "sagsnummer": "X26-CS-98-UB",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2025",
+        "regnskabsperiodeTil": "31.12.2025"
+      },
+      {
+        "periodeFormateret": "01.01.2024 - 31.12.2024",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "29396361",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": "Henrik Rosendal Birch",
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzg1LzAxLzViLzJlLzYyZjEtNGMwYi04ZDM2LTU1NmNlMjdlNzE0NQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              },
+              {
+                "dokumentId": "amNsb3VkczovLzAzL2IxLzM3LzI2LzY2L2U5YTQtNDBhMC1hZGFhLTRkZTE4MGQ4OTFmNQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              }
+            ],
+            "godkendelsesdato": "04.06.2025",
+            "hovednavn": "SK GADELYS A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "37585038",
+            "offentliggoerelseTidsstempel": "2025-06-10T09:41:13.308Z",
+            "offentliggoerelseTidsstempelFormateret": "10.06.2025",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2024 - 31.12.2024",
+            "regnskabsperiodeFra": "01.01.2024",
+            "regnskabsperiodeTil": "31.12.2024",
+            "sagsnummer": "X25-CM-65-RE",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2024",
+        "regnskabsperiodeTil": "31.12.2024"
+      },
+      {
+        "periodeFormateret": "01.01.2023 - 31.12.2023",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "29396361",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": "Henrik Rosendal Birch",
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzFlL2ZlLzU4L2YzLzQ3YmUtNDI5My1hMTFkLTQ5MjlmMTM3NzE5Mw",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              },
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzI5L2JhLzcxLzdiL2M2MDItNGJmYi1hN2JjLWUyYjY2ZTljNzFiZQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "29.05.2024",
+            "hovednavn": "SK GADELYS A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "35836312",
+            "offentliggoerelseTidsstempel": "2024-06-06T13:55:48.880Z",
+            "offentliggoerelseTidsstempelFormateret": "06.06.2024",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2023 - 31.12.2023",
+            "regnskabsperiodeFra": "01.01.2023",
+            "regnskabsperiodeTil": "31.12.2023",
+            "sagsnummer": "X24-HV-90-MX",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2023",
+        "regnskabsperiodeTil": "31.12.2023"
+      },
+      {
+        "periodeFormateret": "01.01.2022 - 31.12.2022",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "29396361",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": "Henrik Rosendal Birch",
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzBhLzQyL2M2LzdjLzk5NGMtNDQ0Yy1iZTVmLTMxN2EyZWI3NjdhNQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              },
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzdhLzNmLzIyLzVmL2ExZDctNGE5Zi05Y2Y5LTE4NmU5M2YyNWQ5OQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              }
+            ],
+            "godkendelsesdato": "23.05.2023",
+            "hovednavn": "SK GADELYS A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "34124544",
+            "offentliggoerelseTidsstempel": "2023-06-09T12:11:54.609Z",
+            "offentliggoerelseTidsstempelFormateret": "09.06.2023",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2022 - 31.12.2022",
+            "regnskabsperiodeFra": "01.01.2022",
+            "regnskabsperiodeTil": "31.12.2022",
+            "sagsnummer": "X23-EH-90-DM",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2022",
+        "regnskabsperiodeTil": "31.12.2022"
+      },
+      {
+        "periodeFormateret": "01.01.2021 - 31.12.2021",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "29396361",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": "Henrik Rosendal Birch",
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzRlL2JiLzg0L2RmL2UyMDEtNGM2NS04ZjRhLWUzMDIxOGUxZjJkNQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              },
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzU2LzNiLzA0LzMxL2ViOTUtNDMzMi04YTdmLWM2NmJmZDBkNTE1OA",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "19.05.2022",
+            "hovednavn": "SK GADELYS A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "32403988",
+            "offentliggoerelseTidsstempel": "2022-05-31T15:36:19.066Z",
+            "offentliggoerelseTidsstempelFormateret": "31.05.2022",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2021 - 31.12.2021",
+            "regnskabsperiodeFra": "01.01.2021",
+            "regnskabsperiodeTil": "31.12.2021",
+            "sagsnummer": "X22-CT-19-AQ",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2021",
+        "regnskabsperiodeTil": "31.12.2021"
+      },
+      {
+        "periodeFormateret": "01.01.2020 - 31.12.2020",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "29396361",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": "Henrik Rosendal Birch",
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzlmL2MwL2VmL2IxL2Y3ZjEtNGViOC05MzZkLWM0ZmI3ZWY3MDU1ZA",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              },
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzljL2ZiL2FiL2IyLzNjNTItNGIyYy1hODlmLWNkNjEyMmM0MDZkNQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "26.05.2021",
+            "hovednavn": "SK GADELYS A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "30851359",
+            "offentliggoerelseTidsstempel": "2021-06-28T08:33:18.761Z",
+            "offentliggoerelseTidsstempelFormateret": "28.06.2021",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2020 - 31.12.2020",
+            "regnskabsperiodeFra": "01.01.2020",
+            "regnskabsperiodeTil": "31.12.2020",
+            "sagsnummer": "X21-CN-19-CL",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2020",
+        "regnskabsperiodeTil": "31.12.2020"
+      },
+      {
+        "periodeFormateret": "01.01.2019 - 31.12.2019",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "29396361",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "amNsb3VkczovLzAzL2U0LzZkL2ZlL2I4L2E0ZWEtNGE4My04OTA2LWQ2NDBkODZkMDQ2NQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              },
+              {
+                "dokumentId": "amNsb3VkczovLzAzL2I1L2M2L2VhL2JiL2JjZTgtNDc0ZC05OGM5LWNlYzFkNWQzYWZjMQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK GADELYS A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "28876410",
+            "offentliggoerelseTidsstempel": "2020-05-29T20:31:02.189Z",
+            "offentliggoerelseTidsstempelFormateret": "29.05.2020",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2019 - 31.12.2019",
+            "regnskabsperiodeFra": "01.01.2019",
+            "regnskabsperiodeTil": "31.12.2019",
+            "sagsnummer": "X20-CJ-50-RV",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2019",
+        "regnskabsperiodeTil": "31.12.2019"
+      },
+      {
+        "periodeFormateret": "01.01.2018 - 31.12.2018",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "29396361",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzLzZmL2U3L2NkL2NkLzg2NzUtNDNiNy1iNWU3LWJhODQ2ZWU0YWM5ZA",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              },
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzLzIyLzcxLzdlLzhjLzY1ZGItNGZjMy05ZmRiLWYyODdmYzI5MTc4OA",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK GADELYS A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "27299997",
+            "offentliggoerelseTidsstempel": "2019-05-29T16:11:54.028Z",
+            "offentliggoerelseTidsstempelFormateret": "29.05.2019",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2018 - 31.12.2018",
+            "regnskabsperiodeFra": "01.01.2018",
+            "regnskabsperiodeTil": "31.12.2018",
+            "sagsnummer": "X19-BJ-39-WL",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2018",
+        "regnskabsperiodeTil": "31.12.2018"
+      },
+      {
+        "periodeFormateret": "01.01.2017 - 31.12.2017",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "29396361",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzL2NhL2ZkLzgxLzRmLzliODktNGI5Ni1hZTJjLTQ4MjZhNjBiZTViNA",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              },
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzLzU1L2Q2LzgwL2QxL2Y0OWEtNDE3NC04YWU3LTJkMDQ4ZWViYzYyZQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK GADELYS A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "25605563",
+            "offentliggoerelseTidsstempel": "2018-05-30T11:01:37.888Z",
+            "offentliggoerelseTidsstempelFormateret": "30.05.2018",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2017 - 31.12.2017",
+            "regnskabsperiodeFra": "01.01.2017",
+            "regnskabsperiodeTil": "31.12.2017",
+            "sagsnummer": "X18-AN-18-EV",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2017",
+        "regnskabsperiodeTil": "31.12.2017"
+      },
+      {
+        "periodeFormateret": "01.01.2016 - 31.12.2016",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "29396361",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzLzAyLzdmLzIzLzQzLzA5ZWYtNGQ4NS04ZDMxLThlNzc2Mzg3ODQ0Zg",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              },
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzL2VlL2Y3LzVjLzk5L2U3ZDgtNGI2ZC04NTEwLTE5YjZiZmJhNmY4MQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK GADELYS A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "23990641",
+            "offentliggoerelseTidsstempel": "2017-05-30T16:18:08.488Z",
+            "offentliggoerelseTidsstempelFormateret": "30.05.2017",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2016 - 31.12.2016",
+            "regnskabsperiodeFra": "01.01.2016",
+            "regnskabsperiodeTil": "31.12.2016",
+            "sagsnummer": "X17-AK-58-GD",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2016",
+        "regnskabsperiodeTil": "31.12.2016"
+      },
+      {
+        "periodeFormateret": "01.01.2015 - 31.12.2015",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "29396361",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzLzJmL2MzLzk4L2UwLzc3YTYtNGQ5NS05ZTQ2LTkwMjZhOWU2NDQxZA",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              },
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzL2IzLzM3LzZmL2RmLzEzZmQtNDBjYy1hMTA3LWQ0OWYxMDdhZDQ0Mw",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK GADELYS A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "22453010",
+            "offentliggoerelseTidsstempel": "2016-05-26T12:03:33.500Z",
+            "offentliggoerelseTidsstempelFormateret": "26.05.2016",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2015 - 31.12.2015",
+            "regnskabsperiodeFra": "01.01.2015",
+            "regnskabsperiodeTil": "31.12.2015",
+            "sagsnummer": "X16-AW-85-UR",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2015",
+        "regnskabsperiodeTil": "31.12.2015"
+      },
+      {
+        "periodeFormateret": "01.01.2014 - 31.12.2014",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "29396361",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzL2RjLzUzLzhiLzZlLzFmM2QtNGNiNy05OTJmLTA3M2VjODE0YjQwMA",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              },
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzL2UwL2EwLzg2LzBmLzFjYmItNDA4MC04M2IzLWU5YTJiNzhhZTkxOA",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK GADELYS A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "5362914",
+            "offentliggoerelseTidsstempel": "2015-05-29T15:17:34.299Z",
+            "offentliggoerelseTidsstempelFormateret": "29.05.2015",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2014 - 31.12.2014",
+            "regnskabsperiodeFra": "01.01.2014",
+            "regnskabsperiodeTil": "31.12.2014",
+            "sagsnummer": "X15-AC-60-PG",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2014",
+        "regnskabsperiodeTil": "31.12.2014"
+      },
+      {
+        "periodeFormateret": "01.01.2013 - 31.12.2013",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "29396361",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yOTM5NjM2MTtBL1MzNjc3NzQ7MjAxMzAxMDE7MjAxMzEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              },
+              {
+                "dokumentId": "Y3ZyLmRrOi8veGJybHMvWC03RENCRUIxMi0yMDE0MDYwMl8xMDIzMDNfODg0",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK GADELYS A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "21196840",
+            "offentliggoerelseTidsstempel": "2014-06-03T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "04.06.2014",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2013 - 31.12.2013",
+            "regnskabsperiodeFra": "01.01.2013",
+            "regnskabsperiodeTil": "31.12.2013",
+            "sagsnummer": "14-86.425",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2013",
+        "regnskabsperiodeTil": "31.12.2013"
+      },
+      {
+        "periodeFormateret": "01.01.2012 - 31.12.2012",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "29396361",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8veGJybHMvWC03RENCRUIxMi0yMDEzMDUzMF8xMTE1MTZfNDY2",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              },
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yOTM5NjM2MTtBL1MzNjc3NzQ7MjAxMjAxMDE7MjAxMjEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK GADELYS A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "21196837",
+            "offentliggoerelseTidsstempel": "2013-05-31T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "01.06.2013",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2012 - 31.12.2012",
+            "regnskabsperiodeFra": "01.01.2012",
+            "regnskabsperiodeTil": "31.12.2012",
+            "sagsnummer": "13-88.918",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2012",
+        "regnskabsperiodeTil": "31.12.2012"
+      },
+      {
+        "periodeFormateret": "01.01.2011 - 31.12.2011",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "29396361",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yOTM5NjM2MTtBL1MzNjc3NzQ7MjAxMTAxMDE7MjAxMTEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK GADELYS A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "21196835",
+            "offentliggoerelseTidsstempel": "2012-06-03T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "04.06.2012",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2011 - 31.12.2011",
+            "regnskabsperiodeFra": "01.01.2011",
+            "regnskabsperiodeTil": "31.12.2011",
+            "sagsnummer": "12-89.888",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2011",
+        "regnskabsperiodeTil": "31.12.2011"
+      },
+      {
+        "periodeFormateret": "01.01.2010 - 31.12.2010",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "29396361",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yOTM5NjM2MTtBL1MzNjc3NzQ7MjAxMDAxMDE7MjAxMDEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK GADELYS A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "21196833",
+            "offentliggoerelseTidsstempel": "2011-09-25T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "26.09.2011",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2010 - 31.12.2010",
+            "regnskabsperiodeFra": "01.01.2010",
+            "regnskabsperiodeTil": "31.12.2010",
+            "sagsnummer": "11-95.005",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2010",
+        "regnskabsperiodeTil": "31.12.2010"
+      },
+      {
+        "periodeFormateret": "01.01.2009 - 31.12.2009",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "29396361",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yOTM5NjM2MTtBL1MzNjc3NzQ7MjAwOTAxMDE7MjAwOTEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK GADELYS A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "21196831",
+            "offentliggoerelseTidsstempel": "2010-05-26T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "27.05.2010",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2009 - 31.12.2009",
+            "regnskabsperiodeFra": "01.01.2009",
+            "regnskabsperiodeTil": "31.12.2009",
+            "sagsnummer": "10-123.620",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2009",
+        "regnskabsperiodeTil": "31.12.2009"
+      },
+      {
+        "periodeFormateret": "01.01.2008 - 31.12.2008",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "29396361",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yOTM5NjM2MTtBL1MzNjc3NzQ7MjAwODAxMDE7MjAwODEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK GADELYS A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "21196829",
+            "offentliggoerelseTidsstempel": "2009-06-24T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "25.06.2009",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2008 - 31.12.2008",
+            "regnskabsperiodeFra": "01.01.2008",
+            "regnskabsperiodeTil": "31.12.2008",
+            "sagsnummer": "09-125.400",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2008",
+        "regnskabsperiodeTil": "31.12.2008"
+      },
+      {
+        "periodeFormateret": "01.01.2007 - 31.12.2007",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "29396361",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yOTM5NjM2MTtBL1MzNjc3NzQ7MjAwNzAxMDE7MjAwNzEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SAF-ENERGI A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "21196827",
+            "offentliggoerelseTidsstempel": "2008-05-14T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "15.05.2008",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2007 - 31.12.2007",
+            "regnskabsperiodeFra": "01.01.2007",
+            "regnskabsperiodeTil": "31.12.2007",
+            "sagsnummer": "08-136.044",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2007",
+        "regnskabsperiodeTil": "31.12.2007"
+      },
+      {
+        "periodeFormateret": "20.02.2006 - 31.12.2006",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "29396361",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yOTM5NjM2MTtBL1MzNjc3NzQ7MjAwNjAyMjA7MjAwNjEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SAF-ENERGI A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "21196825",
+            "offentliggoerelseTidsstempel": "2007-02-19T23:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "20.02.2007",
+            "omgjort": false,
+            "periodeFormateret": "20.02.2006 - 31.12.2006",
+            "regnskabsperiodeFra": "20.02.2006",
+            "regnskabsperiodeTil": "31.12.2006",
+            "sagsnummer": "07-115.609",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "20.02.2006",
+        "regnskabsperiodeTil": "31.12.2006"
+      }
+    ],
+    "skjulEjerforhold": false,
+    "skjulOevrigeDokumenter": false,
+    "stamdata": {
+      "adresse": "Nordvej 6",
+      "aktiviteterOmfattetAfHvidvaskloven": [],
+      "bygningsnummer": null,
+      "cvrnummer": "29396361",
+      "enhedsnummer": "4001550767",
+      "harPseudoCvr": false,
+      "kreditoplysningskode": null,
+      "modervirksomhederVedFranchise": [],
+      "navn": "SK GADELYS A/S",
+      "omfattetAfHvidvaskloven": false,
+      "ophoersdato": null,
+      "postnummerOgBy": "4200 Slagelse",
+      "regnummer": null,
+      "reklamebeskyttet": false,
+      "socialoekonomiskVirksomhed": false,
+      "startdato": "2006-02-20",
+      "statsligVirksomhed": false,
+      "status": "NORMAL",
+      "stiftetFor1900Tekstnogle": null,
+      "udenlandskAdresse": null,
+      "udenlandskAdresseLand": "Danmark",
+      "udenlandskAdresseLandekode": "DK",
+      "virkningsdato": "",
+      "virksomhedsform": "Aktieselskab",
+      "virksomhedsformKode": "60",
+      "visNavnPostfix": false
+    },
+    "udvidedeOplysninger": {
+      "bibrancher": [],
+      "binavne": [
+        "SLAGELSE GADELYS A/S"
+      ],
+      "boersnoteret": null,
+      "delvistIndbetaltKapital": false,
+      "email": "kontakt@envafors.dk",
+      "fax": null,
+      "foersteRegnskabsperiodeSlut": "2006-12-31",
+      "foersteRegnskabsperiodeStart": "2006-02-20",
+      "formaal": "Selskabets formål er at drive virksomhed med levering af vejlys og trafiklys,service og drift af vejbelysnings-og trafiklysanlæg og hertil hørende administration samt drive virksomhed som har tilknytning til de nævnte virksomheder.",
+      "hovedbranche": {
+        "branchekode": "351400",
+        "titel": "Distribution af elektricitet"
+      },
+      "kapitalklasser": null,
+      "kommune": "Slagelse",
+      "kommunekode": "330",
+      "koncessionsdato": null,
+      "omlaegningsperiodeSlut": null,
+      "omlaegningsperiodeStart": null,
+      "postadresse": null,
+      "registreretKapital": "10.500.000,00 DKK",
+      "regnskabsaarSlut": "31.12",
+      "regnskabsaarStart": "01.01",
+      "senesteVedtaegtsdato": "2024-05-29",
+      "senesteVedtaegtsdatoFoer1900": false,
+      "stadfaestelsesdato": null,
+      "stadfaestetAf": null,
+      "telefon": "58362500",
+      "telefonSekundaert": null,
+      "udenlandskPostadresse": null,
+      "udenlandskPostadresseLand": null,
+      "udenlandskPostadresseLandekode": null
+    },
+    "virksomhedRegistreringer": [
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "29396361",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK GADELYS A/S",
+        "offentliggoerelseId": "39511577",
+        "offentliggoerelseTidsstempel": "19.06.2026",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003ELeif Bjarne Clausen, den 04.06.2026, Hans Ole Drost, (formand), den 04.06.2026, Jørgen Grüner, den 04.06.2026, Ole Ernstsen Hansen, den 04.06.2026, Stina Abelone Madsen, den 04.06.2026, Svend Aage Nielsen, den 04.06.2026, Anna Strøbæk, den 04.06.2026, Lis Tribler, (næstformand), den 04.06.2026.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000317025/deltager\" target=\"_blank\"\u003EThomas Skovgaard Wraa Frosch\u003C/a\u003E, den 04.06.2026, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4003998369/deltager\" target=\"_blank\"\u003EHenrik Bach Jensen\u003C/a\u003E, den 04.06.2026, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000145213/deltager\" target=\"_blank\"\u003ESusan Hørlyck Münster\u003C/a\u003E, (næstformand), den 04.06.2026, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4007718334/deltager\" target=\"_blank\"\u003EJohnny Kim Hjulsager Persson\u003C/a\u003E, den 04.06.2026, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4003888200/deltager\" target=\"_blank\"\u003ELars Therkildsen\u003C/a\u003E, (formand), den 04.06.2026, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004171164/deltager\" target=\"_blank\"\u003ELis Tribler\u003C/a\u003E, den 04.06.2026, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4010835863/deltager\" target=\"_blank\"\u003ERasmus Trebbien Tribler\u003C/a\u003E, den 04.06.2026.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003ELeif Bjarne Clausen, den 04.06.2026, Hans Ole Drost, (formand), den 04.06.2026, Jørgen Grüner, den 04.06.2026, Ole Ernstsen Hansen, den 04.06.2026, Stina Abelone Madsen, den 04.06.2026, Svend Aage Nielsen, den 04.06.2026, Anna Strøbæk, den 04.06.2026, Lis Tribler, (næstformand), den 04.06.2026.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EThomas Skovgaard Wraa Frosch, den 04.06.2026, Henrik Bach Jensen, den 04.06.2026, Susan Hørlyck Münster, (næstformand), den 04.06.2026, Johnny Kim Hjulsager Persson, den 04.06.2026, Lars Therkildsen, (formand), den 04.06.2026, Lis Tribler, den 04.06.2026, Rasmus Trebbien Tribler, den 04.06.2026.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "29396361",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK GADELYS A/S",
+        "offentliggoerelseId": "37533653",
+        "offentliggoerelseTidsstempel": "02.06.2025",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EDirektion:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EJan Østerskov Hansen, den 31.05.2025.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003EDirektion:\u003Cbr/\u003E\u003Cbr /\u003E\u003C/h1\u003E\u003Cbr/\u003E\u003Ch2\u003EFratrådte:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003EJan Østerskov Hansen, den 31.05.2025.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "29396361",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK GADELYS A/S",
+        "offentliggoerelseId": "36913872",
+        "offentliggoerelseTidsstempel": "29.01.2025",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EDirektion:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4010294260/deltager\" target=\"_blank\"\u003EMargit Jensen\u003C/a\u003E, den 23.01.2025.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EDirektion:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EMargit Jensen, den 23.01.2025.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "29396361",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK GADELYS A/S",
+        "offentliggoerelseId": "36908934",
+        "offentliggoerelseTidsstempel": "28.01.2025",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EVillum Christensen, den 18.12.2024.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4009455589/deltager\" target=\"_blank\"\u003EAnders Michael Bagge Kolding\u003C/a\u003E, den 28.01.2025.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EVillum Christensen, den 18.12.2024.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EAnders Michael Bagge Kolding, den 28.01.2025.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "29396361",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK GADELYS A/S",
+        "offentliggoerelseId": "36639163",
+        "offentliggoerelseTidsstempel": "19.11.2024",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EPernille Ivalo Frandsen, den 06.11.2024.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000769738/deltager\" target=\"_blank\"\u003EJørgen Grüner\u003C/a\u003E, den 06.11.2024.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EPernille Ivalo Frandsen, den 06.11.2024.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EJørgen Grüner, den 06.11.2024.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "29396361",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK GADELYS A/S",
+        "offentliggoerelseId": "36204759",
+        "offentliggoerelseTidsstempel": "03.07.2024",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003EVedtægter ændret: 29.05.2024\n\u003Cbr /\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003EVedtægter ændret: 29.05.2024\u003Cbr/\u003E\u003Cbr /\u003E\u003Cbr/\u003E\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "29396361",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK GADELYS A/S",
+        "offentliggoerelseId": "34148219",
+        "offentliggoerelseTidsstempel": "13.06.2023",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004031938/deltager\" target=\"_blank\"\u003EAnna Strøbæk\u003C/a\u003E, den 24.05.2023.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EAnna Strøbæk, den 24.05.2023.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "29396361",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK GADELYS A/S",
+        "offentliggoerelseId": "33830310",
+        "offentliggoerelseTidsstempel": "20.04.2023",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EJacob Raagaard Rasmussen, den 13.04.2023.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003EBestyrelse:\u003Cbr/\u003E\u003Cbr /\u003E\u003C/h1\u003E\u003Cbr/\u003E\u003Ch2\u003EFratrådte:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003EJacob Raagaard Rasmussen, den 13.04.2023.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "29396361",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK GADELYS A/S",
+        "offentliggoerelseId": "32344708",
+        "offentliggoerelseTidsstempel": "23.05.2022",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EFlemming Aarup Erichsen, den 19.05.2022, Bodil Knudsen, den 19.05.2022, Anders Koefoed, den 19.05.2022, Anders Peter Møller Nielsen, den 19.05.2022, Ole Olsen, den 19.05.2022, Erling Lindharth Stuhr, den 19.05.2022, Irene Juul Vissing, den 19.05.2022, Lillian Pia Wismann, den 19.05.2022.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000709428/deltager\" target=\"_blank\"\u003EJoshua Bjørkman\u003C/a\u003E, den 19.05.2022, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000327392/deltager\" target=\"_blank\"\u003EVillum Christensen\u003C/a\u003E, den 19.05.2022, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4009273027/deltager\" target=\"_blank\"\u003EJacob Raagaard Rasmussen\u003C/a\u003E, den 19.05.2022, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4008935854/deltager\" target=\"_blank\"\u003EAli Yavuz\u003C/a\u003E, den 19.05.2022.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EFlemming Aarup Erichsen, den 19.05.2022, Bodil Knudsen, den 19.05.2022, Anders Koefoed, den 19.05.2022, Anders Peter Møller Nielsen, den 19.05.2022, Ole Olsen, den 19.05.2022, Erling Lindharth Stuhr, den 19.05.2022, Irene Juul Vissing, den 19.05.2022, Lillian Pia Wismann, den 19.05.2022.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EJoshua Bjørkman, den 19.05.2022, Villum Christensen, den 19.05.2022, Jacob Raagaard Rasmussen, den 19.05.2022, Ali Yavuz, den 19.05.2022.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "29396361",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK GADELYS A/S",
+        "offentliggoerelseId": "31371167",
+        "offentliggoerelseTidsstempel": "12.10.2021",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EHans Ole Drost, (næstformand), den 06.10.2021, Flemming Aarup Erichsen, (formand), den 06.10.2021, Lis Tribler, den 06.10.2021.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000222171/deltager\" target=\"_blank\"\u003EHans Ole Drost\u003C/a\u003E, (formand), den 06.10.2021, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004006163/deltager\" target=\"_blank\"\u003EFlemming Aarup Erichsen\u003C/a\u003E, den 06.10.2021, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004171164/deltager\" target=\"_blank\"\u003ELis Tribler\u003C/a\u003E, (næstformand), den 06.10.2021.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EHans Ole Drost, (næstformand), den 06.10.2021, Flemming Aarup Erichsen, (formand), den 06.10.2021, Lis Tribler, den 06.10.2021.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EHans Ole Drost, (formand), den 06.10.2021, Flemming Aarup Erichsen, den 06.10.2021, Lis Tribler, (næstformand), den 06.10.2021.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "29396361",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK GADELYS A/S",
+        "offentliggoerelseId": "31290057",
+        "offentliggoerelseTidsstempel": "23.09.2021",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4007486996/deltager\" target=\"_blank\"\u003EIrene Juul Vissing\u003C/a\u003E, den 16.09.2021.\u003C/p\u003E\n\u003Ch1\u003EValgt af medarbejderne i koncernen:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EIrene Juul Vissing, den 16.09.2021.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EIrene Juul Vissing, den 16.09.2021.\u003C/p\u003E\n\u003Ch1\u003EValgt af medarbejderne i koncernen:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EIrene Juul Vissing, den 16.09.2021.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "29396361",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK GADELYS A/S",
+        "offentliggoerelseId": "31283616",
+        "offentliggoerelseTidsstempel": "22.09.2021",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EJan Michael Jørgensen, den 16.09.2021.\u003C/p\u003E\n\u003Ch1\u003EValgt af medarbejderne i koncernen:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4007486996/deltager\" target=\"_blank\"\u003EIrene Juul Vissing\u003C/a\u003E, den 16.09.2021.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EJan Michael Jørgensen, den 16.09.2021.\u003C/p\u003E\n\u003Ch1\u003EValgt af medarbejderne i koncernen:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EIrene Juul Vissing, den 16.09.2021.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "29396361",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK GADELYS A/S",
+        "offentliggoerelseId": "27652424",
+        "offentliggoerelseTidsstempel": "04.07.2019",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003ERevision:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EERNST &amp; YOUNG Godkendt Revisionspartnerselskab, den 22.05.2019.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003ECVR-NR. 33771231 PRICEWATERHOUSECOOPERS STATSAUTORISERET REVISIONSPARTNERSELSKAB, Strandvejen 44, 2900 Hellerup, den 22.05.2019.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003ERevision:\u003Cbr/\u003E\u003Cbr /\u003E\u003C/h1\u003E\u003Cbr/\u003E\u003Ch2\u003EFratrådte:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003EERNST &amp; YOUNG Godkendt Revisionspartnerselskab, den 22.05.2019.\u003C/p\u003E\u003Cbr/\u003E\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003ECVR-NR. 33771231 PRICEWATERHOUSECOOPERS STATSAUTORISERET REVISIONSPARTNERSELSKAB, Strandvejen 44, 2900 Hellerup, den 22.05.2019.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_revision"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "29396361",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK GADELYS A/S",
+        "offentliggoerelseId": "26516422",
+        "offentliggoerelseTidsstempel": "01.01.2019",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003ENy adresse: Nordvej 6, 4200 Slagelse\n\u003Cbr /\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003ENy adresse: Nordvej 6, 4200 Slagelse\u003Cbr/\u003E\u003Cbr /\u003E\u003Cbr/\u003E\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_adresse"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "29396361",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK GADELYS A/S",
+        "offentliggoerelseId": "25707853",
+        "offentliggoerelseTidsstempel": "04.06.2018",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4007658227/deltager\" target=\"_blank\"\u003ELeif Bjarne Clausen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4007658228/deltager\" target=\"_blank\"\u003ELillian Pia Wismann\u003C/a\u003E, den 23.05.2018.\u003C/p\u003E\n\u003Ch1\u003EValgt af medarbejderne i koncernen:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4007658227/deltager\" target=\"_blank\"\u003ELeif Bjarne Clausen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4007658228/deltager\" target=\"_blank\"\u003ELillian Pia Wismann\u003C/a\u003E, den 23.05.2018.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003ELeif Bjarne Clausen, den 23.05.2018, Lillian Pia Wismann, den 23.05.2018.\u003C/p\u003E\n\u003Ch1\u003EValgt af medarbejderne i koncernen:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003ELeif Bjarne Clausen, den 23.05.2018, Lillian Pia Wismann, den 23.05.2018.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "29396361",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK GADELYS A/S",
+        "offentliggoerelseId": "25636701",
+        "offentliggoerelseTidsstempel": "31.05.2018",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004161320/deltager\" target=\"_blank\"\u003EHenrik Urban Brodersen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000464012/deltager\" target=\"_blank\"\u003ETroels Christensen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000327392/deltager\" target=\"_blank\"\u003EVillum Christensen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000222171/deltager\" target=\"_blank\"\u003EHans Ole Drost\u003C/a\u003E (formand), den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004006163/deltager\" target=\"_blank\"\u003EFlemming Aarup Erichsen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000079846/deltager\" target=\"_blank\"\u003ENiels Bo Jørgensen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004018654/deltager\" target=\"_blank\"\u003EHanne Anette Kamienski\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004062602/deltager\" target=\"_blank\"\u003EBodil Knudsen\u003C/a\u003E (næstformand), den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004177460/deltager\" target=\"_blank\"\u003EAxel Larsen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004177457/deltager\" target=\"_blank\"\u003EMalene Sadowski\u003C/a\u003E, den 23.05.2018.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000222171/deltager\" target=\"_blank\"\u003EHans Ole Drost\u003C/a\u003E (næstformand), den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004006163/deltager\" target=\"_blank\"\u003EFlemming Aarup Erichsen\u003C/a\u003E (formand), den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000346807/deltager\" target=\"_blank\"\u003EPernille Ivalo Frandsen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004033089/deltager\" target=\"_blank\"\u003EOle Ernstsen Hansen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004062602/deltager\" target=\"_blank\"\u003EBodil Knudsen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000771746/deltager\" target=\"_blank\"\u003EAnders Koefoed\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000725668/deltager\" target=\"_blank\"\u003EOle Olsen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004171164/deltager\" target=\"_blank\"\u003ELis Tribler\u003C/a\u003E, den 23.05.2018.\u003C/p\u003E\n\u003Ch1\u003EValgt af medarbejderne i koncernen:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4007658227/deltager\" target=\"_blank\"\u003ELeif Bjarne Clausen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4007658228/deltager\" target=\"_blank\"\u003ELillian Pia Wismann\u003C/a\u003E, den 23.05.2018.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EHenrik Urban Brodersen, den 23.05.2018, Troels Christensen, den 23.05.2018, Villum Christensen, den 23.05.2018, Hans Ole Drost (formand), den 23.05.2018, Flemming Aarup Erichsen, den 23.05.2018, Niels Bo Jørgensen, den 23.05.2018, Hanne Anette Kamienski, den 23.05.2018, Bodil Knudsen (næstformand), den 23.05.2018, Axel Larsen, den 23.05.2018, Malene Sadowski, den 23.05.2018.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EHans Ole Drost (næstformand), den 23.05.2018, Flemming Aarup Erichsen (formand), den 23.05.2018, Pernille Ivalo Frandsen, den 23.05.2018, Ole Ernstsen Hansen, den 23.05.2018, Bodil Knudsen, den 23.05.2018, Anders Koefoed, den 23.05.2018, Ole Olsen, den 23.05.2018, Lis Tribler, den 23.05.2018.\u003C/p\u003E\n\u003Ch1\u003EValgt af medarbejderne i koncernen:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003ELeif Bjarne Clausen, den 23.05.2018, Lillian Pia Wismann, den 23.05.2018.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "29396361",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK GADELYS A/S",
+        "offentliggoerelseId": "24742801",
+        "offentliggoerelseTidsstempel": "27.11.2017",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003ERevision:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EPRICEWATERHOUSECOOPERS STATSAUTORISERET REVISIONSPARTNERSELSKAB, den 17.05.2017.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003ECVR-NR. 30700228 ERNST &amp; YOUNG Godkendt Revisionspartnerselskab, Værkmestergade 25, 8000 Aarhus C, den 17.05.2017.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003ERevision:\u003Cbr/\u003E\u003Cbr /\u003E\u003C/h1\u003E\u003Cbr/\u003E\u003Ch2\u003EFratrådte:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003EPRICEWATERHOUSECOOPERS STATSAUTORISERET REVISIONSPARTNERSELSKAB, den 17.05.2017.\u003C/p\u003E\u003Cbr/\u003E\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003ECVR-NR. 30700228 ERNST &amp; YOUNG Godkendt Revisionspartnerselskab, Værkmestergade 25, 8000 Aarhus C, den 17.05.2017.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_revision"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "29396361",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK GADELYS A/S",
+        "offentliggoerelseId": "24189931",
+        "offentliggoerelseTidsstempel": "13.06.2017",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EDirektion:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004114897/deltager\" target=\"_blank\"\u003EHenrik Rosendal Birch\u003C/a\u003E, den 01.06.2017, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000433191/deltager\" target=\"_blank\"\u003EHenrik Lundgaard\u003C/a\u003E (adm. dir), den 31.05.2017.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004114897/deltager\" target=\"_blank\"\u003EHenrik Rosendal Birch\u003C/a\u003E (adm. dir), den 01.06.2017.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EDirektion:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EHenrik Rosendal Birch, den 01.06.2017, Henrik Lundgaard (adm. dir), den 31.05.2017.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EHenrik Rosendal Birch (adm. dir), den 01.06.2017.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "29396361",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK GADELYS A/S",
+        "offentliggoerelseId": "13327524",
+        "offentliggoerelseTidsstempel": "11.06.2014",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Cp\u003EFratrådt som næstformand tiltrådt som   formand: \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000222171/deltager\" target=\"_blank\"\u003EHans Ole Drost\u003C/a\u003E, den 27.05.2014,   Fratrådt som formand tiltrådt som   næstformand: \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004062602/deltager\" target=\"_blank\"\u003EBodil Knudsen\u003C/a\u003E, den 27.05.2014.\u003C/p\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004129265/deltager\" target=\"_blank\"\u003ESten Knuth\u003C/a\u003E, den   27.05.2014, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004077794/deltager\" target=\"_blank\"\u003ENiels Nordskov Nielsen\u003C/a\u003E, den   27.05.2014, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004064083/deltager\" target=\"_blank\"\u003EVagn Møller Petersen\u003C/a\u003E, den   27.05.2014.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000464012/deltager\" target=\"_blank\"\u003ETroels Christensen\u003C/a\u003E, den   27.05.2014, CVU-Rektor \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000327392/deltager\" target=\"_blank\"\u003EVillum Christensen\u003C/a\u003E, den   27.05.2014, Havnechef \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004006163/deltager\" target=\"_blank\"\u003EFlemming Aarup   Erichsen\u003C/a\u003E, den   27.05.2014, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000079846/deltager\" target=\"_blank\"\u003ENiels Bo Jørgensen\u003C/a\u003E,   den 27.05.2014, Lagerforv \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004177460/deltager\" target=\"_blank\"\u003EAxel Larsen\u003C/a\u003E, den   27.05.2014, Kommunikationskonsulent \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004177457/deltager\" target=\"_blank\"\u003EMalene   Nielsen\u003C/a\u003E, den 27.05.2014, Varmemontør   \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004177456/deltager\" target=\"_blank\"\u003EErling Lindharth Stuhr\u003C/a\u003E, den 27.05.2014.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Cp\u003EFratrådt som næstformand tiltrådt som   formand: Hans Ole Drost, den 27.05.2014,   Fratrådt som formand tiltrådt som   næstformand: Bodil Knudsen, den 27.05.2014.\u003C/p\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003ESten Knuth, den   27.05.2014, Niels Nordskov Nielsen, den   27.05.2014, Vagn Møller Petersen, den   27.05.2014.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003ETroels Christensen, den   27.05.2014, CVU-Rektor Villum Christensen, den   27.05.2014, Havnechef Flemming Aarup   Erichsen, den   27.05.2014, Niels Bo Jørgensen,   den 27.05.2014, Lagerforv Axel Larsen, den   27.05.2014, Kommunikationskonsulent Malene   Nielsen, den 27.05.2014, Varmemontør   Erling Lindharth Stuhr, den 27.05.2014.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet",
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "29396361",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK GADELYS A/S",
+        "offentliggoerelseId": "13327520",
+        "offentliggoerelseTidsstempel": "11.04.2014",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E19.03.2014.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\u003Cbr/\u003E\u003Cp\u003E19.03.2014.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "29396361",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK GADELYS A/S",
+        "offentliggoerelseId": "13327517",
+        "offentliggoerelseTidsstempel": "18.06.2013",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E21.05.2013.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\u003Cbr/\u003E\u003Cp\u003E21.05.2013.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "29396361",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK GADELYS A/S",
+        "offentliggoerelseId": "13327506",
+        "offentliggoerelseTidsstempel": "21.09.2011",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003ERevision:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af revisionen:\u003C/h2\u003E\n\u003Cp\u003EPRICEWATERHOUSECOOPERS   STATSAUTORISERET REVISIONSAKTIESELSKAB, den   01.07.2011.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i revisionen:\u003C/h2\u003E\n\u003Cp\u003EPRICEWATERHOUSECOOPERS   STATSAUTORISERET REVISIONSPARTNERSELSKAB,   Ndr.Ringgade 70 C, 4200 Slagelse, den   01.07.2011.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003ERevision:\u003C/h1\u003E\u003Cbr/\u003E\u003Ch2\u003EUdtrådt af revisionen:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003EPRICEWATERHOUSECOOPERS   STATSAUTORISERET REVISIONSAKTIESELSKAB, den   01.07.2011.\u003C/p\u003E\u003Cbr/\u003E\u003Ch2\u003EIndtrådt i revisionen:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003EPRICEWATERHOUSECOOPERS   STATSAUTORISERET REVISIONSPARTNERSELSKAB,   Ndr.Ringgade 70 C, 4200 Slagelse, den   01.07.2011.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet",
+          "virksomhedsregistreringsstatus-aendring_revision"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "29396361",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK GADELYS A/S",
+        "offentliggoerelseId": "13327496",
+        "offentliggoerelseTidsstempel": "29.06.2011",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000169119/deltager\" target=\"_blank\"\u003ELene Birgit Wibroe\u003C/a\u003E,   den 19.05.2011.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EFolketingsmedlem   \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004161320/deltager\" target=\"_blank\"\u003EHenrik Urban Brodersen\u003C/a\u003E, den 19.05.2011.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003ELene Birgit Wibroe,   den 19.05.2011.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EFolketingsmedlem   Henrik Urban Brodersen, den 19.05.2011.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds",
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "29396361",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK GADELYS A/S",
+        "offentliggoerelseId": "13327492",
+        "offentliggoerelseTidsstempel": "28.05.2010",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E20.05.2010.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\u003Cbr/\u003E\u003Cp\u003E20.05.2010.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "29396361",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK GADELYS A/S",
+        "offentliggoerelseId": "13327487",
+        "offentliggoerelseTidsstempel": "28.05.2010",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004006163/deltager\" target=\"_blank\"\u003EFlemming Aarup   Erichsen\u003C/a\u003E, den 20.05.2010, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004029842/deltager\" target=\"_blank\"\u003EEjler Vilhelm   Nielsen\u003C/a\u003E, den 20.05.2010, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004010939/deltager\" target=\"_blank\"\u003EOle Quist\u003C/a\u003E, den   20.05.2010.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EOverassistent \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004029290/deltager\" target=\"_blank\"\u003EStina   Abelone Hansen\u003C/a\u003E, den 20.05.2010, Driftschef \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004018658/deltager\" target=\"_blank\"\u003EJan   Michael Jørgensen\u003C/a\u003E, den 20.05.2010,   Teknisk designer \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004018654/deltager\" target=\"_blank\"\u003EHanne Anette Kamienski\u003C/a\u003E, den 20.05.2010, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004129265/deltager\" target=\"_blank\"\u003ESten Knuth\u003C/a\u003E, den   20.05.2010, Direktør \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000030224/deltager\" target=\"_blank\"\u003ESvend Aage Nielsen\u003C/a\u003E, den 20.05.2010,   Brandchef \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004077794/deltager\" target=\"_blank\"\u003ENiels Nordskov Nielsen\u003C/a\u003E, den 20.05.2010,   Byrådsmedlem \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004063836/deltager\" target=\"_blank\"\u003EAnders Peter Møller Nielsen\u003C/a\u003E, den   20.05.2010, Elektriker \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004064083/deltager\" target=\"_blank\"\u003EVagn Møller   Petersen\u003C/a\u003E,   den 20.05.2010, Zoneterapeut \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000169119/deltager\" target=\"_blank\"\u003ELene Birgit   Wibroe\u003C/a\u003E, den 20.05.2010.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EFlemming Aarup   Erichsen, den 20.05.2010, Ejler Vilhelm   Nielsen, den 20.05.2010, Ole Quist, den   20.05.2010.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EOverassistent Stina   Abelone Hansen, den 20.05.2010, Driftschef Jan   Michael Jørgensen, den 20.05.2010,   Teknisk designer Hanne Anette Kamienski, den 20.05.2010, Sten Knuth, den   20.05.2010, Direktør Svend Aage Nielsen, den 20.05.2010,   Brandchef Niels Nordskov Nielsen, den 20.05.2010,   Byrådsmedlem Anders Peter Møller Nielsen, den   20.05.2010, Elektriker Vagn Møller   Petersen,   den 20.05.2010, Zoneterapeut Lene Birgit   Wibroe, den 20.05.2010.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet",
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "29396361",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK GADELYS A/S",
+        "offentliggoerelseId": "14099221",
+        "offentliggoerelseTidsstempel": "11.03.2009",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E16.12.2008.\u003C/p\u003E\n\u003Ch2\u003EKapitalforhøjelse:\u003C/h2\u003E\n\u003Cp\u003Ekr. 10.000.000,00   indbetalt kontant, kurs 700,00.\u003C/p\u003E\n\u003Cp\u003EKapitalen udgør herefter kr. 10.500.000,00.\n\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\u003Cbr/\u003E\u003Cp\u003E16.12.2008.\u003C/p\u003E\u003Cbr/\u003E\u003Ch2\u003EKapitalforhøjelse:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003Ekr. 10.000.000,00   indbetalt kontant, kurs 700,00.\u003C/p\u003E\u003Cbr/\u003E\u003Cp\u003EKapitalen udgør herefter kr. 10.500.000,00.\u003Cbr/\u003E\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet",
+          "virksomhedsregistreringsstatus-aendring_kapital"
+        ]
+      },
+      {
+        "adresse": "Nordvej 11, 4220 Korsør",
+        "cvrNummer": "29396361",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK GADELYS A/S",
+        "offentliggoerelseId": "14099216",
+        "offentliggoerelseTidsstempel": "16.07.2008",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003ENy adresse:\u003C/h1\u003E\n\u003Cp\u003ELilleøvej 3, 4220 Korsør.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003ENy adresse:\u003C/h1\u003E\u003Cbr/\u003E\u003Cp\u003ELilleøvej 3, 4220 Korsør.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Nordvej 11, 4200 Slagelse",
+        "cvrNummer": "29396361",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK GADELYS A/S",
+        "offentliggoerelseId": "14099195",
+        "offentliggoerelseTidsstempel": "11.07.2008",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Cp\u003EFratrådt som formand, men forbliver i   bestyrelsen: \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004006163/deltager\" target=\"_blank\"\u003EFlemming Aarup Erichsen\u003C/a\u003E.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Cp\u003EFratrådt som formand, men forbliver i   bestyrelsen: Flemming Aarup Erichsen.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds",
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Nordvej 11, 4200 Slagelse",
+        "cvrNummer": "29396361",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SAF-ENERGI A/S",
+        "offentliggoerelseId": "14099209",
+        "offentliggoerelseTidsstempel": "11.07.2008",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E20.06.2008.\u003C/p\u003E\n\u003Ch1\u003ENyt navn:\u003C/h1\u003E\n\u003Cp\u003ESK GADELYS A/S.\u003C/p\u003E\n\u003Cp\u003ENyt binavn: SLAGELSE GADELYS A/S (SK GADELYS   A/S).\n\u003C/p\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Cp\u003EFratrådt som næstformand tiltrådt som   formand: \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004062602/deltager\" target=\"_blank\"\u003EBodil Knudsen\u003C/a\u003E, den 20.06.2008.\n\u003C/p\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4003937806/deltager\" target=\"_blank\"\u003ESteen Bach Nielsen\u003C/a\u003E,   den 20.06.2008, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4003966556/deltager\" target=\"_blank\"\u003EMogens Serena Samer\u003C/a\u003E, den   20.06.2008, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4311149/deltager\" target=\"_blank\"\u003EPer Vesterholm\u003C/a\u003E, den 20.06.2008.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003ESkolekonsulent \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000222171/deltager\" target=\"_blank\"\u003EHans   Ole Drost\u003C/a\u003E (næstformand), den   20.06.2008, Politiassistent \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004029842/deltager\" target=\"_blank\"\u003EEjler Vilhelm   Nielsen\u003C/a\u003E, den 20.06.2008, Lokomotivfører   \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004010939/deltager\" target=\"_blank\"\u003EOle Quist\u003C/a\u003E,   den 20.06.2008.\u003C/p\u003E\n\u003Ch1\u003EDirektion:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af direktionen:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004028761/deltager\" target=\"_blank\"\u003EMogens Bach Nielsen\u003C/a\u003E,   den 20.06.2008.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i direktionen:\u003C/h2\u003E\n\u003Cp\u003ETeknisk direktør   \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004114897/deltager\" target=\"_blank\"\u003EHenrik Rosendal Birch\u003C/a\u003E, den 20.06.2008, Økonomidirektør Jan   Østergaard Hansen, Skovvangsvej 23, Strøby   Egede, 4600 Køge, den 20.06.2008,   Administrerende direktør \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000433191/deltager\" target=\"_blank\"\u003EHenrik Lundgaard\u003C/a\u003E (adm. dir),   den 20.06.2008.\u003C/p\u003E\n\u003Cp\u003ESelskabet tegnes af et bestyrelsesmedlem og   en direktør eller af bestyrelsensformanden   sammen med et bestyrelsesmedlem eller af   den samlede bestyrelse.\n\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E20.06.2008.\u003C/p\u003E\n\u003Ch1\u003ENyt navn:\u003C/h1\u003E\n\u003Cp\u003ESK GADELYS A/S.\u003C/p\u003E\n\u003Cp\u003ENyt binavn: SLAGELSE GADELYS A/S (SK GADELYS   A/S).\n\u003C/p\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Cp\u003EFratrådt som næstformand tiltrådt som   formand: Bodil Knudsen, den 20.06.2008.\n\u003C/p\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003ESteen Bach Nielsen,   den 20.06.2008, Mogens Serena Samer, den   20.06.2008, Per Vesterholm, den 20.06.2008.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003ESkolekonsulent Hans   Ole Drost (næstformand), den   20.06.2008, Politiassistent Ejler Vilhelm   Nielsen, den 20.06.2008, Lokomotivfører   Ole Quist,   den 20.06.2008.\u003C/p\u003E\n\u003Ch1\u003EDirektion:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af direktionen:\u003C/h2\u003E\n\u003Cp\u003EMogens Bach Nielsen,   den 20.06.2008.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i direktionen:\u003C/h2\u003E\n\u003Cp\u003ETeknisk direktør   Henrik Rosendal Birch, den 20.06.2008, Økonomidirektør Jan   Østergaard Hansen, Skovvangsvej 23, Strøby   Egede, 4600 Køge, den 20.06.2008,   Administrerende direktør Henrik Lundgaard (adm. dir),   den 20.06.2008.\u003C/p\u003E\n\u003Cp\u003ESelskabet tegnes af et bestyrelsesmedlem og   en direktør eller af bestyrelsensformanden   sammen med et bestyrelsesmedlem eller af   den samlede bestyrelse.\n\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet",
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Nordvej 11, 4200 Slagelse",
+        "cvrNummer": "29396361",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SAF-ENERGI A/S",
+        "offentliggoerelseId": "14099190",
+        "offentliggoerelseTidsstempel": "10.07.2008",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003ERevision:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af revisionen:\u003C/h2\u003E\n\u003Cp\u003ENd Revision Korsør I/S   v/Mikkelsen &amp; Fuglsbjerg, den 20.06.2008.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i revisionen:\u003C/h2\u003E\n\u003Cp\u003EPRICEWATERHOUSECOOPERS   STATSAUTORISERET REVISIONSAKTIESELSKAB,   Sdr. Stationsvej 28, 4200 Slagelse, den   20.06.2008.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003ERevision:\u003C/h1\u003E\u003Cbr/\u003E\u003Ch2\u003EUdtrådt af revisionen:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003ENd Revision Korsør I/S   v/Mikkelsen &amp; Fuglsbjerg, den 20.06.2008.\u003C/p\u003E\u003Cbr/\u003E\u003Ch2\u003EIndtrådt i revisionen:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003EPRICEWATERHOUSECOOPERS   STATSAUTORISERET REVISIONSAKTIESELSKAB,   Sdr. Stationsvej 28, 4200 Slagelse, den   20.06.2008.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet",
+          "virksomhedsregistreringsstatus-aendring_revision"
+        ]
+      },
+      {
+        "adresse": "Nordvej 11, 4200 Slagelse",
+        "cvrNummer": "29396361",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SAF-ENERGI A/S",
+        "offentliggoerelseId": "14099183",
+        "offentliggoerelseTidsstempel": "01.01.2007",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Cp\u003EVed kommunalreformen den 1. januar 2007 er   hjemstedskommunen ændret.\n\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Cp\u003EVed kommunalreformen den 1. januar 2007 er   hjemstedskommunen ændret.\u003Cbr/\u003E\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_adresse"
+        ]
+      },
+      {
+        "adresse": "Nordvej 11, 4200 Slagelse",
+        "cvrNummer": "29396361",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SAF-ENERGI A/S",
+        "offentliggoerelseId": "14099178",
+        "offentliggoerelseTidsstempel": "22.02.2006",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EStiftelsesdato:\u003C/h1\u003E\n\u003Cp\u003E20.02.2006.\u003C/p\u003E\n\u003Ch1\u003ESeneste vedtægtsdato:\u003C/h1\u003E\n\u003Cp\u003E20.02.2006.\u003C/p\u003E\n\u003Ch1\u003EKapital:\u003C/h1\u003E\n\u003Cp\u003Ekr. 500.000,00.\u003C/p\u003E\n\u003Ch2\u003EIndbetalingsmåde:\u003C/h2\u003E\n\u003Cp\u003Ekontant kr. 500.000,00 til   kurs 100,00.\u003C/p\u003E\n\u003Ch1\u003EStiftere:\u003C/h1\u003E\n\u003Cp\u003ECVR-NR. 25592611 KORSØR FORSYNING   A/S, Lilleøvej 3, 4220 Korsør, den   20.02.2006, CVR-NR. 25797981 SK-FORSYNING   A/S, Nordvej 11, 4200 Slagelse, den   20.02.2006.\u003C/p\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Cp\u003EBorgmester \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004006163/deltager\" target=\"_blank\"\u003EFlemming Aarup   Erichsen\u003C/a\u003E (formand), den 20.02.2006, lærer \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004062602/deltager\" target=\"_blank\"\u003EBodil   Knudsen\u003C/a\u003E (næstformand), den 20.02.2006,   forretningsfører \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4003937806/deltager\" target=\"_blank\"\u003ESteen Bach Nielsen\u003C/a\u003E, den   20.02.2006, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4003966556/deltager\" target=\"_blank\"\u003EMogens Serena Samer\u003C/a\u003E, den   20.02.2006, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4311149/deltager\" target=\"_blank\"\u003EPer Vesterholm\u003C/a\u003E, den 20.02.2006.\u003C/p\u003E\n\u003Ch1\u003EDirektion:\u003C/h1\u003E\n\u003Cp\u003Edirektør \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004028761/deltager\" target=\"_blank\"\u003EMogens Bach Nielsen\u003C/a\u003E, den 20.02.2006.\u003C/p\u003E\n\u003Cp\u003ESelskabet tegnes af bestyrelsens formand   eller næstformand i forening med et andet   bestyrelsesmedlem eller i forening med en   direktør eller af den samlede bestyrelse.\n\u003C/p\u003E\n\u003Ch1\u003ERevision:\u003C/h1\u003E\n\u003Cp\u003ENd Revision Korsør I/S v/Mikkelsen   &amp; Fuglsbjerg, Jens Baggesens Gade 35, 4220   Korsør, den 20.02.2006.\u003C/p\u003E\n\u003Ch1\u003EFørste regnskabsår:\u003C/h1\u003E\n\u003Cp\u003E20.02.2006 - 31.12.2006.\u003C/p\u003E\n\u003Ch1\u003ERegnskabsår:\u003C/h1\u003E\n\u003Cp\u003E01.01 - 31.12.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EStiftelsesdato:\u003C/h1\u003E\n\u003Cp\u003E20.02.2006.\u003C/p\u003E\n\u003Ch1\u003ESeneste vedtægtsdato:\u003C/h1\u003E\n\u003Cp\u003E20.02.2006.\u003C/p\u003E\n\u003Ch1\u003EKapital:\u003C/h1\u003E\n\u003Cp\u003Ekr. 500.000,00.\u003C/p\u003E\n\u003Ch2\u003EIndbetalingsmåde:\u003C/h2\u003E\n\u003Cp\u003Ekontant kr. 500.000,00 til   kurs 100,00.\u003C/p\u003E\n\u003Ch1\u003EStiftere:\u003C/h1\u003E\n\u003Cp\u003ECVR-NR. 25592611 KORSØR FORSYNING   A/S, Lilleøvej 3, 4220 Korsør, den   20.02.2006, CVR-NR. 25797981 SK-FORSYNING   A/S, Nordvej 11, 4200 Slagelse, den   20.02.2006.\u003C/p\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Cp\u003EBorgmester Flemming Aarup   Erichsen (formand), den 20.02.2006, lærer Bodil   Knudsen (næstformand), den 20.02.2006,   forretningsfører Steen Bach Nielsen, den   20.02.2006, Mogens Serena Samer, den   20.02.2006, Per Vesterholm, den 20.02.2006.\u003C/p\u003E\n\u003Ch1\u003EDirektion:\u003C/h1\u003E\n\u003Cp\u003Edirektør Mogens Bach Nielsen, den 20.02.2006.\u003C/p\u003E\n\u003Cp\u003ESelskabet tegnes af bestyrelsens formand   eller næstformand i forening med et andet   bestyrelsesmedlem eller i forening med en   direktør eller af den samlede bestyrelse.\n\u003C/p\u003E\n\u003Ch1\u003ERevision:\u003C/h1\u003E\n\u003Cp\u003ENd Revision Korsør I/S v/Mikkelsen   &amp; Fuglsbjerg, Jens Baggesens Gade 35, 4220   Korsør, den 20.02.2006.\u003C/p\u003E\n\u003Ch1\u003EFørste regnskabsår:\u003C/h1\u003E\n\u003Cp\u003E20.02.2006 - 31.12.2006.\u003C/p\u003E\n\u003Ch1\u003ERegnskabsår:\u003C/h1\u003E\n\u003Cp\u003E01.01 - 31.12.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-nyt_selskab"
+        ]
+      }
+    ],
+    "virksomhedsMeddelelser": []
+  }

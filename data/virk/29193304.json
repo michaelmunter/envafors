@@ -1,0 +1,1132 @@
+{
+    "aktiveEjerforholdDto": null,
+    "antalAnsatte": {
+      "kvartalsbeskaeftigelse": [],
+      "maanedsbeskaeftigelse": []
+    },
+    "ejerforhold": {
+      "aktiveLegaleEjere": [],
+      "aktiveReelleEjere": [],
+      "begunstigetGruppeNavn": null,
+      "begunstigetGruppeRetskrav": null,
+      "bestyrelseAnsesSomReelleEjere": false,
+      "ejerregistreringUnderFemProcent": false,
+      "ophoerteLegaleEjere": [],
+      "ophoerteReelleEjere": [],
+      "virksomhedHarIkkeKunnetIdentificereReelleEjereLedelseErIndsat": false,
+      "virksomhedHarIkkeReelleEjereOgLedelseErIndsat": false,
+      "virksomhedsFormTilladerReelleEjerOplysninger": false
+    },
+    "foreningsrepraesentanter": [],
+    "harManuelSignering": true,
+    "historiskStamdata": {
+      "adresse": [
+        {
+          "gyldigFra": "2006-12-01",
+          "gyldigTil": "2006-12-31",
+          "vaerdi": "Ærøvej 2\u003Cbr /\u003E4700 Næstved"
+        },
+        {
+          "gyldigFra": "2005-12-01",
+          "gyldigTil": "2006-11-30",
+          "vaerdi": "C/O Advokat Victor Christoffersen\u003Cbr /\u003ERosenborggade 3, 3.\u003Cbr /\u003E1130 København K"
+        }
+      ],
+      "bibranche": [],
+      "branchekode": [
+        {
+          "gyldigFra": "2006-11-16",
+          "gyldigTil": "2007-12-31",
+          "vaerdi": "401200 Transmission af elektricitet"
+        },
+        {
+          "gyldigFra": "2005-12-01",
+          "gyldigTil": "2006-11-15",
+          "vaerdi": "980000 Uoplyst"
+        }
+      ],
+      "formaal": [],
+      "navn": [
+        {
+          "gyldigFra": "2006-11-16",
+          "gyldigTil": "2008-12-31",
+          "vaerdi": "NKE-VEJLYS A/S"
+        },
+        {
+          "gyldigFra": "2005-12-01",
+          "gyldigTil": "2006-11-15",
+          "vaerdi": "VICH 8557 A/S"
+        }
+      ],
+      "registreretKapital": [
+        {
+          "gyldigFra": "2010-02-25",
+          "gyldigTil": "2012-02-09",
+          "vaerdi": "4.155.000,00 DKK"
+        },
+        {
+          "gyldigFra": "2009-01-01",
+          "gyldigTil": "2010-02-24",
+          "vaerdi": "3.155.000,00 DKK"
+        },
+        {
+          "gyldigFra": "2008-06-24",
+          "gyldigTil": "2008-12-31",
+          "vaerdi": "3.100.000,00 DKK"
+        },
+        {
+          "gyldigFra": "2007-10-16",
+          "gyldigTil": "2008-06-23",
+          "vaerdi": "2.100.000,00 DKK"
+        },
+        {
+          "gyldigFra": "2006-11-16",
+          "gyldigTil": "2007-10-15",
+          "vaerdi": "1.500.000,00 DKK"
+        },
+        {
+          "gyldigFra": "2005-12-01",
+          "gyldigTil": "2006-11-15",
+          "vaerdi": "500.000,00 DKK"
+        }
+      ],
+      "senesteVedtaegtsdato": [],
+      "status": [
+        {
+          "gyldigFra": "2005-12-01",
+          "gyldigTil": "2018-06-26",
+          "vaerdi": "Normal"
+        }
+      ],
+      "tegningsregel": [],
+      "udenlandskAdresse": [],
+      "virksomhedsform": []
+    },
+    "hovedselskab": null,
+    "kanHaveLegaleEjere": true,
+    "kanHaveReelleEjere": true,
+    "ophoerteEjerforholdDto": null,
+    "oplysningerOmRevisionsvirksomhed": null,
+    "personkreds": {
+      "ejerborgLink": "",
+      "ophoerteFad": [],
+      "personkredser": [],
+      "tegningsregel": "Selskabet tegnes af et bestyrelsesmedlem og en direktør eller af bestyrelsesformanden sammen med et bestyrelsesmedlem eller af den samlede bestyrelse"
+    },
+    "produktionsenheder": {
+      "aktiveProduktionsenheder": [],
+      "ophoerteProduktionsenheder": [
+        {
+          "antalAnsatte": null,
+          "historiskStamdata": null,
+          "revisionsvirksomhed": null,
+          "stamdata": {
+            "adresse": "Ærøvej 2",
+            "bibrancher": [],
+            "bygningsnummer": null,
+            "cvrnummer": "29193304",
+            "email": null,
+            "helligdagsaabent": false,
+            "hovedbranche": {
+              "branchekode": "432100",
+              "titel": "El-installation"
+            },
+            "navn": "NK-VEJLYS A/S",
+            "ophoersdato": "2018-06-27",
+            "pnummer": "1011867797",
+            "postnummerOgBy": "4700 Næstved",
+            "registreretIHvidvaskregistret": false,
+            "regnskabsperiodeSlut": null,
+            "regnskabsperiodeStart": null,
+            "reklamebeskyttet": false,
+            "startdato": "2005-12-01",
+            "telefon": null,
+            "udenlandskAdresse": null,
+            "udenlandskAdresseLand": "Danmark",
+            "udenlandskAdresseLandekode": "DK",
+            "virksomhedsnavn": null
+          }
+        }
+      ]
+    },
+    "sammenhaengendeRegnskaber": [
+      {
+        "periodeFormateret": "01.01.2017 - 31.12.2017",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "29193304",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzLzdiLzZiL2RkL2FkLzU3OTgtNGU0YS1hYWE5LWUxZDJiNTUwMDQwNw",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              },
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzL2IxL2U3L2U2L2Q4L2U3ZWEtNGY4OC04MzdhLTVkYmJkNzk5YzU1Nw",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "NK-VEJLYS A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "25428948",
+            "offentliggoerelseTidsstempel": "2018-05-08T11:45:17.073Z",
+            "offentliggoerelseTidsstempelFormateret": "08.05.2018",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2017 - 31.12.2017",
+            "regnskabsperiodeFra": "01.01.2017",
+            "regnskabsperiodeTil": "31.12.2017",
+            "sagsnummer": "X18-AK-93-DL",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2017",
+        "regnskabsperiodeTil": "31.12.2017"
+      },
+      {
+        "periodeFormateret": "01.01.2016 - 31.12.2016",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "29193304",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzL2RmLzlhL2IzLzYxLzQ4MGEtNDE3OC05YjA0LTJkMmU0YTRmZjY1OQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              },
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzLzQzLzRiLzIxLzA2L2FiZGItNGNhOS04NDI0LWFlNDU2MGJlNDg0OA",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "NK-VEJLYS A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "23726864",
+            "offentliggoerelseTidsstempel": "2017-04-18T10:18:28.924Z",
+            "offentliggoerelseTidsstempelFormateret": "18.04.2017",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2016 - 31.12.2016",
+            "regnskabsperiodeFra": "01.01.2016",
+            "regnskabsperiodeTil": "31.12.2016",
+            "sagsnummer": "X17-AG-24-JB",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2016",
+        "regnskabsperiodeTil": "31.12.2016"
+      },
+      {
+        "periodeFormateret": "01.01.2015 - 31.12.2015",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "29193304",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzLzFiLzcyL2JkLzJiLzE4MTctNDRlMy04NGQxLTY4ZGM5ZDYwNmYxMg",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              },
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzL2NhLzBmL2I1L2Y2LzQ2MjQtNGU0MC04MjVhLTAzNjgyYzZhMTg0ZQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "NK-VEJLYS A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "22204673",
+            "offentliggoerelseTidsstempel": "2016-04-11T16:45:08.029Z",
+            "offentliggoerelseTidsstempelFormateret": "11.04.2016",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2015 - 31.12.2015",
+            "regnskabsperiodeFra": "01.01.2015",
+            "regnskabsperiodeTil": "31.12.2015",
+            "sagsnummer": "X16-AT-79-FS",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2015",
+        "regnskabsperiodeTil": "31.12.2015"
+      },
+      {
+        "periodeFormateret": "01.01.2014 - 31.12.2014",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "29193304",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzLzliL2I5L2RiLzhhLzliMGMtNGI0MS1iYjllLWI2ZjkwN2VhNDVhZQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              },
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzL2U5LzAyLzk4LzczLzk0MGQtNDlhOS1iNDU4LThiZmQzZTNiNWY0Mw",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "NK-VEJLYS A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "5286709",
+            "offentliggoerelseTidsstempel": "2015-05-22T11:44:14.948Z",
+            "offentliggoerelseTidsstempelFormateret": "22.05.2015",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2014 - 31.12.2014",
+            "regnskabsperiodeFra": "01.01.2014",
+            "regnskabsperiodeTil": "31.12.2014",
+            "sagsnummer": "X15-AC-09-YM",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2014",
+        "regnskabsperiodeTil": "31.12.2014"
+      },
+      {
+        "periodeFormateret": "01.01.2013 - 31.12.2013",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "29193304",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yOTE5MzMwNDtBL1MzNjE2MTE7MjAxMzAxMDE7MjAxMzEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              },
+              {
+                "dokumentId": "Y3ZyLmRrOi8veGJybHMvWC00RUUxRTIwOC0yMDE0MDUyNl8xMzAzMTZfNjk0",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "NK-VEJLYS A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "21181659",
+            "offentliggoerelseTidsstempel": "2014-05-26T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "27.05.2014",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2013 - 31.12.2013",
+            "regnskabsperiodeFra": "01.01.2013",
+            "regnskabsperiodeTil": "31.12.2013",
+            "sagsnummer": "14-89.882",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2013",
+        "regnskabsperiodeTil": "31.12.2013"
+      },
+      {
+        "periodeFormateret": "01.01.2012 - 31.12.2012",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "29193304",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8veGJybHMvWC00RUUxRTIwOC0yMDEzMDUyOV8wOTE2MTdfMzIy",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              },
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yOTE5MzMwNDtBL1MzNjE2MTE7MjAxMjAxMDE7MjAxMjEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "NK-VEJLYS A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "21181656",
+            "offentliggoerelseTidsstempel": "2013-05-29T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "30.05.2013",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2012 - 31.12.2012",
+            "regnskabsperiodeFra": "01.01.2012",
+            "regnskabsperiodeTil": "31.12.2012",
+            "sagsnummer": "13-89.748",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2012",
+        "regnskabsperiodeTil": "31.12.2012"
+      },
+      {
+        "periodeFormateret": "01.01.2011 - 31.12.2011",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "29193304",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yOTE5MzMwNDtBL1MzNjE2MTE7MjAxMTAxMDE7MjAxMTEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "NK-VEJLYS A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "21181654",
+            "offentliggoerelseTidsstempel": "2012-06-17T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "18.06.2012",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2011 - 31.12.2011",
+            "regnskabsperiodeFra": "01.01.2011",
+            "regnskabsperiodeTil": "31.12.2011",
+            "sagsnummer": "12-92.747",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2011",
+        "regnskabsperiodeTil": "31.12.2011"
+      },
+      {
+        "periodeFormateret": "01.01.2010 - 31.12.2010",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "29193304",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yOTE5MzMwNDtBL1MzNjE2MTE7MjAxMDAxMDE7MjAxMDEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "NK-VEJLYS A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "21181652",
+            "offentliggoerelseTidsstempel": "2011-05-31T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "01.06.2011",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2010 - 31.12.2010",
+            "regnskabsperiodeFra": "01.01.2010",
+            "regnskabsperiodeTil": "31.12.2010",
+            "sagsnummer": "11-94.790",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2010",
+        "regnskabsperiodeTil": "31.12.2010"
+      },
+      {
+        "periodeFormateret": "01.01.2009 - 31.12.2009",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "29193304",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yOTE5MzMwNDtBL1MzNjE2MTE7MjAwOTAxMDE7MjAwOTEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "NK-VEJLYS A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "21181650",
+            "offentliggoerelseTidsstempel": "2010-06-16T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "17.06.2010",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2009 - 31.12.2009",
+            "regnskabsperiodeFra": "01.01.2009",
+            "regnskabsperiodeTil": "31.12.2009",
+            "sagsnummer": "10-115.650",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2009",
+        "regnskabsperiodeTil": "31.12.2009"
+      },
+      {
+        "periodeFormateret": "01.01.2008 - 31.12.2008",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "29193304",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yOTE5MzMwNDtBL1MzNjE2MTE7MjAwODAxMDE7MjAwODEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "NK-VEJLYS A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "21181648",
+            "offentliggoerelseTidsstempel": "2009-05-28T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "29.05.2009",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2008 - 31.12.2008",
+            "regnskabsperiodeFra": "01.01.2008",
+            "regnskabsperiodeTil": "31.12.2008",
+            "sagsnummer": "09-126.637",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2008",
+        "regnskabsperiodeTil": "31.12.2008"
+      },
+      {
+        "periodeFormateret": "01.01.2007 - 31.12.2007",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "29193304",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yOTE5MzMwNDtBL1MzNjE2MTE7MjAwNzAxMDE7MjAwNzEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "NKE-VEJLYS A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "21181646",
+            "offentliggoerelseTidsstempel": "2008-06-11T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "12.06.2008",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2007 - 31.12.2007",
+            "regnskabsperiodeFra": "01.01.2007",
+            "regnskabsperiodeTil": "31.12.2007",
+            "sagsnummer": "08-120.986",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2007",
+        "regnskabsperiodeTil": "31.12.2007"
+      },
+      {
+        "periodeFormateret": "01.12.2005 - 31.12.2006",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "29193304",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yOTE5MzMwNDtBL1MzNjE2MTE7MjAwNTEyMDE7MjAwNjEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "NKE-VEJLYS A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "21181644",
+            "offentliggoerelseTidsstempel": "2007-05-31T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "01.06.2007",
+            "omgjort": false,
+            "periodeFormateret": "01.12.2005 - 31.12.2006",
+            "regnskabsperiodeFra": "01.12.2005",
+            "regnskabsperiodeTil": "31.12.2006",
+            "sagsnummer": "07-9.146",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.12.2005",
+        "regnskabsperiodeTil": "31.12.2006"
+      }
+    ],
+    "skjulEjerforhold": false,
+    "skjulOevrigeDokumenter": false,
+    "stamdata": {
+      "adresse": "Ærøvej 2",
+      "aktiviteterOmfattetAfHvidvaskloven": [],
+      "bygningsnummer": null,
+      "cvrnummer": "29193304",
+      "enhedsnummer": "4001536479",
+      "harPseudoCvr": false,
+      "kreditoplysningskode": null,
+      "modervirksomhederVedFranchise": [],
+      "navn": "NK-VEJLYS A/S",
+      "omfattetAfHvidvaskloven": false,
+      "ophoersdato": "2018-06-27",
+      "postnummerOgBy": "4700 Næstved",
+      "regnummer": null,
+      "reklamebeskyttet": false,
+      "socialoekonomiskVirksomhed": false,
+      "startdato": "2005-12-01",
+      "statsligVirksomhed": false,
+      "status": "OPLØSTEFTERFUSION",
+      "stiftetFor1900Tekstnogle": null,
+      "udenlandskAdresse": null,
+      "udenlandskAdresseLand": "Danmark",
+      "udenlandskAdresseLandekode": "DK",
+      "virkningsdato": "",
+      "virksomhedsform": "Aktieselskab",
+      "virksomhedsformKode": "60",
+      "visNavnPostfix": false
+    },
+    "udvidedeOplysninger": {
+      "bibrancher": [],
+      "binavne": [
+        "NÆSTVED KOMMUNES FORSYNINGSVIRKSOMHEDER VEJLYS A/S"
+      ],
+      "boersnoteret": null,
+      "delvistIndbetaltKapital": false,
+      "email": "nkf@nk-forsyning.dk",
+      "fax": "55785160",
+      "foersteRegnskabsperiodeSlut": "2006-12-31",
+      "foersteRegnskabsperiodeStart": "2005-12-01",
+      "formaal": "Selskabets formål er at drive virksomhed med levering af vejlys, service og drift af vejbelysningsanlæg og hertil hørende administration samt virksomhed som har tilknytning hertil.",
+      "hovedbranche": {
+        "branchekode": "432100",
+        "titel": "El-installation"
+      },
+      "kapitalklasser": null,
+      "kommune": "Næstved",
+      "kommunekode": "370",
+      "koncessionsdato": null,
+      "omlaegningsperiodeSlut": null,
+      "omlaegningsperiodeStart": null,
+      "postadresse": null,
+      "registreretKapital": "500.000,00 DKK",
+      "regnskabsaarSlut": "31.12",
+      "regnskabsaarStart": "01.01",
+      "senesteVedtaegtsdato": "2014-05-22",
+      "senesteVedtaegtsdatoFoer1900": false,
+      "stadfaestelsesdato": null,
+      "stadfaestetAf": null,
+      "telefon": "55785150",
+      "telefonSekundaert": null,
+      "udenlandskPostadresse": null,
+      "udenlandskPostadresseLand": null,
+      "udenlandskPostadresseLandekode": null
+    },
+    "virksomhedRegistreringer": [
+      {
+        "adresse": "Ærøvej 2, 4700 Næstved",
+        "cvrNummer": "29193304",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "NK-VEJLYS A/S",
+        "offentliggoerelseId": "26016547",
+        "offentliggoerelseTidsstempel": "07.08.2018",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Cp\u003EErhvervsstyrelsen har modtaget oplysning om, at der er truffet beslutning om nedenstående fusion.\u003C/p\u003E\n\u003Cp\u003EVirksomheden er d. 27.06.2018 opløst ved fusion med CVR-nummer: 29193339 NK-SERVICE A/S.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Cp\u003EErhvervsstyrelsen har modtaget oplysning om, at der er truffet beslutning om nedenstående fusion.\u003C/p\u003E\u003Cbr/\u003E\u003Cp\u003EVirksomheden er d. 27.06.2018 opløst ved fusion med CVR-nummer: 29193339 NK-SERVICE A/S.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-fusion_spaltning_gennemfoerelse"
+        ]
+      },
+      {
+        "adresse": "Ærøvej 2, 4700 Næstved",
+        "cvrNummer": "29193304",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "NK-VEJLYS A/S",
+        "offentliggoerelseId": "25601432",
+        "offentliggoerelseTidsstempel": "30.05.2018",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EDirektion:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4003986363/deltager\" target=\"_blank\"\u003EPeter Hougaard\u003C/a\u003E, den 28.05.2018.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EDirektion:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EPeter Hougaard, den 28.05.2018.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Ærøvej 2, 4700 Næstved",
+        "cvrNummer": "29193304",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "NK-VEJLYS A/S",
+        "offentliggoerelseId": "25601036",
+        "offentliggoerelseTidsstempel": "30.05.2018",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EDirektion:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000508075/deltager\" target=\"_blank\"\u003EBjarne Bent Andreasen\u003C/a\u003E (adm. dir), den 28.05.2018.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004187531/deltager\" target=\"_blank\"\u003ESteen Lindhardt\u003C/a\u003E (adm. dir), den 28.05.2018.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EDirektion:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EBjarne Bent Andreasen (adm. dir), den 28.05.2018.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003ESteen Lindhardt (adm. dir), den 28.05.2018.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Ærøvej 2, 4700 Næstved",
+        "cvrNummer": "29193304",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "NK-VEJLYS A/S",
+        "offentliggoerelseId": "25472454",
+        "offentliggoerelseTidsstempel": "16.05.2018",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Cp\u003EErhvervsstyrelsen har modtaget fusionsplan for den påtænkte fusion mellem CVR-nummer: 29193339 NK-SERVICE A/S (fortsættende) og CVR-nummer: 29193304 NK-VEJLYS A/S (ophørende), der tillige driver virksomhed under navnene NÆSTVED KOMMUNES FORSYNINGSVIRKSOMHEDER VEJLYS A/S.\u003C/p\u003E\n\u003Cp\u003EDer er endvidere modtaget erklæring fra vurderingsmændene om, at kreditorerne i CVR-nummer: 29193339 NK-SERVICE A/S og CVR-nummer: 29193304 NK-VEJLYS A/S må antages at være tilstrækkeligt sikrede efter fusionen.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Cp\u003EErhvervsstyrelsen har modtaget fusionsplan for den påtænkte fusion mellem CVR-nummer: 29193339 NK-SERVICE A/S (fortsættende) og CVR-nummer: 29193304 NK-VEJLYS A/S (ophørende), der tillige driver virksomhed under navnene NÆSTVED KOMMUNES FORSYNINGSVIRKSOMHEDER VEJLYS A/S.\u003C/p\u003E\u003Cbr/\u003E\u003Cp\u003EDer er endvidere modtaget erklæring fra vurderingsmændene om, at kreditorerne i CVR-nummer: 29193339 NK-SERVICE A/S og CVR-nummer: 29193304 NK-VEJLYS A/S må antages at være tilstrækkeligt sikrede efter fusionen.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-fusion_spaltning_offentliggoerelse"
+        ]
+      },
+      {
+        "adresse": "Ærøvej 2, 4700 Næstved",
+        "cvrNummer": "29193304",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "NK-VEJLYS A/S",
+        "offentliggoerelseId": "24976352",
+        "offentliggoerelseTidsstempel": "23.01.2018",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004139692/deltager\" target=\"_blank\"\u003EJune Larsen\u003C/a\u003E, den 17.01.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000653208/deltager\" target=\"_blank\"\u003ETorben Larsen\u003C/a\u003E, den 17.01.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000222471/deltager\" target=\"_blank\"\u003ETroels Peter Larsen\u003C/a\u003E, den 17.01.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004098596/deltager\" target=\"_blank\"\u003EJohn Laurits Lundholm Lauritzen\u003C/a\u003E, den 17.01.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000241676/deltager\" target=\"_blank\"\u003EOtto Vølund Poulsen\u003C/a\u003E (næstformand), den 17.01.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004079264/deltager\" target=\"_blank\"\u003EMichael Rex\u003C/a\u003E (formand), den 17.01.2018.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000347526/deltager\" target=\"_blank\"\u003EBo Erik Woetmann Hansen\u003C/a\u003E, den 17.01.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000054232/deltager\" target=\"_blank\"\u003EDennis Boye Jensen\u003C/a\u003E, den 17.01.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000060380/deltager\" target=\"_blank\"\u003EHelle Jessen\u003C/a\u003E, den 17.01.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004175292/deltager\" target=\"_blank\"\u003ETina Højlund Pedersen\u003C/a\u003E (næstformand), den 17.01.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004066374/deltager\" target=\"_blank\"\u003EPer Sørensen\u003C/a\u003E, den 17.01.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000532570/deltager\" target=\"_blank\"\u003ENiels Jacob True\u003C/a\u003E (formand), den 17.01.2018.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EJune Larsen, den 17.01.2018, Torben Larsen, den 17.01.2018, Troels Peter Larsen, den 17.01.2018, John Laurits Lundholm Lauritzen, den 17.01.2018, Otto Vølund Poulsen (næstformand), den 17.01.2018, Michael Rex (formand), den 17.01.2018.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EBo Erik Woetmann Hansen, den 17.01.2018, Dennis Boye Jensen, den 17.01.2018, Helle Jessen, den 17.01.2018, Tina Højlund Pedersen (næstformand), den 17.01.2018, Per Sørensen, den 17.01.2018, Niels Jacob True (formand), den 17.01.2018.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Ærøvej 2, 4700 Næstved",
+        "cvrNummer": "29193304",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "NK-VEJLYS A/S",
+        "offentliggoerelseId": "22770952",
+        "offentliggoerelseTidsstempel": "24.06.2016",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003ERevision:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EDELOITTE STATSAUTORISERET REVISIONSPARTNERSELSKAB, den 23.06.2016.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003ECVR-NR. 30700228 ERNST &amp; YOUNG Godkendt Revisionspartnerselskab, Værkmestergade 25, 8000 Aarhus C, den 23.06.2016.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003ERevision:\u003Cbr/\u003E\u003Cbr /\u003E\u003C/h1\u003E\u003Cbr/\u003E\u003Ch2\u003EFratrådte:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003EDELOITTE STATSAUTORISERET REVISIONSPARTNERSELSKAB, den 23.06.2016.\u003C/p\u003E\u003Cbr/\u003E\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003ECVR-NR. 30700228 ERNST &amp; YOUNG Godkendt Revisionspartnerselskab, Værkmestergade 25, 8000 Aarhus C, den 23.06.2016.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_revision"
+        ]
+      },
+      {
+        "adresse": "Ærøvej 2, 4700 Næstved",
+        "cvrNummer": "29193304",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "NK-VEJLYS A/S",
+        "offentliggoerelseId": "22200670",
+        "offentliggoerelseTidsstempel": "11.04.2016",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004084317/deltager\" target=\"_blank\"\u003ESvend Werner Jensen\u003C/a\u003E, den 07.04.2016.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003ESvend Werner Jensen, den 07.04.2016.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Ærøvej 2, 4700 Næstved",
+        "cvrNummer": "29193304",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "NK-VEJLYS A/S",
+        "offentliggoerelseId": "13280633",
+        "offentliggoerelseTidsstempel": "11.06.2014",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E22.05.2014.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\u003Cbr/\u003E\u003Cp\u003E22.05.2014.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Ærøvej 2, 4700 Næstved",
+        "cvrNummer": "29193304",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "NK-VEJLYS A/S",
+        "offentliggoerelseId": "13280630",
+        "offentliggoerelseTidsstempel": "24.02.2014",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Cp\u003EFratrådt som næstformand, men forbliver i   bestyrelsen: \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000222471/deltager\" target=\"_blank\"\u003ETroels Peter Larsen\u003C/a\u003E, den   30.01.2014.\u003C/p\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004019211/deltager\" target=\"_blank\"\u003EPer Andersen\u003C/a\u003E, den   30.01.2014, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004092038/deltager\" target=\"_blank\"\u003EOve Lindy Nymark Christensen\u003C/a\u003E,   den 30.01.2014, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000722754/deltager\" target=\"_blank\"\u003EJens Vagn Nielsen Terp\u003C/a\u003E, den   30.01.2014.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EVognmand \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000241676/deltager\" target=\"_blank\"\u003EOtto Vølund   Poulsen\u003C/a\u003E (næstformand), den 30.01.2014,   Direktør \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000653208/deltager\" target=\"_blank\"\u003ETorben Larsen\u003C/a\u003E, den 30.01.2014, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004139692/deltager\" target=\"_blank\"\u003EJune   Larsen\u003C/a\u003E, den   30.01.2014, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004098596/deltager\" target=\"_blank\"\u003EJohn Laurits Lundholm   Lauritzen\u003C/a\u003E, den 30.01.2014.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Cp\u003EFratrådt som næstformand, men forbliver i   bestyrelsen: Troels Peter Larsen, den   30.01.2014.\u003C/p\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EPer Andersen, den   30.01.2014, Ove Lindy Nymark Christensen,   den 30.01.2014, Jens Vagn Nielsen Terp, den   30.01.2014.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EVognmand Otto Vølund   Poulsen (næstformand), den 30.01.2014,   Direktør Torben Larsen, den 30.01.2014, June   Larsen, den   30.01.2014, John Laurits Lundholm   Lauritzen, den 30.01.2014.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds",
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Ærøvej 2, 4700 Næstved",
+        "cvrNummer": "29193304",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "NK-VEJLYS A/S",
+        "offentliggoerelseId": "13280627",
+        "offentliggoerelseTidsstempel": "13.08.2012",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E24.05.2012.\u003C/p\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4003948336/deltager\" target=\"_blank\"\u003EJørgen Gerner Hansen\u003C/a\u003E,   den 24.05.2012.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EIngeniør \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000722754/deltager\" target=\"_blank\"\u003EJens Vagn   Nielsen Terp\u003C/a\u003E,   den 24.05.2012.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E24.05.2012.\u003C/p\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EJørgen Gerner Hansen,   den 24.05.2012.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EIngeniør Jens Vagn   Nielsen Terp,   den 24.05.2012.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet",
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Ærøvej 2, 4700 Næstved",
+        "cvrNummer": "29193304",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "NK-VEJLYS A/S",
+        "offentliggoerelseId": "13280624",
+        "offentliggoerelseTidsstempel": "21.02.2012",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E10.02.2012.\u003C/p\u003E\n\u003Ch2\u003EKapitalforhøjelse:\u003C/h2\u003E\n\u003Cp\u003Ekr. 500.000,00 indbetalt   kontant, kurs 2.300,00.\u003C/p\u003E\n\u003Cp\u003EKapitalen udgør herefter kr. 4.655.000,00.\n\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\u003Cbr/\u003E\u003Cp\u003E10.02.2012.\u003C/p\u003E\u003Cbr/\u003E\u003Ch2\u003EKapitalforhøjelse:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003Ekr. 500.000,00 indbetalt   kontant, kurs 2.300,00.\u003C/p\u003E\u003Cbr/\u003E\u003Cp\u003EKapitalen udgør herefter kr. 4.655.000,00.\u003Cbr/\u003E\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_kapital",
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Ærøvej 2, 4700 Næstved",
+        "cvrNummer": "29193304",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "NK-VEJLYS A/S",
+        "offentliggoerelseId": "13280621",
+        "offentliggoerelseTidsstempel": "05.12.2011",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003ERevision:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af revisionen:\u003C/h2\u003E\n\u003Cp\u003ECVR-NR. 24213714   DELOITTE STATSAUTORISERET   REVISIONSAKTIESELSKAB, den 13.10.2011.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i revisionen:\u003C/h2\u003E\n\u003Cp\u003ECVR-NR. 33963556   DELOITTE STATSAUTORISERET   REVISIONSPARTNERSELSKAB, Weidekampsgade 6,   2300 København S, den 13.10.2011.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003ERevision:\u003C/h1\u003E\u003Cbr/\u003E\u003Ch2\u003EUdtrådt af revisionen:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003ECVR-NR. 24213714   DELOITTE STATSAUTORISERET   REVISIONSAKTIESELSKAB, den 13.10.2011.\u003C/p\u003E\u003Cbr/\u003E\u003Ch2\u003EIndtrådt i revisionen:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003ECVR-NR. 33963556   DELOITTE STATSAUTORISERET   REVISIONSPARTNERSELSKAB, Weidekampsgade 6,   2300 København S, den 13.10.2011.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet",
+          "virksomhedsregistreringsstatus-aendring_revision"
+        ]
+      },
+      {
+        "adresse": "Ærøvej 2, 4700 Næstved",
+        "cvrNummer": "29193304",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "NK-VEJLYS A/S",
+        "offentliggoerelseId": "13280615",
+        "offentliggoerelseTidsstempel": "08.12.2010",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EFuldmægtig cand.jur   \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4003948336/deltager\" target=\"_blank\"\u003EJørgen Gerner Hansen\u003C/a\u003E, den 19.08.2010.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EFuldmægtig cand.jur   Jørgen Gerner Hansen, den 19.08.2010.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds",
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Ærøvej 2, 4700 Næstved",
+        "cvrNummer": "29193304",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "NK-VEJLYS A/S",
+        "offentliggoerelseId": "13280618",
+        "offentliggoerelseTidsstempel": "08.12.2010",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004084317/deltager\" target=\"_blank\"\u003ESvend Werner Jensen\u003C/a\u003E, den   05.05.2010.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003ESvend Werner Jensen, den   05.05.2010.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds",
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Ærøvej 2, 4700 Næstved",
+        "cvrNummer": "29193304",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "NK-VEJLYS A/S",
+        "offentliggoerelseId": "13280611",
+        "offentliggoerelseTidsstempel": "24.03.2010",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E25.02.2010.\u003C/p\u003E\n\u003Ch2\u003EKapitalforhøjelse:\u003C/h2\u003E\n\u003Cp\u003Ekr. 1.000.000,00 indbetalt   kontant, kurs 2.100,00.\u003C/p\u003E\n\u003Cp\u003EKapitalen udgør herefter kr. 4.155.000,00.\n\u003C/p\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003ETiltrådt som formand:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004079264/deltager\" target=\"_blank\"\u003EMichael Rex\u003C/a\u003E, den   25.02.2010, Fratrådt som formand, men   forbliver i bestyrelsen: \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004019211/deltager\" target=\"_blank\"\u003EPer Andersen\u003C/a\u003E, den   25.02.2010.\u003C/p\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000228417/deltager\" target=\"_blank\"\u003EElmer Jacobsen\u003C/a\u003E, den   25.02.2010, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004166470/deltager\" target=\"_blank\"\u003EDusan Jovanovic\u003C/a\u003E, den   25.02.2010, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004166480/deltager\" target=\"_blank\"\u003ELene Margit Madsen\u003C/a\u003E, den   25.02.2010, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000241676/deltager\" target=\"_blank\"\u003EOtto Vølund Poulsen\u003C/a\u003E, den   25.02.2010, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000245611/deltager\" target=\"_blank\"\u003EJohnny Edvard Sørvin\u003C/a\u003E, den   25.02.2010.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EGårdejer \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000222471/deltager\" target=\"_blank\"\u003ETroels Peter   Larsen\u003C/a\u003E (næstformand), den   25.02.2010, Regionsleder \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004092038/deltager\" target=\"_blank\"\u003EOve Lindy Nymark   Christensen\u003C/a\u003E,   den 25.02.2010.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E25.02.2010.\u003C/p\u003E\n\u003Ch2\u003EKapitalforhøjelse:\u003C/h2\u003E\n\u003Cp\u003Ekr. 1.000.000,00 indbetalt   kontant, kurs 2.100,00.\u003C/p\u003E\n\u003Cp\u003EKapitalen udgør herefter kr. 4.155.000,00.\n\u003C/p\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003ETiltrådt som formand:\u003C/h2\u003E\n\u003Cp\u003EMichael Rex, den   25.02.2010, Fratrådt som formand, men   forbliver i bestyrelsen: Per Andersen, den   25.02.2010.\u003C/p\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EElmer Jacobsen, den   25.02.2010, Dusan Jovanovic, den   25.02.2010, Lene Margit Madsen, den   25.02.2010, Otto Vølund Poulsen, den   25.02.2010, Johnny Edvard Sørvin, den   25.02.2010.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EGårdejer Troels Peter   Larsen (næstformand), den   25.02.2010, Regionsleder Ove Lindy Nymark   Christensen,   den 25.02.2010.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_kapital",
+          "virksomhedsregistreringsstatus-andet",
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Ærøvej 2, 4700 Næstved",
+        "cvrNummer": "29193304",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "NKE-VEJLYS A/S",
+        "offentliggoerelseId": "14001995",
+        "offentliggoerelseTidsstempel": "20.01.2009",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E01.01.2009.\u003C/p\u003E\n\u003Ch1\u003ENyt navn:\u003C/h1\u003E\n\u003Cp\u003ENK-VEJLYS A/S.\u003C/p\u003E\n\u003Cp\u003ENyt binavn: NÆSTVED KOMMUNES   FORSYNINGSVIRKSOMHEDER VEJLYS A/S   (NK-VEJLYS A/S).\n\u003C/p\u003E\n\u003Ch2\u003EKapitalforhøjelse:\u003C/h2\u003E\n\u003Cp\u003Ekr. 55.000,00 indbetalt   ved fusion, kurs 1.968,63.\u003C/p\u003E\n\u003Cp\u003EKapitalen udgør herefter kr. 3.155.000,00.\n\u003Cbr /\u003ESelskabet er fusioneret med CVR-NR. 30084187   NK-VEJLYS A/S, der samtidig er opløst.\n\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\u003Cbr/\u003E\u003Cp\u003E01.01.2009.\u003C/p\u003E\u003Cbr/\u003E\u003Ch1\u003ENyt navn:\u003C/h1\u003E\u003Cbr/\u003E\u003Cp\u003ENK-VEJLYS A/S.\u003C/p\u003E\u003Cbr/\u003E\u003Cp\u003ENyt binavn: NÆSTVED KOMMUNES   FORSYNINGSVIRKSOMHEDER VEJLYS A/S   (NK-VEJLYS A/S).\u003Cbr/\u003E\u003C/p\u003E\u003Cbr/\u003E\u003Ch2\u003EKapitalforhøjelse:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003Ekr. 55.000,00 indbetalt   ved fusion, kurs 1.968,63.\u003C/p\u003E\u003Cbr/\u003E\u003Cp\u003EKapitalen udgør herefter kr. 3.155.000,00.\u003Cbr/\u003E\u003Cbr /\u003ESelskabet er fusioneret med CVR-NR. 30084187   NK-VEJLYS A/S, der samtidig er opløst.\u003Cbr/\u003E\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_kapital",
+          "virksomhedsregistreringsstatus-aendring_status"
+        ]
+      },
+      {
+        "adresse": "Ærøvej 2, 4700 Næstved",
+        "cvrNummer": "29193304",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "NKE-VEJLYS A/S",
+        "offentliggoerelseId": "14001991",
+        "offentliggoerelseTidsstempel": "24.11.2008",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Cp\u003EErhvervs- og Selskabsstyrelsen har modtaget\n\u003Cbr /\u003Efusionsplan i henhold til aktieselskabslovens § 134 a\n\u003Cbr /\u003Efor fusion mellem\n\u003Cbr /\u003ECVR-NR. 29193304 NKE-VEJLYS A/S   (fortsættende).\n\u003Cbr /\u003ECVR-NR. 30084187 NK-VEJLYS A/S (ophørende).\n\u003Cbr /\u003EEndvidere er modtaget erklæring fra\n\u003Cbr /\u003Evurderingsmændene om kreditorernes retsstilling jf.\n\u003Cbr /\u003Eaktieselskabslovens § 134 c, stk. 4.\n\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Cp\u003EErhvervs- og Selskabsstyrelsen har modtaget\u003Cbr/\u003E\u003Cbr /\u003Efusionsplan i henhold til aktieselskabslovens § 134 a\u003Cbr/\u003E\u003Cbr /\u003Efor fusion mellem\u003Cbr/\u003E\u003Cbr /\u003ECVR-NR. 29193304 NKE-VEJLYS A/S   (fortsættende).\u003Cbr/\u003E\u003Cbr /\u003ECVR-NR. 30084187 NK-VEJLYS A/S (ophørende).\u003Cbr/\u003E\u003Cbr /\u003EEndvidere er modtaget erklæring fra\u003Cbr/\u003E\u003Cbr /\u003Evurderingsmændene om kreditorernes retsstilling jf.\u003Cbr/\u003E\u003Cbr /\u003Eaktieselskabslovens § 134 c, stk. 4.\u003Cbr/\u003E\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Ærøvej 2, 4700 Næstved",
+        "cvrNummer": "29193304",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "NKE-VEJLYS A/S",
+        "offentliggoerelseId": "14001984",
+        "offentliggoerelseTidsstempel": "11.07.2008",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E24.06.2008.\u003C/p\u003E\n\u003Ch2\u003EKapitalforhøjelse:\u003C/h2\u003E\n\u003Cp\u003Ekr. 1.000.000,00 indbetalt   kontant, kurs 2.300,00.\u003C/p\u003E\n\u003Cp\u003EKapitalen udgør herefter kr. 3.100.000,00.\n\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\u003Cbr/\u003E\u003Cp\u003E24.06.2008.\u003C/p\u003E\u003Cbr/\u003E\u003Ch2\u003EKapitalforhøjelse:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003Ekr. 1.000.000,00 indbetalt   kontant, kurs 2.300,00.\u003C/p\u003E\u003Cbr/\u003E\u003Cp\u003EKapitalen udgør herefter kr. 3.100.000,00.\u003Cbr/\u003E\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet",
+          "virksomhedsregistreringsstatus-aendring_kapital"
+        ]
+      },
+      {
+        "adresse": "Ærøvej 2, 4700 Næstved",
+        "cvrNummer": "29193304",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "NKE-VEJLYS A/S",
+        "offentliggoerelseId": "14001980",
+        "offentliggoerelseTidsstempel": "09.11.2007",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E16.10.2007.\u003C/p\u003E\n\u003Ch2\u003EKapitalforhøjelse:\u003C/h2\u003E\n\u003Cp\u003Ekr. 600.000,00 indbetalt   kontant, kurs 2.400,00.\u003C/p\u003E\n\u003Cp\u003EKapitalen udgør herefter kr. 2.100.000,00.\n\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\u003Cbr/\u003E\u003Cp\u003E16.10.2007.\u003C/p\u003E\u003Cbr/\u003E\u003Ch2\u003EKapitalforhøjelse:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003Ekr. 600.000,00 indbetalt   kontant, kurs 2.400,00.\u003C/p\u003E\u003Cbr/\u003E\u003Cp\u003EKapitalen udgør herefter kr. 2.100.000,00.\u003Cbr/\u003E\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_kapital",
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Ærøvej 2, 4700 Næstved",
+        "cvrNummer": "29193304",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "NKE-VEJLYS A/S",
+        "offentliggoerelseId": "14001974",
+        "offentliggoerelseTidsstempel": "28.02.2007",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004134668/deltager\" target=\"_blank\"\u003ETorben Nielsen\u003C/a\u003E, den   26.02.2007, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004134667/deltager\" target=\"_blank\"\u003ELeif Erik Sigaard\u003C/a\u003E, den   26.02.2007.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EGlasværksarbejder   \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004166470/deltager\" target=\"_blank\"\u003EDusan Jovanovic\u003C/a\u003E, den 26.02.2007, Pædagog \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004166480/deltager\" target=\"_blank\"\u003ELene   Margit Madsen\u003C/a\u003E, den 26.02.2007, Vognmand \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000241676/deltager\" target=\"_blank\"\u003EOtto   Vølund Poulsen\u003C/a\u003E, den 26.02.2007,   Førtidspensionist \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000245611/deltager\" target=\"_blank\"\u003EJohnny Edvard Sørvin\u003C/a\u003E, den 26.02.2007.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003ETorben Nielsen, den   26.02.2007, Leif Erik Sigaard, den   26.02.2007.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EGlasværksarbejder   Dusan Jovanovic, den 26.02.2007, Pædagog Lene   Margit Madsen, den 26.02.2007, Vognmand Otto   Vølund Poulsen, den 26.02.2007,   Førtidspensionist Johnny Edvard Sørvin, den 26.02.2007.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet",
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Ærøvej 2, 4700 Næstved",
+        "cvrNummer": "29193304",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "NKE-VEJLYS A/S",
+        "offentliggoerelseId": "14001970",
+        "offentliggoerelseTidsstempel": "01.01.2007",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Cp\u003EVed kommunalreformen den 1. januar 2007 er   hjemstedskommunen ændret.\n\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Cp\u003EVed kommunalreformen den 1. januar 2007 er   hjemstedskommunen ændret.\u003Cbr/\u003E\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_adresse"
+        ]
+      },
+      {
+        "adresse": "C/O Advokat Victor Christoffersen, Rosenborggade 3, 3., 4700 Næstved",
+        "cvrNummer": "29193304",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "VICH 8557 A/S",
+        "offentliggoerelseId": "14001959",
+        "offentliggoerelseTidsstempel": "01.12.2006",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E16.11.2006.\u003C/p\u003E\n\u003Ch1\u003ENyt navn:\u003C/h1\u003E\n\u003Cp\u003ENKE-VEJLYS A/S.\u003C/p\u003E\n\u003Ch1\u003ENy adresse:\u003C/h1\u003E\n\u003Cp\u003EÆrøvej 2, 4700 Næstved.\u003C/p\u003E\n\u003Ch2\u003ENy kommune:\u003C/h2\u003E\n\u003Cp\u003ENæstved.\u003C/p\u003E\n\u003Ch2\u003EKapitalforhøjelse:\u003C/h2\u003E\n\u003Cp\u003Ekr. 1.000.000,00 indbetalt   kontant, kurs 2.400,00.\u003C/p\u003E\n\u003Cp\u003EKapitalen udgør herefter kr. 1.500.000,00.\n\u003Cbr /\u003ESelskabet tegnes af et bestyrelsesmedlem og   en direktør eller af bestyrelsesformanden   sammen med et bestyrelsesmedlem eller af   den samlede bestyrelse.\n\u003C/p\u003E\n\u003Ch1\u003ERevision:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af revisionen:\u003C/h2\u003E\n\u003Cp\u003EKarl-Alfred Brylle,   den 16.11.2006.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i revisionen:\u003C/h2\u003E\n\u003Cp\u003ECVR-NR. 24213714   DELOITTE STATSAUTORISERET   REVISIONSAKTIESELSKAB, Weidekampsgade 6,   2300 København S, den 16.11.2006.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\u003Cbr/\u003E\u003Cp\u003E16.11.2006.\u003C/p\u003E\u003Cbr/\u003E\u003Ch1\u003ENyt navn:\u003C/h1\u003E\u003Cbr/\u003E\u003Cp\u003ENKE-VEJLYS A/S.\u003C/p\u003E\u003Cbr/\u003E\u003Ch1\u003ENy adresse:\u003C/h1\u003E\u003Cbr/\u003E\u003Cp\u003EÆrøvej 2, 4700 Næstved.\u003C/p\u003E\u003Cbr/\u003E\u003Ch2\u003ENy kommune:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003ENæstved.\u003C/p\u003E\u003Cbr/\u003E\u003Ch2\u003EKapitalforhøjelse:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003Ekr. 1.000.000,00 indbetalt   kontant, kurs 2.400,00.\u003C/p\u003E\u003Cbr/\u003E\u003Cp\u003EKapitalen udgør herefter kr. 1.500.000,00.\u003Cbr/\u003E\u003Cbr /\u003ESelskabet tegnes af et bestyrelsesmedlem og   en direktør eller af bestyrelsesformanden   sammen med et bestyrelsesmedlem eller af   den samlede bestyrelse.\u003Cbr/\u003E\u003C/p\u003E\u003Cbr/\u003E\u003Ch1\u003ERevision:\u003C/h1\u003E\u003Cbr/\u003E\u003Ch2\u003EUdtrådt af revisionen:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003EKarl-Alfred Brylle,   den 16.11.2006.\u003C/p\u003E\u003Cbr/\u003E\u003Ch2\u003EIndtrådt i revisionen:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003ECVR-NR. 24213714   DELOITTE STATSAUTORISERET   REVISIONSAKTIESELSKAB, Weidekampsgade 6,   2300 København S, den 16.11.2006.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet",
+          "virksomhedsregistreringsstatus-aendring_revision",
+          "virksomhedsregistreringsstatus-aendring_kapital"
+        ]
+      },
+      {
+        "adresse": "Ærøvej 2, 4700 Næstved",
+        "cvrNummer": "29193304",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "NKE-VEJLYS A/S",
+        "offentliggoerelseId": "14001967",
+        "offentliggoerelseTidsstempel": "01.12.2006",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4003989651/deltager\" target=\"_blank\"\u003ESebastian Benjamin   Bahn Christoffersen\u003C/a\u003E, den 16.11.2006, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000252412/deltager\" target=\"_blank\"\u003EVictor   Christoffersen\u003C/a\u003E, den 16.11.2006, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004165951/deltager\" target=\"_blank\"\u003EHelen Mimi   Janniche\u003C/a\u003E, den 16.11.2006.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004019211/deltager\" target=\"_blank\"\u003EPer Andersen\u003C/a\u003E (formand), den 16.11.2006, Gårdejer \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000228417/deltager\" target=\"_blank\"\u003EElmer   Jakobsen\u003C/a\u003E, den 16.11.2006, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004134668/deltager\" target=\"_blank\"\u003ETorben Nielsen\u003C/a\u003E, den   16.11.2006, Byrådsmedlem \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004079264/deltager\" target=\"_blank\"\u003EMichael Rex\u003C/a\u003E, den   16.11.2006, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004134667/deltager\" target=\"_blank\"\u003ELeif Erik Sigaard\u003C/a\u003E, den 16.11.2006.\u003C/p\u003E\n\u003Ch1\u003EDirektion:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af direktionen:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000252412/deltager\" target=\"_blank\"\u003EVictor   Christoffersen\u003C/a\u003E, den 16.11.2006.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i direktionen:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000508075/deltager\" target=\"_blank\"\u003EBjarne Bent   Andreasen\u003C/a\u003E (adm. dir), den 16.11.2006.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003ESebastian Benjamin   Bahn Christoffersen, den 16.11.2006, Victor   Christoffersen, den 16.11.2006, Helen Mimi   Janniche, den 16.11.2006.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EPer Andersen (formand), den 16.11.2006, Gårdejer Elmer   Jakobsen, den 16.11.2006, Torben Nielsen, den   16.11.2006, Byrådsmedlem Michael Rex, den   16.11.2006, Leif Erik Sigaard, den 16.11.2006.\u003C/p\u003E\n\u003Ch1\u003EDirektion:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af direktionen:\u003C/h2\u003E\n\u003Cp\u003EVictor   Christoffersen, den 16.11.2006.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i direktionen:\u003C/h2\u003E\n\u003Cp\u003EBjarne Bent   Andreasen (adm. dir), den 16.11.2006.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds",
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "C/O Advokat Victor Christoffersen, Rosenborggade 3, 3., 1130 Rosenborggade",
+        "cvrNummer": "29193304",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "VICH 8557 A/S",
+        "offentliggoerelseId": "14001957",
+        "offentliggoerelseTidsstempel": "05.12.2005",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EStiftelsesdato:\u003C/h1\u003E\n\u003Cp\u003E01.12.2005.\u003C/p\u003E\n\u003Ch1\u003ESeneste vedtægtsdato:\u003C/h1\u003E\n\u003Cp\u003E01.12.2005.\u003C/p\u003E\n\u003Ch1\u003EKapital:\u003C/h1\u003E\n\u003Cp\u003Ekr. 500.000,00.\u003C/p\u003E\n\u003Ch2\u003EIndbetalingsmåde:\u003C/h2\u003E\n\u003Cp\u003Ekontant kr. 500.000,00 til   kurs 100,00.\u003C/p\u003E\n\u003Ch1\u003EStifter:\u003C/h1\u003E\n\u003Cp\u003ECVR-NR. 73233313 ASX 4050 ApS,   Rosenborggade 3, 1130 København K, den   01.12.2005.\u003C/p\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Cp\u003ECand. Jur \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4003989651/deltager\" target=\"_blank\"\u003ESebastian Benjamin Bahn   Christoffersen\u003C/a\u003E, den 01.12.2005, Advokat   \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000252412/deltager\" target=\"_blank\"\u003EVictor Christoffersen\u003C/a\u003E, den 01.12.2005,   Dekorationschef \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004165951/deltager\" target=\"_blank\"\u003EHelen Mimi Janniche\u003C/a\u003E,   den 01.12.2005.\u003C/p\u003E\n\u003Ch1\u003EDirektion:\u003C/h1\u003E\n\u003Cp\u003EAdvokat \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000252412/deltager\" target=\"_blank\"\u003EVictor Christoffersen\u003C/a\u003E,   den 01.12.2005.\u003C/p\u003E\n\u003Cp\u003ESelskabet tegnes af et medlem af bestyrelsen,   en direktør eller den samlede bestyrelse.\n\u003C/p\u003E\n\u003Ch1\u003ERevision:\u003C/h1\u003E\n\u003Cp\u003EStatsautoriseret revisor   Karl-Alfred Brylle Larsen, Rosenørns Allé   16, 4., 1634 København V, den 01.12.2005.\u003C/p\u003E\n\u003Ch1\u003EFørste regnskabsår:\u003C/h1\u003E\n\u003Cp\u003E01.12.2005 - 31.12.2006.\u003C/p\u003E\n\u003Ch1\u003ERegnskabsår:\u003C/h1\u003E\n\u003Cp\u003E01.01 - 31.12.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EStiftelsesdato:\u003C/h1\u003E\n\u003Cp\u003E01.12.2005.\u003C/p\u003E\n\u003Ch1\u003ESeneste vedtægtsdato:\u003C/h1\u003E\n\u003Cp\u003E01.12.2005.\u003C/p\u003E\n\u003Ch1\u003EKapital:\u003C/h1\u003E\n\u003Cp\u003Ekr. 500.000,00.\u003C/p\u003E\n\u003Ch2\u003EIndbetalingsmåde:\u003C/h2\u003E\n\u003Cp\u003Ekontant kr. 500.000,00 til   kurs 100,00.\u003C/p\u003E\n\u003Ch1\u003EStifter:\u003C/h1\u003E\n\u003Cp\u003ECVR-NR. 73233313 ASX 4050 ApS,   Rosenborggade 3, 1130 København K, den   01.12.2005.\u003C/p\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Cp\u003ECand. Jur Sebastian Benjamin Bahn   Christoffersen, den 01.12.2005, Advokat   Victor Christoffersen, den 01.12.2005,   Dekorationschef Helen Mimi Janniche,   den 01.12.2005.\u003C/p\u003E\n\u003Ch1\u003EDirektion:\u003C/h1\u003E\n\u003Cp\u003EAdvokat Victor Christoffersen,   den 01.12.2005.\u003C/p\u003E\n\u003Cp\u003ESelskabet tegnes af et medlem af bestyrelsen,   en direktør eller den samlede bestyrelse.\n\u003C/p\u003E\n\u003Ch1\u003ERevision:\u003C/h1\u003E\n\u003Cp\u003EStatsautoriseret revisor   Karl-Alfred Brylle Larsen, Rosenørns Allé   16, 4., 1634 København V, den 01.12.2005.\u003C/p\u003E\n\u003Ch1\u003EFørste regnskabsår:\u003C/h1\u003E\n\u003Cp\u003E01.12.2005 - 31.12.2006.\u003C/p\u003E\n\u003Ch1\u003ERegnskabsår:\u003C/h1\u003E\n\u003Cp\u003E01.01 - 31.12.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-nyt_selskab"
+        ]
+      }
+    ],
+    "virksomhedsMeddelelser": []
+  }

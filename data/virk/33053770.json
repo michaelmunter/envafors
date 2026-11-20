@@ -1,0 +1,1553 @@
+{
+    "aktiveEjerforholdDto": null,
+    "antalAnsatte": {
+      "kvartalsbeskaeftigelse": [],
+      "maanedsbeskaeftigelse": []
+    },
+    "ejerforhold": {
+      "aktiveLegaleEjere": [],
+      "aktiveReelleEjere": [],
+      "begunstigetGruppeNavn": null,
+      "begunstigetGruppeRetskrav": null,
+      "bestyrelseAnsesSomReelleEjere": false,
+      "ejerregistreringUnderFemProcent": false,
+      "ophoerteLegaleEjere": [],
+      "ophoerteReelleEjere": [],
+      "virksomhedHarIkkeKunnetIdentificereReelleEjereLedelseErIndsat": false,
+      "virksomhedHarIkkeReelleEjereOgLedelseErIndsat": false,
+      "virksomhedsFormTilladerReelleEjerOplysninger": false
+    },
+    "foreningsrepraesentanter": [],
+    "harManuelSignering": true,
+    "historiskStamdata": {
+      "adresse": [
+        {
+          "gyldigFra": "2018-09-30",
+          "gyldigTil": "2026-01-04",
+          "vaerdi": "Hovedgaden 60\u003Cbr /\u003E4295 Stenlille"
+        },
+        {
+          "gyldigFra": "2010-06-23",
+          "gyldigTil": "2018-09-29",
+          "vaerdi": "Hovedgaden 60\u003Cbr /\u003E4295 Stenlille"
+        }
+      ],
+      "bibranche": [],
+      "branchekode": [
+        {
+          "gyldigFra": "2010-09-01",
+          "gyldigTil": "2024-12-31",
+          "vaerdi": "360000 Vandforsyning"
+        },
+        {
+          "gyldigFra": "2010-06-23",
+          "gyldigTil": "2010-08-31",
+          "vaerdi": "999999 Uoplyst"
+        }
+      ],
+      "formaal": [],
+      "navn": [],
+      "registreretKapital": [],
+      "senesteVedtaegtsdato": [
+        {
+          "gyldigFra": "2025-05-22",
+          "gyldigTil": "2026-06-03",
+          "vaerdi": "2025-05-22"
+        },
+        {
+          "gyldigFra": "2019-08-22",
+          "gyldigTil": "2025-05-21",
+          "vaerdi": "2019-08-22"
+        },
+        {
+          "gyldigFra": "2012-05-28",
+          "gyldigTil": "2019-08-21",
+          "vaerdi": "2012-05-28"
+        },
+        {
+          "gyldigFra": "2010-06-23",
+          "gyldigTil": "2012-05-27",
+          "vaerdi": "2010-06-23"
+        }
+      ],
+      "status": [],
+      "tegningsregel": [
+        {
+          "gyldigFra": "2015-11-12",
+          "gyldigTil": "2019-08-22",
+          "vaerdi": "Selskabet tegnes af to bestyrelsesmedlemmer i forening, hvoraf én skal være fungerende bestyrelsesformand, eller af fungerende bestyrelsesformand og en direktør i forening"
+        },
+        {
+          "gyldigFra": "2010-06-23",
+          "gyldigTil": "2015-11-11",
+          "vaerdi": "Selskabet tegnes af to bestyrelsesmedlemmer i forening eller af bestyrelsesformanden og en direktør i forening"
+        }
+      ],
+      "udenlandskAdresse": [],
+      "virksomhedsform": []
+    },
+    "hovedselskab": null,
+    "kanHaveLegaleEjere": true,
+    "kanHaveReelleEjere": true,
+    "ophoerteEjerforholdDto": null,
+    "oplysningerOmRevisionsvirksomhed": null,
+    "personkreds": {
+      "ejerborgLink": "",
+      "ophoerteFad": [],
+      "personkredser": [
+        {
+          "personRoller": [
+            {
+              "adresse": "Lerhøj 9B\n4220 Korsør",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "",
+              "ekstraDataList": [],
+              "enhedstype": "PERSON",
+              "id": "4004114897",
+              "personType": "deltager",
+              "senesteNavn": "Henrik Rosendal Birch",
+              "sorteringsVaredi": 3,
+              "titlePrefix": [
+                "erstdist-organisation-rolle-direktoerer"
+              ]
+            }
+          ],
+          "rolle": {
+            "declaringClass": "integration.erstdist.konstanter.OrganisationsMappning",
+            "funktionsVaerdi": [
+              "DIREKTØR",
+              "DIEKTØR",
+              "DIREKTØRx",
+              "RIREKTØR",
+              "ANSAT DIREKTØR",
+              "ANSVARLIG DIREKTØR",
+              "DIREKTØR OG BESTYRELSESMEDLEM",
+              "DIREKTØR EAPPLICATIONS",
+              "DIREKTØR ESOLUTIONS",
+              "DIREKTØR FOR INFRA SOLUTIONS",
+              "DIREKTØR FOR VERTIKALER",
+              "DIREKTØR FACILITY MANAGEMENT"
+            ],
+            "hovedType": [
+              "LEDELSESORGAN"
+            ],
+            "sorteringsVaerdi": 3,
+            "tekstnogle": "erstdist-organisation-rolle-direktoerer",
+            "name": "DIREKTOERER",
+            "ordinal": 73
+          },
+          "rolleTekstnogle": "erstdist-organisation-rolle-direktion"
+        },
+        {
+          "personRoller": [
+            {
+              "adresse": "A N Hansens Alle 32\n2900 Hellerup",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "Valgform: Generalforsamling",
+              "ekstraDataList": [
+                {
+                  "tekstnogle": "personkreds-valgform-label",
+                  "vaerdi": "Generalforsamling",
+                  "vaerdiTekstnogle": null
+                }
+              ],
+              "enhedstype": "PERSON",
+              "id": "4003888200",
+              "personType": "deltager",
+              "senesteNavn": "Lars Therkildsen",
+              "sorteringsVaredi": 4,
+              "titlePrefix": [
+                "erstdist-organisation-rolle-formand"
+              ]
+            },
+            {
+              "adresse": "Dronning Sofies Vej 14\n4000 Roskilde",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "Valgform: Generalforsamling",
+              "ekstraDataList": [
+                {
+                  "tekstnogle": "personkreds-valgform-label",
+                  "vaerdi": "Generalforsamling",
+                  "vaerdiTekstnogle": null
+                }
+              ],
+              "enhedstype": "PERSON",
+              "id": "4000145213",
+              "personType": "deltager",
+              "senesteNavn": "Susan Hørlyck Münster",
+              "sorteringsVaredi": 6,
+              "titlePrefix": [
+                "erstdist-organisation-rolle-naestformand"
+              ]
+            },
+            {
+              "adresse": "Alstedvej 26\n4173 Fjenneslev",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "Valgform: Generalforsamling",
+              "ekstraDataList": [
+                {
+                  "tekstnogle": "personkreds-valgform-label",
+                  "vaerdi": "Generalforsamling",
+                  "vaerdiTekstnogle": null
+                }
+              ],
+              "enhedstype": "PERSON",
+              "id": "4000149889",
+              "personType": "deltager",
+              "senesteNavn": "Peter Heesch",
+              "sorteringsVaredi": 99,
+              "titlePrefix": []
+            },
+            {
+              "adresse": "Grandalen 7\n4180 Sorø",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "Valgform: Generalforsamling",
+              "ekstraDataList": [
+                {
+                  "tekstnogle": "personkreds-valgform-label",
+                  "vaerdi": "Generalforsamling",
+                  "vaerdiTekstnogle": null
+                }
+              ],
+              "enhedstype": "PERSON",
+              "id": "4000712196",
+              "personType": "deltager",
+              "senesteNavn": "Kåre Hyttel Spliid",
+              "sorteringsVaredi": 99,
+              "titlePrefix": []
+            },
+            {
+              "adresse": "Lønnehøj 3, 1. tv\n4180 Sorø",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "Valgform: Generalforsamling",
+              "ekstraDataList": [
+                {
+                  "tekstnogle": "personkreds-valgform-label",
+                  "vaerdi": "Generalforsamling",
+                  "vaerdiTekstnogle": null
+                }
+              ],
+              "enhedstype": "PERSON",
+              "id": "4004065434",
+              "personType": "deltager",
+              "senesteNavn": "Ivan Hansen",
+              "sorteringsVaredi": 99,
+              "titlePrefix": []
+            },
+            {
+              "adresse": "Bastbjergvej 7\n4293 Dianalund",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "Valgform: Udpeget i henhold til vedtægt",
+              "ekstraDataList": [
+                {
+                  "tekstnogle": "personkreds-valgform-label",
+                  "vaerdi": "Udpeget i henhold til vedtægt",
+                  "vaerdiTekstnogle": null
+                }
+              ],
+              "enhedstype": "PERSON",
+              "id": "4000112377",
+              "personType": "deltager",
+              "senesteNavn": "Jacob Christian Tetzlaff",
+              "sorteringsVaredi": 100,
+              "titlePrefix": []
+            },
+            {
+              "adresse": "Bjernedevej 15\n4180 Sorø",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "Valgform: Udpeget i henhold til vedtægt",
+              "ekstraDataList": [
+                {
+                  "tekstnogle": "personkreds-valgform-label",
+                  "vaerdi": "Udpeget i henhold til vedtægt",
+                  "vaerdiTekstnogle": null
+                }
+              ],
+              "enhedstype": "PERSON",
+              "id": "4000159689",
+              "personType": "deltager",
+              "senesteNavn": "Gregers Kofoed-Hansen",
+              "sorteringsVaredi": 100,
+              "titlePrefix": []
+            },
+            {
+              "adresse": "Nødbrøndsvej 23\nDøjringe\n4180 Sorø",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "Valgform: Medarbejdere i koncernen",
+              "ekstraDataList": [
+                {
+                  "tekstnogle": "personkreds-valgform-label",
+                  "vaerdi": "Medarbejdere i koncernen",
+                  "vaerdiTekstnogle": null
+                }
+              ],
+              "enhedstype": "PERSON",
+              "id": "4000317025",
+              "personType": "deltager",
+              "senesteNavn": "Thomas Skovgaard Wraa Frosch",
+              "sorteringsVaredi": 100,
+              "titlePrefix": []
+            },
+            {
+              "adresse": "Tingvej 12\nStude\n4241 Vemmelev",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "Valgform: Medarbejdere i koncernen",
+              "ekstraDataList": [
+                {
+                  "tekstnogle": "personkreds-valgform-label",
+                  "vaerdi": "Medarbejdere i koncernen",
+                  "vaerdiTekstnogle": null
+                }
+              ],
+              "enhedstype": "PERSON",
+              "id": "4000611949",
+              "personType": "deltager",
+              "senesteNavn": "Niels Christian Vedel Müller",
+              "sorteringsVaredi": 100,
+              "titlePrefix": []
+            }
+          ],
+          "rolle": {
+            "declaringClass": "integration.erstdist.konstanter.OrganisationsMappning",
+            "funktionsVaerdi": [
+              "BESTYRELSE",
+              "BESTYRELSESMEDLEM",
+              "BESTYRELSESMELDEM",
+              "BESTYRELSESMEDLEM - REGNSKABSC",
+              "BESTYRELSE/DIREKTION",
+              "BESTYRELSESFORMAND",
+              "ALM.BESTYRELSESMEDLEM",
+              "GENERALFORSAMLINGSVALGT BESTYR",
+              "KOMMITTERET BESTYRELSESMEDLEM"
+            ],
+            "hovedType": [
+              "LEDELSESORGAN"
+            ],
+            "sorteringsVaerdi": 100,
+            "tekstnogle": "erstdist-organisation-rolle-bestyrelsesmedlemmer",
+            "name": "BESTYRELSESMEDLEMMER",
+            "ordinal": 7
+          },
+          "rolleTekstnogle": "erstdist-organisation-rolle-bestyrelsesmedlemmer"
+        },
+        {
+          "personRoller": [
+            {
+              "adresse": "Rådhusvej 8\n4180 Sorø",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "",
+              "ekstraDataList": [],
+              "enhedstype": "VIRKSOMHED",
+              "id": "4000576471",
+              "personType": null,
+              "senesteNavn": "Sorø Kommune",
+              "sorteringsVaredi": 10,
+              "titlePrefix": []
+            }
+          ],
+          "rolle": {
+            "declaringClass": "integration.erstdist.konstanter.OrganisationsMappning",
+            "funktionsVaerdi": [
+              "STIFTERE",
+              "STIFTER",
+              "ST*IFTERE",
+              "STI*FTERE",
+              "STIFERE"
+            ],
+            "hovedType": [
+              "STIFTERE"
+            ],
+            "sorteringsVaerdi": 10,
+            "tekstnogle": "erstdist-organisation-rolle-stiftere",
+            "name": "STIFTERE",
+            "ordinal": 0
+          },
+          "rolleTekstnogle": "erstdist-organisation-rolle-stiftere"
+        },
+        {
+          "personRoller": [
+            {
+              "adresse": "Jens Chr. Skous Vej 1\n8000 Aarhus C",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "",
+              "ekstraDataList": [],
+              "enhedstype": "VIRKSOMHED",
+              "id": "4000769917",
+              "personType": null,
+              "senesteNavn": "PRICEWATERHOUSECOOPERS STATSAUTORISERET REVISIONSPARTNERSELSKAB",
+              "sorteringsVaredi": 10,
+              "titlePrefix": []
+            }
+          ],
+          "rolle": {
+            "declaringClass": "integration.erstdist.konstanter.OrganisationsMappning",
+            "funktionsVaerdi": [
+              "REVISION"
+            ],
+            "hovedType": [
+              "REVISION"
+            ],
+            "sorteringsVaerdi": 10,
+            "tekstnogle": "erstdist-organisation-rolle-revision",
+            "name": "REVISION",
+            "ordinal": 97
+          },
+          "rolleTekstnogle": "erstdist-organisation-rolle-revision"
+        }
+      ],
+      "tegningsregel": "Selskabet tegnes af et bestyrelsesmedlem i forening med bestyrelsesformanden eller af bestyrelsesformanden i forening med en direktør"
+    },
+    "produktionsenheder": {
+      "aktiveProduktionsenheder": [
+        {
+          "antalAnsatte": null,
+          "historiskStamdata": null,
+          "revisionsvirksomhed": null,
+          "stamdata": {
+            "adresse": "Nordvej 6",
+            "bibrancher": [],
+            "bygningsnummer": null,
+            "cvrnummer": "33053770",
+            "email": "mail@soroeforsyning.dk",
+            "helligdagsaabent": false,
+            "hovedbranche": {
+              "branchekode": "360000",
+              "titel": "Vandforsyning"
+            },
+            "navn": "SORØ VAND A/S",
+            "ophoersdato": null,
+            "pnummer": "1016159510",
+            "postnummerOgBy": "4200 Slagelse",
+            "registreretIHvidvaskregistret": false,
+            "regnskabsperiodeSlut": null,
+            "regnskabsperiodeStart": null,
+            "reklamebeskyttet": false,
+            "startdato": "2010-06-23",
+            "telefon": "57870800",
+            "udenlandskAdresse": null,
+            "udenlandskAdresseLand": "Danmark",
+            "udenlandskAdresseLandekode": "DK",
+            "virksomhedsnavn": null
+          }
+        }
+      ],
+      "ophoerteProduktionsenheder": []
+    },
+    "sammenhaengendeRegnskaber": [
+      {
+        "periodeFormateret": "01.01.2025 - 31.12.2025",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "33053770",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": "Henrik Rosendal Birch",
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzgwL2QwLzBkLzYxLzgyNDItNDFmMC1iOWIyLWZmZTc0ZmRjNTUyOQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XHTML"
+              },
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzM3L2I0LzVhLzc2LzkyMDgtNDU0NC1iNDBjLWIxMGY1ZGVjMTFlOQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              }
+            ],
+            "godkendelsesdato": "04.06.2026",
+            "hovednavn": "SORØ VAND A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "39452910",
+            "offentliggoerelseTidsstempel": "2026-06-15T10:30:57.508Z",
+            "offentliggoerelseTidsstempelFormateret": "15.06.2026",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2025 - 31.12.2025",
+            "regnskabsperiodeFra": "01.01.2025",
+            "regnskabsperiodeTil": "31.12.2025",
+            "sagsnummer": "X26-CU-22-YT",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2025",
+        "regnskabsperiodeTil": "31.12.2025"
+      },
+      {
+        "periodeFormateret": "01.01.2024 - 31.12.2024",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "33053770",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": "Per Rosenberg Andersen",
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "amNsb3VkczovLzAzL2I0LzExL2VmLzI1LzRjMzMtNDQyOC05OWUwLTFhMGRlNTc4N2U3OA",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              },
+              {
+                "dokumentId": "amNsb3VkczovLzAzL2M3L2Q5L2NjLzg0L2IxZjItNGRjNS1iNjMyLWZjZjI0NjBkM2ZiZQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              }
+            ],
+            "godkendelsesdato": "22.05.2025",
+            "hovednavn": "SORØ VAND A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "37522700",
+            "offentliggoerelseTidsstempel": "2025-05-30T10:31:09.013Z",
+            "offentliggoerelseTidsstempelFormateret": "30.05.2025",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2024 - 31.12.2024",
+            "regnskabsperiodeFra": "01.01.2024",
+            "regnskabsperiodeTil": "31.12.2024",
+            "sagsnummer": "X25-CK-65-TX",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2024",
+        "regnskabsperiodeTil": "31.12.2024"
+      },
+      {
+        "periodeFormateret": "01.01.2023 - 31.12.2023",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "33053770",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": "Per Rosenberg Andersen",
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "amNsb3VkczovLzAzL2I2LzlhL2UxLzgyLzM5ZjktNDNiYi04ZjNiLTFlN2E5ZDFiZWZmMQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              },
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzYwLzYwLzM1LzlhL2IzOTEtNDI5MS05MDUwLTlmMzg1YzI0NzIyZA",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "27.05.2024",
+            "hovednavn": "SORØ VAND A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "36084679",
+            "offentliggoerelseTidsstempel": "2024-06-28T06:56:08.909Z",
+            "offentliggoerelseTidsstempelFormateret": "28.06.2024",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2023 - 31.12.2023",
+            "regnskabsperiodeFra": "01.01.2023",
+            "regnskabsperiodeTil": "31.12.2023",
+            "sagsnummer": "X24-JC-84-YR",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2023",
+        "regnskabsperiodeTil": "31.12.2023"
+      },
+      {
+        "periodeFormateret": "01.01.2022 - 31.12.2022",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "33053770",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": "Per Rosenberg Andersen",
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzlmL2ZiLzkyL2JiL2UyOGQtNGRlMi05YTVkLTVjYjBlYjI5YzgyYw",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              },
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzQwLzQwLzgyLzgyLzQ5ZDktNDY2Yi1hNDNlLTg5OTA0NGMyNTk2YQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              }
+            ],
+            "godkendelsesdato": "25.05.2023",
+            "hovednavn": "SORØ VAND A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "34045664",
+            "offentliggoerelseTidsstempel": "2023-05-30T12:01:42.607Z",
+            "offentliggoerelseTidsstempelFormateret": "30.05.2023",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2022 - 31.12.2022",
+            "regnskabsperiodeFra": "01.01.2022",
+            "regnskabsperiodeTil": "31.12.2022",
+            "sagsnummer": "X23-EF-01-QH",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2022",
+        "regnskabsperiodeTil": "31.12.2022"
+      },
+      {
+        "periodeFormateret": "01.01.2021 - 31.12.2021",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "33053770",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": "Per Rosenberg Andersen",
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "amNsb3VkczovLzAzL2ExLzg2Lzc1LzdmL2IwN2QtNDQ4OC05ZTc5LWE4ZTYzOWE5YjVkNg",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              },
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzkwL2NiL2E3LzlkLzcyNGEtNDY1ZC04YmE4LWY4MmY5MzY2YWM4OA",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              }
+            ],
+            "godkendelsesdato": "23.05.2022",
+            "hovednavn": "SORØ VAND A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "32352391",
+            "offentliggoerelseTidsstempel": "2022-05-24T11:11:01.115Z",
+            "offentliggoerelseTidsstempelFormateret": "24.05.2022",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2021 - 31.12.2021",
+            "regnskabsperiodeFra": "01.01.2021",
+            "regnskabsperiodeTil": "31.12.2021",
+            "sagsnummer": "X22-CR-80-RV",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2021",
+        "regnskabsperiodeTil": "31.12.2021"
+      },
+      {
+        "periodeFormateret": "01.01.2020 - 31.12.2020",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "33053770",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": "Per Rosenberg Andersen",
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "amNsb3VkczovLzAzL2NhLzk1LzkzL2FhLzk0MzQtNGZlMS05YWJkLTk2MjZjOTFhM2M2Yw",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              },
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzc5L2M1LzhkLzE1LzdhMDUtNGUxZi05NTBlLTNlOTQ2MTU3MmVmNw",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "20.05.2021",
+            "hovednavn": "SORØ VAND A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "30609355",
+            "offentliggoerelseTidsstempel": "2021-05-26T14:17:23.202Z",
+            "offentliggoerelseTidsstempelFormateret": "26.05.2021",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2020 - 31.12.2020",
+            "regnskabsperiodeFra": "01.01.2020",
+            "regnskabsperiodeTil": "31.12.2020",
+            "sagsnummer": "X21-BY-82-NL",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2020",
+        "regnskabsperiodeTil": "31.12.2020"
+      },
+      {
+        "periodeFormateret": "01.01.2019 - 31.12.2019",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "33053770",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "amNsb3VkczovLzAzL2EyLzkxLzYyLzVmLzg1YzctNGM4YS05ZGIxLTEyMDYzMWY1OWQ3Yw",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              },
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzMzL2Q0L2VhL2YwL2VjMjAtNDZmYi1iY2I0LTBjNWY5MDA3Y2Y3MQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SORØ VAND A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "29225189",
+            "offentliggoerelseTidsstempel": "2020-08-18T14:51:02.387Z",
+            "offentliggoerelseTidsstempelFormateret": "18.08.2020",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2019 - 31.12.2019",
+            "regnskabsperiodeFra": "01.01.2019",
+            "regnskabsperiodeTil": "31.12.2019",
+            "sagsnummer": "X20-DG-70-NY",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2019",
+        "regnskabsperiodeTil": "31.12.2019"
+      },
+      {
+        "periodeFormateret": "01.01.2018 - 31.12.2018",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "33053770",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzL2Q1L2ZiL2Y2LzZiLzlmNDQtNDIzOS05YzI4LTczNGVlYTFjMzk0Zg",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              },
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzL2ZlLzY1Lzc4L2M2L2Q3ZTktNDAyZC1iYWJmLTNhOTM0YWI0MWUxZA",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SORØ VAND A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "27273348",
+            "offentliggoerelseTidsstempel": "2019-05-28T19:33:37.970Z",
+            "offentliggoerelseTidsstempelFormateret": "28.05.2019",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2018 - 31.12.2018",
+            "regnskabsperiodeFra": "01.01.2018",
+            "regnskabsperiodeTil": "31.12.2018",
+            "sagsnummer": "X19-BH-92-VB",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2018",
+        "regnskabsperiodeTil": "31.12.2018"
+      },
+      {
+        "periodeFormateret": "01.01.2017 - 31.12.2017",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "33053770",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzL2E4L2Y3L2IwLzU5LzBkNzItNDc0Yi04Y2VjLTBiYjE2NzY3YmU1ZQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              },
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzL2Y4L2YwL2YzLzY5LzVlNTItNGRhMS04NTUzLTJiOGM5NGZlMTZkZQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SORØ VAND A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "25430090",
+            "offentliggoerelseTidsstempel": "2018-05-08T13:13:35.701Z",
+            "offentliggoerelseTidsstempelFormateret": "08.05.2018",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2017 - 31.12.2017",
+            "regnskabsperiodeFra": "01.01.2017",
+            "regnskabsperiodeTil": "31.12.2017",
+            "sagsnummer": "X18-AK-94-NR",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2017",
+        "regnskabsperiodeTil": "31.12.2017"
+      },
+      {
+        "periodeFormateret": "01.01.2016 - 31.12.2016",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "33053770",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzLzQ4L2QwL2VkLzA3L2IxMmQtNDVmZS1iYmRjLTdmNzU5MGQ4Y2E5Zg",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              },
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzLzYzL2E1L2EzL2JmLzgwM2MtNGJjMS1hNGVkLWEzZTU5YzQ4YmFkMA",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SORØ VAND A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "23984886",
+            "offentliggoerelseTidsstempel": "2017-05-30T09:54:52.355Z",
+            "offentliggoerelseTidsstempelFormateret": "30.05.2017",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2016 - 31.12.2016",
+            "regnskabsperiodeFra": "01.01.2016",
+            "regnskabsperiodeTil": "31.12.2016",
+            "sagsnummer": "X17-AK-47-EW",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2016",
+        "regnskabsperiodeTil": "31.12.2016"
+      },
+      {
+        "periodeFormateret": "01.01.2015 - 31.12.2015",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "33053770",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzLzE3LzU0Lzg2LzU1L2M1NTctNDY4MC05MzEzLWE4YTJmMzNjMzk1NQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              },
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzL2ZkL2MzLzRkLzg0L2M3MWYtNDNkOC1hZGE4LWM3NGVkNTk0YmNjZQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SORØ VAND A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "22514410",
+            "offentliggoerelseTidsstempel": "2016-05-31T12:34:44.939Z",
+            "offentliggoerelseTidsstempelFormateret": "31.05.2016",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2015 - 31.12.2015",
+            "regnskabsperiodeFra": "01.01.2015",
+            "regnskabsperiodeTil": "31.12.2015",
+            "sagsnummer": "X16-AX-36-FR",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2015",
+        "regnskabsperiodeTil": "31.12.2015"
+      },
+      {
+        "periodeFormateret": "01.01.2014 - 31.12.2014",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "33053770",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzL2M5LzYxL2FmLzdiLzA0NDctNGU4YS1iZTQxLTcyNDEzNjI1YTgyYQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              },
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzLzBhLzJkL2NiLzc4LzU4OWQtNDFlMi04MmNkLWQ4MGY0NmQ5MTMyOA",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SORØ VAND A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "5308679",
+            "offentliggoerelseTidsstempel": "2015-05-27T06:14:00.248Z",
+            "offentliggoerelseTidsstempelFormateret": "27.05.2015",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2014 - 31.12.2014",
+            "regnskabsperiodeFra": "01.01.2014",
+            "regnskabsperiodeTil": "31.12.2014",
+            "sagsnummer": "X15-AC-25-VH",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2014",
+        "regnskabsperiodeTil": "31.12.2014"
+      },
+      {
+        "periodeFormateret": "01.01.2013 - 31.12.2013",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "33053770",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8zMzA1Mzc3MDtBL1M0NzgwNjM7MjAxMzAxMDE7MjAxMzEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              },
+              {
+                "dokumentId": "Y3ZyLmRrOi8veGJybHMvWC0xN0MwMEMyNi0yMDE0MDUyMV8xNjEyNDVfODAy",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SORØ VAND A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "18278817",
+            "offentliggoerelseTidsstempel": "2014-05-21T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "22.05.2014",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2013 - 31.12.2013",
+            "regnskabsperiodeFra": "01.01.2013",
+            "regnskabsperiodeTil": "31.12.2013",
+            "sagsnummer": "14-145.045",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2013",
+        "regnskabsperiodeTil": "31.12.2013"
+      },
+      {
+        "periodeFormateret": "01.01.2012 - 31.12.2012",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "33053770",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8veGJybHMvWC05QUM0NDAyQy0yMDEzMDUzMV8xMjU4MjdfMDk5",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              },
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8zMzA1Mzc3MDtBL1M0NzgwNjM7MjAxMjAxMDE7MjAxMjEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SORØ VAND A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "18278812",
+            "offentliggoerelseTidsstempel": "2013-06-03T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "04.06.2013",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2012 - 31.12.2012",
+            "regnskabsperiodeFra": "01.01.2012",
+            "regnskabsperiodeTil": "31.12.2012",
+            "sagsnummer": "13-146.180",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2012",
+        "regnskabsperiodeTil": "31.12.2012"
+      },
+      {
+        "periodeFormateret": "01.01.2011 - 31.12.2011",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "33053770",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8zMzA1Mzc3MDtBL1M0NzgwNjM7MjAxMTAxMDE7MjAxMTEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SORØ VAND A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "18278808",
+            "offentliggoerelseTidsstempel": "2012-05-29T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "30.05.2012",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2011 - 31.12.2011",
+            "regnskabsperiodeFra": "01.01.2011",
+            "regnskabsperiodeTil": "31.12.2011",
+            "sagsnummer": "12-149.677",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2011",
+        "regnskabsperiodeTil": "31.12.2011"
+      },
+      {
+        "periodeFormateret": "01.01.2010 - 31.12.2010",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "33053770",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8zMzA1Mzc3MDtBL1M0NzgwNjM7MjAxMDAxMDE7MjAxMDEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SORØ VAND A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "18278804",
+            "offentliggoerelseTidsstempel": "2011-05-18T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "19.05.2011",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2010 - 31.12.2010",
+            "regnskabsperiodeFra": "01.01.2010",
+            "regnskabsperiodeTil": "31.12.2010",
+            "sagsnummer": "11-162.277",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2010",
+        "regnskabsperiodeTil": "31.12.2010"
+      }
+    ],
+    "skjulEjerforhold": false,
+    "skjulOevrigeDokumenter": false,
+    "stamdata": {
+      "adresse": "Nordvej 6",
+      "aktiviteterOmfattetAfHvidvaskloven": [],
+      "bygningsnummer": null,
+      "cvrnummer": "33053770",
+      "enhedsnummer": "4001820330",
+      "harPseudoCvr": false,
+      "kreditoplysningskode": null,
+      "modervirksomhederVedFranchise": [],
+      "navn": "SORØ VAND A/S",
+      "omfattetAfHvidvaskloven": false,
+      "ophoersdato": null,
+      "postnummerOgBy": "4200 Slagelse",
+      "regnummer": null,
+      "reklamebeskyttet": false,
+      "socialoekonomiskVirksomhed": false,
+      "startdato": "2010-06-23",
+      "statsligVirksomhed": false,
+      "status": "NORMAL",
+      "stiftetFor1900Tekstnogle": null,
+      "udenlandskAdresse": null,
+      "udenlandskAdresseLand": "Danmark",
+      "udenlandskAdresseLandekode": "DK",
+      "virkningsdato": "",
+      "virksomhedsform": "Aktieselskab",
+      "virksomhedsformKode": "60",
+      "visNavnPostfix": false
+    },
+    "udvidedeOplysninger": {
+      "bibrancher": [],
+      "binavne": [],
+      "boersnoteret": null,
+      "delvistIndbetaltKapital": false,
+      "email": "kontakt@envafors.dk",
+      "fax": null,
+      "foersteRegnskabsperiodeSlut": "2010-12-31",
+      "foersteRegnskabsperiodeStart": "2010-01-01",
+      "formaal": "Selskabets formål er at drive vandforsyningsaktivitet i henhold til lovgivningen herom, herunder vandforsyningsaktivitet i Sorø Kommune. Selskabet skal sikre en vandforsyning af høj sundheds- og miljømæssig kvalitet, som tager hensyn til forsyningssikkerhed og naturen og drives på en effektiv måde, der er gennemsigtig for forbrugerne. Selskabets formål er endvidere at udøve tilknytte aktivitet i henhold til vandsektorlovens § 18",
+      "hovedbranche": {
+        "branchekode": "360000",
+        "titel": "Vandforsyning"
+      },
+      "kapitalklasser": null,
+      "kommune": "Slagelse",
+      "kommunekode": "330",
+      "koncessionsdato": null,
+      "omlaegningsperiodeSlut": null,
+      "omlaegningsperiodeStart": null,
+      "postadresse": null,
+      "registreretKapital": "5.000.000,00 DKK",
+      "regnskabsaarSlut": "31.12",
+      "regnskabsaarStart": "01.01",
+      "senesteVedtaegtsdato": "2026-06-04",
+      "senesteVedtaegtsdatoFoer1900": false,
+      "stadfaestelsesdato": null,
+      "stadfaestetAf": null,
+      "telefon": "58362500",
+      "telefonSekundaert": null,
+      "udenlandskPostadresse": null,
+      "udenlandskPostadresseLand": null,
+      "udenlandskPostadresseLandekode": null
+    },
+    "virksomhedRegistreringer": [
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "33053770",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SORØ VAND A/S",
+        "offentliggoerelseId": "39498851",
+        "offentliggoerelseTidsstempel": "18.06.2026",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003EVedtægter ændret: 04.06.2026\n\u003Cbr /\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EPer Rosenberg Andersen, den 04.06.2026, Niels-Christian Breyen Hilker, den 04.06.2026, Flemming Jensen, den 04.06.2026, Kasper Emde Nygaard, den 04.06.2026, Mogens Ferløv Schwensen, (formand), den 04.06.2026.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000149889/deltager\" target=\"_blank\"\u003EPeter Heesch\u003C/a\u003E, den 04.06.2026, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000145213/deltager\" target=\"_blank\"\u003ESusan Hørlyck Münster\u003C/a\u003E, (næstformand), den 04.06.2026, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000712196/deltager\" target=\"_blank\"\u003EKåre Hyttel Spliid\u003C/a\u003E, den 04.06.2026, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000112377/deltager\" target=\"_blank\"\u003EJacob Christian Tetzlaff\u003C/a\u003E, den 04.06.2026, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4003888200/deltager\" target=\"_blank\"\u003ELars Therkildsen\u003C/a\u003E, (formand), den 04.06.2026.\u003C/p\u003E\n\u003Ch1\u003EValgt af medarbejderne i koncernen:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000317025/deltager\" target=\"_blank\"\u003EThomas Skovgaard Wraa Frosch\u003C/a\u003E, den 04.06.2026, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000611949/deltager\" target=\"_blank\"\u003ENiels Christian Vedel Müller\u003C/a\u003E, den 04.06.2026.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003EVedtægter ændret: 04.06.2026\n\u003Cbr /\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EPer Rosenberg Andersen, den 04.06.2026, Niels-Christian Breyen Hilker, den 04.06.2026, Flemming Jensen, den 04.06.2026, Kasper Emde Nygaard, den 04.06.2026, Mogens Ferløv Schwensen, (formand), den 04.06.2026.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EPeter Heesch, den 04.06.2026, Susan Hørlyck Münster, (næstformand), den 04.06.2026, Kåre Hyttel Spliid, den 04.06.2026, Jacob Christian Tetzlaff, den 04.06.2026, Lars Therkildsen, (formand), den 04.06.2026.\u003C/p\u003E\n\u003Ch1\u003EValgt af medarbejderne i koncernen:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EThomas Skovgaard Wraa Frosch, den 04.06.2026, Niels Christian Vedel Müller, den 04.06.2026.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Hovedgaden 60, 4295 Stenlille",
+        "cvrNummer": "33053770",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SORØ VAND A/S",
+        "offentliggoerelseId": "38618443",
+        "offentliggoerelseTidsstempel": "05.01.2026",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003ENy adresse: Nordvej 6, 4200 Slagelse\n\u003Cbr /\u003ENy kommune: Slagelse\n\u003Cbr /\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003ENy adresse: Nordvej 6, 4200 Slagelse\u003Cbr/\u003E\u003Cbr /\u003ENy kommune: Slagelse\u003Cbr/\u003E\u003Cbr /\u003E\u003Cbr/\u003E\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_adresse"
+        ]
+      },
+      {
+        "adresse": "Hovedgaden 60, 4295 Stenlille",
+        "cvrNummer": "33053770",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SORØ VAND A/S",
+        "offentliggoerelseId": "38400216",
+        "offentliggoerelseTidsstempel": "11.11.2025",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003EVedtægter ændret: 22.05.2025\n\u003Cbr /\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003EVedtægter ændret: 22.05.2025\u003Cbr/\u003E\u003Cbr /\u003E\u003Cbr/\u003E\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Hovedgaden 60, 4295 Stenlille",
+        "cvrNummer": "33053770",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SORØ VAND A/S",
+        "offentliggoerelseId": "38395968",
+        "offentliggoerelseTidsstempel": "10.11.2025",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003ERevision:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EEY Godkendt Revisionspartnerselskab, den 22.05.2025.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003ECVR-NR. 33771231 PRICEWATERHOUSECOOPERS STATSAUTORISERET REVISIONSPARTNERSELSKAB, Jens Chr. Skous Vej 1, 8000 Aarhus C, den 22.05.2025.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003ERevision:\u003Cbr/\u003E\u003Cbr /\u003E\u003C/h1\u003E\u003Cbr/\u003E\u003Ch2\u003EFratrådte:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003EEY Godkendt Revisionspartnerselskab, den 22.05.2025.\u003C/p\u003E\u003Cbr/\u003E\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003ECVR-NR. 33771231 PRICEWATERHOUSECOOPERS STATSAUTORISERET REVISIONSPARTNERSELSKAB, Jens Chr. Skous Vej 1, 8000 Aarhus C, den 22.05.2025.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_revision"
+        ]
+      },
+      {
+        "adresse": "Hovedgaden 60, 4295 Stenlille",
+        "cvrNummer": "33053770",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SORØ VAND A/S",
+        "offentliggoerelseId": "38037389",
+        "offentliggoerelseTidsstempel": "15.07.2025",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EDirektion:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EJan Michael Jørgensen, den 26.06.2025.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004114897/deltager\" target=\"_blank\"\u003EHenrik Rosendal Birch\u003C/a\u003E, den 26.06.2025.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EDirektion:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EJan Michael Jørgensen, den 26.06.2025.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EHenrik Rosendal Birch, den 26.06.2025.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Hovedgaden 60, 4295 Stenlille",
+        "cvrNummer": "33053770",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SORØ VAND A/S",
+        "offentliggoerelseId": "35551589",
+        "offentliggoerelseTidsstempel": "18.04.2024",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EDirektion:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003ENiels Christian Vedel Müller, den 01.04.2024.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004018658/deltager\" target=\"_blank\"\u003EJan Michael Jørgensen\u003C/a\u003E, den 01.04.2024.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EDirektion:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003ENiels Christian Vedel Müller, den 01.04.2024.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EJan Michael Jørgensen, den 01.04.2024.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Hovedgaden 60, 4295 Stenlille",
+        "cvrNummer": "33053770",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SORØ VAND A/S",
+        "offentliggoerelseId": "35375924",
+        "offentliggoerelseTidsstempel": "13.03.2024",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003ECand. Agro Susanne Charlotte Borggaard, (formand), den 06.02.2024, Mogens Ferløv Schwensen, (næstformand), den 06.02.2024.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000525779/deltager\" target=\"_blank\"\u003EKasper Emde Nygaard\u003C/a\u003E, den 06.02.2024, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000020325/deltager\" target=\"_blank\"\u003EMogens Ferløv Schwensen\u003C/a\u003E, (formand), den 06.02.2024.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003ECand. Agro Susanne Charlotte Borggaard, (formand), den 06.02.2024, Mogens Ferløv Schwensen, (næstformand), den 06.02.2024.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EKasper Emde Nygaard, den 06.02.2024, Mogens Ferløv Schwensen, (formand), den 06.02.2024.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Hovedgaden 60, 4295 Stenlille",
+        "cvrNummer": "33053770",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SORØ VAND A/S",
+        "offentliggoerelseId": "35211823",
+        "offentliggoerelseTidsstempel": "31.01.2024",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EDirektion:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000611949/deltager\" target=\"_blank\"\u003ENiels Christian Vedel Müller\u003C/a\u003E, den 26.01.2024.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EDirektion:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003ENiels Christian Vedel Müller, den 26.01.2024.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Hovedgaden 60, 4295 Stenlille",
+        "cvrNummer": "33053770",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SORØ VAND A/S",
+        "offentliggoerelseId": "35139370",
+        "offentliggoerelseTidsstempel": "11.01.2024",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EDirektion:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EAnders Werner Johansen, den 08.01.2024.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003EDirektion:\u003Cbr/\u003E\u003Cbr /\u003E\u003C/h1\u003E\u003Cbr/\u003E\u003Ch2\u003EFratrådte:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003EAnders Werner Johansen, den 08.01.2024.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Hovedgaden 60, 4295 Stenlille",
+        "cvrNummer": "33053770",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SORØ VAND A/S",
+        "offentliggoerelseId": "31996991",
+        "offentliggoerelseTidsstempel": "14.03.2022",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EIvan Hansen, (næstformand), den 01.01.2022, Mogens Ferløv Schwensen, den 24.02.2022.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004065434/deltager\" target=\"_blank\"\u003EIvan Hansen\u003C/a\u003E, den 01.01.2022, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4009204032/deltager\" target=\"_blank\"\u003ENiels-Christian Breyen Hilker\u003C/a\u003E, den 24.02.2022, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000159689/deltager\" target=\"_blank\"\u003EGregers Kofoed-Hansen\u003C/a\u003E, den 24.02.2022, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000020325/deltager\" target=\"_blank\"\u003EMogens Ferløv Schwensen\u003C/a\u003E, (næstformand), den 24.02.2022.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EIvan Hansen, (næstformand), den 01.01.2022, Mogens Ferløv Schwensen, den 24.02.2022.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EIvan Hansen, den 01.01.2022, Niels-Christian Breyen Hilker, den 24.02.2022, Gregers Kofoed-Hansen, den 24.02.2022, Mogens Ferløv Schwensen, (næstformand), den 24.02.2022.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Hovedgaden 60, 4295 Stenlille",
+        "cvrNummer": "33053770",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SORØ VAND A/S",
+        "offentliggoerelseId": "31721339",
+        "offentliggoerelseTidsstempel": "05.01.2022",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003ERolf Mosegaard Laufer Clausen, (formand), den 31.12.2021, Arne Juel Jensen, den 31.12.2021, Irene Juul Vissing, den 31.12.2021.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003ECand. Agro \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000051683/deltager\" target=\"_blank\"\u003ESusanne Charlotte Borggaard\u003C/a\u003E, (formand), den 01.01.2022.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003ERolf Mosegaard Laufer Clausen, (formand), den 31.12.2021, Arne Juel Jensen, den 31.12.2021, Irene Juul Vissing, den 31.12.2021.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003ECand. Agro Susanne Charlotte Borggaard, (formand), den 01.01.2022.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Hovedgaden 60, 4295 Stenlille",
+        "cvrNummer": "33053770",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SORØ VAND A/S",
+        "offentliggoerelseId": "27760898",
+        "offentliggoerelseTidsstempel": "23.08.2019",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003EVedtægter ændret: 22.08.2019\n\u003Cbr /\u003E\n\u003Cp\u003ESelskabet tegnes af et bestyrelsesmedlem i forening med bestyrelsesformanden eller af bestyrelsesformanden i forening med en direktør.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003EVedtægter ændret: 22.08.2019\u003Cbr/\u003E\u003Cbr /\u003E\u003Cbr/\u003E\u003Cp\u003ESelskabet tegnes af et bestyrelsesmedlem i forening med bestyrelsesformanden eller af bestyrelsesformanden i forening med en direktør.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Hovedgaden 60, 4295 Stenlille",
+        "cvrNummer": "33053770",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SORØ VAND A/S",
+        "offentliggoerelseId": "24974070",
+        "offentliggoerelseTidsstempel": "23.01.2018",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000270806/deltager\" target=\"_blank\"\u003EArne Juel Jensen\u003C/a\u003E, den 01.01.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4007486996/deltager\" target=\"_blank\"\u003EIrene Juul Vissing\u003C/a\u003E, den 01.01.2018.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EArne Juel Jensen, den 01.01.2018, Irene Juul Vissing, den 01.01.2018.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Hovedgaden 60, 4295 Stenlille",
+        "cvrNummer": "33053770",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SORØ VAND A/S",
+        "offentliggoerelseId": "24905350",
+        "offentliggoerelseTidsstempel": "02.01.2018",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EDirektør \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000204487/deltager\" target=\"_blank\"\u003ETorben Verner Andersen\u003C/a\u003E, den 31.12.2017, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000488990/deltager\" target=\"_blank\"\u003EGert Kuhn Iversen\u003C/a\u003E, den 31.12.2017, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000279018/deltager\" target=\"_blank\"\u003ETommy Borlund Olsen\u003C/a\u003E (formand), den 31.12.2017.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000118769/deltager\" target=\"_blank\"\u003ERolf Mosegaard Laufer Clausen\u003C/a\u003E (formand), den 01.01.2018.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EDirektør Torben Verner Andersen, den 31.12.2017, Gert Kuhn Iversen, den 31.12.2017, Tommy Borlund Olsen (formand), den 31.12.2017.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003ERolf Mosegaard Laufer Clausen (formand), den 01.01.2018.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Hovedgaden 60, 4295 Stenlille",
+        "cvrNummer": "33053770",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SORØ VAND A/S",
+        "offentliggoerelseId": "22783394",
+        "offentliggoerelseTidsstempel": "28.06.2016",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003ERevision:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003Enull, den 24.05.2016.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003ECVR-NR. 30700228 ERNST &amp; YOUNG Godkendt Revisionspartnerselskab, Værkmestergade 25, 8000 Aarhus C, den 24.05.2016.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003ERevision:\u003Cbr/\u003E\u003Cbr /\u003E\u003C/h1\u003E\u003Cbr/\u003E\u003Ch2\u003EFratrådte:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003Enull, den 24.05.2016.\u003C/p\u003E\u003Cbr/\u003E\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003ECVR-NR. 30700228 ERNST &amp; YOUNG Godkendt Revisionspartnerselskab, Værkmestergade 25, 8000 Aarhus C, den 24.05.2016.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_revision"
+        ]
+      },
+      {
+        "adresse": "Hovedgaden 60, 4295 Stenlille",
+        "cvrNummer": "33053770",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SORØ VAND A/S",
+        "offentliggoerelseId": "22781756",
+        "offentliggoerelseTidsstempel": "28.06.2016",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000241886/deltager\" target=\"_blank\"\u003ESøren Gotfredsen\u003C/a\u003E (formand), den 27.06.2016, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000279018/deltager\" target=\"_blank\"\u003ETommy Borlund Olsen\u003C/a\u003E, den 27.06.2016.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000488990/deltager\" target=\"_blank\"\u003EGert Kuhn Iversen\u003C/a\u003E, den 27.06.2016, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000279018/deltager\" target=\"_blank\"\u003ETommy Borlund Olsen\u003C/a\u003E (formand), den 27.06.2016.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003ESøren Gotfredsen (formand), den 27.06.2016, Tommy Borlund Olsen, den 27.06.2016.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EGert Kuhn Iversen, den 27.06.2016, Tommy Borlund Olsen (formand), den 27.06.2016.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Hovedgaden 60, 4295 Stenlille",
+        "cvrNummer": "33053770",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SORØ VAND A/S",
+        "offentliggoerelseId": "21614636",
+        "offentliggoerelseTidsstempel": "12.11.2015",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003EVedtægter ændret: 28.05.2012\n\u003Cbr /\u003E\n\u003Cp\u003ESelskabet tegnes af to bestyrelsesmedlemmer i forening, hvoraf én skal være fungerende bestyrelsesformand, eller af fungerende bestyrelsesformand og en direktør i forening.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003EVedtægter ændret: 28.05.2012\u003Cbr/\u003E\u003Cbr /\u003E\u003Cbr/\u003E\u003Cp\u003ESelskabet tegnes af to bestyrelsesmedlemmer i forening, hvoraf én skal være fungerende bestyrelsesformand, eller af fungerende bestyrelsesformand og en direktør i forening.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Hovedgaden 60, 4295 Stenlille",
+        "cvrNummer": "33053770",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SORØ VAND A/S",
+        "offentliggoerelseId": "14329906",
+        "offentliggoerelseTidsstempel": "19.02.2014",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003ETiltrådt som næstformand:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004065434/deltager\" target=\"_blank\"\u003EIvan Hansen\u003C/a\u003E.\u003C/p\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4003982842/deltager\" target=\"_blank\"\u003EClaus Nordvang   Kristiansen\u003C/a\u003E, den 31.12.2013.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EAdvokat \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000517841/deltager\" target=\"_blank\"\u003EPer Rosenberg   Andersen\u003C/a\u003E, den   01.01.2014.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003ETiltrådt som næstformand:\u003C/h2\u003E\n\u003Cp\u003EIvan Hansen.\u003C/p\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EClaus Nordvang   Kristiansen, den 31.12.2013.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EAdvokat Per Rosenberg   Andersen, den   01.01.2014.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet",
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Hovedgaden 60, 4295 Stenlille",
+        "cvrNummer": "33053770",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SORØ VAND A/S",
+        "offentliggoerelseId": "14329897",
+        "offentliggoerelseTidsstempel": "03.01.2014",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000742080/deltager\" target=\"_blank\"\u003ECarl Andreas   Andersen\u003C/a\u003E, den 31.12.2013, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004054931/deltager\" target=\"_blank\"\u003EMichael Jensen\u003C/a\u003E,   den 31.12.2013.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EPolitibetj \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000241886/deltager\" target=\"_blank\"\u003ESøren   Gotfredsen\u003C/a\u003E (formand), den 01.01.2014, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000204487/deltager\" target=\"_blank\"\u003ETorben Verner   Andersen\u003C/a\u003E, den   01.01.2014, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004065434/deltager\" target=\"_blank\"\u003EIvan Hansen\u003C/a\u003E, den 01.01.2014, Entreprenør   \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000279018/deltager\" target=\"_blank\"\u003ETommy Borlund Olsen\u003C/a\u003E, den 01.01.2014.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003ECarl Andreas   Andersen, den 31.12.2013, Michael Jensen,   den 31.12.2013.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EPolitibetj Søren   Gotfredsen (formand), den 01.01.2014, Torben Verner   Andersen, den   01.01.2014, Ivan Hansen, den 01.01.2014, Entreprenør   Tommy Borlund Olsen, den 01.01.2014.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds",
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Hovedgaden 60, 4295 Stenlille",
+        "cvrNummer": "33053770",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SORØ VAND A/S",
+        "offentliggoerelseId": "14329891",
+        "offentliggoerelseTidsstempel": "27.09.2013",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003ETiltrådt som næstformand:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4003982842/deltager\" target=\"_blank\"\u003EClaus Nordvang   Kristiansen\u003C/a\u003E, den 28.05.2013.\u003C/p\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000494072/deltager\" target=\"_blank\"\u003EPer Hovmand\u003C/a\u003E, den   28.05.2013.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003ELærer \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000020325/deltager\" target=\"_blank\"\u003EMogens Ferløv   Schwensen\u003C/a\u003E, den   28.05.2013.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003ETiltrådt som næstformand:\u003C/h2\u003E\n\u003Cp\u003EClaus Nordvang   Kristiansen, den 28.05.2013.\u003C/p\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EPer Hovmand, den   28.05.2013.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003ELærer Mogens Ferløv   Schwensen, den   28.05.2013.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet",
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Hovedgaden 60, 4295 Stenlille",
+        "cvrNummer": "33053770",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SORØ VAND A/S",
+        "offentliggoerelseId": "14329873",
+        "offentliggoerelseTidsstempel": "06.09.2010",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003ETiltrådt som næstformand:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000494072/deltager\" target=\"_blank\"\u003EPer Hovmand\u003C/a\u003E.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003ETiltrådt som næstformand:\u003C/h2\u003E\n\u003Cp\u003EPer Hovmand.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds",
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Hovedgaden 60, 4295 Stenlille",
+        "cvrNummer": "33053770",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SORØ VAND A/S",
+        "offentliggoerelseId": "14329861",
+        "offentliggoerelseTidsstempel": "26.07.2010",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EStiftelsesdato:\u003C/h1\u003E\n\u003Cp\u003E23.06.2010.\u003C/p\u003E\n\u003Ch1\u003ESeneste vedtægtsdato:\u003C/h1\u003E\n\u003Cp\u003E23.06.2010.\u003C/p\u003E\n\u003Ch1\u003EKapital:\u003C/h1\u003E\n\u003Cp\u003Ekr. 5.000.000,00.\u003C/p\u003E\n\u003Ch2\u003EIndbetalingsmåde:\u003C/h2\u003E\n\u003Cp\u003Ei værdier kr. 5.000.000,00   til kurs 1.049,68.\u003C/p\u003E\n\u003Ch1\u003EStifter:\u003C/h1\u003E\n\u003Cp\u003ESorø Kommune, Rådhusvej 8, 4180   Sorø, den 23.06.2010.\u003C/p\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000742080/deltager\" target=\"_blank\"\u003ECarl Andreas Andersen\u003C/a\u003E (formand), den 23.06.2010,   Borgmester \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000494072/deltager\" target=\"_blank\"\u003EPer Hovmand\u003C/a\u003E, den 23.06.2010, Funktionschef   \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4003966436/deltager\" target=\"_blank\"\u003EFlemming Jensen\u003C/a\u003E,   den 23.06.2010, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004054931/deltager\" target=\"_blank\"\u003EMichael Jensen\u003C/a\u003E, den 23.06.2010,   Advokat \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4003982842/deltager\" target=\"_blank\"\u003EClaus Nordvang Kristiansen\u003C/a\u003E, den 23.06.2010.\u003C/p\u003E\n\u003Ch1\u003EDirektion:\u003C/h1\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004066356/deltager\" target=\"_blank\"\u003EAnders Werner Johansen\u003C/a\u003E, den 23.06.2010.\u003C/p\u003E\n\u003Cp\u003ESelskabet tegnes af to bestyrelsesmedlemmer i   forening eller af bestyrelsesformanden og   en direktør i forening.\n\u003C/p\u003E\n\u003Ch1\u003ERevision:\u003C/h1\u003E\n\u003Cp\u003EKPMG STATSAUTORISERET   REVISIONSPARTNERSELSKAB, Værkmestergade 25,   postboks 330, 8100 Århus C, den 23.06.2010.\u003C/p\u003E\n\u003Ch1\u003EFørste regnskabsår:\u003C/h1\u003E\n\u003Cp\u003E01.01.2010 - 31.12.2010.\u003C/p\u003E\n\u003Ch1\u003ERegnskabsår:\u003C/h1\u003E\n\u003Cp\u003E01.01 - 31.12.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EStiftelsesdato:\u003C/h1\u003E\n\u003Cp\u003E23.06.2010.\u003C/p\u003E\n\u003Ch1\u003ESeneste vedtægtsdato:\u003C/h1\u003E\n\u003Cp\u003E23.06.2010.\u003C/p\u003E\n\u003Ch1\u003EKapital:\u003C/h1\u003E\n\u003Cp\u003Ekr. 5.000.000,00.\u003C/p\u003E\n\u003Ch2\u003EIndbetalingsmåde:\u003C/h2\u003E\n\u003Cp\u003Ei værdier kr. 5.000.000,00   til kurs 1.049,68.\u003C/p\u003E\n\u003Ch1\u003EStifter:\u003C/h1\u003E\n\u003Cp\u003ESorø Kommune, Rådhusvej 8, 4180   Sorø, den 23.06.2010.\u003C/p\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Cp\u003ECarl Andreas Andersen (formand), den 23.06.2010,   Borgmester Per Hovmand, den 23.06.2010, Funktionschef   Flemming Jensen,   den 23.06.2010, Michael Jensen, den 23.06.2010,   Advokat Claus Nordvang Kristiansen, den 23.06.2010.\u003C/p\u003E\n\u003Ch1\u003EDirektion:\u003C/h1\u003E\n\u003Cp\u003EAnders Werner Johansen, den 23.06.2010.\u003C/p\u003E\n\u003Cp\u003ESelskabet tegnes af to bestyrelsesmedlemmer i   forening eller af bestyrelsesformanden og   en direktør i forening.\n\u003C/p\u003E\n\u003Ch1\u003ERevision:\u003C/h1\u003E\n\u003Cp\u003EKPMG STATSAUTORISERET   REVISIONSPARTNERSELSKAB, Værkmestergade 25,   postboks 330, 8100 Århus C, den 23.06.2010.\u003C/p\u003E\n\u003Ch1\u003EFørste regnskabsår:\u003C/h1\u003E\n\u003Cp\u003E01.01.2010 - 31.12.2010.\u003C/p\u003E\n\u003Ch1\u003ERegnskabsår:\u003C/h1\u003E\n\u003Cp\u003E01.01 - 31.12.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-nyt_selskab"
+        ]
+      }
+    ],
+    "virksomhedsMeddelelser": []
+  }

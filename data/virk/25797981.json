@@ -1,0 +1,2627 @@
+{
+    "aktiveEjerforholdDto": null,
+    "antalAnsatte": {
+      "kvartalsbeskaeftigelse": [
+        {
+          "aar": "2008",
+          "antalAarsvaerk": "1 årsværk",
+          "antalAnsatte": "",
+          "intervalKodeAntalAarsvaerk": "ANTAL_1_1",
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": "1",
+          "maaned": null,
+          "periode": "1. kvt 2008"
+        },
+        {
+          "aar": "2007",
+          "antalAarsvaerk": "1 årsværk",
+          "antalAnsatte": "",
+          "intervalKodeAntalAarsvaerk": "ANTAL_1_1",
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": "4",
+          "maaned": null,
+          "periode": "4. kvt 2007"
+        },
+        {
+          "aar": "2007",
+          "antalAarsvaerk": "1 årsværk",
+          "antalAnsatte": "",
+          "intervalKodeAntalAarsvaerk": "ANTAL_1_1",
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": "3",
+          "maaned": null,
+          "periode": "3. kvt 2007"
+        },
+        {
+          "aar": "2007",
+          "antalAarsvaerk": "1 årsværk",
+          "antalAnsatte": "",
+          "intervalKodeAntalAarsvaerk": "ANTAL_1_1",
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": "2",
+          "maaned": null,
+          "periode": "2. kvt 2007"
+        },
+        {
+          "aar": "2007",
+          "antalAarsvaerk": "1 årsværk",
+          "antalAnsatte": "",
+          "intervalKodeAntalAarsvaerk": "ANTAL_1_1",
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": "1",
+          "maaned": null,
+          "periode": "1. kvt 2007"
+        },
+        {
+          "aar": "2006",
+          "antalAarsvaerk": "1 årsværk",
+          "antalAnsatte": "",
+          "intervalKodeAntalAarsvaerk": "ANTAL_1_1",
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": "4",
+          "maaned": null,
+          "periode": "4. kvt 2006"
+        },
+        {
+          "aar": "2006",
+          "antalAarsvaerk": "1 årsværk",
+          "antalAnsatte": "",
+          "intervalKodeAntalAarsvaerk": "ANTAL_1_1",
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": "3",
+          "maaned": null,
+          "periode": "3. kvt 2006"
+        },
+        {
+          "aar": "2006",
+          "antalAarsvaerk": "1 årsværk",
+          "antalAnsatte": "",
+          "intervalKodeAntalAarsvaerk": "ANTAL_1_1",
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": "2",
+          "maaned": null,
+          "periode": "2. kvt 2006"
+        },
+        {
+          "aar": "2006",
+          "antalAarsvaerk": "1 årsværk",
+          "antalAnsatte": "",
+          "intervalKodeAntalAarsvaerk": "ANTAL_1_1",
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": "1",
+          "maaned": null,
+          "periode": "1. kvt 2006"
+        },
+        {
+          "aar": "2005",
+          "antalAarsvaerk": "1 årsværk",
+          "antalAnsatte": "",
+          "intervalKodeAntalAarsvaerk": "ANTAL_1_1",
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": "4",
+          "maaned": null,
+          "periode": "4. kvt 2005"
+        },
+        {
+          "aar": "2005",
+          "antalAarsvaerk": "1 årsværk",
+          "antalAnsatte": "",
+          "intervalKodeAntalAarsvaerk": "ANTAL_1_1",
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": "3",
+          "maaned": null,
+          "periode": "3. kvt 2005"
+        },
+        {
+          "aar": "2005",
+          "antalAarsvaerk": "1 årsværk",
+          "antalAnsatte": "",
+          "intervalKodeAntalAarsvaerk": "ANTAL_1_1",
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": "2",
+          "maaned": null,
+          "periode": "2. kvt 2005"
+        },
+        {
+          "aar": "2005",
+          "antalAarsvaerk": "1 årsværk",
+          "antalAnsatte": "",
+          "intervalKodeAntalAarsvaerk": "ANTAL_1_1",
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": "1",
+          "maaned": null,
+          "periode": "1. kvt 2005"
+        },
+        {
+          "aar": "2004",
+          "antalAarsvaerk": "1 årsværk",
+          "antalAnsatte": "",
+          "intervalKodeAntalAarsvaerk": "ANTAL_1_1",
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": "4",
+          "maaned": null,
+          "periode": "4. kvt 2004"
+        },
+        {
+          "aar": "2004",
+          "antalAarsvaerk": "1 årsværk",
+          "antalAnsatte": "",
+          "intervalKodeAntalAarsvaerk": "ANTAL_1_1",
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": "3",
+          "maaned": null,
+          "periode": "3. kvt 2004"
+        },
+        {
+          "aar": "2004",
+          "antalAarsvaerk": "1 årsværk",
+          "antalAnsatte": "",
+          "intervalKodeAntalAarsvaerk": "ANTAL_1_1",
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": "2",
+          "maaned": null,
+          "periode": "2. kvt 2004"
+        },
+        {
+          "aar": "2004",
+          "antalAarsvaerk": "1 årsværk",
+          "antalAnsatte": "",
+          "intervalKodeAntalAarsvaerk": "ANTAL_1_1",
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": "1",
+          "maaned": null,
+          "periode": "1. kvt 2004"
+        },
+        {
+          "aar": "2003",
+          "antalAarsvaerk": "1 årsværk",
+          "antalAnsatte": "",
+          "intervalKodeAntalAarsvaerk": "ANTAL_1_1",
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": "4",
+          "maaned": null,
+          "periode": "4. kvt 2003"
+        },
+        {
+          "aar": "2003",
+          "antalAarsvaerk": "1 årsværk",
+          "antalAnsatte": "",
+          "intervalKodeAntalAarsvaerk": "ANTAL_1_1",
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": "3",
+          "maaned": null,
+          "periode": "3. kvt 2003"
+        },
+        {
+          "aar": "2003",
+          "antalAarsvaerk": "2-4 årsværk",
+          "antalAnsatte": "",
+          "intervalKodeAntalAarsvaerk": "ANTAL_2_4",
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": "2",
+          "maaned": null,
+          "periode": "2. kvt 2003"
+        },
+        {
+          "aar": "2003",
+          "antalAarsvaerk": "1 årsværk",
+          "antalAnsatte": "",
+          "intervalKodeAntalAarsvaerk": "ANTAL_1_1",
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": "1",
+          "maaned": null,
+          "periode": "1. kvt 2003"
+        },
+        {
+          "aar": "2002",
+          "antalAarsvaerk": "10-19 årsværk",
+          "antalAnsatte": "",
+          "intervalKodeAntalAarsvaerk": "ANTAL_10_19",
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": "4",
+          "maaned": null,
+          "periode": "4. kvt 2002"
+        },
+        {
+          "aar": "2002",
+          "antalAarsvaerk": "20-49 årsværk",
+          "antalAnsatte": "",
+          "intervalKodeAntalAarsvaerk": "ANTAL_20_49",
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": "3",
+          "maaned": null,
+          "periode": "3. kvt 2002"
+        },
+        {
+          "aar": "2002",
+          "antalAarsvaerk": "10-19 årsværk",
+          "antalAnsatte": "",
+          "intervalKodeAntalAarsvaerk": "ANTAL_10_19",
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": "2",
+          "maaned": null,
+          "periode": "2. kvt 2002"
+        },
+        {
+          "aar": "2002",
+          "antalAarsvaerk": "20-49 årsværk",
+          "antalAnsatte": "",
+          "intervalKodeAntalAarsvaerk": "ANTAL_20_49",
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": "1",
+          "maaned": null,
+          "periode": "1. kvt 2002"
+        },
+        {
+          "aar": "2001",
+          "antalAarsvaerk": "10-19 årsværk",
+          "antalAnsatte": "",
+          "intervalKodeAntalAarsvaerk": "ANTAL_10_19",
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": "4",
+          "maaned": null,
+          "periode": "4. kvt 2001"
+        },
+        {
+          "aar": "2001",
+          "antalAarsvaerk": "10-19 årsværk",
+          "antalAnsatte": "",
+          "intervalKodeAntalAarsvaerk": "ANTAL_10_19",
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": "3",
+          "maaned": null,
+          "periode": "3. kvt 2001"
+        },
+        {
+          "aar": "2001",
+          "antalAarsvaerk": "10-19 årsværk",
+          "antalAnsatte": "",
+          "intervalKodeAntalAarsvaerk": "ANTAL_10_19",
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": "2",
+          "maaned": null,
+          "periode": "2. kvt 2001"
+        },
+        {
+          "aar": "2001",
+          "antalAarsvaerk": "0 årsværk",
+          "antalAnsatte": "",
+          "intervalKodeAntalAarsvaerk": "ANTAL_0_0",
+          "intervalKodeAntalAnsatte": null,
+          "kvartal": "1",
+          "maaned": null,
+          "periode": "1. kvt 2001"
+        }
+      ],
+      "maanedsbeskaeftigelse": []
+    },
+    "ejerforhold": {
+      "aktiveLegaleEjere": [],
+      "aktiveReelleEjere": [],
+      "begunstigetGruppeNavn": null,
+      "begunstigetGruppeRetskrav": null,
+      "bestyrelseAnsesSomReelleEjere": false,
+      "ejerregistreringUnderFemProcent": false,
+      "ophoerteLegaleEjere": [],
+      "ophoerteReelleEjere": [],
+      "virksomhedHarIkkeKunnetIdentificereReelleEjereLedelseErIndsat": false,
+      "virksomhedHarIkkeReelleEjereOgLedelseErIndsat": false,
+      "virksomhedsFormTilladerReelleEjerOplysninger": false
+    },
+    "foreningsrepraesentanter": [],
+    "harManuelSignering": true,
+    "historiskStamdata": {
+      "adresse": [
+        {
+          "gyldigFra": "2018-11-29",
+          "gyldigTil": "2018-12-31",
+          "vaerdi": "Lilleøvej 3\u003Cbr /\u003E4220 Korsør"
+        },
+        {
+          "gyldigFra": "2008-07-16",
+          "gyldigTil": "2018-11-28",
+          "vaerdi": "Lilleøvej 3\u003Cbr /\u003E4220 Korsør"
+        },
+        {
+          "gyldigFra": "2007-01-01",
+          "gyldigTil": "2008-07-15",
+          "vaerdi": "Nordvej 11\u003Cbr /\u003E4200 Slagelse"
+        },
+        {
+          "gyldigFra": "2000-12-18",
+          "gyldigTil": "2006-12-31",
+          "vaerdi": "Nordvej 11\u003Cbr /\u003E4200 Slagelse"
+        }
+      ],
+      "bibranche": [],
+      "branchekode": [
+        {
+          "gyldigFra": "2008-01-01",
+          "gyldigTil": "2024-12-31",
+          "vaerdi": "642020 Ikke-finansielle holdingselskaber"
+        },
+        {
+          "gyldigFra": "2003-09-22",
+          "gyldigTil": "2007-12-31",
+          "vaerdi": "741500 Ikke-finansielle holdingselskaber"
+        },
+        {
+          "gyldigFra": "2003-01-01",
+          "gyldigTil": "2003-09-21",
+          "vaerdi": "401200 Transmission af elektricitet"
+        },
+        {
+          "gyldigFra": "2000-12-18",
+          "gyldigTil": "2002-12-31",
+          "vaerdi": "401000 Elforsyning"
+        }
+      ],
+      "formaal": [],
+      "navn": [
+        {
+          "gyldigFra": "2003-05-13",
+          "gyldigTil": "2008-06-19",
+          "vaerdi": "SK-FORSYNING A/S"
+        },
+        {
+          "gyldigFra": "2000-12-18",
+          "gyldigTil": "2003-05-12",
+          "vaerdi": "SLAGELSE KOMMUNES NETSELSKAB A/S"
+        }
+      ],
+      "registreretKapital": [
+        {
+          "gyldigFra": "2004-05-05",
+          "gyldigTil": "2008-06-19",
+          "vaerdi": "7.000.000,00 DKK"
+        },
+        {
+          "gyldigFra": "2002-05-13",
+          "gyldigTil": "2004-05-04",
+          "vaerdi": "6.000.000,00 DKK"
+        },
+        {
+          "gyldigFra": "2000-12-18",
+          "gyldigTil": "2002-05-12",
+          "vaerdi": "5.000.000,00 DKK"
+        }
+      ],
+      "senesteVedtaegtsdato": [
+        {
+          "gyldigFra": "2024-05-29",
+          "gyldigTil": "2026-06-03",
+          "vaerdi": "2024-05-29"
+        },
+        {
+          "gyldigFra": "2014-03-19",
+          "gyldigTil": "2024-05-28",
+          "vaerdi": "2014-03-19"
+        }
+      ],
+      "status": [],
+      "tegningsregel": [],
+      "udenlandskAdresse": [],
+      "virksomhedsform": []
+    },
+    "hovedselskab": null,
+    "kanHaveLegaleEjere": true,
+    "kanHaveReelleEjere": true,
+    "ophoerteEjerforholdDto": null,
+    "oplysningerOmRevisionsvirksomhed": null,
+    "personkreds": {
+      "ejerborgLink": "",
+      "ophoerteFad": [],
+      "personkredser": [
+        {
+          "personRoller": [
+            {
+              "adresse": "Lerhøj 9B\n4220 Korsør",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "",
+              "ekstraDataList": [],
+              "enhedstype": "PERSON",
+              "id": "4004114897",
+              "personType": "deltager",
+              "senesteNavn": "Henrik Rosendal Birch",
+              "sorteringsVaredi": 1,
+              "titlePrefix": [
+                "erstdist-organisation-rolle-adm_dir"
+              ]
+            },
+            {
+              "adresse": "Triangelvej 11\n4200 Slagelse",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "",
+              "ekstraDataList": [],
+              "enhedstype": "PERSON",
+              "id": "4010294260",
+              "personType": "deltager",
+              "senesteNavn": "Margit Jensen",
+              "sorteringsVaredi": 3,
+              "titlePrefix": [
+                "erstdist-organisation-rolle-direktoerer"
+              ]
+            }
+          ],
+          "rolle": {
+            "declaringClass": "integration.erstdist.konstanter.OrganisationsMappning",
+            "funktionsVaerdi": [
+              "ADM. DIR.",
+              "ADM. DIR",
+              "ADM. DIREKTØR",
+              "ADM.DIR.",
+              "ADM.DIRE R",
+              "ADM.DIREKTØR",
+              "ADMINISTRERENDE DIREKTØR",
+              "ANS.CHEFREDAKTØR & ADM.DIREKTØ",
+              "DIREKTØR, ADMINISTRATION",
+              "FUNGERENDE ADM. DIREKTØR",
+              "SIDEORDNET ADM. DIREKTØR"
+            ],
+            "hovedType": [
+              "LEDELSESORGAN"
+            ],
+            "sorteringsVaerdi": 1,
+            "tekstnogle": "erstdist-organisation-rolle-adm_dir",
+            "name": "ADM_DIR",
+            "ordinal": 68
+          },
+          "rolleTekstnogle": "erstdist-organisation-rolle-direktion"
+        },
+        {
+          "personRoller": [
+            {
+              "adresse": "A N Hansens Alle 32\n2900 Hellerup",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "Valgform: Generalforsamling",
+              "ekstraDataList": [
+                {
+                  "tekstnogle": "personkreds-valgform-label",
+                  "vaerdi": "Generalforsamling",
+                  "vaerdiTekstnogle": null
+                }
+              ],
+              "enhedstype": "PERSON",
+              "id": "4003888200",
+              "personType": "deltager",
+              "senesteNavn": "Lars Therkildsen",
+              "sorteringsVaredi": 4,
+              "titlePrefix": [
+                "erstdist-organisation-rolle-formand"
+              ]
+            },
+            {
+              "adresse": "Dronning Sofies Vej 14\n4000 Roskilde",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "Valgform: Generalforsamling",
+              "ekstraDataList": [
+                {
+                  "tekstnogle": "personkreds-valgform-label",
+                  "vaerdi": "Generalforsamling",
+                  "vaerdiTekstnogle": null
+                }
+              ],
+              "enhedstype": "PERSON",
+              "id": "4000145213",
+              "personType": "deltager",
+              "senesteNavn": "Susan Hørlyck Münster",
+              "sorteringsVaredi": 6,
+              "titlePrefix": [
+                "erstdist-organisation-rolle-naestformand"
+              ]
+            },
+            {
+              "adresse": "Nødbrøndsvej 23\nDøjringe\n4180 Sorø",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "Valgform: Generalforsamling",
+              "ekstraDataList": [
+                {
+                  "tekstnogle": "personkreds-valgform-label",
+                  "vaerdi": "Generalforsamling",
+                  "vaerdiTekstnogle": null
+                }
+              ],
+              "enhedstype": "PERSON",
+              "id": "4000317025",
+              "personType": "deltager",
+              "senesteNavn": "Thomas Skovgaard Wraa Frosch",
+              "sorteringsVaredi": 99,
+              "titlePrefix": []
+            },
+            {
+              "adresse": "Seerdrupvej 18\nFårdrup\n4200 Slagelse",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "Valgform: Generalforsamling",
+              "ekstraDataList": [
+                {
+                  "tekstnogle": "personkreds-valgform-label",
+                  "vaerdi": "Generalforsamling",
+                  "vaerdiTekstnogle": null
+                }
+              ],
+              "enhedstype": "PERSON",
+              "id": "4000709428",
+              "personType": "deltager",
+              "senesteNavn": "Joshua Bjørkman",
+              "sorteringsVaredi": 99,
+              "titlePrefix": []
+            },
+            {
+              "adresse": "Sjællandsvej 27\n4200 Slagelse",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "Valgform: Generalforsamling",
+              "ekstraDataList": [
+                {
+                  "tekstnogle": "personkreds-valgform-label",
+                  "vaerdi": "Generalforsamling",
+                  "vaerdiTekstnogle": null
+                }
+              ],
+              "enhedstype": "PERSON",
+              "id": "4004171164",
+              "personType": "deltager",
+              "senesteNavn": "Lis Tribler",
+              "sorteringsVaredi": 99,
+              "titlePrefix": []
+            },
+            {
+              "adresse": "Lokesvej 8\n4220 Korsør",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "Valgform: Generalforsamling",
+              "ekstraDataList": [
+                {
+                  "tekstnogle": "personkreds-valgform-label",
+                  "vaerdi": "Generalforsamling",
+                  "vaerdiTekstnogle": null
+                }
+              ],
+              "enhedstype": "PERSON",
+              "id": "4007718334",
+              "personType": "deltager",
+              "senesteNavn": "Johnny Kim Hjulsager Persson",
+              "sorteringsVaredi": 99,
+              "titlePrefix": []
+            },
+            {
+              "adresse": "Jonsgården 1\n4200 Slagelse",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "Valgform: Generalforsamling",
+              "ekstraDataList": [
+                {
+                  "tekstnogle": "personkreds-valgform-label",
+                  "vaerdi": "Generalforsamling",
+                  "vaerdiTekstnogle": null
+                }
+              ],
+              "enhedstype": "PERSON",
+              "id": "4008935854",
+              "personType": "deltager",
+              "senesteNavn": "Ali Yavuz",
+              "sorteringsVaredi": 99,
+              "titlePrefix": []
+            },
+            {
+              "adresse": "Skrænten 1\n4220 Korsør",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "Valgform: Generalforsamling",
+              "ekstraDataList": [
+                {
+                  "tekstnogle": "personkreds-valgform-label",
+                  "vaerdi": "Generalforsamling",
+                  "vaerdiTekstnogle": null
+                }
+              ],
+              "enhedstype": "PERSON",
+              "id": "4010835863",
+              "personType": "deltager",
+              "senesteNavn": "Rasmus Trebbien Tribler",
+              "sorteringsVaredi": 99,
+              "titlePrefix": []
+            }
+          ],
+          "rolle": {
+            "declaringClass": "integration.erstdist.konstanter.OrganisationsMappning",
+            "funktionsVaerdi": [
+              "NÆSTFORMAND",
+              "NÆSTFORMAND",
+              "2. NÆSTFORMAND"
+            ],
+            "hovedType": [
+              "LEDELSESORGAN"
+            ],
+            "sorteringsVaerdi": 7,
+            "tekstnogle": "erstdist-organisation-rolle-naestformand",
+            "name": "NAESTFORMAND",
+            "ordinal": 87
+          },
+          "rolleTekstnogle": "erstdist-organisation-rolle-bestyrelsesmedlemmer"
+        },
+        {
+          "personRoller": [
+            {
+              "adresse": "Rådhuspladsen 11\n4200 Slagelse",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "",
+              "ekstraDataList": [],
+              "enhedstype": "VIRKSOMHED",
+              "id": "4000334119",
+              "personType": null,
+              "senesteNavn": "Slagelse Kommune                  Økonomiafdelingen",
+              "sorteringsVaredi": 10,
+              "titlePrefix": []
+            }
+          ],
+          "rolle": {
+            "declaringClass": "integration.erstdist.konstanter.OrganisationsMappning",
+            "funktionsVaerdi": [
+              "STIFTERE",
+              "STIFTER",
+              "ST*IFTERE",
+              "STI*FTERE",
+              "STIFERE"
+            ],
+            "hovedType": [
+              "STIFTERE"
+            ],
+            "sorteringsVaerdi": 10,
+            "tekstnogle": "erstdist-organisation-rolle-stiftere",
+            "name": "STIFTERE",
+            "ordinal": 0
+          },
+          "rolleTekstnogle": "erstdist-organisation-rolle-stiftere"
+        },
+        {
+          "personRoller": [
+            {
+              "adresse": "Strandvejen 44\n2900 Hellerup",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "",
+              "ekstraDataList": [],
+              "enhedstype": "VIRKSOMHED",
+              "id": "4000769917",
+              "personType": null,
+              "senesteNavn": "PRICEWATERHOUSECOOPERS STATSAUTORISERET REVISIONSPARTNERSELSKAB",
+              "sorteringsVaredi": 10,
+              "titlePrefix": []
+            }
+          ],
+          "rolle": {
+            "declaringClass": "integration.erstdist.konstanter.OrganisationsMappning",
+            "funktionsVaerdi": [
+              "REVISION"
+            ],
+            "hovedType": [
+              "REVISION"
+            ],
+            "sorteringsVaerdi": 10,
+            "tekstnogle": "erstdist-organisation-rolle-revision",
+            "name": "REVISION",
+            "ordinal": 97
+          },
+          "rolleTekstnogle": "erstdist-organisation-rolle-revision"
+        }
+      ],
+      "tegningsregel": "Selskabet tegnes af et bestyrelsesmedlem og en direktør eller af bestyrelsesformanden sammen med et bestyrelsesmedlem eller af den samlede bestyrelse."
+    },
+    "produktionsenheder": {
+      "aktiveProduktionsenheder": [
+        {
+          "antalAnsatte": null,
+          "historiskStamdata": null,
+          "revisionsvirksomhed": {
+            "adresse": "Nordvej 6",
+            "navn": "SK Forsyning A/S",
+            "pNummer": "1009584796",
+            "postnummerOgBy": "4200 Slagelse",
+            "tilknyttedeRevisorer": null
+          },
+          "stamdata": {
+            "adresse": "Nordvej 6",
+            "bibrancher": [],
+            "bygningsnummer": null,
+            "cvrnummer": "25797981",
+            "email": "kontakt@envafors.dk",
+            "helligdagsaabent": false,
+            "hovedbranche": {
+              "branchekode": "642120",
+              "titel": "Ikke-finansielle holdingselskaber"
+            },
+            "navn": "SK Forsyning A/S",
+            "ophoersdato": null,
+            "pnummer": "1009584796",
+            "postnummerOgBy": "4200 Slagelse",
+            "registreretIHvidvaskregistret": false,
+            "regnskabsperiodeSlut": null,
+            "regnskabsperiodeStart": null,
+            "reklamebeskyttet": false,
+            "startdato": "2003-01-01",
+            "telefon": "58362500",
+            "udenlandskAdresse": null,
+            "udenlandskAdresseLand": "Danmark",
+            "udenlandskAdresseLandekode": "DK",
+            "virksomhedsnavn": null
+          }
+        }
+      ],
+      "ophoerteProduktionsenheder": [
+        {
+          "antalAnsatte": null,
+          "historiskStamdata": null,
+          "revisionsvirksomhed": null,
+          "stamdata": {
+            "adresse": "Nordvej 11",
+            "bibrancher": [],
+            "bygningsnummer": null,
+            "cvrnummer": "25797981",
+            "email": null,
+            "helligdagsaabent": false,
+            "hovedbranche": {
+              "branchekode": "401000",
+              "titel": "Elforsyning"
+            },
+            "navn": "SLAGELSE KOMMUNES NETSELSKAB A/S",
+            "ophoersdato": "2002-12-31",
+            "pnummer": "1008149824",
+            "postnummerOgBy": "4200 Slagelse",
+            "registreretIHvidvaskregistret": false,
+            "regnskabsperiodeSlut": null,
+            "regnskabsperiodeStart": null,
+            "reklamebeskyttet": false,
+            "startdato": "2000-12-18",
+            "telefon": null,
+            "udenlandskAdresse": null,
+            "udenlandskAdresseLand": "Danmark",
+            "udenlandskAdresseLandekode": "DK",
+            "virksomhedsnavn": null
+          }
+        }
+      ]
+    },
+    "sammenhaengendeRegnskaber": [
+      {
+        "periodeFormateret": "01.01.2025 - 31.12.2025",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "25797981",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": "Henrik Rosendal Birch",
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzJiLzg2Lzk1LzdkLzJjMjEtNGQzOC04ZGVlLTMzZGY2ZWQ5ODJjYQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XHTML"
+              },
+              {
+                "dokumentId": "amNsb3VkczovLzAzL2ViLzA1LzNkLzk2L2E0MzUtNDY0OC1hZTZlLTA5ZDZiNDMwNWVhNQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              }
+            ],
+            "godkendelsesdato": "04.06.2026",
+            "hovednavn": "SK FORSYNING A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "39599448",
+            "offentliggoerelseTidsstempel": "2026-06-25T20:08:49.731Z",
+            "offentliggoerelseTidsstempelFormateret": "25.06.2026",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2025 - 31.12.2025",
+            "regnskabsperiodeFra": "01.01.2025",
+            "regnskabsperiodeTil": "31.12.2025",
+            "sagsnummer": "X26-CY-99-RS",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2025",
+        "regnskabsperiodeTil": "31.12.2025"
+      },
+      {
+        "periodeFormateret": "01.01.2024 - 31.12.2024",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "25797981",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": "Henrik Rosendal Birch",
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "amNsb3VkczovLzAzL2UyLzA1LzE0Lzg4LzhmNzUtNDcyMy1iZDI2LTFiNDA5Y2M2MWY0ZQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              },
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzJiLzVjLzcyLzQ1LzY1MTctNDllOS1hN2QyLTczZGNjYWYwYTUyMA",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              }
+            ],
+            "godkendelsesdato": "04.06.2025",
+            "hovednavn": "SK FORSYNING A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "37585075",
+            "offentliggoerelseTidsstempel": "2025-06-10T09:41:37.584Z",
+            "offentliggoerelseTidsstempelFormateret": "10.06.2025",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2024 - 31.12.2024",
+            "regnskabsperiodeFra": "01.01.2024",
+            "regnskabsperiodeTil": "31.12.2024",
+            "sagsnummer": "X25-CM-65-PP",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2024",
+        "regnskabsperiodeTil": "31.12.2024"
+      },
+      {
+        "periodeFormateret": "01.01.2023 - 31.12.2023",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "25797981",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": "Henrik Rosendal Birch",
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "amNsb3VkczovLzAzL2E2LzJmL2VlLzM0LzdjOGYtNDNmNy04NDYyLTZiODlkNWU3OGE4Mw",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              },
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzUxL2Q0L2YxL2IyL2M1N2UtNDRlMC1hMmYxLTAxOTA0NjFkMWE3Nw",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "29.05.2024",
+            "hovednavn": "SK FORSYNING A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "36006830",
+            "offentliggoerelseTidsstempel": "2024-06-24T19:20:48.085Z",
+            "offentliggoerelseTidsstempelFormateret": "24.06.2024",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2023 - 31.12.2023",
+            "regnskabsperiodeFra": "01.01.2023",
+            "regnskabsperiodeTil": "31.12.2023",
+            "sagsnummer": "X24-JB-22-NS",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2023",
+        "regnskabsperiodeTil": "31.12.2023"
+      },
+      {
+        "periodeFormateret": "01.01.2022 - 31.12.2022",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "25797981",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": "Henrik Birch",
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "amNsb3VkczovLzAzL2I3Lzk0LzNhL2FjL2NlMzAtNGRkOC1hMjEwLTBkNjY2NmE3MTQ4OQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              },
+              {
+                "dokumentId": "amNsb3VkczovLzAzL2U4L2RiLzUzL2IwLzUwYmQtNDVhZi1hMDEwLWQ5OTc2YzMzOTBmNg",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              }
+            ],
+            "godkendelsesdato": "23.05.2023",
+            "hovednavn": "SK FORSYNING A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "34216762",
+            "offentliggoerelseTidsstempel": "2023-06-20T13:31:07.086Z",
+            "offentliggoerelseTidsstempelFormateret": "20.06.2023",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2022 - 31.12.2022",
+            "regnskabsperiodeFra": "01.01.2022",
+            "regnskabsperiodeTil": "31.12.2022",
+            "sagsnummer": "X23-EL-06-LR",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2022",
+        "regnskabsperiodeTil": "31.12.2022"
+      },
+      {
+        "periodeFormateret": "01.01.2021 - 31.12.2021",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "25797981",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": "Henrik Rosendal Birch",
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "amNsb3VkczovLzAzL2JhLzE5LzkwL2Q2L2ZjZmYtNDMwOC04YzBkLWE1NTgxOGE1ZDcyOA",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              },
+              {
+                "dokumentId": "amNsb3VkczovLzAzL2YxL2ZmLzNjLzBkL2Q1NzktNDgyOS1hZGEwLTk5YjkxMzgxNjU5MA",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "19.05.2022",
+            "hovednavn": "SK FORSYNING A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "32471003",
+            "offentliggoerelseTidsstempel": "2022-06-10T10:29:12.127Z",
+            "offentliggoerelseTidsstempelFormateret": "10.06.2022",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2021 - 31.12.2021",
+            "regnskabsperiodeFra": "01.01.2021",
+            "regnskabsperiodeTil": "31.12.2021",
+            "sagsnummer": "X22-CW-07-DN",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2021",
+        "regnskabsperiodeTil": "31.12.2021"
+      },
+      {
+        "periodeFormateret": "01.01.2020 - 31.12.2020",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "25797981",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": "Henrik Rosendal Birch",
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzNjLzJlL2NmLzZlLzQ2NGQtNDc1NC04ZjZjLWEzMWE2OTJkNzkwNw",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              },
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzdkL2RmLzBkLzc2LzJmNTEtNDY3Yy05ZGRlLTcwYTVlMGM0ODlhNQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              }
+            ],
+            "godkendelsesdato": "26.05.2021",
+            "hovednavn": "SK FORSYNING A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "30931935",
+            "offentliggoerelseTidsstempel": "2021-07-01T08:22:22.839Z",
+            "offentliggoerelseTidsstempelFormateret": "01.07.2021",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2020 - 31.12.2020",
+            "regnskabsperiodeFra": "01.01.2020",
+            "regnskabsperiodeTil": "31.12.2020",
+            "sagsnummer": "X21-CR-71-AY",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2020",
+        "regnskabsperiodeTil": "31.12.2020"
+      },
+      {
+        "periodeFormateret": "01.01.2019 - 31.12.2019",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "25797981",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "amNsb3VkczovLzAzL2ZjLzJjL2QxLzZhL2NmMjEtNDA1Zi05YjJmLTE3NzFhMDQ3OGNlZA",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              },
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzU4L2NkLzQ0L2Y5LzhlNTItNDQ4YS05YmVhLTk4ZTA5M2I1ZThmMg",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK FORSYNING A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "28966037",
+            "offentliggoerelseTidsstempel": "2020-06-16T07:01:14.763Z",
+            "offentliggoerelseTidsstempelFormateret": "16.06.2020",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2019 - 31.12.2019",
+            "regnskabsperiodeFra": "01.01.2019",
+            "regnskabsperiodeTil": "31.12.2019",
+            "sagsnummer": "X20-CQ-07-TZ",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2019",
+        "regnskabsperiodeTil": "31.12.2019"
+      },
+      {
+        "periodeFormateret": "01.01.2018 - 31.12.2018",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "25797981",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzLzM0L2M1L2Q4LzRiLzA3M2ItNDBiZS04NTgxLWUwYWRiMGQ4Y2YyMA",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              },
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzLzAzLzExLzZiLzNkL2Y3ZTAtNDM3Ny1hY2MwLTk5YjhjODcxNTA3Nw",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK FORSYNING A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "27447680",
+            "offentliggoerelseTidsstempel": "2019-06-07T13:56:29.482Z",
+            "offentliggoerelseTidsstempelFormateret": "07.06.2019",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2018 - 31.12.2018",
+            "regnskabsperiodeFra": "01.01.2018",
+            "regnskabsperiodeTil": "31.12.2018",
+            "sagsnummer": "X19-BL-75-JY",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2018",
+        "regnskabsperiodeTil": "31.12.2018"
+      },
+      {
+        "periodeFormateret": "01.01.2017 - 31.12.2017",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "25797981",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzLzMyLzE0LzQ0LzNkLzk0NTYtNGJiNy05ZmU4LWZlZDdjZTY5MjFmOQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              },
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzLzk0L2MzL2RlLzg3LzUzNzYtNDk0NC05Y2MyLTEzMzVjMTlmYWQ5Yg",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK FORSYNING A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "25602347",
+            "offentliggoerelseTidsstempel": "2018-05-30T09:45:14.751Z",
+            "offentliggoerelseTidsstempelFormateret": "30.05.2018",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2017 - 31.12.2017",
+            "regnskabsperiodeFra": "01.01.2017",
+            "regnskabsperiodeTil": "31.12.2017",
+            "sagsnummer": "X18-AN-15-LJ",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2017",
+        "regnskabsperiodeTil": "31.12.2017"
+      },
+      {
+        "periodeFormateret": "01.01.2016 - 31.12.2016",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "25797981",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzLzRjLzY2LzM0LzlhL2JkODItNGQxYS04MjMxLTI5ODQ5YTJlZmRhMw",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              },
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzLzdiLzY1LzNlL2JiL2FhYzktNGU2NC04ODk4LWQ1MmI3NWM4NTdlOQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK FORSYNING A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "23976796",
+            "offentliggoerelseTidsstempel": "2017-05-29T18:35:25.396Z",
+            "offentliggoerelseTidsstempelFormateret": "29.05.2017",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2016 - 31.12.2016",
+            "regnskabsperiodeFra": "01.01.2016",
+            "regnskabsperiodeTil": "31.12.2016",
+            "sagsnummer": "X17-AK-40-EF",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2016",
+        "regnskabsperiodeTil": "31.12.2016"
+      },
+      {
+        "periodeFormateret": "01.01.2015 - 31.12.2015",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "25797981",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzLzFlLzVjL2I2LzBkL2Q3YTQtNGU4NS04NWVkLTRkZDIwZDU5OWRiNA",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              },
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzLzIzL2E0Lzk2L2VhL2Y1ZjYtNGFmNy1hYTk1LWY3Mzg1NzVmYTJiYg",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK FORSYNING A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "22454672",
+            "offentliggoerelseTidsstempel": "2016-05-26T13:08:53.069Z",
+            "offentliggoerelseTidsstempelFormateret": "26.05.2016",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2015 - 31.12.2015",
+            "regnskabsperiodeFra": "01.01.2015",
+            "regnskabsperiodeTil": "31.12.2015",
+            "sagsnummer": "X16-AW-87-EB",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2015",
+        "regnskabsperiodeTil": "31.12.2015"
+      },
+      {
+        "periodeFormateret": "01.01.2014 - 31.12.2014",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "25797981",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzL2FjLzkwLzBlLzVhL2EyNzMtNGI5NS05OWQ4LWEyM2JiZWFiMjlhNQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              },
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzLzgzLzg3L2FlLzZmL2E3MjAtNGEwYy04Y2RjLWFlNDQzYjYwYjgyMA",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK FORSYNING A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "5362904",
+            "offentliggoerelseTidsstempel": "2015-05-29T15:17:23.843Z",
+            "offentliggoerelseTidsstempelFormateret": "29.05.2015",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2014 - 31.12.2014",
+            "regnskabsperiodeFra": "01.01.2014",
+            "regnskabsperiodeTil": "31.12.2014",
+            "sagsnummer": "X15-AC-60-PA",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2014",
+        "regnskabsperiodeTil": "31.12.2014"
+      },
+      {
+        "periodeFormateret": "01.01.2013 - 31.12.2013",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "25797981",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8veGJybHMvWC03RENCRUIxMi0yMDE0MDYwOF8wODQ0MjRfODM3",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              },
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yNTc5Nzk4MTtBL1MyODA2Nzk7MjAxMzAxMDE7MjAxMzEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK FORSYNING A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "20797391",
+            "offentliggoerelseTidsstempel": "2014-06-08T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "09.06.2014",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2013 - 31.12.2013",
+            "regnskabsperiodeFra": "01.01.2013",
+            "regnskabsperiodeTil": "31.12.2013",
+            "sagsnummer": "14-48.578",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2013",
+        "regnskabsperiodeTil": "31.12.2013"
+      },
+      {
+        "periodeFormateret": "01.01.2012 - 31.12.2012",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "25797981",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yNTc5Nzk4MTtBL1MyODA2Nzk7MjAxMjAxMDE7MjAxMjEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK FORSYNING A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "20797389",
+            "offentliggoerelseTidsstempel": "2013-05-30T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "31.05.2013",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2012 - 31.12.2012",
+            "regnskabsperiodeFra": "01.01.2012",
+            "regnskabsperiodeTil": "31.12.2012",
+            "sagsnummer": "13-46.105",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2012",
+        "regnskabsperiodeTil": "31.12.2012"
+      },
+      {
+        "periodeFormateret": "01.01.2011 - 31.12.2011",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "25797981",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yNTc5Nzk4MTtBL1MyODA2Nzk7MjAxMTAxMDE7MjAxMTEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK FORSYNING A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "20797387",
+            "offentliggoerelseTidsstempel": "2012-06-26T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "27.06.2012",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2011 - 31.12.2011",
+            "regnskabsperiodeFra": "01.01.2011",
+            "regnskabsperiodeTil": "31.12.2011",
+            "sagsnummer": "12-53.463",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2011",
+        "regnskabsperiodeTil": "31.12.2011"
+      },
+      {
+        "periodeFormateret": "01.01.2010 - 31.12.2010",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "25797981",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yNTc5Nzk4MTtBL1MyODA2Nzk7MjAxMDAxMDE7MjAxMDEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK FORSYNING A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "20797385",
+            "offentliggoerelseTidsstempel": "2011-09-25T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "26.09.2011",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2010 - 31.12.2010",
+            "regnskabsperiodeFra": "01.01.2010",
+            "regnskabsperiodeTil": "31.12.2010",
+            "sagsnummer": "11-52.925",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2010",
+        "regnskabsperiodeTil": "31.12.2010"
+      },
+      {
+        "periodeFormateret": "01.01.2009 - 31.12.2009",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "25797981",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yNTc5Nzk4MTtBL1MyODA2Nzk7MjAwOTAxMDE7MjAwOTEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK FORSYNING A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "20797383",
+            "offentliggoerelseTidsstempel": "2010-05-26T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "27.05.2010",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2009 - 31.12.2009",
+            "regnskabsperiodeFra": "01.01.2009",
+            "regnskabsperiodeTil": "31.12.2009",
+            "sagsnummer": "10-65.152",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2009",
+        "regnskabsperiodeTil": "31.12.2009"
+      },
+      {
+        "periodeFormateret": "01.01.2008 - 31.12.2008",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "25797981",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yNTc5Nzk4MTtBL1MyODA2Nzk7MjAwODAxMDE7MjAwODEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK FORSYNING A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "20797381",
+            "offentliggoerelseTidsstempel": "2009-06-24T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "25.06.2009",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2008 - 31.12.2008",
+            "regnskabsperiodeFra": "01.01.2008",
+            "regnskabsperiodeTil": "31.12.2008",
+            "sagsnummer": "09-74.380",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2008",
+        "regnskabsperiodeTil": "31.12.2008"
+      },
+      {
+        "periodeFormateret": "01.01.2007 - 31.12.2007",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "25797981",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yNTc5Nzk4MTtBL1MyODA2Nzk7MjAwNzAxMDE7MjAwNzEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK-FORSYNING A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "20797379",
+            "offentliggoerelseTidsstempel": "2008-04-21T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "22.04.2008",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2007 - 31.12.2007",
+            "regnskabsperiodeFra": "01.01.2007",
+            "regnskabsperiodeTil": "31.12.2007",
+            "sagsnummer": "08-72.212",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2007",
+        "regnskabsperiodeTil": "31.12.2007"
+      },
+      {
+        "periodeFormateret": "01.01.2006 - 31.12.2006",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "25797981",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yNTc5Nzk4MTtBL1MyODA2Nzk7MjAwNjAxMDE7MjAwNjEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK-FORSYNING A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "20797377",
+            "offentliggoerelseTidsstempel": "2007-05-29T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "30.05.2007",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2006 - 31.12.2006",
+            "regnskabsperiodeFra": "01.01.2006",
+            "regnskabsperiodeTil": "31.12.2006",
+            "sagsnummer": "07-74.218",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2006",
+        "regnskabsperiodeTil": "31.12.2006"
+      },
+      {
+        "periodeFormateret": "01.01.2005 - 31.12.2005",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "25797981",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yNTc5Nzk4MTtBL1MyODA2Nzk7MjAwNTAxMDE7MjAwNTEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK-FORSYNING A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "20797375",
+            "offentliggoerelseTidsstempel": "2006-06-06T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "07.06.2006",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2005 - 31.12.2005",
+            "regnskabsperiodeFra": "01.01.2005",
+            "regnskabsperiodeTil": "31.12.2005",
+            "sagsnummer": "06-71.290",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2005",
+        "regnskabsperiodeTil": "31.12.2005"
+      },
+      {
+        "periodeFormateret": "01.01.2004 - 31.12.2004",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "25797981",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yNTc5Nzk4MTtBL1MyODA2Nzk7MjAwNDAxMDE7MjAwNDEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK-FORSYNING A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "20797373",
+            "offentliggoerelseTidsstempel": "2005-05-31T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "01.06.2005",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2004 - 31.12.2004",
+            "regnskabsperiodeFra": "01.01.2004",
+            "regnskabsperiodeTil": "31.12.2004",
+            "sagsnummer": "05-70.083",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2004",
+        "regnskabsperiodeTil": "31.12.2004"
+      },
+      {
+        "periodeFormateret": "01.01.2003 - 31.12.2003",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "25797981",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yNTc5Nzk4MTtBL1MyODA2Nzk7MjAwMzAxMDE7MjAwMzEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK-FORSYNING A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "20797371",
+            "offentliggoerelseTidsstempel": "2004-05-12T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "13.05.2004",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2003 - 31.12.2003",
+            "regnskabsperiodeFra": "01.01.2003",
+            "regnskabsperiodeTil": "31.12.2003",
+            "sagsnummer": "04-71.435",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2003",
+        "regnskabsperiodeTil": "31.12.2003"
+      },
+      {
+        "periodeFormateret": "01.01.2002 - 31.12.2002",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "25797981",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yNTc5Nzk4MTtBL1MyODA2Nzk7MjAwMjAxMDE7MjAwMjEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK-FORSYNING A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "20797369",
+            "offentliggoerelseTidsstempel": "2003-05-20T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "21.05.2003",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2002 - 31.12.2002",
+            "regnskabsperiodeFra": "01.01.2002",
+            "regnskabsperiodeTil": "31.12.2002",
+            "sagsnummer": "03-72.967",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2002",
+        "regnskabsperiodeTil": "31.12.2002"
+      },
+      {
+        "periodeFormateret": "01.01.2001 - 31.12.2001",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "25797981",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yNTc5Nzk4MTtBL1MyODA2Nzk7MjAwMTAxMDE7MjAwMTEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SLAGELSE KOMMUNES NETSELSKAB A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "20797367",
+            "offentliggoerelseTidsstempel": "2002-05-16T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "17.05.2002",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2001 - 31.12.2001",
+            "regnskabsperiodeFra": "01.01.2001",
+            "regnskabsperiodeTil": "31.12.2001",
+            "sagsnummer": "02-72.763",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2001",
+        "regnskabsperiodeTil": "31.12.2001"
+      },
+      {
+        "periodeFormateret": "01.01.2000 - 31.12.2000",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "25797981",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yNTc5Nzk4MTtBL1MyODA2Nzk7MjAwMDAxMDE7MjAwMDEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SLAGELSE KOMMUNES NETSELSKAB A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "20797365",
+            "offentliggoerelseTidsstempel": "2001-05-27T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "28.05.2001",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2000 - 31.12.2000",
+            "regnskabsperiodeFra": "01.01.2000",
+            "regnskabsperiodeTil": "31.12.2000",
+            "sagsnummer": "01-68.011",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2000",
+        "regnskabsperiodeTil": "31.12.2000"
+      }
+    ],
+    "skjulEjerforhold": false,
+    "skjulOevrigeDokumenter": false,
+    "stamdata": {
+      "adresse": "Nordvej 6",
+      "aktiviteterOmfattetAfHvidvaskloven": [],
+      "bygningsnummer": null,
+      "cvrnummer": "25797981",
+      "enhedsnummer": "2894541",
+      "harPseudoCvr": false,
+      "kreditoplysningskode": null,
+      "modervirksomhederVedFranchise": [],
+      "navn": "SK FORSYNING A/S",
+      "omfattetAfHvidvaskloven": false,
+      "ophoersdato": null,
+      "postnummerOgBy": "4200 Slagelse",
+      "regnummer": null,
+      "reklamebeskyttet": false,
+      "socialoekonomiskVirksomhed": false,
+      "startdato": "2000-12-18",
+      "statsligVirksomhed": false,
+      "status": "NORMAL",
+      "stiftetFor1900Tekstnogle": null,
+      "udenlandskAdresse": null,
+      "udenlandskAdresseLand": "Danmark",
+      "udenlandskAdresseLandekode": "DK",
+      "virkningsdato": "",
+      "virksomhedsform": "Aktieselskab",
+      "virksomhedsformKode": "60",
+      "visNavnPostfix": false
+    },
+    "udvidedeOplysninger": {
+      "bibrancher": [],
+      "binavne": [
+        "SLAGELSE FORSYNING A/S"
+      ],
+      "boersnoteret": null,
+      "delvistIndbetaltKapital": false,
+      "email": "kontakt@envafors.dk",
+      "fax": null,
+      "foersteRegnskabsperiodeSlut": "2000-12-31",
+      "foersteRegnskabsperiodeStart": "2000-01-01",
+      "formaal": "Selskabets formål er at eje aktier i datterselskaber, der udøver forsyningsvirksomhed eller anden virksomhed, som har tilknytning til forsyningsvirksomhed. Selskabet har endvidere som formål at udøve erhvervsmæssig virksomhed med tilknytning til energiforsyning inden for de i lovgivningen herom til enhver tid fastsatte rammer. Selskabets virksomhed udøves på kommercielle vilkår.",
+      "hovedbranche": {
+        "branchekode": "642120",
+        "titel": "Ikke-finansielle holdingselskaber"
+      },
+      "kapitalklasser": null,
+      "kommune": "Slagelse",
+      "kommunekode": "330",
+      "koncessionsdato": null,
+      "omlaegningsperiodeSlut": null,
+      "omlaegningsperiodeStart": null,
+      "postadresse": null,
+      "registreretKapital": "15.000.000,00 DKK",
+      "regnskabsaarSlut": "31.12",
+      "regnskabsaarStart": "01.01",
+      "senesteVedtaegtsdato": "2026-06-04",
+      "senesteVedtaegtsdatoFoer1900": false,
+      "stadfaestelsesdato": null,
+      "stadfaestetAf": null,
+      "telefon": "58362500",
+      "telefonSekundaert": null,
+      "udenlandskPostadresse": null,
+      "udenlandskPostadresseLand": null,
+      "udenlandskPostadresseLandekode": null
+    },
+    "virksomhedRegistreringer": [
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "25797981",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK FORSYNING A/S",
+        "offentliggoerelseId": "39511050",
+        "offentliggoerelseTidsstempel": "19.06.2026",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003EVedtægter ændret: 04.06.2026\n\u003Cbr /\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003ELeif Bjarne Clausen, den 04.06.2026, Hans Ole Drost, (formand), den 04.06.2026, Jørgen Grüner, den 04.06.2026, Ole Ernstsen Hansen, den 04.06.2026, Anders Michael Bagge Kolding, den 04.06.2026, Stina Abelone Madsen, den 04.06.2026, Svend Aage Nielsen, den 04.06.2026, Anna Strøbæk, den 04.06.2026, Lis Tribler, (næstformand), den 04.06.2026.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000317025/deltager\" target=\"_blank\"\u003EThomas Skovgaard Wraa Frosch\u003C/a\u003E, den 04.06.2026, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000145213/deltager\" target=\"_blank\"\u003ESusan Hørlyck Münster\u003C/a\u003E, (næstformand), den 04.06.2026, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4007718334/deltager\" target=\"_blank\"\u003EJohnny Kim Hjulsager Persson\u003C/a\u003E, den 04.06.2026, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4003888200/deltager\" target=\"_blank\"\u003ELars Therkildsen\u003C/a\u003E, (formand), den 04.06.2026, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004171164/deltager\" target=\"_blank\"\u003ELis Tribler\u003C/a\u003E, den 04.06.2026, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4010835863/deltager\" target=\"_blank\"\u003ERasmus Trebbien Tribler\u003C/a\u003E, den 04.06.2026.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003EVedtægter ændret: 04.06.2026\n\u003Cbr /\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003ELeif Bjarne Clausen, den 04.06.2026, Hans Ole Drost, (formand), den 04.06.2026, Jørgen Grüner, den 04.06.2026, Ole Ernstsen Hansen, den 04.06.2026, Anders Michael Bagge Kolding, den 04.06.2026, Stina Abelone Madsen, den 04.06.2026, Svend Aage Nielsen, den 04.06.2026, Anna Strøbæk, den 04.06.2026, Lis Tribler, (næstformand), den 04.06.2026.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EThomas Skovgaard Wraa Frosch, den 04.06.2026, Susan Hørlyck Münster, (næstformand), den 04.06.2026, Johnny Kim Hjulsager Persson, den 04.06.2026, Lars Therkildsen, (formand), den 04.06.2026, Lis Tribler, den 04.06.2026, Rasmus Trebbien Tribler, den 04.06.2026.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "25797981",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK FORSYNING A/S",
+        "offentliggoerelseId": "37533271",
+        "offentliggoerelseTidsstempel": "02.06.2025",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EDirektion:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EJan Østerskov Hansen, den 31.05.2025.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003EDirektion:\u003Cbr/\u003E\u003Cbr /\u003E\u003C/h1\u003E\u003Cbr/\u003E\u003Ch2\u003EFratrådte:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003EJan Østerskov Hansen, den 31.05.2025.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "25797981",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK FORSYNING A/S",
+        "offentliggoerelseId": "36913744",
+        "offentliggoerelseTidsstempel": "29.01.2025",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EDirektion:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4010294260/deltager\" target=\"_blank\"\u003EMargit Jensen\u003C/a\u003E, den 23.01.2025.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EDirektion:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EMargit Jensen, den 23.01.2025.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "25797981",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK FORSYNING A/S",
+        "offentliggoerelseId": "36908664",
+        "offentliggoerelseTidsstempel": "28.01.2025",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EVillum Christensen, den 18.12.2024.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4009455589/deltager\" target=\"_blank\"\u003EAnders Michael Bagge Kolding\u003C/a\u003E, den 28.01.2025.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EVillum Christensen, den 18.12.2024.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EAnders Michael Bagge Kolding, den 28.01.2025.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "25797981",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK FORSYNING A/S",
+        "offentliggoerelseId": "36639113",
+        "offentliggoerelseTidsstempel": "19.11.2024",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EPernille Ivalo Frandsen, den 06.11.2024.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000769738/deltager\" target=\"_blank\"\u003EJørgen Grüner\u003C/a\u003E, den 06.11.2024.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EPernille Ivalo Frandsen, den 06.11.2024.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EJørgen Grüner, den 06.11.2024.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "25797981",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK FORSYNING A/S",
+        "offentliggoerelseId": "36188309",
+        "offentliggoerelseTidsstempel": "02.07.2024",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003EVedtægter ændret: 29.05.2024\n\u003Cbr /\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003EVedtægter ændret: 29.05.2024\u003Cbr/\u003E\u003Cbr /\u003E\u003Cbr/\u003E\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "25797981",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK FORSYNING A/S",
+        "offentliggoerelseId": "34147696",
+        "offentliggoerelseTidsstempel": "13.06.2023",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4007658227/deltager\" target=\"_blank\"\u003ELeif Bjarne Clausen\u003C/a\u003E, den 24.05.2023, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004029290/deltager\" target=\"_blank\"\u003EStina Abelone Hansen\u003C/a\u003E, den 24.05.2023, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004031938/deltager\" target=\"_blank\"\u003EAnna Strøbæk\u003C/a\u003E, den 24.05.2023.\u003C/p\u003E\n\u003Ch1\u003EValgt af medarbejderne i koncernen:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003ELeif Bjarne Clausen, den 24.05.2023, Stina Abelone Hansen, den 24.05.2023.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003ELeif Bjarne Clausen, den 24.05.2023, Stina Abelone Hansen, den 24.05.2023, Anna Strøbæk, den 24.05.2023.\u003C/p\u003E\n\u003Ch1\u003EValgt af medarbejderne i koncernen:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003ELeif Bjarne Clausen, den 24.05.2023, Stina Abelone Hansen, den 24.05.2023.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "25797981",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK FORSYNING A/S",
+        "offentliggoerelseId": "33829943",
+        "offentliggoerelseTidsstempel": "20.04.2023",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch1\u003EValgt af medarbejderne i koncernen:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EJacob Raagaard Rasmussen, den 13.04.2023.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003EBestyrelse:\u003Cbr/\u003E\u003Cbr /\u003E\u003C/h1\u003E\u003Cbr/\u003E\u003Ch1\u003EValgt af medarbejderne i koncernen:\u003Cbr/\u003E\u003Cbr /\u003E\u003C/h1\u003E\u003Cbr/\u003E\u003Ch2\u003EFratrådte:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003EJacob Raagaard Rasmussen, den 13.04.2023.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "25797981",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK FORSYNING A/S",
+        "offentliggoerelseId": "32346151",
+        "offentliggoerelseTidsstempel": "23.05.2022",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EFlemming Aarup Erichsen, den 19.05.2022, Bodil Knudsen, den 19.05.2022, Anders Koefoed, den 19.05.2022, Anders Peter Møller Nielsen, den 19.05.2022, Ole Olsen, den 19.05.2022.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000709428/deltager\" target=\"_blank\"\u003EJoshua Bjørkman\u003C/a\u003E, den 19.05.2022, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000327392/deltager\" target=\"_blank\"\u003EVillum Christensen\u003C/a\u003E, den 19.05.2022, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4008935854/deltager\" target=\"_blank\"\u003EAli Yavuz\u003C/a\u003E, den 19.05.2022.\u003C/p\u003E\n\u003Ch1\u003EValgt af medarbejderne i koncernen:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EErling Lindharth Stuhr, den 19.05.2022, Irene Juul Vissing, den 19.05.2022, Lillian Pia Wismann, den 19.05.2022.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4009273027/deltager\" target=\"_blank\"\u003EJacob Raagaard Rasmussen\u003C/a\u003E, den 19.05.2022.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EFlemming Aarup Erichsen, den 19.05.2022, Bodil Knudsen, den 19.05.2022, Anders Koefoed, den 19.05.2022, Anders Peter Møller Nielsen, den 19.05.2022, Ole Olsen, den 19.05.2022.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EJoshua Bjørkman, den 19.05.2022, Villum Christensen, den 19.05.2022, Ali Yavuz, den 19.05.2022.\u003C/p\u003E\n\u003Ch1\u003EValgt af medarbejderne i koncernen:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EErling Lindharth Stuhr, den 19.05.2022, Irene Juul Vissing, den 19.05.2022, Lillian Pia Wismann, den 19.05.2022.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EJacob Raagaard Rasmussen, den 19.05.2022.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "25797981",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK FORSYNING A/S",
+        "offentliggoerelseId": "31370763",
+        "offentliggoerelseTidsstempel": "12.10.2021",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EHans Ole Drost, (næstformand), den 06.10.2021, Flemming Aarup Erichsen, (formand), den 06.10.2021, Lis Tribler, den 06.10.2021.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000222171/deltager\" target=\"_blank\"\u003EHans Ole Drost\u003C/a\u003E, (formand), den 06.10.2021, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004006163/deltager\" target=\"_blank\"\u003EFlemming Aarup Erichsen\u003C/a\u003E, den 06.10.2021, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004171164/deltager\" target=\"_blank\"\u003ELis Tribler\u003C/a\u003E, (næstformand), den 06.10.2021.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EHans Ole Drost, (næstformand), den 06.10.2021, Flemming Aarup Erichsen, (formand), den 06.10.2021, Lis Tribler, den 06.10.2021.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EHans Ole Drost, (formand), den 06.10.2021, Flemming Aarup Erichsen, den 06.10.2021, Lis Tribler, (næstformand), den 06.10.2021.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "25797981",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK FORSYNING A/S",
+        "offentliggoerelseId": "31283349",
+        "offentliggoerelseTidsstempel": "22.09.2021",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch1\u003EValgt af medarbejderne i koncernen:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EJan Michael Jørgensen, den 16.09.2021.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4007486996/deltager\" target=\"_blank\"\u003EIrene Juul Vissing\u003C/a\u003E, den 16.09.2021.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch1\u003EValgt af medarbejderne i koncernen:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EJan Michael Jørgensen, den 16.09.2021.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EIrene Juul Vissing, den 16.09.2021.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "25797981",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK FORSYNING A/S",
+        "offentliggoerelseId": "27650493",
+        "offentliggoerelseTidsstempel": "04.07.2019",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003ERevision:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EERNST &amp; YOUNG Godkendt Revisionspartnerselskab, den 22.05.2019.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003ECVR-NR. 33771231 PRICEWATERHOUSECOOPERS STATSAUTORISERET REVISIONSPARTNERSELSKAB, Strandvejen 44, 2900 Hellerup, den 22.05.2019.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003ERevision:\u003Cbr/\u003E\u003Cbr /\u003E\u003C/h1\u003E\u003Cbr/\u003E\u003Ch2\u003EFratrådte:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003EERNST &amp; YOUNG Godkendt Revisionspartnerselskab, den 22.05.2019.\u003C/p\u003E\u003Cbr/\u003E\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003ECVR-NR. 33771231 PRICEWATERHOUSECOOPERS STATSAUTORISERET REVISIONSPARTNERSELSKAB, Strandvejen 44, 2900 Hellerup, den 22.05.2019.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_revision"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "25797981",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK FORSYNING A/S",
+        "offentliggoerelseId": "26516395",
+        "offentliggoerelseTidsstempel": "01.01.2019",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003ENy adresse: Nordvej 6, 4200 Slagelse\n\u003Cbr /\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003ENy adresse: Nordvej 6, 4200 Slagelse\u003Cbr/\u003E\u003Cbr /\u003E\u003Cbr/\u003E\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_adresse"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "25797981",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK FORSYNING A/S",
+        "offentliggoerelseId": "25630007",
+        "offentliggoerelseTidsstempel": "31.05.2018",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004161320/deltager\" target=\"_blank\"\u003EHenrik Urban Brodersen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000464012/deltager\" target=\"_blank\"\u003ETroels Christensen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000327392/deltager\" target=\"_blank\"\u003EVillum Christensen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000222171/deltager\" target=\"_blank\"\u003EHans Ole Drost\u003C/a\u003E (formand), den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004006163/deltager\" target=\"_blank\"\u003EFlemming Aarup Erichsen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000079846/deltager\" target=\"_blank\"\u003ENiels Bo Jørgensen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004062602/deltager\" target=\"_blank\"\u003EBodil Knudsen\u003C/a\u003E (næstformand), den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004177460/deltager\" target=\"_blank\"\u003EAxel Larsen\u003C/a\u003E, den 23.05.2018.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000222171/deltager\" target=\"_blank\"\u003EHans Ole Drost\u003C/a\u003E (næstformand), den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004006163/deltager\" target=\"_blank\"\u003EFlemming Aarup Erichsen\u003C/a\u003E (formand), den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000346807/deltager\" target=\"_blank\"\u003EPernille Ivalo Frandsen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004033089/deltager\" target=\"_blank\"\u003EOle Ernstsen Hansen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004062602/deltager\" target=\"_blank\"\u003EBodil Knudsen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000771746/deltager\" target=\"_blank\"\u003EAnders Koefoed\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000725668/deltager\" target=\"_blank\"\u003EOle Olsen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004171164/deltager\" target=\"_blank\"\u003ELis Tribler\u003C/a\u003E, den 23.05.2018.\u003C/p\u003E\n\u003Ch1\u003EValgt af medarbejderne i koncernen:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004018654/deltager\" target=\"_blank\"\u003EHanne Anette Kamienski\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004177457/deltager\" target=\"_blank\"\u003EMalene Sadowski\u003C/a\u003E, den 23.05.2018.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4007658227/deltager\" target=\"_blank\"\u003ELeif Bjarne Clausen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4007658228/deltager\" target=\"_blank\"\u003ELillian Pia Wismann\u003C/a\u003E, den 23.05.2018.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EHenrik Urban Brodersen, den 23.05.2018, Troels Christensen, den 23.05.2018, Villum Christensen, den 23.05.2018, Hans Ole Drost (formand), den 23.05.2018, Flemming Aarup Erichsen, den 23.05.2018, Niels Bo Jørgensen, den 23.05.2018, Bodil Knudsen (næstformand), den 23.05.2018, Axel Larsen, den 23.05.2018.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EHans Ole Drost (næstformand), den 23.05.2018, Flemming Aarup Erichsen (formand), den 23.05.2018, Pernille Ivalo Frandsen, den 23.05.2018, Ole Ernstsen Hansen, den 23.05.2018, Bodil Knudsen, den 23.05.2018, Anders Koefoed, den 23.05.2018, Ole Olsen, den 23.05.2018, Lis Tribler, den 23.05.2018.\u003C/p\u003E\n\u003Ch1\u003EValgt af medarbejderne i koncernen:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EHanne Anette Kamienski, den 23.05.2018, Malene Sadowski, den 23.05.2018.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003ELeif Bjarne Clausen, den 23.05.2018, Lillian Pia Wismann, den 23.05.2018.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "25797981",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK FORSYNING A/S",
+        "offentliggoerelseId": "24741321",
+        "offentliggoerelseTidsstempel": "27.11.2017",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003ERevision:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EPRICEWATERHOUSECOOPERS STATSAUTORISERET REVISIONSPARTNERSELSKAB, den 17.05.2017.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003ECVR-NR. 30700228 ERNST &amp; YOUNG Godkendt Revisionspartnerselskab, Værkmestergade 25, 8000 Aarhus C, den 17.05.2017.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003ERevision:\u003Cbr/\u003E\u003Cbr /\u003E\u003C/h1\u003E\u003Cbr/\u003E\u003Ch2\u003EFratrådte:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003EPRICEWATERHOUSECOOPERS STATSAUTORISERET REVISIONSPARTNERSELSKAB, den 17.05.2017.\u003C/p\u003E\u003Cbr/\u003E\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003ECVR-NR. 30700228 ERNST &amp; YOUNG Godkendt Revisionspartnerselskab, Værkmestergade 25, 8000 Aarhus C, den 17.05.2017.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_revision"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "25797981",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK FORSYNING A/S",
+        "offentliggoerelseId": "24188654",
+        "offentliggoerelseTidsstempel": "13.06.2017",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EDirektion:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004114897/deltager\" target=\"_blank\"\u003EHenrik Rosendal Birch\u003C/a\u003E, den 01.06.2017, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000433191/deltager\" target=\"_blank\"\u003EHenrik Lundgaard\u003C/a\u003E (adm. dir), den 31.05.2017.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004114897/deltager\" target=\"_blank\"\u003EHenrik Rosendal Birch\u003C/a\u003E (adm. dir), den 01.06.2017.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EDirektion:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EHenrik Rosendal Birch, den 01.06.2017, Henrik Lundgaard (adm. dir), den 31.05.2017.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EHenrik Rosendal Birch (adm. dir), den 01.06.2017.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "25797981",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK FORSYNING A/S",
+        "offentliggoerelseId": "12616758",
+        "offentliggoerelseTidsstempel": "11.06.2014",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Cp\u003EFratrådt som næstformand tiltrådt som   formand: \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000222171/deltager\" target=\"_blank\"\u003EHans Ole Drost\u003C/a\u003E, den 27.05.2014,   Fratrådt som formand tiltrådt som   næstformand: \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004062602/deltager\" target=\"_blank\"\u003EBodil Knudsen\u003C/a\u003E, den 27.05.2014.\u003C/p\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004129265/deltager\" target=\"_blank\"\u003ESten Knuth\u003C/a\u003E, den   27.05.2014, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004077794/deltager\" target=\"_blank\"\u003ENiels Nordskov Nielsen\u003C/a\u003E, den   27.05.2014.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EByrådsmedlem \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000464012/deltager\" target=\"_blank\"\u003ETroels   Christensen\u003C/a\u003E, den 27.05.2014, CVU-Rektor \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000327392/deltager\" target=\"_blank\"\u003EVillum   Christensen\u003C/a\u003E, den 27.05.2014, Havnechef   \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004006163/deltager\" target=\"_blank\"\u003EFlemming Aarup Erichsen\u003C/a\u003E, den 27.05.2014, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000079846/deltager\" target=\"_blank\"\u003ENiels Bo Jørgensen\u003C/a\u003E,   den 27.05.2014, Lagerforv \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004177460/deltager\" target=\"_blank\"\u003EAxel Larsen\u003C/a\u003E, den   27.05.2014.\u003C/p\u003E\n\u003Cp\u003EValgt af medarbejderne i koncernen:\n\u003C/p\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004064083/deltager\" target=\"_blank\"\u003EVagn Møller Petersen\u003C/a\u003E,   den 27.05.2014.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EKommunikationskonsulent \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004177457/deltager\" target=\"_blank\"\u003EMalene Nielsen\u003C/a\u003E, den   27.05.2014, Varmemontør \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004177456/deltager\" target=\"_blank\"\u003EErling Lindharth   Stuhr\u003C/a\u003E, den   27.05.2014.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Cp\u003EFratrådt som næstformand tiltrådt som   formand: Hans Ole Drost, den 27.05.2014,   Fratrådt som formand tiltrådt som   næstformand: Bodil Knudsen, den 27.05.2014.\u003C/p\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003ESten Knuth, den   27.05.2014, Niels Nordskov Nielsen, den   27.05.2014.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EByrådsmedlem Troels   Christensen, den 27.05.2014, CVU-Rektor Villum   Christensen, den 27.05.2014, Havnechef   Flemming Aarup Erichsen, den 27.05.2014, Niels Bo Jørgensen,   den 27.05.2014, Lagerforv Axel Larsen, den   27.05.2014.\u003C/p\u003E\n\u003Cp\u003EValgt af medarbejderne i koncernen:\n\u003C/p\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EVagn Møller Petersen,   den 27.05.2014.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EKommunikationskonsulent Malene Nielsen, den   27.05.2014, Varmemontør Erling Lindharth   Stuhr, den   27.05.2014.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet",
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "25797981",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK FORSYNING A/S",
+        "offentliggoerelseId": "12616753",
+        "offentliggoerelseTidsstempel": "08.04.2014",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E19.03.2014.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\u003Cbr/\u003E\u003Cp\u003E19.03.2014.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "25797981",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK FORSYNING A/S",
+        "offentliggoerelseId": "12616745",
+        "offentliggoerelseTidsstempel": "18.06.2013",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E21.05.2013.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\u003Cbr/\u003E\u003Cp\u003E21.05.2013.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "25797981",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK FORSYNING A/S",
+        "offentliggoerelseId": "12616739",
+        "offentliggoerelseTidsstempel": "21.09.2011",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003ERevision:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af revisionen:\u003C/h2\u003E\n\u003Cp\u003EPRICEWATERHOUSECOOPERS   STATSAUTORISERET REVISIONSAKTIESELSKAB, den   01.07.2011.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i revisionen:\u003C/h2\u003E\n\u003Cp\u003EPRICEWATERHOUSECOOPERS   STATSAUTORISERET REVISIONSPARTNERSELSKAB,   Ndr.Ringgade 70 C, 4200 Slagelse, den   01.07.2011.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003ERevision:\u003C/h1\u003E\u003Cbr/\u003E\u003Ch2\u003EUdtrådt af revisionen:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003EPRICEWATERHOUSECOOPERS   STATSAUTORISERET REVISIONSAKTIESELSKAB, den   01.07.2011.\u003C/p\u003E\u003Cbr/\u003E\u003Ch2\u003EIndtrådt i revisionen:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003EPRICEWATERHOUSECOOPERS   STATSAUTORISERET REVISIONSPARTNERSELSKAB,   Ndr.Ringgade 70 C, 4200 Slagelse, den   01.07.2011.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_revision",
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "25797981",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK FORSYNING A/S",
+        "offentliggoerelseId": "12616733",
+        "offentliggoerelseTidsstempel": "29.06.2011",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000169119/deltager\" target=\"_blank\"\u003ELene Birgit Wibroe\u003C/a\u003E,   den 19.05.2011.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EFolketingsmedlem   \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004161320/deltager\" target=\"_blank\"\u003EHenrik Urban Brodersen\u003C/a\u003E, den 19.05.2011.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003ELene Birgit Wibroe,   den 19.05.2011.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EFolketingsmedlem   Henrik Urban Brodersen, den 19.05.2011.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds",
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "25797981",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK FORSYNING A/S",
+        "offentliggoerelseId": "12616725",
+        "offentliggoerelseTidsstempel": "06.05.2011",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Cp\u003EValgt af medarbejderne i koncernen:\n\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EOverassistent \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004029290/deltager\" target=\"_blank\"\u003EStina   Abelone Hansen\u003C/a\u003E, den 20.05.2010, Driftschef \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004018658/deltager\" target=\"_blank\"\u003EJan   Michael Jørgensen\u003C/a\u003E, den 20.05.2010,   Teknisk designer \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004018654/deltager\" target=\"_blank\"\u003EHanne Anette Kamienski\u003C/a\u003E, den 20.05.2010, Elektriker \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004064083/deltager\" target=\"_blank\"\u003EVagn   Møller Petersen\u003C/a\u003E, den 20.05.2010.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Cp\u003EValgt af medarbejderne i koncernen:\n\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EOverassistent Stina   Abelone Hansen, den 20.05.2010, Driftschef Jan   Michael Jørgensen, den 20.05.2010,   Teknisk designer Hanne Anette Kamienski, den 20.05.2010, Elektriker Vagn   Møller Petersen, den 20.05.2010.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds",
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "25797981",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK FORSYNING A/S",
+        "offentliggoerelseId": "12616721",
+        "offentliggoerelseTidsstempel": "01.06.2010",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E20.05.2010.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\u003Cbr/\u003E\u003Cp\u003E20.05.2010.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "25797981",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK FORSYNING A/S",
+        "offentliggoerelseId": "12616716",
+        "offentliggoerelseTidsstempel": "01.06.2010",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004071458/deltager\" target=\"_blank\"\u003EJørgen Christensen\u003C/a\u003E,   den 20.05.2010, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004006163/deltager\" target=\"_blank\"\u003EFlemming Aarup Erichsen\u003C/a\u003E,   den 20.05.2010, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004119636/deltager\" target=\"_blank\"\u003EMichael Gram\u003C/a\u003E, den   20.05.2010, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004018658/deltager\" target=\"_blank\"\u003EJan Michael Jørgensen\u003C/a\u003E, den   20.05.2010, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004018654/deltager\" target=\"_blank\"\u003EHanne Anette Kamienski\u003C/a\u003E, den   20.05.2010, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004029842/deltager\" target=\"_blank\"\u003EEjler Vilhelm Nielsen\u003C/a\u003E, den   20.05.2010, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004010939/deltager\" target=\"_blank\"\u003EOle Quist\u003C/a\u003E, den 20.05.2010, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4311149/deltager\" target=\"_blank\"\u003EPer   Vesterholm\u003C/a\u003E, den 20.05.2010.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004129265/deltager\" target=\"_blank\"\u003ESten Knuth\u003C/a\u003E, den   20.05.2010.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EJørgen Christensen,   den 20.05.2010, Flemming Aarup Erichsen,   den 20.05.2010, Michael Gram, den   20.05.2010, Jan Michael Jørgensen, den   20.05.2010, Hanne Anette Kamienski, den   20.05.2010, Ejler Vilhelm Nielsen, den   20.05.2010, Ole Quist, den 20.05.2010, Per   Vesterholm, den 20.05.2010.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003ESten Knuth, den   20.05.2010.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet",
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "25797981",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK FORSYNING A/S",
+        "offentliggoerelseId": "12916409",
+        "offentliggoerelseTidsstempel": "22.10.2009",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EDriftschef \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004018658/deltager\" target=\"_blank\"\u003EJan   Michael Jørgensen\u003C/a\u003E, den 18.08.2009,   Teknisk designer \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004018654/deltager\" target=\"_blank\"\u003EHanne Anette Kamienski\u003C/a\u003E, den 18.08.2009.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EDriftschef Jan   Michael Jørgensen, den 18.08.2009,   Teknisk designer Hanne Anette Kamienski, den 18.08.2009.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet",
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "25797981",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK FORSYNING A/S",
+        "offentliggoerelseId": "12916396",
+        "offentliggoerelseTidsstempel": "07.06.2009",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E26.05.2009.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\u003Cbr/\u003E\u003Cp\u003E26.05.2009.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Nordvej 11, 4220 Korsør",
+        "cvrNummer": "25797981",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK FORSYNING A/S",
+        "offentliggoerelseId": "12916393",
+        "offentliggoerelseTidsstempel": "16.07.2008",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003ENy adresse:\u003C/h1\u003E\n\u003Cp\u003ELilleøvej 3, 4220 Korsør.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003ENy adresse:\u003C/h1\u003E\u003Cbr/\u003E\u003Cp\u003ELilleøvej 3, 4220 Korsør.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Nordvej 11, 4200 Slagelse",
+        "cvrNummer": "25797981",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK-FORSYNING A/S",
+        "offentliggoerelseId": "12916388",
+        "offentliggoerelseTidsstempel": "11.07.2008",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E20.06.2008.\u003C/p\u003E\n\u003Ch1\u003ENyt navn:\u003C/h1\u003E\n\u003Cp\u003ESK FORSYNING A/S.\u003C/p\u003E\n\u003Cp\u003ENyt binavn: SLAGELSE FORSYNING A/S (SK   FORSYNING A/S).\n\u003C/p\u003E\n\u003Ch2\u003ESlettede binavne:\u003C/h2\u003E\n\u003Cp\u003ESKE-NET A/S (SK-FORSYNING   A/S), SLAGELSE KOMMUNES   FORSYNINGSVIRKSOMHED A/S (SK-FORSYNING   A/S), SLAGELSE KOMMUNES NETSELSKAB A/S   (SK-FORSYNING A/S).\u003C/p\u003E\n\u003Cp\u003EKapitalforhøjelse kr. 8.000.000,00: kr.   3.000.000,00 indbetalt i værdier, kurs   30.262,73, kr. 5.000.000,00 indbetalt ved   fusion, kurs 4.786,80.\n\u003Cbr /\u003EKapitalen udgør herefter kr. 15.000.000,00.\n\u003C/p\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003ESteen Bach Nielsen,   den 20.06.2008, Leif Keld Hansen, den   20.06.2008, den 20.06.2008.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003ESkolekonsulent Hans   Ole Drost, (næstformand), Sorø Landevej   275, Eggeslevmagle, 4230 Skælskør, den   20.06.2008, Politikommisær Jørgen   Christensen, Vandkærsvej 6, 4220 Korsør,   den 20.06.2008, Havnechef Flemming Aarup   Erichsen, Sylowsvej 55, 4220 Korsør, den   20.06.2008, Byrådsmedlem Anders Peter   Møller Nielsen, Halsskovvej 59, 4220   Korsør, den 20.06.2008, Lokomotivfører Ole   Quist, Halsskov Tværvej 3, 4220 Korsør, den   20.06.2008, Direktør Per Vesterholm,   Alhøjvænget 24, 4220 Korsør, den   20.06.2008.\u003C/p\u003E\n\u003Ch1\u003EDirektion:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af direktionen:\u003C/h2\u003E\n\u003Cp\u003EMogens Bach Nielsen,   den 20.06.2008, den 20.06.2008.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i direktionen:\u003C/h2\u003E\n\u003Cp\u003ETeknisk direktør   Henrik Rosendal Birch, Lerhøj 9 B, 4220   Korsør, den 20.06.2008, Økonomidirektør Jan   Østergaard Hansen, Skovvangsvej 23, Strøby   Egede, 4600 Køge, den 20.06.2008,   Administrerende direktør Henrik Lundgaard,   (adm. dir), Blindeport 1, 1., 4220 Korsør,   den 20.06.2008.\u003C/p\u003E\n\u003Cp\u003ESelskabet tegnes af et bestyrelsesmedlem og   en direktør eller af bestyrelsesformanden   sammen med et bestyrelsesmedlem eller af   den samlede bestyrelse.\n\u003Cbr /\u003ESelskabet er fusioneret med CVR-NR. 25592611   KORSØR FORSYNING A/S, der samtidig er   opløst.\n\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\u003Cbr/\u003E\u003Cp\u003E20.06.2008.\u003C/p\u003E\u003Cbr/\u003E\u003Ch1\u003ENyt navn:\u003C/h1\u003E\u003Cbr/\u003E\u003Cp\u003ESK FORSYNING A/S.\u003C/p\u003E\u003Cbr/\u003E\u003Cp\u003ENyt binavn: SLAGELSE FORSYNING A/S (SK   FORSYNING A/S).\u003Cbr/\u003E\u003C/p\u003E\u003Cbr/\u003E\u003Ch2\u003ESlettede binavne:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003ESKE-NET A/S (SK-FORSYNING   A/S), SLAGELSE KOMMUNES   FORSYNINGSVIRKSOMHED A/S (SK-FORSYNING   A/S), SLAGELSE KOMMUNES NETSELSKAB A/S   (SK-FORSYNING A/S).\u003C/p\u003E\u003Cbr/\u003E\u003Cp\u003EKapitalforhøjelse kr. 8.000.000,00: kr.   3.000.000,00 indbetalt i værdier, kurs   30.262,73, kr. 5.000.000,00 indbetalt ved   fusion, kurs 4.786,80.\u003Cbr/\u003E\u003Cbr /\u003EKapitalen udgør herefter kr. 15.000.000,00.\u003Cbr/\u003E\u003C/p\u003E\u003Cbr/\u003E\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\u003Cbr/\u003E\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003ESteen Bach Nielsen,   den 20.06.2008, Leif Keld Hansen, den   20.06.2008, den 20.06.2008.\u003C/p\u003E\u003Cbr/\u003E\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003ESkolekonsulent Hans   Ole Drost, (næstformand), Sorø Landevej   275, Eggeslevmagle, 4230 Skælskør, den   20.06.2008, Politikommisær Jørgen   Christensen, Vandkærsvej 6, 4220 Korsør,   den 20.06.2008, Havnechef Flemming Aarup   Erichsen, Sylowsvej 55, 4220 Korsør, den   20.06.2008, Byrådsmedlem Anders Peter   Møller Nielsen, Halsskovvej 59, 4220   Korsør, den 20.06.2008, Lokomotivfører Ole   Quist, Halsskov Tværvej 3, 4220 Korsør, den   20.06.2008, Direktør Per Vesterholm,   Alhøjvænget 24, 4220 Korsør, den   20.06.2008.\u003C/p\u003E\u003Cbr/\u003E\u003Ch1\u003EDirektion:\u003C/h1\u003E\u003Cbr/\u003E\u003Ch2\u003EUdtrådt af direktionen:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003EMogens Bach Nielsen,   den 20.06.2008, den 20.06.2008.\u003C/p\u003E\u003Cbr/\u003E\u003Ch2\u003EIndtrådt i direktionen:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003ETeknisk direktør   Henrik Rosendal Birch, Lerhøj 9 B, 4220   Korsør, den 20.06.2008, Økonomidirektør Jan   Østergaard Hansen, Skovvangsvej 23, Strøby   Egede, 4600 Køge, den 20.06.2008,   Administrerende direktør Henrik Lundgaard,   (adm. dir), Blindeport 1, 1., 4220 Korsør,   den 20.06.2008.\u003C/p\u003E\u003Cbr/\u003E\u003Cp\u003ESelskabet tegnes af et bestyrelsesmedlem og   en direktør eller af bestyrelsesformanden   sammen med et bestyrelsesmedlem eller af   den samlede bestyrelse.\u003Cbr/\u003E\u003Cbr /\u003ESelskabet er fusioneret med CVR-NR. 25592611   KORSØR FORSYNING A/S, der samtidig er   opløst.\u003Cbr/\u003E\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_kapital",
+          "virksomhedsregistreringsstatus-aendring_personkreds",
+          "virksomhedsregistreringsstatus-aendring_status"
+        ]
+      },
+      {
+        "adresse": "Nordvej 11, 4200 Slagelse",
+        "cvrNummer": "25797981",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK-FORSYNING A/S",
+        "offentliggoerelseId": "12916386",
+        "offentliggoerelseTidsstempel": "22.05.2008",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Cp\u003EErhvervs- og Selskabsstyrelsen har modtaget\n\u003Cbr /\u003Efusionsplan i henhold til aktieselskabslovens § 134 a\n\u003Cbr /\u003Efor fusion mellem\n\u003Cbr /\u003ECVR-NR. 25797981 SK-FORSYNING A/S. der   tillige driver virksomhed under navnene   SKE-NET A/S (SK-FORSYNING A/S), SLAGELSE   KOMMUNES FORSYNINGSVIRKSOMHED A/S   (SK-FORSYNING A/S), SLAGELSE KOMMUNES   NETSELSKAB A/S (SK-FORSYNING A/S).\n\u003Cbr /\u003ECVR-NR. 25592611 KORSØR FORSYNING A/S.\n\u003Cbr /\u003EEndvidere er modtaget erklæring fra\n\u003Cbr /\u003Evurderingsmændene i henhold til aktieselskabslovens §\n\u003Cbr /\u003E134 c, stk. 4.\n\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Cp\u003EErhvervs- og Selskabsstyrelsen har modtaget\u003Cbr/\u003E\u003Cbr /\u003Efusionsplan i henhold til aktieselskabslovens § 134 a\u003Cbr/\u003E\u003Cbr /\u003Efor fusion mellem\u003Cbr/\u003E\u003Cbr /\u003ECVR-NR. 25797981 SK-FORSYNING A/S. der   tillige driver virksomhed under navnene   SKE-NET A/S (SK-FORSYNING A/S), SLAGELSE   KOMMUNES FORSYNINGSVIRKSOMHED A/S   (SK-FORSYNING A/S), SLAGELSE KOMMUNES   NETSELSKAB A/S (SK-FORSYNING A/S).\u003Cbr/\u003E\u003Cbr /\u003ECVR-NR. 25592611 KORSØR FORSYNING A/S.\u003Cbr/\u003E\u003Cbr /\u003EEndvidere er modtaget erklæring fra\u003Cbr/\u003E\u003Cbr /\u003Evurderingsmændene i henhold til aktieselskabslovens §\u003Cbr/\u003E\u003Cbr /\u003E134 c, stk. 4.\u003Cbr/\u003E\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Nordvej 11, 4200 Slagelse",
+        "cvrNummer": "25797981",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK-FORSYNING A/S",
+        "offentliggoerelseId": "12916381",
+        "offentliggoerelseTidsstempel": "14.04.2008",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E25.02.2008.\u003C/p\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004119636/deltager\" target=\"_blank\"\u003EMichael Gram\u003C/a\u003E, den   25.02.2008, Statsaut. revisor \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000030224/deltager\" target=\"_blank\"\u003ESvend Aage   Nielsen\u003C/a\u003E, den   25.02.2008, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000169119/deltager\" target=\"_blank\"\u003ELene Birgit Wibroe\u003C/a\u003E, den 25.02.2008.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E25.02.2008.\u003C/p\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EMichael Gram, den   25.02.2008, Statsaut. revisor Svend Aage   Nielsen, den   25.02.2008, Lene Birgit Wibroe, den 25.02.2008.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet",
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Nordvej 11, 4200 Slagelse",
+        "cvrNummer": "25797981",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK-FORSYNING A/S",
+        "offentliggoerelseId": "12916376",
+        "offentliggoerelseTidsstempel": "06.09.2007",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E24.05.2007.\u003C/p\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004098096/deltager\" target=\"_blank\"\u003EGorm Michael   Pedersen\u003C/a\u003E, den 24.05.2007.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003Evicevært \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004053546/deltager\" target=\"_blank\"\u003ELeif Keld   Hansen\u003C/a\u003E, den   24.05.2007.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E24.05.2007.\u003C/p\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EGorm Michael   Pedersen, den 24.05.2007.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003Evicevært Leif Keld   Hansen, den   24.05.2007.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet",
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Nordvej 11, 4200 Slagelse",
+        "cvrNummer": "25797981",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK-FORSYNING A/S",
+        "offentliggoerelseId": "12916371",
+        "offentliggoerelseTidsstempel": "01.01.2007",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Cp\u003EVed kommunalreformen den 1. januar 2007 er   hjemstedskommunen ændret.\n\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Cp\u003EVed kommunalreformen den 1. januar 2007 er   hjemstedskommunen ændret.\u003Cbr/\u003E\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_adresse"
+        ]
+      },
+      {
+        "adresse": "Nordvej 11, 4200 Slagelse",
+        "cvrNummer": "25797981",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK-FORSYNING A/S",
+        "offentliggoerelseId": "12916365",
+        "offentliggoerelseTidsstempel": "31.05.2006",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003ERevision:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af revisionen:\u003C/h2\u003E\n\u003Cp\u003EPricewaterhouseCoopers   I/S, den 29.05.2006.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i revisionen:\u003C/h2\u003E\n\u003Cp\u003EPRICEWATERHOUSECOOPERS   STATSAUTORISERET REVISIONSAKTIESELSKAB,   Sdr. Stationsvej 28, 4200 Slagelse, den   29.05.2006.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003ERevision:\u003C/h1\u003E\u003Cbr/\u003E\u003Ch2\u003EUdtrådt af revisionen:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003EPricewaterhouseCoopers   I/S, den 29.05.2006.\u003C/p\u003E\u003Cbr/\u003E\u003Ch2\u003EIndtrådt i revisionen:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003EPRICEWATERHOUSECOOPERS   STATSAUTORISERET REVISIONSAKTIESELSKAB,   Sdr. Stationsvej 28, 4200 Slagelse, den   29.05.2006.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_revision",
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Nordvej 11, 4200 Slagelse",
+        "cvrNummer": "25797981",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK-FORSYNING A/S",
+        "offentliggoerelseId": "12916362",
+        "offentliggoerelseTidsstempel": "08.04.2005",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004064084/deltager\" target=\"_blank\"\u003ETorben Julius   Sønderup Nielsen\u003C/a\u003E, den 08.04.2005.\u003C/p\u003E\n\u003Ch1\u003EBestyrelsessuppleanter:\u003C/h1\u003E\n\u003Ch2\u003EFratrådt som suppleant:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004064083/deltager\" target=\"_blank\"\u003EVagn Møller Petersen\u003C/a\u003E,   den 08.04.2005, for \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004064084/deltager\" target=\"_blank\"\u003ETorben Julius Sønderup   Nielsen\u003C/a\u003E.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003ETorben Julius   Sønderup Nielsen, den 08.04.2005.\u003C/p\u003E\n\u003Ch1\u003EBestyrelsessuppleanter:\u003C/h1\u003E\n\u003Ch2\u003EFratrådt som suppleant:\u003C/h2\u003E\n\u003Cp\u003EVagn Møller Petersen,   den 08.04.2005, for Torben Julius Sønderup   Nielsen.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds",
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Nordvej 11, 4200 Slagelse",
+        "cvrNummer": "25797981",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK-FORSYNING A/S",
+        "offentliggoerelseId": "7188215",
+        "offentliggoerelseTidsstempel": "12.05.2004",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E05.05.2004.\u003C/p\u003E\n\u003Ch2\u003EKapitalforhøjelse:\u003C/h2\u003E\n\u003Cp\u003Ekr. 1.000.000,00 indbetalt   i værdier, kurs 4.953,70.\u003C/p\u003E\n\u003Cp\u003EKapitalen udgør herefter kr. 7.000.000,00.\n\u003C/p\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003ETiltrådt som næstformand:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4003937806/deltager\" target=\"_blank\"\u003ESteen Bach Nielsen\u003C/a\u003E,   den 05.05.2004.\u003C/p\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000141861/deltager\" target=\"_blank\"\u003EArne Ejgil Beyer\u003C/a\u003E, den   05.05.2004, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004053546/deltager\" target=\"_blank\"\u003ELeif Keld Hansen\u003C/a\u003E, den   05.05.2004, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000293541/deltager\" target=\"_blank\"\u003EPoul Bruno Frederik Hansen\u003C/a\u003E, den   05.05.2004.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004029842/deltager\" target=\"_blank\"\u003EEjler Vilhelm   Nielsen\u003C/a\u003E, den 05.05.2004, Områdeleder \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004077794/deltager\" target=\"_blank\"\u003ENiels   Nordskov Nielsen\u003C/a\u003E, den 05.05.2004, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004098096/deltager\" target=\"_blank\"\u003EGorm Michael   Pedersen\u003C/a\u003E, den   05.05.2004.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E05.05.2004.\u003C/p\u003E\n\u003Ch2\u003EKapitalforhøjelse:\u003C/h2\u003E\n\u003Cp\u003Ekr. 1.000.000,00 indbetalt   i værdier, kurs 4.953,70.\u003C/p\u003E\n\u003Cp\u003EKapitalen udgør herefter kr. 7.000.000,00.\n\u003C/p\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003ETiltrådt som næstformand:\u003C/h2\u003E\n\u003Cp\u003ESteen Bach Nielsen,   den 05.05.2004.\u003C/p\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EArne Ejgil Beyer, den   05.05.2004, Leif Keld Hansen, den   05.05.2004, Poul Bruno Frederik Hansen, den   05.05.2004.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EEjler Vilhelm   Nielsen, den 05.05.2004, Områdeleder Niels   Nordskov Nielsen, den 05.05.2004, Gorm Michael   Pedersen, den   05.05.2004.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_kapital",
+          "virksomhedsregistreringsstatus-andet",
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Nordvej 11, 4200 Slagelse",
+        "cvrNummer": "25797981",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SLAGELSE KOMMUNES NETSELSKAB A/S",
+        "offentliggoerelseId": "7188213",
+        "offentliggoerelseTidsstempel": "20.05.2003",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E13.05.2003.\u003C/p\u003E\n\u003Ch1\u003ENyt navn:\u003C/h1\u003E\n\u003Cp\u003ESK-FORSYNING A/S.\u003C/p\u003E\n\u003Ch2\u003EBinavn:\u003C/h2\u003E\n\u003Cp\u003ESKE-NET A/S (SK-FORSYNING A/S).\u003C/p\u003E\n\u003Cp\u003ENyt binavn: SLAGELSE KOMMUNES   FORSYNINGSVIRKSOMHED A/S (SK-FORSYNING   A/S).\n\u003Cbr /\u003ESelskabet tegnes af bestyrelsens formand   eller næstformand i forening med et andet   bestyrelsesmedlem eller i forening med en   direktør eller af den samlede bestyrelse.\n\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\u003Cbr/\u003E\u003Cp\u003E13.05.2003.\u003C/p\u003E\u003Cbr/\u003E\u003Ch1\u003ENyt navn:\u003C/h1\u003E\u003Cbr/\u003E\u003Cp\u003ESK-FORSYNING A/S.\u003C/p\u003E\u003Cbr/\u003E\u003Ch2\u003EBinavn:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003ESKE-NET A/S (SK-FORSYNING A/S).\u003C/p\u003E\u003Cbr/\u003E\u003Cp\u003ENyt binavn: SLAGELSE KOMMUNES   FORSYNINGSVIRKSOMHED A/S (SK-FORSYNING   A/S).\u003Cbr/\u003E\u003Cbr /\u003ESelskabet tegnes af bestyrelsens formand   eller næstformand i forening med et andet   bestyrelsesmedlem eller i forening med en   direktør eller af den samlede bestyrelse.\u003Cbr/\u003E\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Nordvej 11, 4200 Slagelse",
+        "cvrNummer": "25797981",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK-FORSYNING A/S",
+        "offentliggoerelseId": "7188211",
+        "offentliggoerelseTidsstempel": "20.05.2003",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E13.05.2003.\u003C/p\u003E\n\u003Cp\u003ENyt binavn: SLAGELSE KOMMUNES NETSELSKAB A/S   (SK-FORSYNING A/S).\n\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\u003Cbr/\u003E\u003Cp\u003E13.05.2003.\u003C/p\u003E\u003Cbr/\u003E\u003Cp\u003ENyt binavn: SLAGELSE KOMMUNES NETSELSKAB A/S   (SK-FORSYNING A/S).\u003Cbr/\u003E\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Nordvej 11, 4200 Slagelse",
+        "cvrNummer": "25797981",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SLAGELSE KOMMUNES NETSELSKAB A/S",
+        "offentliggoerelseId": "7188208",
+        "offentliggoerelseTidsstempel": "21.06.2002",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E13.05.2002.\u003C/p\u003E\n\u003Ch2\u003EKapitalforhøjelse:\u003C/h2\u003E\n\u003Cp\u003Ekr. 1.000.000,00 indbetalt   i værdier, kurs 420,00.\u003C/p\u003E\n\u003Cp\u003EKapitalen udgør herefter kr. 6.000.000,00.\n\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\u003Cbr/\u003E\u003Cp\u003E13.05.2002.\u003C/p\u003E\u003Cbr/\u003E\u003Ch2\u003EKapitalforhøjelse:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003Ekr. 1.000.000,00 indbetalt   i værdier, kurs 420,00.\u003C/p\u003E\u003Cbr/\u003E\u003Cp\u003EKapitalen udgør herefter kr. 6.000.000,00.\u003Cbr/\u003E\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet",
+          "virksomhedsregistreringsstatus-aendring_kapital"
+        ]
+      },
+      {
+        "adresse": "Nordvej 11, 4200 Slagelse",
+        "cvrNummer": "25797981",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SLAGELSE KOMMUNES NETSELSKAB A/S",
+        "offentliggoerelseId": "7188206",
+        "offentliggoerelseTidsstempel": "13.06.2001",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E21.05.2001.\u003C/p\u003E\n\u003Cp\u003EDirektionen tegner selskabet i sager af   almindelig driftsmæssig karakter. I   dispositioner af større betydning eller af   særlig art tegnes selskabet af   bestyrelsesformanden i forening med   næstformanden eller bestyrelsesformanden i   forening med en direktør eller af den   samlede bestyrelse.\n\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\u003Cbr/\u003E\u003Cp\u003E21.05.2001.\u003C/p\u003E\u003Cbr/\u003E\u003Cp\u003EDirektionen tegner selskabet i sager af   almindelig driftsmæssig karakter. I   dispositioner af større betydning eller af   særlig art tegnes selskabet af   bestyrelsesformanden i forening med   næstformanden eller bestyrelsesformanden i   forening med en direktør eller af den   samlede bestyrelse.\u003Cbr/\u003E\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Nordvej 11, 4200 Slagelse",
+        "cvrNummer": "25797981",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SLAGELSE KOMMUNES NETSELSKAB A/S",
+        "offentliggoerelseId": "7188203",
+        "offentliggoerelseTidsstempel": "20.02.2001",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Cp\u003EFratrådt som generalforsamlingsvalgt   tiltrådt som valgt af Medarbejdervalgt:   \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004064084/deltager\" target=\"_blank\"\u003ETorben Julius Sønderup Nielsen\u003C/a\u003E.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Cp\u003EFratrådt som generalforsamlingsvalgt   tiltrådt som valgt af Medarbejdervalgt:   Torben Julius Sønderup Nielsen.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds",
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Nordvej 11, 4200 Slagelse",
+        "cvrNummer": "25797981",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SLAGELSE KOMMUNES NETSELSKAB A/S",
+        "offentliggoerelseId": "7188200",
+        "offentliggoerelseTidsstempel": "12.02.2001",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003ETiltrådt som næstformand:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000141861/deltager\" target=\"_blank\"\u003EArne Ejgil Beyer\u003C/a\u003E,   den 18.12.2000.\u003C/p\u003E\n\u003Ch1\u003EDirektion:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af direktionen:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004064082/deltager\" target=\"_blank\"\u003EHelge Rasmussen\u003C/a\u003E, den   15.01.2001.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i direktionen:\u003C/h2\u003E\n\u003Cp\u003Edirektør \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004028761/deltager\" target=\"_blank\"\u003EMogens Bach   Nielsen\u003C/a\u003E, den 15.01.2001.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003ETiltrådt som næstformand:\u003C/h2\u003E\n\u003Cp\u003EArne Ejgil Beyer,   den 18.12.2000.\u003C/p\u003E\n\u003Ch1\u003EDirektion:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af direktionen:\u003C/h2\u003E\n\u003Cp\u003EHelge Rasmussen, den   15.01.2001.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i direktionen:\u003C/h2\u003E\n\u003Cp\u003Edirektør Mogens Bach   Nielsen, den 15.01.2001.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds",
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Nordvej 11, 4200 Slagelse",
+        "cvrNummer": "25797981",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SLAGELSE KOMMUNES NETSELSKAB A/S",
+        "offentliggoerelseId": "7188198",
+        "offentliggoerelseTidsstempel": "09.01.2001",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch2\u003EBinavn:\u003C/h2\u003E\n\u003Cp\u003ESKE-NET A/S (SLAGELSE KOMMUNES   NETSELSKAB A/S).\u003C/p\u003E\n\u003Ch1\u003EStiftelsesdato:\u003C/h1\u003E\n\u003Cp\u003E18.12.2000.\u003C/p\u003E\n\u003Ch1\u003ESeneste vedtægtsdato:\u003C/h1\u003E\n\u003Cp\u003E18.12.2000.\u003C/p\u003E\n\u003Ch1\u003EKapital:\u003C/h1\u003E\n\u003Cp\u003Ekr. 5.000.000,00.\u003C/p\u003E\n\u003Ch2\u003EIndbetalingsmåde:\u003C/h2\u003E\n\u003Cp\u003Ei værdier kr. 5.000.000,00   til kurs 1.911,52.\u003C/p\u003E\n\u003Ch1\u003EStifter:\u003C/h1\u003E\n\u003Cp\u003ESlagelse kommune, Rådhuspladsen 11,   4200 Slagelse, den 18.12.2000.\u003C/p\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Cp\u003Elærer \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004062602/deltager\" target=\"_blank\"\u003EBodil Knudsen\u003C/a\u003E (formand), den   18.12.2000, viceskoleinspektør \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000141861/deltager\" target=\"_blank\"\u003EArne Ejgil   Beyer\u003C/a\u003E, den 18.12.2000, vicevært \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004053546/deltager\" target=\"_blank\"\u003ELeif   Keld Hansen\u003C/a\u003E, den 18.12.2000,   snedkermester \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000293541/deltager\" target=\"_blank\"\u003EPoul Bruno Frederik Hansen\u003C/a\u003E, den   18.12.2000, elektriker \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004064084/deltager\" target=\"_blank\"\u003ETorben Julius   Sønderup Nielsen\u003C/a\u003E, den 18.12.2000.   (Suppleant: \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004064083/deltager\" target=\"_blank\"\u003EVagn Møller Petersen\u003C/a\u003E, den   18.12.2000), forretningsfører \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4003937806/deltager\" target=\"_blank\"\u003ESteen Bach   Nielsen\u003C/a\u003E, den   18.12.2000.\u003C/p\u003E\n\u003Ch1\u003EDirektion:\u003C/h1\u003E\n\u003Cp\u003Edirektør \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004064082/deltager\" target=\"_blank\"\u003EHelge Rasmussen\u003C/a\u003E, den 18.12.2000.\u003C/p\u003E\n\u003Cp\u003ESelskabet tegnes af bestyrelsensformand i   forening med næstformanden eller af den   samlede bestyrelse.\n\u003C/p\u003E\n\u003Ch1\u003ERevision:\u003C/h1\u003E\n\u003Cp\u003EPricewaterhouseCoopers, Langes Gård   12, postboks 264, 4200 Slagelse, den   18.12.2000.\u003C/p\u003E\n\u003Ch1\u003EFørste regnskabsår:\u003C/h1\u003E\n\u003Cp\u003E01.01.2000 - 31.12.2000.\u003C/p\u003E\n\u003Ch1\u003ERegnskabsår:\u003C/h1\u003E\n\u003Cp\u003E01.01 - 31.12.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch2\u003EBinavn:\u003C/h2\u003E\n\u003Cp\u003ESKE-NET A/S (SLAGELSE KOMMUNES   NETSELSKAB A/S).\u003C/p\u003E\n\u003Ch1\u003EStiftelsesdato:\u003C/h1\u003E\n\u003Cp\u003E18.12.2000.\u003C/p\u003E\n\u003Ch1\u003ESeneste vedtægtsdato:\u003C/h1\u003E\n\u003Cp\u003E18.12.2000.\u003C/p\u003E\n\u003Ch1\u003EKapital:\u003C/h1\u003E\n\u003Cp\u003Ekr. 5.000.000,00.\u003C/p\u003E\n\u003Ch2\u003EIndbetalingsmåde:\u003C/h2\u003E\n\u003Cp\u003Ei værdier kr. 5.000.000,00   til kurs 1.911,52.\u003C/p\u003E\n\u003Ch1\u003EStifter:\u003C/h1\u003E\n\u003Cp\u003ESlagelse kommune, Rådhuspladsen 11,   4200 Slagelse, den 18.12.2000.\u003C/p\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Cp\u003Elærer Bodil Knudsen (formand), den   18.12.2000, viceskoleinspektør Arne Ejgil   Beyer, den 18.12.2000, vicevært Leif   Keld Hansen, den 18.12.2000,   snedkermester Poul Bruno Frederik Hansen, den   18.12.2000, elektriker Torben Julius   Sønderup Nielsen, den 18.12.2000.   (Suppleant: Vagn Møller Petersen, den   18.12.2000), forretningsfører Steen Bach   Nielsen, den   18.12.2000.\u003C/p\u003E\n\u003Ch1\u003EDirektion:\u003C/h1\u003E\n\u003Cp\u003Edirektør Helge Rasmussen, den 18.12.2000.\u003C/p\u003E\n\u003Cp\u003ESelskabet tegnes af bestyrelsensformand i   forening med næstformanden eller af den   samlede bestyrelse.\n\u003C/p\u003E\n\u003Ch1\u003ERevision:\u003C/h1\u003E\n\u003Cp\u003EPricewaterhouseCoopers, Langes Gård   12, postboks 264, 4200 Slagelse, den   18.12.2000.\u003C/p\u003E\n\u003Ch1\u003EFørste regnskabsår:\u003C/h1\u003E\n\u003Cp\u003E01.01.2000 - 31.12.2000.\u003C/p\u003E\n\u003Ch1\u003ERegnskabsår:\u003C/h1\u003E\n\u003Cp\u003E01.01 - 31.12.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-nyt_selskab"
+        ]
+      }
+    ],
+    "virksomhedsMeddelelser": []
+  }

@@ -1,0 +1,2614 @@
+{
+    "aktiveEjerforholdDto": null,
+    "antalAnsatte": {
+      "kvartalsbeskaeftigelse": [],
+      "maanedsbeskaeftigelse": []
+    },
+    "ejerforhold": {
+      "aktiveLegaleEjere": [],
+      "aktiveReelleEjere": [],
+      "begunstigetGruppeNavn": null,
+      "begunstigetGruppeRetskrav": null,
+      "bestyrelseAnsesSomReelleEjere": false,
+      "ejerregistreringUnderFemProcent": false,
+      "ophoerteLegaleEjere": [],
+      "ophoerteReelleEjere": [],
+      "virksomhedHarIkkeKunnetIdentificereReelleEjereLedelseErIndsat": false,
+      "virksomhedHarIkkeReelleEjereOgLedelseErIndsat": false,
+      "virksomhedsFormTilladerReelleEjerOplysninger": false
+    },
+    "foreningsrepraesentanter": [],
+    "harManuelSignering": true,
+    "historiskStamdata": {
+      "adresse": [
+        {
+          "gyldigFra": "2018-11-29",
+          "gyldigTil": "2018-12-31",
+          "vaerdi": "Lilleøvej 3\u003Cbr /\u003E4220 Korsør"
+        },
+        {
+          "gyldigFra": "2007-01-01",
+          "gyldigTil": "2018-11-28",
+          "vaerdi": "Lilleøvej 3\u003Cbr /\u003E4220 Korsør"
+        },
+        {
+          "gyldigFra": "2004-11-18",
+          "gyldigTil": "2006-12-31",
+          "vaerdi": "Lilleøvej 3\u003Cbr /\u003E4220 Korsør"
+        },
+        {
+          "gyldigFra": "2000-08-28",
+          "gyldigTil": "2004-11-17",
+          "vaerdi": "Tårnborgvej 4\u003Cbr /\u003E4220 Korsør"
+        },
+        {
+          "gyldigFra": "2000-06-29",
+          "gyldigTil": "2000-08-27",
+          "vaerdi": "C/O Rådhuset\u003Cbr /\u003ECaspar Brands Plads 6\u003Cbr /\u003E4220 Korsør"
+        },
+        {
+          "gyldigFra": "2000-01-01",
+          "gyldigTil": "2000-06-28",
+          "vaerdi": "C/O Advokatfirmaet Stakemann\u003Cbr /\u003EKronprinsessegade 18\u003Cbr /\u003E1306 København K"
+        }
+      ],
+      "bibranche": [],
+      "branchekode": [
+        {
+          "gyldigFra": "2008-01-01",
+          "gyldigTil": "2024-12-31",
+          "vaerdi": "351400 Handel med elektricitet"
+        },
+        {
+          "gyldigFra": "2003-01-01",
+          "gyldigTil": "2007-12-31",
+          "vaerdi": "401300 Distribution af og handel med elektricitet"
+        },
+        {
+          "gyldigFra": "2000-09-01",
+          "gyldigTil": "2002-12-31",
+          "vaerdi": "401000 Elforsyning"
+        },
+        {
+          "gyldigFra": "2000-01-01",
+          "gyldigTil": "2000-08-31",
+          "vaerdi": "980000 Uoplyst"
+        }
+      ],
+      "formaal": [],
+      "navn": [
+        {
+          "gyldigFra": "2008-04-28",
+          "gyldigTil": "2020-11-11",
+          "vaerdi": "SK ENERGISALG A/S"
+        },
+        {
+          "gyldigFra": "2004-09-03",
+          "gyldigTil": "2008-04-27",
+          "vaerdi": "KORSØR EL A/S"
+        },
+        {
+          "gyldigFra": "2002-06-20",
+          "gyldigTil": "2004-09-02",
+          "vaerdi": "KORSØR ELFORSYNING A/S"
+        },
+        {
+          "gyldigFra": "2000-06-29",
+          "gyldigTil": "2002-06-19",
+          "vaerdi": "KORSØR KOMMUNALE ELFORSYNING A/S"
+        },
+        {
+          "gyldigFra": "2000-01-01",
+          "gyldigTil": "2000-06-28",
+          "vaerdi": "A/S PSE 17 NR. 1170"
+        }
+      ],
+      "registreretKapital": [
+        {
+          "gyldigFra": "2008-11-11",
+          "gyldigTil": "2022-05-18",
+          "vaerdi": "3.200.000,00"
+        },
+        {
+          "gyldigFra": "2008-10-03",
+          "gyldigTil": "2008-11-10",
+          "vaerdi": "1.000.000,00 DKK"
+        },
+        {
+          "gyldigFra": "2000-06-29",
+          "gyldigTil": "2008-10-02",
+          "vaerdi": "600.000,00 DKK"
+        },
+        {
+          "gyldigFra": "2000-01-01",
+          "gyldigTil": "2000-06-28",
+          "vaerdi": "500.000,00 DKK"
+        }
+      ],
+      "senesteVedtaegtsdato": [
+        {
+          "gyldigFra": "2022-05-19",
+          "gyldigTil": "2024-05-28",
+          "vaerdi": "2022-05-19"
+        },
+        {
+          "gyldigFra": "2020-11-12",
+          "gyldigTil": "2022-05-18",
+          "vaerdi": "2020-11-12"
+        },
+        {
+          "gyldigFra": "2014-03-19",
+          "gyldigTil": "2020-11-11",
+          "vaerdi": "2014-03-19"
+        }
+      ],
+      "status": [],
+      "tegningsregel": [],
+      "udenlandskAdresse": [],
+      "virksomhedsform": []
+    },
+    "hovedselskab": null,
+    "kanHaveLegaleEjere": true,
+    "kanHaveReelleEjere": true,
+    "ophoerteEjerforholdDto": null,
+    "oplysningerOmRevisionsvirksomhed": null,
+    "personkreds": {
+      "ejerborgLink": "",
+      "ophoerteFad": [],
+      "personkredser": [
+        {
+          "personRoller": [
+            {
+              "adresse": "Lerhøj 9B\n4220 Korsør",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "",
+              "ekstraDataList": [],
+              "enhedstype": "PERSON",
+              "id": "4004114897",
+              "personType": "deltager",
+              "senesteNavn": "Henrik Rosendal Birch",
+              "sorteringsVaredi": 1,
+              "titlePrefix": [
+                "erstdist-organisation-rolle-adm_dir"
+              ]
+            },
+            {
+              "adresse": "Triangelvej 11\n4200 Slagelse",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "",
+              "ekstraDataList": [],
+              "enhedstype": "PERSON",
+              "id": "4010294260",
+              "personType": "deltager",
+              "senesteNavn": "Margit Jensen",
+              "sorteringsVaredi": 3,
+              "titlePrefix": [
+                "erstdist-organisation-rolle-direktoerer"
+              ]
+            }
+          ],
+          "rolle": {
+            "declaringClass": "integration.erstdist.konstanter.OrganisationsMappning",
+            "funktionsVaerdi": [
+              "ADM. DIR.",
+              "ADM. DIR",
+              "ADM. DIREKTØR",
+              "ADM.DIR.",
+              "ADM.DIRE R",
+              "ADM.DIREKTØR",
+              "ADMINISTRERENDE DIREKTØR",
+              "ANS.CHEFREDAKTØR & ADM.DIREKTØ",
+              "DIREKTØR, ADMINISTRATION",
+              "FUNGERENDE ADM. DIREKTØR",
+              "SIDEORDNET ADM. DIREKTØR"
+            ],
+            "hovedType": [
+              "LEDELSESORGAN"
+            ],
+            "sorteringsVaerdi": 1,
+            "tekstnogle": "erstdist-organisation-rolle-adm_dir",
+            "name": "ADM_DIR",
+            "ordinal": 68
+          },
+          "rolleTekstnogle": "erstdist-organisation-rolle-direktion"
+        },
+        {
+          "personRoller": [
+            {
+              "adresse": "A N Hansens Alle 32\n2900 Hellerup",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "Valgform: Generalforsamling",
+              "ekstraDataList": [
+                {
+                  "tekstnogle": "personkreds-valgform-label",
+                  "vaerdi": "Generalforsamling",
+                  "vaerdiTekstnogle": null
+                }
+              ],
+              "enhedstype": "PERSON",
+              "id": "4003888200",
+              "personType": "deltager",
+              "senesteNavn": "Lars Therkildsen",
+              "sorteringsVaredi": 4,
+              "titlePrefix": [
+                "erstdist-organisation-rolle-formand"
+              ]
+            },
+            {
+              "adresse": "Dronning Sofies Vej 14\n4000 Roskilde",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "Valgform: Generalforsamling",
+              "ekstraDataList": [
+                {
+                  "tekstnogle": "personkreds-valgform-label",
+                  "vaerdi": "Generalforsamling",
+                  "vaerdiTekstnogle": null
+                }
+              ],
+              "enhedstype": "PERSON",
+              "id": "4000145213",
+              "personType": "deltager",
+              "senesteNavn": "Susan Hørlyck Münster",
+              "sorteringsVaredi": 6,
+              "titlePrefix": [
+                "erstdist-organisation-rolle-naestformand"
+              ]
+            },
+            {
+              "adresse": "Nødbrøndsvej 23\nDøjringe\n4180 Sorø",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "Valgform: Generalforsamling",
+              "ekstraDataList": [
+                {
+                  "tekstnogle": "personkreds-valgform-label",
+                  "vaerdi": "Generalforsamling",
+                  "vaerdiTekstnogle": null
+                }
+              ],
+              "enhedstype": "PERSON",
+              "id": "4000317025",
+              "personType": "deltager",
+              "senesteNavn": "Thomas Skovgaard Wraa Frosch",
+              "sorteringsVaredi": 99,
+              "titlePrefix": []
+            },
+            {
+              "adresse": "Seerdrupvej 18\nFårdrup\n4200 Slagelse",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "Valgform: Generalforsamling",
+              "ekstraDataList": [
+                {
+                  "tekstnogle": "personkreds-valgform-label",
+                  "vaerdi": "Generalforsamling",
+                  "vaerdiTekstnogle": null
+                }
+              ],
+              "enhedstype": "PERSON",
+              "id": "4000709428",
+              "personType": "deltager",
+              "senesteNavn": "Joshua Bjørkman",
+              "sorteringsVaredi": 99,
+              "titlePrefix": []
+            },
+            {
+              "adresse": "Sjællandsvej 27\n4200 Slagelse",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "Valgform: Generalforsamling",
+              "ekstraDataList": [
+                {
+                  "tekstnogle": "personkreds-valgform-label",
+                  "vaerdi": "Generalforsamling",
+                  "vaerdiTekstnogle": null
+                }
+              ],
+              "enhedstype": "PERSON",
+              "id": "4004171164",
+              "personType": "deltager",
+              "senesteNavn": "Lis Tribler",
+              "sorteringsVaredi": 99,
+              "titlePrefix": []
+            },
+            {
+              "adresse": "Lokesvej 8\n4220 Korsør",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "Valgform: Generalforsamling",
+              "ekstraDataList": [
+                {
+                  "tekstnogle": "personkreds-valgform-label",
+                  "vaerdi": "Generalforsamling",
+                  "vaerdiTekstnogle": null
+                }
+              ],
+              "enhedstype": "PERSON",
+              "id": "4007718334",
+              "personType": "deltager",
+              "senesteNavn": "Johnny Kim Hjulsager Persson",
+              "sorteringsVaredi": 99,
+              "titlePrefix": []
+            },
+            {
+              "adresse": "Jonsgården 1\n4200 Slagelse",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "Valgform: Generalforsamling",
+              "ekstraDataList": [
+                {
+                  "tekstnogle": "personkreds-valgform-label",
+                  "vaerdi": "Generalforsamling",
+                  "vaerdiTekstnogle": null
+                }
+              ],
+              "enhedstype": "PERSON",
+              "id": "4008935854",
+              "personType": "deltager",
+              "senesteNavn": "Ali Yavuz",
+              "sorteringsVaredi": 99,
+              "titlePrefix": []
+            },
+            {
+              "adresse": "Skrænten 1\n4220 Korsør",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "Valgform: Generalforsamling",
+              "ekstraDataList": [
+                {
+                  "tekstnogle": "personkreds-valgform-label",
+                  "vaerdi": "Generalforsamling",
+                  "vaerdiTekstnogle": null
+                }
+              ],
+              "enhedstype": "PERSON",
+              "id": "4010835863",
+              "personType": "deltager",
+              "senesteNavn": "Rasmus Trebbien Tribler",
+              "sorteringsVaredi": 99,
+              "titlePrefix": []
+            }
+          ],
+          "rolle": {
+            "declaringClass": "integration.erstdist.konstanter.OrganisationsMappning",
+            "funktionsVaerdi": [
+              "NÆSTFORMAND",
+              "NÆSTFORMAND",
+              "2. NÆSTFORMAND"
+            ],
+            "hovedType": [
+              "LEDELSESORGAN"
+            ],
+            "sorteringsVaerdi": 7,
+            "tekstnogle": "erstdist-organisation-rolle-naestformand",
+            "name": "NAESTFORMAND",
+            "ordinal": 87
+          },
+          "rolleTekstnogle": "erstdist-organisation-rolle-bestyrelsesmedlemmer"
+        },
+        {
+          "personRoller": [
+            {
+              "adresse": "Kong Georgs Vej 38\n2000 Frederiksberg",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "",
+              "ekstraDataList": [],
+              "enhedstype": "VIRKSOMHED",
+              "id": "1892035",
+              "personType": null,
+              "senesteNavn": "ApS KBUS 38 nr.3117",
+              "sorteringsVaredi": 10,
+              "titlePrefix": []
+            }
+          ],
+          "rolle": {
+            "declaringClass": "integration.erstdist.konstanter.OrganisationsMappning",
+            "funktionsVaerdi": [
+              "STIFTERE",
+              "STIFTER",
+              "ST*IFTERE",
+              "STI*FTERE",
+              "STIFERE"
+            ],
+            "hovedType": [
+              "STIFTERE"
+            ],
+            "sorteringsVaerdi": 10,
+            "tekstnogle": "erstdist-organisation-rolle-stiftere",
+            "name": "STIFTERE",
+            "ordinal": 0
+          },
+          "rolleTekstnogle": "erstdist-organisation-rolle-stiftere"
+        },
+        {
+          "personRoller": [
+            {
+              "adresse": "Strandvejen 44\n2900 Hellerup",
+              "betydeligIndflydelseViaRolle": "",
+              "betydeligIndflydelseViaRolleList": null,
+              "ekstraData": "",
+              "ekstraDataList": [],
+              "enhedstype": "VIRKSOMHED",
+              "id": "4000769917",
+              "personType": null,
+              "senesteNavn": "PRICEWATERHOUSECOOPERS STATSAUTORISERET REVISIONSPARTNERSELSKAB",
+              "sorteringsVaredi": 10,
+              "titlePrefix": []
+            }
+          ],
+          "rolle": {
+            "declaringClass": "integration.erstdist.konstanter.OrganisationsMappning",
+            "funktionsVaerdi": [
+              "REVISION"
+            ],
+            "hovedType": [
+              "REVISION"
+            ],
+            "sorteringsVaerdi": 10,
+            "tekstnogle": "erstdist-organisation-rolle-revision",
+            "name": "REVISION",
+            "ordinal": 97
+          },
+          "rolleTekstnogle": "erstdist-organisation-rolle-revision"
+        }
+      ],
+      "tegningsregel": "Selskabet tegnes af et bestyrelsesmedlem og en direktør eller af bestyrelsesformanden sammen med et bestyrelsesmedlem eller af den samlede bestyrelse"
+    },
+    "produktionsenheder": {
+      "aktiveProduktionsenheder": [
+        {
+          "antalAnsatte": null,
+          "historiskStamdata": null,
+          "revisionsvirksomhed": null,
+          "stamdata": {
+            "adresse": "Nordvej 6",
+            "bibrancher": [],
+            "bygningsnummer": null,
+            "cvrnummer": "25133374",
+            "email": "kontakt@envafors.dk",
+            "helligdagsaabent": false,
+            "hovedbranche": {
+              "branchekode": "354000",
+              "titel": "Mægler- og agentaktiviteter i forbindelse med forsyning af elektricitet og naturgas"
+            },
+            "navn": "SK ENERGI A/S",
+            "ophoersdato": null,
+            "pnummer": "1009313482",
+            "postnummerOgBy": "4200 Slagelse",
+            "registreretIHvidvaskregistret": false,
+            "regnskabsperiodeSlut": null,
+            "regnskabsperiodeStart": null,
+            "reklamebeskyttet": false,
+            "startdato": "2000-09-28",
+            "telefon": "58362500",
+            "udenlandskAdresse": null,
+            "udenlandskAdresseLand": "Danmark",
+            "udenlandskAdresseLandekode": "DK",
+            "virksomhedsnavn": null
+          }
+        }
+      ],
+      "ophoerteProduktionsenheder": [
+        {
+          "antalAnsatte": null,
+          "historiskStamdata": null,
+          "revisionsvirksomhed": null,
+          "stamdata": {
+            "adresse": "C/O Advokatfirmaet Stakemann\nKronprinsessegade 18",
+            "bibrancher": [],
+            "bygningsnummer": null,
+            "cvrnummer": "25133374",
+            "email": null,
+            "helligdagsaabent": false,
+            "hovedbranche": {
+              "branchekode": "980000",
+              "titel": "Uoplyst"
+            },
+            "navn": "A/S PSE 17 NR. 1170",
+            "ophoersdato": "2000-06-28",
+            "pnummer": "1007342388",
+            "postnummerOgBy": "1306 København K",
+            "registreretIHvidvaskregistret": false,
+            "regnskabsperiodeSlut": null,
+            "regnskabsperiodeStart": null,
+            "reklamebeskyttet": false,
+            "startdato": "2000-01-01",
+            "telefon": null,
+            "udenlandskAdresse": null,
+            "udenlandskAdresseLand": "Danmark",
+            "udenlandskAdresseLandekode": "DK",
+            "virksomhedsnavn": null
+          }
+        },
+        {
+          "antalAnsatte": null,
+          "historiskStamdata": null,
+          "revisionsvirksomhed": null,
+          "stamdata": {
+            "adresse": "Tårnborgvej 4",
+            "bibrancher": [],
+            "bygningsnummer": null,
+            "cvrnummer": "25133374",
+            "email": null,
+            "helligdagsaabent": false,
+            "hovedbranche": {
+              "branchekode": "401000",
+              "titel": "Elforsyning"
+            },
+            "navn": "KORSØR KOMMUNALE ELFORSYNING A/S",
+            "ophoersdato": "2000-09-27",
+            "pnummer": "1007812406",
+            "postnummerOgBy": "4220 Korsør",
+            "registreretIHvidvaskregistret": false,
+            "regnskabsperiodeSlut": null,
+            "regnskabsperiodeStart": null,
+            "reklamebeskyttet": false,
+            "startdato": "2000-06-29",
+            "telefon": null,
+            "udenlandskAdresse": null,
+            "udenlandskAdresseLand": "Danmark",
+            "udenlandskAdresseLandekode": "DK",
+            "virksomhedsnavn": null
+          }
+        }
+      ]
+    },
+    "sammenhaengendeRegnskaber": [
+      {
+        "periodeFormateret": "01.01.2025 - 31.12.2025",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "25133374",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": "Henrik Rosendal Birch",
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "amNsb3VkczovLzAzL2ZkLzRmL2RiLzI0LzgxNjYtNDY2Yy04MDhlLWVlOTRlOTkyYjkyMA",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              },
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzkwL2U1LzJhL2FmL2Y1MWYtNGJjZi1hYmRkLTQ5Zjk1NTcxYTBhMA",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XHTML"
+              }
+            ],
+            "godkendelsesdato": "04.06.2026",
+            "hovednavn": "SK ENERGI A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "39432766",
+            "offentliggoerelseTidsstempel": "2026-06-12T08:40:57.816Z",
+            "offentliggoerelseTidsstempelFormateret": "12.06.2026",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2025 - 31.12.2025",
+            "regnskabsperiodeFra": "01.01.2025",
+            "regnskabsperiodeTil": "31.12.2025",
+            "sagsnummer": "X26-CT-44-EK",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2025",
+        "regnskabsperiodeTil": "31.12.2025"
+      },
+      {
+        "periodeFormateret": "01.01.2024 - 31.12.2024",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "25133374",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": "Henrik Rosendal Birch",
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzkxLzc4L2RlL2RkL2JhOGQtNDQzZC04Zjg1LTVmZjFjNGI5OTI2OQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              },
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzMyLzg0L2JiL2FkLzBjOTUtNDgxNy04ZDgzLWU5ZTU3MDVmN2ExNg",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "04.06.2025",
+            "hovednavn": "SK ENERGI A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "37584912",
+            "offentliggoerelseTidsstempel": "2025-06-10T09:35:52.339Z",
+            "offentliggoerelseTidsstempelFormateret": "10.06.2025",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2024 - 31.12.2024",
+            "regnskabsperiodeFra": "01.01.2024",
+            "regnskabsperiodeTil": "31.12.2024",
+            "sagsnummer": "X25-CM-65-NC",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2024",
+        "regnskabsperiodeTil": "31.12.2024"
+      },
+      {
+        "periodeFormateret": "01.01.2023 - 31.12.2023",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "25133374",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": "Henrik Rosendal Birch",
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzAzL2FkLzQ4LzJjLzFkMWYtNGVhMC1iZmE5LTdjNmE0ZDZhZDJlNA",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              },
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzJhLzZjLzliL2RjLzQxYTctNDE3ZS1hZTE2LWNiNGNhNTM3ZjMzMw",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "29.05.2024",
+            "hovednavn": "SK ENERGI A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "35836279",
+            "offentliggoerelseTidsstempel": "2024-06-06T13:55:44.363Z",
+            "offentliggoerelseTidsstempelFormateret": "06.06.2024",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2023 - 31.12.2023",
+            "regnskabsperiodeFra": "01.01.2023",
+            "regnskabsperiodeTil": "31.12.2023",
+            "sagsnummer": "X24-HV-90-MU",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2023",
+        "regnskabsperiodeTil": "31.12.2023"
+      },
+      {
+        "periodeFormateret": "01.01.2022 - 31.12.2022",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "25133374",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": "Henrik Rosendal Birch",
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "amNsb3VkczovLzAzL2Q3Lzc4L2Q4L2FlL2JkN2ItNDRhOS05ZjczLTI2NjhkMjNlYTI5OQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              },
+              {
+                "dokumentId": "amNsb3VkczovLzAzL2ZhLzcyLzhmL2UxL2U3ODUtNDRjZi04ZThlLTIzZTRjNjE1NWFkMQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              }
+            ],
+            "godkendelsesdato": "23.05.2023",
+            "hovednavn": "SK ENERGI A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "34124541",
+            "offentliggoerelseTidsstempel": "2023-06-09T12:11:52.071Z",
+            "offentliggoerelseTidsstempelFormateret": "09.06.2023",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2022 - 31.12.2022",
+            "regnskabsperiodeFra": "01.01.2022",
+            "regnskabsperiodeTil": "31.12.2022",
+            "sagsnummer": "X23-EH-90-DL",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2022",
+        "regnskabsperiodeTil": "31.12.2022"
+      },
+      {
+        "periodeFormateret": "01.01.2021 - 31.12.2021",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "25133374",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": "Henrik Rosendal Birch",
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzBmLzFiLzAwLzI4LzFlMjUtNDZjYy1iZGMwLTkxNmE1ZjBjNWZjZQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              },
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzU0LzUyL2EyLzJjLzAzNzYtNGVkMC05Y2U1LTNhNjVjYzE1OWM5OA",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              }
+            ],
+            "godkendelsesdato": "19.05.2022",
+            "hovednavn": "SK ENERGI A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "32404007",
+            "offentliggoerelseTidsstempel": "2022-05-31T15:36:33.115Z",
+            "offentliggoerelseTidsstempelFormateret": "31.05.2022",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2021 - 31.12.2021",
+            "regnskabsperiodeFra": "01.01.2021",
+            "regnskabsperiodeTil": "31.12.2021",
+            "sagsnummer": "X22-CT-19-AR",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2021",
+        "regnskabsperiodeTil": "31.12.2021"
+      },
+      {
+        "periodeFormateret": "01.01.2020 - 31.12.2020",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "25133374",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": "Henrik Rosendal Birch",
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzNhL2YzLzM5LzRkL2Q2NzYtNDcxMC1iMzRiLWYxZDg5M2UwNWZjOA",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              },
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzNmLzM3LzExLzE2LzI3NzUtNDFkMi05NjU3LTk5MTFiYTVhODVkMA",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              }
+            ],
+            "godkendelsesdato": "26.05.2021",
+            "hovednavn": "SK ENERGI A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "30851296",
+            "offentliggoerelseTidsstempel": "2021-06-28T08:31:20.719Z",
+            "offentliggoerelseTidsstempelFormateret": "28.06.2021",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2020 - 31.12.2020",
+            "regnskabsperiodeFra": "01.01.2020",
+            "regnskabsperiodeTil": "31.12.2020",
+            "sagsnummer": "X21-CN-19-BX",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2020",
+        "regnskabsperiodeTil": "31.12.2020"
+      },
+      {
+        "periodeFormateret": "01.01.2019 - 31.12.2019",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "25133374",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzUwL2E2L2NhL2FkLzU2MmQtNDRkMS1iZWI1LTAyMzhmYjI0MTQyMw",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              },
+              {
+                "dokumentId": "amNsb3VkczovLzAzLzJkL2I4LzA2LzZlLzg1MTgtNGI3Yy1iZThhLTBiZDUxYWNkMmFkYw",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK ENERGISALG A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "28876413",
+            "offentliggoerelseTidsstempel": "2020-05-29T20:31:06.204Z",
+            "offentliggoerelseTidsstempelFormateret": "29.05.2020",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2019 - 31.12.2019",
+            "regnskabsperiodeFra": "01.01.2019",
+            "regnskabsperiodeTil": "31.12.2019",
+            "sagsnummer": "X20-CJ-50-RS",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2019",
+        "regnskabsperiodeTil": "31.12.2019"
+      },
+      {
+        "periodeFormateret": "01.01.2018 - 31.12.2018",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "25133374",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzLzc3LzFhL2U3Lzk4L2YzNmQtNDQ1MC1hMTY1LTRiY2M1MmM1ZDJhMg",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              },
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzLzU0LzUwLzlmLzI5L2Y4YjgtNDg5MS1iZDgxLTljNWY4OGI2OTEwOQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK ENERGISALG A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "27298314",
+            "offentliggoerelseTidsstempel": "2019-05-29T13:32:01.919Z",
+            "offentliggoerelseTidsstempelFormateret": "29.05.2019",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2018 - 31.12.2018",
+            "regnskabsperiodeFra": "01.01.2018",
+            "regnskabsperiodeTil": "31.12.2018",
+            "sagsnummer": "X19-BJ-39-SE",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2018",
+        "regnskabsperiodeTil": "31.12.2018"
+      },
+      {
+        "periodeFormateret": "01.01.2017 - 31.12.2017",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "25133374",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzL2MxLzViL2MwLzZjLzQzNmEtNDA2NC04MzFhLWYwNDkzNDA0OGI3OA",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              },
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzLzQ4L2ZhLzUzL2YzL2UwZDEtNDg2MC1hMGQ3LTM2ZTYwOGI0MTBiZQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK ENERGISALG A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "25605169",
+            "offentliggoerelseTidsstempel": "2018-05-30T10:50:44.059Z",
+            "offentliggoerelseTidsstempelFormateret": "30.05.2018",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2017 - 31.12.2017",
+            "regnskabsperiodeFra": "01.01.2017",
+            "regnskabsperiodeTil": "31.12.2017",
+            "sagsnummer": "X18-AN-17-XU",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2017",
+        "regnskabsperiodeTil": "31.12.2017"
+      },
+      {
+        "periodeFormateret": "01.01.2016 - 31.12.2016",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "25133374",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzL2Q1LzUwL2JjLzZiLzRjMzctNDc5Mi04OTIxLTMyZmNhZGM3N2ViNQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              },
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzL2EwLzkwL2Y2L2NmL2Q5YWUtNGE2NC04ZjMwLWM5MzE4NTk5MTJiNg",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK ENERGISALG A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "23994685",
+            "offentliggoerelseTidsstempel": "2017-05-30T17:59:03.862Z",
+            "offentliggoerelseTidsstempelFormateret": "30.05.2017",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2016 - 31.12.2016",
+            "regnskabsperiodeFra": "01.01.2016",
+            "regnskabsperiodeTil": "31.12.2016",
+            "sagsnummer": "X17-AK-58-EM",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2016",
+        "regnskabsperiodeTil": "31.12.2016"
+      },
+      {
+        "periodeFormateret": "01.01.2015 - 31.12.2015",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "25133374",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzL2NkLzMxLzc5L2I2L2FjOWEtNGNkMi1iMTRkLTk3YTg2OTUzMzFmNQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              },
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzLzQ3L2ExL2JhLzJjLzlmMzEtNGU2NC1iNDUxLTZkZDkyMWI5ZDBkNw",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK ENERGISALG A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "22454656",
+            "offentliggoerelseTidsstempel": "2016-05-26T13:08:02.682Z",
+            "offentliggoerelseTidsstempelFormateret": "26.05.2016",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2015 - 31.12.2015",
+            "regnskabsperiodeFra": "01.01.2015",
+            "regnskabsperiodeTil": "31.12.2015",
+            "sagsnummer": "X16-AW-87-DU",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2015",
+        "regnskabsperiodeTil": "31.12.2015"
+      },
+      {
+        "periodeFormateret": "01.01.2014 - 31.12.2014",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "25133374",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzLzQ0L2YzL2E4LzlhLzFkZjYtNDI1MC04OTdlLTgwNTYzM2I0NDJkMA",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              },
+              {
+                "dokumentId": "ZG9rdW1lbnRsYWdlcjovLzAzLzAyLzFkL2E0LzZjLzRkMTUtNGFkMS1iMjY1LTlhYTUwNDE1YzIzOQ",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK ENERGISALG A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "5362836",
+            "offentliggoerelseTidsstempel": "2015-05-29T15:16:00.657Z",
+            "offentliggoerelseTidsstempelFormateret": "29.05.2015",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2014 - 31.12.2014",
+            "regnskabsperiodeFra": "01.01.2014",
+            "regnskabsperiodeTil": "31.12.2014",
+            "sagsnummer": "X15-AC-60-NT",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2014",
+        "regnskabsperiodeTil": "31.12.2014"
+      },
+      {
+        "periodeFormateret": "01.01.2013 - 31.12.2013",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "25133374",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yNTEzMzM3NDtBL1MyNjQ2NTg7MjAxMzAxMDE7MjAxMzEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              },
+              {
+                "dokumentId": "Y3ZyLmRrOi8veGJybHMvWC03RENCRUIxMi0yMDE0MDYwMl8xMDIyNTZfOTI2",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK ENERGISALG A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "20635964",
+            "offentliggoerelseTidsstempel": "2014-06-04T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "05.06.2014",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2013 - 31.12.2013",
+            "regnskabsperiodeFra": "01.01.2013",
+            "regnskabsperiodeTil": "31.12.2013",
+            "sagsnummer": "14-39.183",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2013",
+        "regnskabsperiodeTil": "31.12.2013"
+      },
+      {
+        "periodeFormateret": "01.01.2012 - 31.12.2012",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "25133374",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8veGJybHMvWC03RENCRUIxMi0yMDEzMDUzMF8yMTAyMTJfNDIx",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "XML"
+              },
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yNTEzMzM3NDtBL1MyNjQ2NTg7MjAxMjAxMDE7MjAxMjEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK ENERGISALG A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "20635958",
+            "offentliggoerelseTidsstempel": "2013-06-07T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "08.06.2013",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2012 - 31.12.2012",
+            "regnskabsperiodeFra": "01.01.2012",
+            "regnskabsperiodeTil": "31.12.2012",
+            "sagsnummer": "13-41.769",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2012",
+        "regnskabsperiodeTil": "31.12.2012"
+      },
+      {
+        "periodeFormateret": "01.01.2011 - 31.12.2011",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "25133374",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yNTEzMzM3NDtBL1MyNjQ2NTg7MjAxMTAxMDE7MjAxMTEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK ENERGISALG A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "20635954",
+            "offentliggoerelseTidsstempel": "2012-06-03T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "04.06.2012",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2011 - 31.12.2011",
+            "regnskabsperiodeFra": "01.01.2011",
+            "regnskabsperiodeTil": "31.12.2011",
+            "sagsnummer": "12-45.615",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2011",
+        "regnskabsperiodeTil": "31.12.2011"
+      },
+      {
+        "periodeFormateret": "01.01.2010 - 31.12.2010",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "25133374",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yNTEzMzM3NDtBL1MyNjQ2NTg7MjAxMDAxMDE7MjAxMDEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK ENERGISALG A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "20635950",
+            "offentliggoerelseTidsstempel": "2011-09-26T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "27.09.2011",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2010 - 31.12.2010",
+            "regnskabsperiodeFra": "01.01.2010",
+            "regnskabsperiodeTil": "31.12.2010",
+            "sagsnummer": "11-40.319",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2010",
+        "regnskabsperiodeTil": "31.12.2010"
+      },
+      {
+        "periodeFormateret": "01.01.2009 - 31.12.2009",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "25133374",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yNTEzMzM3NDtBL1MyNjQ2NTg7MjAwOTAxMDE7MjAwOTEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK ENERGISALG A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "20635945",
+            "offentliggoerelseTidsstempel": "2010-05-26T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "27.05.2010",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2009 - 31.12.2009",
+            "regnskabsperiodeFra": "01.01.2009",
+            "regnskabsperiodeTil": "31.12.2009",
+            "sagsnummer": "10-54.960",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2009",
+        "regnskabsperiodeTil": "31.12.2009"
+      },
+      {
+        "periodeFormateret": "01.01.2008 - 31.12.2008",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "25133374",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yNTEzMzM3NDtBL1MyNjQ2NTg7MjAwODAxMDE7MjAwODEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK ENERGISALG A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "20635942",
+            "offentliggoerelseTidsstempel": "2009-06-24T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "25.06.2009",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2008 - 31.12.2008",
+            "regnskabsperiodeFra": "01.01.2008",
+            "regnskabsperiodeTil": "31.12.2008",
+            "sagsnummer": "09-57.952",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2008",
+        "regnskabsperiodeTil": "31.12.2008"
+      },
+      {
+        "periodeFormateret": "01.01.2007 - 31.12.2007",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "25133374",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yNTEzMzM3NDtBL1MyNjQ2NTg7MjAwNzAxMDE7MjAwNzEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "SK ENERGISALG A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "20635937",
+            "offentliggoerelseTidsstempel": "2008-05-06T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "07.05.2008",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2007 - 31.12.2007",
+            "regnskabsperiodeFra": "01.01.2007",
+            "regnskabsperiodeTil": "31.12.2007",
+            "sagsnummer": "08-61.893",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2007",
+        "regnskabsperiodeTil": "31.12.2007"
+      },
+      {
+        "periodeFormateret": "01.01.2006 - 31.12.2006",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "25133374",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yNTEzMzM3NDtBL1MyNjQ2NTg7MjAwNjAxMDE7MjAwNjEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "KORSØR EL A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "20635932",
+            "offentliggoerelseTidsstempel": "2007-06-07T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "08.06.2007",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2006 - 31.12.2006",
+            "regnskabsperiodeFra": "01.01.2006",
+            "regnskabsperiodeTil": "31.12.2006",
+            "sagsnummer": "07-65.930",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2006",
+        "regnskabsperiodeTil": "31.12.2006"
+      },
+      {
+        "periodeFormateret": "01.01.2005 - 31.12.2005",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "25133374",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yNTEzMzM3NDtBL1MyNjQ2NTg7MjAwNTAxMDE7MjAwNTEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "KORSØR EL A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "20635930",
+            "offentliggoerelseTidsstempel": "2006-06-08T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "09.06.2006",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2005 - 31.12.2005",
+            "regnskabsperiodeFra": "01.01.2005",
+            "regnskabsperiodeTil": "31.12.2005",
+            "sagsnummer": "06-63.713",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2005",
+        "regnskabsperiodeTil": "31.12.2005"
+      },
+      {
+        "periodeFormateret": "01.01.2004 - 31.12.2004",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "25133374",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yNTEzMzM3NDtBL1MyNjQ2NTg7MjAwNDAxMDE7MjAwNDEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "KORSØR EL A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "20635924",
+            "offentliggoerelseTidsstempel": "2005-04-17T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "18.04.2005",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2004 - 31.12.2004",
+            "regnskabsperiodeFra": "01.01.2004",
+            "regnskabsperiodeTil": "31.12.2004",
+            "sagsnummer": "05-62.524",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2004",
+        "regnskabsperiodeTil": "31.12.2004"
+      },
+      {
+        "periodeFormateret": "01.01.2003 - 31.12.2003",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "25133374",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yNTEzMzM3NDtBL1MyNjQ2NTg7MjAwMzAxMDE7MjAwMzEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "KORSØR ELFORSYNING A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "20635920",
+            "offentliggoerelseTidsstempel": "2004-04-12T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "13.04.2004",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2003 - 31.12.2003",
+            "regnskabsperiodeFra": "01.01.2003",
+            "regnskabsperiodeTil": "31.12.2003",
+            "sagsnummer": "04-63.673",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2003",
+        "regnskabsperiodeTil": "31.12.2003"
+      },
+      {
+        "periodeFormateret": "01.01.2002 - 31.12.2002",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "25133374",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yNTEzMzM3NDtBL1MyNjQ2NTg7MjAwMjAxMDE7MjAwMjEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "KORSØR ELFORSYNING A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "20635916",
+            "offentliggoerelseTidsstempel": "2003-04-10T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "11.04.2003",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2002 - 31.12.2002",
+            "regnskabsperiodeFra": "01.01.2002",
+            "regnskabsperiodeTil": "31.12.2002",
+            "sagsnummer": "03-65.067",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2002",
+        "regnskabsperiodeTil": "31.12.2002"
+      },
+      {
+        "periodeFormateret": "01.01.2001 - 31.12.2001",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "25133374",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yNTEzMzM3NDtBL1MyNjQ2NTg7MjAwMTAxMDE7MjAwMTEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "KORSØR ELFORSYNING A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "20635913",
+            "offentliggoerelseTidsstempel": "2002-06-30T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "01.07.2002",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2001 - 31.12.2001",
+            "regnskabsperiodeFra": "01.01.2001",
+            "regnskabsperiodeTil": "31.12.2001",
+            "sagsnummer": "02-67.798",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2001",
+        "regnskabsperiodeTil": "31.12.2001"
+      },
+      {
+        "periodeFormateret": "01.01.2000 - 31.12.2000",
+        "regnskaber": [
+          {
+            "begrundelseForTilbagetraekning": null,
+            "cvrNummer": "25133374",
+            "datoForTilbageTrukket": null,
+            "dirigentNavn": null,
+            "dokumentType": "aarsrapport",
+            "dokumentreferencer": [
+              {
+                "dokumentId": "Y3ZyLmRrOi8vcGRmcy8yNTEzMzM3NDtBL1MyNjQ2NTg7MjAwMDAxMDE7MjAwMDEyMzE7UjtS",
+                "dokumenttype": "AARSRAPPORT",
+                "indholdstype": "PDF"
+              }
+            ],
+            "godkendelsesdato": "",
+            "hovednavn": "KORSØR KOMMUNALE ELFORSYNING A/S",
+            "indberetningstype": "AARSRAPPORT_MV",
+            "offentliggoerelseId": "20635909",
+            "offentliggoerelseTidsstempel": "2001-06-24T22:00:00.000Z",
+            "offentliggoerelseTidsstempelFormateret": "25.06.2001",
+            "omgjort": false,
+            "periodeFormateret": "01.01.2000 - 31.12.2000",
+            "regnskabsperiodeFra": "01.01.2000",
+            "regnskabsperiodeTil": "31.12.2000",
+            "sagsnummer": "01-65.802",
+            "tilbagetrukket": false
+          }
+        ],
+        "regnskabsType": "aarsrapport",
+        "regnskabsperiodeFra": "01.01.2000",
+        "regnskabsperiodeTil": "31.12.2000"
+      }
+    ],
+    "skjulEjerforhold": false,
+    "skjulOevrigeDokumenter": false,
+    "stamdata": {
+      "adresse": "Nordvej 6",
+      "aktiviteterOmfattetAfHvidvaskloven": [],
+      "bygningsnummer": null,
+      "cvrnummer": "25133374",
+      "enhedsnummer": "4001258471",
+      "harPseudoCvr": false,
+      "kreditoplysningskode": null,
+      "modervirksomhederVedFranchise": [],
+      "navn": "SK ENERGI A/S",
+      "omfattetAfHvidvaskloven": false,
+      "ophoersdato": null,
+      "postnummerOgBy": "4200 Slagelse",
+      "regnummer": null,
+      "reklamebeskyttet": false,
+      "socialoekonomiskVirksomhed": false,
+      "startdato": "2000-01-01",
+      "statsligVirksomhed": false,
+      "status": "NORMAL",
+      "stiftetFor1900Tekstnogle": null,
+      "udenlandskAdresse": null,
+      "udenlandskAdresseLand": "Danmark",
+      "udenlandskAdresseLandekode": "DK",
+      "virkningsdato": "",
+      "virksomhedsform": "Aktieselskab",
+      "virksomhedsformKode": "60",
+      "visNavnPostfix": false
+    },
+    "udvidedeOplysninger": {
+      "bibrancher": [],
+      "binavne": [
+        "SK Energisalg A/S"
+      ],
+      "boersnoteret": null,
+      "delvistIndbetaltKapital": false,
+      "email": "kontakt@envafors.dk",
+      "fax": null,
+      "foersteRegnskabsperiodeSlut": "2000-12-31",
+      "foersteRegnskabsperiodeStart": "2000-01-01",
+      "formaal": "Selskabets formål er at drive forsyningspligtig virksomhed i henhold til bevilling efter Elforsyningsloven samt anden virksomhed, som har tilknytning hertil.",
+      "hovedbranche": {
+        "branchekode": "354000",
+        "titel": "Mægler- og agentaktiviteter i forbindelse med forsyning af elektricitet og naturgas"
+      },
+      "kapitalklasser": false,
+      "kommune": "Slagelse",
+      "kommunekode": "330",
+      "koncessionsdato": null,
+      "omlaegningsperiodeSlut": null,
+      "omlaegningsperiodeStart": null,
+      "postadresse": null,
+      "registreretKapital": "4.200.000,00 DKK",
+      "regnskabsaarSlut": "31.12",
+      "regnskabsaarStart": "01.01",
+      "senesteVedtaegtsdato": "2024-05-29",
+      "senesteVedtaegtsdatoFoer1900": false,
+      "stadfaestelsesdato": null,
+      "stadfaestetAf": null,
+      "telefon": "58362500",
+      "telefonSekundaert": null,
+      "udenlandskPostadresse": null,
+      "udenlandskPostadresseLand": null,
+      "udenlandskPostadresseLandekode": null
+    },
+    "virksomhedRegistreringer": [
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "25133374",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK ENERGI A/S",
+        "offentliggoerelseId": "39511158",
+        "offentliggoerelseTidsstempel": "19.06.2026",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003ELeif Bjarne Clausen, den 04.06.2026, Hans Ole Drost, (formand), den 04.06.2026, Jørgen Grüner, den 04.06.2026, Ole Ernstsen Hansen, den 04.06.2026, Anders Michael Bagge Kolding, den 04.06.2026, Stina Abelone Madsen, den 04.06.2026, Svend Aage Nielsen, den 04.06.2026, Anna Strøbæk, den 04.06.2026, Lis Tribler, (næstformand), den 04.06.2026.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000317025/deltager\" target=\"_blank\"\u003EThomas Skovgaard Wraa Frosch\u003C/a\u003E, den 04.06.2026, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000145213/deltager\" target=\"_blank\"\u003ESusan Hørlyck Münster\u003C/a\u003E, (næstformand), den 04.06.2026, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4007718334/deltager\" target=\"_blank\"\u003EJohnny Kim Hjulsager Persson\u003C/a\u003E, den 04.06.2026, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4003888200/deltager\" target=\"_blank\"\u003ELars Therkildsen\u003C/a\u003E, (formand), den 04.06.2026, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004171164/deltager\" target=\"_blank\"\u003ELis Tribler\u003C/a\u003E, den 04.06.2026, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4010835863/deltager\" target=\"_blank\"\u003ERasmus Trebbien Tribler\u003C/a\u003E, den 04.06.2026.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003ELeif Bjarne Clausen, den 04.06.2026, Hans Ole Drost, (formand), den 04.06.2026, Jørgen Grüner, den 04.06.2026, Ole Ernstsen Hansen, den 04.06.2026, Anders Michael Bagge Kolding, den 04.06.2026, Stina Abelone Madsen, den 04.06.2026, Svend Aage Nielsen, den 04.06.2026, Anna Strøbæk, den 04.06.2026, Lis Tribler, (næstformand), den 04.06.2026.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EThomas Skovgaard Wraa Frosch, den 04.06.2026, Susan Hørlyck Münster, (næstformand), den 04.06.2026, Johnny Kim Hjulsager Persson, den 04.06.2026, Lars Therkildsen, (formand), den 04.06.2026, Lis Tribler, den 04.06.2026, Rasmus Trebbien Tribler, den 04.06.2026.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "25133374",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK ENERGI A/S",
+        "offentliggoerelseId": "37533420",
+        "offentliggoerelseTidsstempel": "02.06.2025",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EDirektion:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EJan Østerskov Hansen, den 31.05.2025.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003EDirektion:\u003Cbr/\u003E\u003Cbr /\u003E\u003C/h1\u003E\u003Cbr/\u003E\u003Ch2\u003EFratrådte:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003EJan Østerskov Hansen, den 31.05.2025.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "25133374",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK ENERGI A/S",
+        "offentliggoerelseId": "36913762",
+        "offentliggoerelseTidsstempel": "29.01.2025",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EDirektion:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4010294260/deltager\" target=\"_blank\"\u003EMargit Jensen\u003C/a\u003E, den 23.01.2025.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EDirektion:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EMargit Jensen, den 23.01.2025.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "25133374",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK ENERGI A/S",
+        "offentliggoerelseId": "36908707",
+        "offentliggoerelseTidsstempel": "28.01.2025",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EVillum Christensen, den 18.12.2024.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4009455589/deltager\" target=\"_blank\"\u003EAnders Michael Bagge Kolding\u003C/a\u003E, den 28.01.2025.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EVillum Christensen, den 18.12.2024.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EAnders Michael Bagge Kolding, den 28.01.2025.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "25133374",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK ENERGI A/S",
+        "offentliggoerelseId": "36639130",
+        "offentliggoerelseTidsstempel": "19.11.2024",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EPernille Ivalo Frandsen, den 06.11.2024.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000769738/deltager\" target=\"_blank\"\u003EJørgen Grüner\u003C/a\u003E, den 06.11.2024.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EPernille Ivalo Frandsen, den 06.11.2024.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EJørgen Grüner, den 06.11.2024.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "25133374",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK ENERGI A/S",
+        "offentliggoerelseId": "36204395",
+        "offentliggoerelseTidsstempel": "03.07.2024",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003EVedtægter ændret: 29.05.2024\n\u003Cbr /\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003EVedtægter ændret: 29.05.2024\u003Cbr/\u003E\u003Cbr /\u003E\u003Cbr/\u003E\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "25133374",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK ENERGI A/S",
+        "offentliggoerelseId": "34147927",
+        "offentliggoerelseTidsstempel": "13.06.2023",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004031938/deltager\" target=\"_blank\"\u003EAnna Strøbæk\u003C/a\u003E, den 24.05.2023.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EAnna Strøbæk, den 24.05.2023.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "25133374",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK ENERGI A/S",
+        "offentliggoerelseId": "34042744",
+        "offentliggoerelseTidsstempel": "30.05.2023",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003EVedtægter ændret: 19.05.2022\n\u003Cbr /\u003EKapitalforhøjelsen er besluttet den 19.05.2022.\n\u003Cbr /\u003Ekr. 803.133,33, indbetalt i værdier, kurs 3.000,00. kr. 196.866,67, indbetalt kontant, kurs 3.000,00.\n\u003Cbr /\u003EKapitalen udgør herefter kr. 4.200.000,00.\n\u003Cbr /\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003EVedtægter ændret: 19.05.2022\u003Cbr/\u003E\u003Cbr /\u003EKapitalforhøjelsen er besluttet den 19.05.2022.\u003Cbr/\u003E\u003Cbr /\u003Ekr. 803.133,33, indbetalt i værdier, kurs 3.000,00. kr. 196.866,67, indbetalt kontant, kurs 3.000,00.\u003Cbr/\u003E\u003Cbr /\u003EKapitalen udgør herefter kr. 4.200.000,00.\u003Cbr/\u003E\u003Cbr /\u003E\u003Cbr/\u003E\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_kapital"
+        ]
+      },
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "25133374",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK ENERGI A/S",
+        "offentliggoerelseId": "33830105",
+        "offentliggoerelseTidsstempel": "20.04.2023",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EJacob Raagaard Rasmussen, den 13.04.2023.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003EBestyrelse:\u003Cbr/\u003E\u003Cbr /\u003E\u003C/h1\u003E\u003Cbr/\u003E\u003Ch2\u003EFratrådte:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003EJacob Raagaard Rasmussen, den 13.04.2023.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "25133374",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK ENERGI A/S",
+        "offentliggoerelseId": "32343544",
+        "offentliggoerelseTidsstempel": "23.05.2022",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EFlemming Aarup Erichsen, den 19.05.2022, Bodil Knudsen, den 19.05.2022, Anders Koefoed, den 19.05.2022, Anders Peter Møller Nielsen, den 19.05.2022, Ole Olsen, den 19.05.2022, Erling Lindharth Stuhr, den 19.05.2022, Irene Juul Vissing, den 19.05.2022, Lillian Pia Wismann, den 19.05.2022.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000709428/deltager\" target=\"_blank\"\u003EJoshua Bjørkman\u003C/a\u003E, den 19.05.2022, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000327392/deltager\" target=\"_blank\"\u003EVillum Christensen\u003C/a\u003E, den 19.05.2022, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4009273027/deltager\" target=\"_blank\"\u003EJacob Raagaard Rasmussen\u003C/a\u003E, den 19.05.2022, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4008935854/deltager\" target=\"_blank\"\u003EAli Yavuz\u003C/a\u003E, den 19.05.2022.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EFlemming Aarup Erichsen, den 19.05.2022, Bodil Knudsen, den 19.05.2022, Anders Koefoed, den 19.05.2022, Anders Peter Møller Nielsen, den 19.05.2022, Ole Olsen, den 19.05.2022, Erling Lindharth Stuhr, den 19.05.2022, Irene Juul Vissing, den 19.05.2022, Lillian Pia Wismann, den 19.05.2022.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EJoshua Bjørkman, den 19.05.2022, Villum Christensen, den 19.05.2022, Jacob Raagaard Rasmussen, den 19.05.2022, Ali Yavuz, den 19.05.2022.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "25133374",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK ENERGI A/S",
+        "offentliggoerelseId": "31370977",
+        "offentliggoerelseTidsstempel": "12.10.2021",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EHans Ole Drost, (næstformand), den 06.10.2021, Flemming Aarup Erichsen, (formand), den 06.10.2021, Lis Tribler, den 06.10.2021.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000222171/deltager\" target=\"_blank\"\u003EHans Ole Drost\u003C/a\u003E, (formand), den 06.10.2021, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004006163/deltager\" target=\"_blank\"\u003EFlemming Aarup Erichsen\u003C/a\u003E, den 06.10.2021, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004171164/deltager\" target=\"_blank\"\u003ELis Tribler\u003C/a\u003E, (næstformand), den 06.10.2021.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EHans Ole Drost, (næstformand), den 06.10.2021, Flemming Aarup Erichsen, (formand), den 06.10.2021, Lis Tribler, den 06.10.2021.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EHans Ole Drost, (formand), den 06.10.2021, Flemming Aarup Erichsen, den 06.10.2021, Lis Tribler, (næstformand), den 06.10.2021.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "25133374",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK ENERGI A/S",
+        "offentliggoerelseId": "31289929",
+        "offentliggoerelseTidsstempel": "23.09.2021",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4007486996/deltager\" target=\"_blank\"\u003EIrene Juul Vissing\u003C/a\u003E, den 16.09.2021.\u003C/p\u003E\n\u003Ch1\u003EValgt af medarbejderne i koncernen:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EIrene Juul Vissing, den 16.09.2021.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EIrene Juul Vissing, den 16.09.2021.\u003C/p\u003E\n\u003Ch1\u003EValgt af medarbejderne i koncernen:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EIrene Juul Vissing, den 16.09.2021.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "25133374",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK ENERGI A/S",
+        "offentliggoerelseId": "31283436",
+        "offentliggoerelseTidsstempel": "22.09.2021",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EJan Michael Jørgensen, den 16.09.2021.\u003C/p\u003E\n\u003Ch1\u003EValgt af medarbejderne i koncernen:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4007486996/deltager\" target=\"_blank\"\u003EIrene Juul Vissing\u003C/a\u003E, den 16.09.2021.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EJan Michael Jørgensen, den 16.09.2021.\u003C/p\u003E\n\u003Ch1\u003EValgt af medarbejderne i koncernen:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EIrene Juul Vissing, den 16.09.2021.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "25133374",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK ENERGISALG A/S",
+        "offentliggoerelseId": "29716463",
+        "offentliggoerelseTidsstempel": "18.11.2020",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003EVedtægter ændret: 12.11.2020\n\u003Cbr /\u003ENyt navn: SK ENERGI A/S\n\u003Cbr /\u003ENyt binavn: SK Energisalg A/S\n\u003Cbr /\u003ESlettet binavn: SLAGELSE ENERGISALG A/S\n\u003Cbr /\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003EVedtægter ændret: 12.11.2020\u003Cbr/\u003E\u003Cbr /\u003ENyt navn: SK ENERGI A/S\u003Cbr/\u003E\u003Cbr /\u003ENyt binavn: SK Energisalg A/S\u003Cbr/\u003E\u003Cbr /\u003ESlettet binavn: SLAGELSE ENERGISALG A/S\u003Cbr/\u003E\u003Cbr /\u003E\u003Cbr/\u003E\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Nordvej 6, 4200 Slagelse",
+        "cvrNummer": "25133374",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK ENERGISALG A/S",
+        "offentliggoerelseId": "27651593",
+        "offentliggoerelseTidsstempel": "04.07.2019",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003ERevision:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EERNST &amp; YOUNG Godkendt Revisionspartnerselskab, den 22.05.2019.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003ECVR-NR. 33771231 PRICEWATERHOUSECOOPERS STATSAUTORISERET REVISIONSPARTNERSELSKAB, Strandvejen 44, 2900 Hellerup, den 22.05.2019.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003ERevision:\u003Cbr/\u003E\u003Cbr /\u003E\u003C/h1\u003E\u003Cbr/\u003E\u003Ch2\u003EFratrådte:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003EERNST &amp; YOUNG Godkendt Revisionspartnerselskab, den 22.05.2019.\u003C/p\u003E\u003Cbr/\u003E\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003ECVR-NR. 33771231 PRICEWATERHOUSECOOPERS STATSAUTORISERET REVISIONSPARTNERSELSKAB, Strandvejen 44, 2900 Hellerup, den 22.05.2019.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_revision"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "25133374",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK ENERGISALG A/S",
+        "offentliggoerelseId": "26516402",
+        "offentliggoerelseTidsstempel": "01.01.2019",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003ENy adresse: Nordvej 6, 4200 Slagelse\n\u003Cbr /\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003ENy adresse: Nordvej 6, 4200 Slagelse\u003Cbr/\u003E\u003Cbr /\u003E\u003Cbr/\u003E\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_adresse"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "25133374",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK ENERGISALG A/S",
+        "offentliggoerelseId": "25708232",
+        "offentliggoerelseTidsstempel": "04.06.2018",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4007658227/deltager\" target=\"_blank\"\u003ELeif Bjarne Clausen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4007658228/deltager\" target=\"_blank\"\u003ELillian Pia Wismann\u003C/a\u003E, den 23.05.2018.\u003C/p\u003E\n\u003Ch1\u003EValgt af medarbejderne i koncernen:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4007658227/deltager\" target=\"_blank\"\u003ELeif Bjarne Clausen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4007658228/deltager\" target=\"_blank\"\u003ELillian Pia Wismann\u003C/a\u003E, den 23.05.2018.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003ELeif Bjarne Clausen, den 23.05.2018, Lillian Pia Wismann, den 23.05.2018.\u003C/p\u003E\n\u003Ch1\u003EValgt af medarbejderne i koncernen:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003ELeif Bjarne Clausen, den 23.05.2018, Lillian Pia Wismann, den 23.05.2018.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "25133374",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK ENERGISALG A/S",
+        "offentliggoerelseId": "25630836",
+        "offentliggoerelseTidsstempel": "31.05.2018",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004161320/deltager\" target=\"_blank\"\u003EHenrik Urban Brodersen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000464012/deltager\" target=\"_blank\"\u003ETroels Christensen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000327392/deltager\" target=\"_blank\"\u003EVillum Christensen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000222171/deltager\" target=\"_blank\"\u003EHans Ole Drost\u003C/a\u003E (formand), den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004006163/deltager\" target=\"_blank\"\u003EFlemming Aarup Erichsen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000079846/deltager\" target=\"_blank\"\u003ENiels Bo Jørgensen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004018654/deltager\" target=\"_blank\"\u003EHanne Anette Kamienski\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004062602/deltager\" target=\"_blank\"\u003EBodil Knudsen\u003C/a\u003E (næstformand), den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004177460/deltager\" target=\"_blank\"\u003EAxel Larsen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004177457/deltager\" target=\"_blank\"\u003EMalene Sadowski\u003C/a\u003E, den 23.05.2018.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000222171/deltager\" target=\"_blank\"\u003EHans Ole Drost\u003C/a\u003E (næstformand), den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004006163/deltager\" target=\"_blank\"\u003EFlemming Aarup Erichsen\u003C/a\u003E (formand), den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000346807/deltager\" target=\"_blank\"\u003EPernille Ivalo Frandsen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004033089/deltager\" target=\"_blank\"\u003EOle Ernstsen Hansen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004062602/deltager\" target=\"_blank\"\u003EBodil Knudsen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000771746/deltager\" target=\"_blank\"\u003EAnders Koefoed\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000725668/deltager\" target=\"_blank\"\u003EOle Olsen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004171164/deltager\" target=\"_blank\"\u003ELis Tribler\u003C/a\u003E, den 23.05.2018.\u003C/p\u003E\n\u003Ch1\u003EValgt af medarbejderne i koncernen:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4007658227/deltager\" target=\"_blank\"\u003ELeif Bjarne Clausen\u003C/a\u003E, den 23.05.2018, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4007658228/deltager\" target=\"_blank\"\u003ELillian Pia Wismann\u003C/a\u003E, den 23.05.2018.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EHenrik Urban Brodersen, den 23.05.2018, Troels Christensen, den 23.05.2018, Villum Christensen, den 23.05.2018, Hans Ole Drost (formand), den 23.05.2018, Flemming Aarup Erichsen, den 23.05.2018, Niels Bo Jørgensen, den 23.05.2018, Hanne Anette Kamienski, den 23.05.2018, Bodil Knudsen (næstformand), den 23.05.2018, Axel Larsen, den 23.05.2018, Malene Sadowski, den 23.05.2018.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EHans Ole Drost (næstformand), den 23.05.2018, Flemming Aarup Erichsen (formand), den 23.05.2018, Pernille Ivalo Frandsen, den 23.05.2018, Ole Ernstsen Hansen, den 23.05.2018, Bodil Knudsen, den 23.05.2018, Anders Koefoed, den 23.05.2018, Ole Olsen, den 23.05.2018, Lis Tribler, den 23.05.2018.\u003C/p\u003E\n\u003Ch1\u003EValgt af medarbejderne i koncernen:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003ELeif Bjarne Clausen, den 23.05.2018, Lillian Pia Wismann, den 23.05.2018.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "25133374",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK ENERGISALG A/S",
+        "offentliggoerelseId": "24741600",
+        "offentliggoerelseTidsstempel": "27.11.2017",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003ERevision:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EPRICEWATERHOUSECOOPERS STATSAUTORISERET REVISIONSPARTNERSELSKAB, den 17.05.2017.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003ECVR-NR. 30700228 ERNST &amp; YOUNG Godkendt Revisionspartnerselskab, Værkmestergade 25, 8000 Aarhus C, den 17.05.2017.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003ERevision:\u003Cbr/\u003E\u003Cbr /\u003E\u003C/h1\u003E\u003Cbr/\u003E\u003Ch2\u003EFratrådte:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003EPRICEWATERHOUSECOOPERS STATSAUTORISERET REVISIONSPARTNERSELSKAB, den 17.05.2017.\u003C/p\u003E\u003Cbr/\u003E\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003ECVR-NR. 30700228 ERNST &amp; YOUNG Godkendt Revisionspartnerselskab, Værkmestergade 25, 8000 Aarhus C, den 17.05.2017.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_revision"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "25133374",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK ENERGISALG A/S",
+        "offentliggoerelseId": "24189497",
+        "offentliggoerelseTidsstempel": "13.06.2017",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EDirektion:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004114897/deltager\" target=\"_blank\"\u003EHenrik Rosendal Birch\u003C/a\u003E, den 01.06.2017, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000433191/deltager\" target=\"_blank\"\u003EHenrik Lundgaard\u003C/a\u003E (adm. dir), den 31.05.2017.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004114897/deltager\" target=\"_blank\"\u003EHenrik Rosendal Birch\u003C/a\u003E (adm. dir), den 01.06.2017.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EDirektion:\n\u003Cbr /\u003E\u003C/h1\u003E\n\u003Ch2\u003EFratrådte:\u003C/h2\u003E\n\u003Cp\u003EHenrik Rosendal Birch, den 01.06.2017, Henrik Lundgaard (adm. dir), den 31.05.2017.\u003C/p\u003E\n\u003Ch2\u003ETiltrådte:\u003C/h2\u003E\n\u003Cp\u003EHenrik Rosendal Birch (adm. dir), den 01.06.2017.\u003C/p\u003E\n\u003C/body\u003E\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "25133374",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK ENERGISALG A/S",
+        "offentliggoerelseId": "12487571",
+        "offentliggoerelseTidsstempel": "11.06.2014",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Cp\u003EFratrådt som valgt af medarbejderne i   koncernen tiltrådt som   generalforsamlingsvalgt: Malene Nielsen,   Fratrådt som valgt af medarbejderne i   koncernen tiltrådt som   generalforsamlingsvalgt: \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004177456/deltager\" target=\"_blank\"\u003EErling Lindharth   Stuhr\u003C/a\u003E.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Cp\u003EFratrådt som valgt af medarbejderne i   koncernen tiltrådt som   generalforsamlingsvalgt: Malene Nielsen,   Fratrådt som valgt af medarbejderne i   koncernen tiltrådt som   generalforsamlingsvalgt: Erling Lindharth   Stuhr.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds",
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "25133374",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK ENERGISALG A/S",
+        "offentliggoerelseId": "12487568",
+        "offentliggoerelseTidsstempel": "11.06.2014",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Cp\u003EFratrådt som næstformand tiltrådt som   formand: \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000222171/deltager\" target=\"_blank\"\u003EHans Ole Drost\u003C/a\u003E, den 27.05.2014,   Fratrådt som formand tiltrådt som   næstformand: \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004062602/deltager\" target=\"_blank\"\u003EBodil Knudsen\u003C/a\u003E, den 27.05.2014.\u003C/p\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004129265/deltager\" target=\"_blank\"\u003ESten Knuth\u003C/a\u003E, den   27.05.2014, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004077794/deltager\" target=\"_blank\"\u003ENiels Nordskov Nielsen\u003C/a\u003E, den   27.05.2014, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004064083/deltager\" target=\"_blank\"\u003EVagn Møller Petersen\u003C/a\u003E, den   27.05.2014.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000464012/deltager\" target=\"_blank\"\u003ETroels Christensen\u003C/a\u003E, den   27.05.2014, CVU-Rektor \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000327392/deltager\" target=\"_blank\"\u003EVillum Christensen\u003C/a\u003E, den   27.05.2014, Havnechef \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004006163/deltager\" target=\"_blank\"\u003EFlemming Aarup   Erichsen\u003C/a\u003E, den   27.05.2014, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000079846/deltager\" target=\"_blank\"\u003ENiels Bo Jørgensen\u003C/a\u003E,   den 27.05.2014, Lagerforv \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004177460/deltager\" target=\"_blank\"\u003EAxel Larsen\u003C/a\u003E, den   27.05.2014.\u003C/p\u003E\n\u003Cp\u003EValgt af medarbejderne i koncernen:\n\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EKommunikationskonsulent \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004177457/deltager\" target=\"_blank\"\u003EMalene Nielsen\u003C/a\u003E, den   27.05.2014, Varmemontør \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004177456/deltager\" target=\"_blank\"\u003EErling Lindharth   Stuhr\u003C/a\u003E, den   27.05.2014.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Cp\u003EFratrådt som næstformand tiltrådt som   formand: Hans Ole Drost, den 27.05.2014,   Fratrådt som formand tiltrådt som   næstformand: Bodil Knudsen, den 27.05.2014.\u003C/p\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003ESten Knuth, den   27.05.2014, Niels Nordskov Nielsen, den   27.05.2014, Vagn Møller Petersen, den   27.05.2014.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003ETroels Christensen, den   27.05.2014, CVU-Rektor Villum Christensen, den   27.05.2014, Havnechef Flemming Aarup   Erichsen, den   27.05.2014, Niels Bo Jørgensen,   den 27.05.2014, Lagerforv Axel Larsen, den   27.05.2014.\u003C/p\u003E\n\u003Cp\u003EValgt af medarbejderne i koncernen:\n\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EKommunikationskonsulent Malene Nielsen, den   27.05.2014, Varmemontør Erling Lindharth   Stuhr, den   27.05.2014.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds",
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "25133374",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK ENERGISALG A/S",
+        "offentliggoerelseId": "12487566",
+        "offentliggoerelseTidsstempel": "11.04.2014",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E19.03.2014.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\u003Cbr/\u003E\u003Cp\u003E19.03.2014.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "25133374",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK ENERGISALG A/S",
+        "offentliggoerelseId": "12487564",
+        "offentliggoerelseTidsstempel": "18.06.2013",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E21.05.2013.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\u003Cbr/\u003E\u003Cp\u003E21.05.2013.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "25133374",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK ENERGISALG A/S",
+        "offentliggoerelseId": "12487561",
+        "offentliggoerelseTidsstempel": "21.09.2011",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003ERevision:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af revisionen:\u003C/h2\u003E\n\u003Cp\u003EPRICEWATERHOUSECOOPERS   STATSAUTORISERET REVISIONSAKTIESELSKAB, den   01.07.2011.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i revisionen:\u003C/h2\u003E\n\u003Cp\u003EPRICEWATERHOUSECOOPERS   STATSAUTORISERET REVISIONSPARTNERSELSKAB,   Ndr.Ringgade 70 C, 4200 Slagelse, den   01.07.2011.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003ERevision:\u003C/h1\u003E\u003Cbr/\u003E\u003Ch2\u003EUdtrådt af revisionen:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003EPRICEWATERHOUSECOOPERS   STATSAUTORISERET REVISIONSAKTIESELSKAB, den   01.07.2011.\u003C/p\u003E\u003Cbr/\u003E\u003Ch2\u003EIndtrådt i revisionen:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003EPRICEWATERHOUSECOOPERS   STATSAUTORISERET REVISIONSPARTNERSELSKAB,   Ndr.Ringgade 70 C, 4200 Slagelse, den   01.07.2011.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet",
+          "virksomhedsregistreringsstatus-aendring_revision"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "25133374",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK ENERGISALG A/S",
+        "offentliggoerelseId": "12487558",
+        "offentliggoerelseTidsstempel": "29.06.2011",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000169119/deltager\" target=\"_blank\"\u003ELene Birgit Wibroe\u003C/a\u003E,   den 19.05.2011.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EFolketingsmedlem   \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004161320/deltager\" target=\"_blank\"\u003EHenrik Urban Brodersen\u003C/a\u003E, den 19.05.2011.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003ELene Birgit Wibroe,   den 19.05.2011.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EFolketingsmedlem   Henrik Urban Brodersen, den 19.05.2011.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet",
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "25133374",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK ENERGISALG A/S",
+        "offentliggoerelseId": "12487556",
+        "offentliggoerelseTidsstempel": "01.06.2010",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E20.05.2010.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\u003Cbr/\u003E\u003Cp\u003E20.05.2010.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "25133374",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK ENERGISALG A/S",
+        "offentliggoerelseId": "12487553",
+        "offentliggoerelseTidsstempel": "28.05.2010",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004119636/deltager\" target=\"_blank\"\u003EMichael Gram\u003C/a\u003E, den   20.05.2010, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004010939/deltager\" target=\"_blank\"\u003EOle Quist\u003C/a\u003E, den 20.05.2010.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EOverassistent \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004029290/deltager\" target=\"_blank\"\u003EStina   Abelone Hansen\u003C/a\u003E, den 20.05.2010, Driftschef \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004018658/deltager\" target=\"_blank\"\u003EJan   Michael Jørgensen\u003C/a\u003E, den 20.05.2010,   Teknisk designer \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004018654/deltager\" target=\"_blank\"\u003EHanne Anette Kamienski\u003C/a\u003E, den 20.05.2010, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004129265/deltager\" target=\"_blank\"\u003ESten Knuth\u003C/a\u003E, den   20.05.2010, Brandchef \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004077794/deltager\" target=\"_blank\"\u003ENiels Nordskov   Nielsen\u003C/a\u003E, den   20.05.2010, Byrådsmedlem \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004063836/deltager\" target=\"_blank\"\u003EAnders Peter   Møller Nielsen\u003C/a\u003E, den 20.05.2010, Elektriker \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004064083/deltager\" target=\"_blank\"\u003EVagn   Møller Petersen\u003C/a\u003E, den 20.05.2010, Zoneterapeut \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000169119/deltager\" target=\"_blank\"\u003ELene   Birgit Wibroe\u003C/a\u003E, den 20.05.2010.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EMichael Gram, den   20.05.2010, Ole Quist, den 20.05.2010.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EOverassistent Stina   Abelone Hansen, den 20.05.2010, Driftschef Jan   Michael Jørgensen, den 20.05.2010,   Teknisk designer Hanne Anette Kamienski, den 20.05.2010, Sten Knuth, den   20.05.2010, Brandchef Niels Nordskov   Nielsen, den   20.05.2010, Byrådsmedlem Anders Peter   Møller Nielsen, den 20.05.2010, Elektriker Vagn   Møller Petersen, den 20.05.2010, Zoneterapeut Lene   Birgit Wibroe, den 20.05.2010.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet",
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "25133374",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK ENERGISALG A/S",
+        "offentliggoerelseId": "12710377",
+        "offentliggoerelseTidsstempel": "28.11.2008",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E11.11.2008.\u003C/p\u003E\n\u003Ch2\u003EKapitalforhøjelse:\u003C/h2\u003E\n\u003Cp\u003Ekr. 2.200.000,00 indbetalt   kontant, kurs 500,00.\u003C/p\u003E\n\u003Cp\u003EKapitalen udgør herefter kr. 3.200.000,00.\n\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\u003Cbr/\u003E\u003Cp\u003E11.11.2008.\u003C/p\u003E\u003Cbr/\u003E\u003Ch2\u003EKapitalforhøjelse:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003Ekr. 2.200.000,00 indbetalt   kontant, kurs 500,00.\u003C/p\u003E\u003Cbr/\u003E\u003Cp\u003EKapitalen udgør herefter kr. 3.200.000,00.\u003Cbr/\u003E\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet",
+          "virksomhedsregistreringsstatus-aendring_kapital"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "25133374",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK ENERGISALG A/S",
+        "offentliggoerelseId": "12710372",
+        "offentliggoerelseTidsstempel": "29.10.2008",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E03.10.2008.\u003C/p\u003E\n\u003Ch2\u003EKapitalforhøjelse:\u003C/h2\u003E\n\u003Cp\u003Ekr. 400.000,00 indbetalt   kontant, kurs 500,00.\u003C/p\u003E\n\u003Cp\u003EKapitalen udgør herefter kr. 1.000.000,00.\n\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\u003Cbr/\u003E\u003Cp\u003E03.10.2008.\u003C/p\u003E\u003Cbr/\u003E\u003Ch2\u003EKapitalforhøjelse:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003Ekr. 400.000,00 indbetalt   kontant, kurs 500,00.\u003C/p\u003E\u003Cbr/\u003E\u003Cp\u003EKapitalen udgør herefter kr. 1.000.000,00.\u003Cbr/\u003E\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet",
+          "virksomhedsregistreringsstatus-aendring_kapital"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "25133374",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK ENERGISALG A/S",
+        "offentliggoerelseId": "12710367",
+        "offentliggoerelseTidsstempel": "30.09.2008",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003ELokomotivfører   \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004119636/deltager\" target=\"_blank\"\u003EMichael Gram\u003C/a\u003E, den 20.06.2008.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003ELokomotivfører   Michael Gram, den 20.06.2008.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet",
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "25133374",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK ENERGISALG A/S",
+        "offentliggoerelseId": "12710360",
+        "offentliggoerelseTidsstempel": "11.07.2008",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E20.06.2008.\u003C/p\u003E\n\u003Cp\u003ENyt binavn: SLAGELSE ENERGISALG A/S (SK   ENERGISALG A/S).\n\u003C/p\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004006163/deltager\" target=\"_blank\"\u003EFlemming Aarup   Erichsen\u003C/a\u003E, den 20.06.2008, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004071458/deltager\" target=\"_blank\"\u003EJørgen   Christensen\u003C/a\u003E, den 20.06.2008, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4003951757/deltager\" target=\"_blank\"\u003EAage Rønn   Christensen\u003C/a\u003E, den 20.06.2008, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004063836/deltager\" target=\"_blank\"\u003EAnders Peter   Møller Nielsen\u003C/a\u003E, den 20.06.2008, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4311149/deltager\" target=\"_blank\"\u003EPer   Vesterholm\u003C/a\u003E, den 20.06.2008.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003ELærer \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004062602/deltager\" target=\"_blank\"\u003EBodil Knudsen\u003C/a\u003E (formand),   den 20.06.2008, Direktør \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000030224/deltager\" target=\"_blank\"\u003ESvend Aage   Nielsen\u003C/a\u003E, den   20.06.2008.\u003C/p\u003E\n\u003Ch1\u003EDirektion:\u003C/h1\u003E\n\u003Cp\u003ETiltrådt som adm. dir: \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000433191/deltager\" target=\"_blank\"\u003EHenrik Lundgaard\u003C/a\u003E, den   20.06.2008.\n\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i direktionen:\u003C/h2\u003E\n\u003Cp\u003ETeknisk direktør   \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004114897/deltager\" target=\"_blank\"\u003EHenrik Rosendal Birch\u003C/a\u003E, den 20.06.2008, Økonomidirektør Jan   Østergaard Hansen, Skovvangsvej 23, Strøby   Egede, 4600 Køge, den 20.06.2008.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E20.06.2008.\u003C/p\u003E\n\u003Cp\u003ENyt binavn: SLAGELSE ENERGISALG A/S (SK   ENERGISALG A/S).\n\u003C/p\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EFlemming Aarup   Erichsen, den 20.06.2008, Jørgen   Christensen, den 20.06.2008, Aage Rønn   Christensen, den 20.06.2008, Anders Peter   Møller Nielsen, den 20.06.2008, Per   Vesterholm, den 20.06.2008.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003ELærer Bodil Knudsen (formand),   den 20.06.2008, Direktør Svend Aage   Nielsen, den   20.06.2008.\u003C/p\u003E\n\u003Ch1\u003EDirektion:\u003C/h1\u003E\n\u003Cp\u003ETiltrådt som adm. dir: Henrik Lundgaard, den   20.06.2008.\n\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i direktionen:\u003C/h2\u003E\n\u003Cp\u003ETeknisk direktør   Henrik Rosendal Birch, den 20.06.2008, Økonomidirektør Jan   Østergaard Hansen, Skovvangsvej 23, Strøby   Egede, 4600 Køge, den 20.06.2008.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet",
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "25133374",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "SK ENERGISALG A/S",
+        "offentliggoerelseId": "12710356",
+        "offentliggoerelseTidsstempel": "08.07.2008",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003ERevision:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af revisionen:\u003C/h2\u003E\n\u003Cp\u003END Revision Korsør   I/S, den 20.06.2008.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i revisionen:\u003C/h2\u003E\n\u003Cp\u003EPRICEWATERHOUSECOOPERS   STATSAUTORISERET REVISIONSAKTIESELSKAB,   Sdr. Stationsvej 28, 4200 Slagelse, den   20.06.2008.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003ERevision:\u003C/h1\u003E\u003Cbr/\u003E\u003Ch2\u003EUdtrådt af revisionen:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003END Revision Korsør   I/S, den 20.06.2008.\u003C/p\u003E\u003Cbr/\u003E\u003Ch2\u003EIndtrådt i revisionen:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003EPRICEWATERHOUSECOOPERS   STATSAUTORISERET REVISIONSAKTIESELSKAB,   Sdr. Stationsvej 28, 4200 Slagelse, den   20.06.2008.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_revision",
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "25133374",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "KORSØR EL A/S",
+        "offentliggoerelseId": "12710350",
+        "offentliggoerelseTidsstempel": "14.05.2008",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E28.04.2008.\u003C/p\u003E\n\u003Ch1\u003ENyt navn:\u003C/h1\u003E\n\u003Cp\u003ESK ENERGISALG A/S.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\u003Cbr/\u003E\u003Cp\u003E28.04.2008.\u003C/p\u003E\u003Cbr/\u003E\u003Ch1\u003ENyt navn:\u003C/h1\u003E\u003Cbr/\u003E\u003Cp\u003ESK ENERGISALG A/S.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "25133374",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "KORSØR EL A/S",
+        "offentliggoerelseId": "12710344",
+        "offentliggoerelseTidsstempel": "13.06.2007",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4003889313/deltager\" target=\"_blank\"\u003EHans Erik Weiergang   Larsen\u003C/a\u003E, den 30.05.2007, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004159365/deltager\" target=\"_blank\"\u003EFritz Neumann\u003C/a\u003E, den   30.05.2007.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EByrådsmedlem \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000222171/deltager\" target=\"_blank\"\u003EHans Ole   Drost\u003C/a\u003E (næstformand), den   30.05.2007, Byrådsmedlem \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004010939/deltager\" target=\"_blank\"\u003EOle Quist\u003C/a\u003E, den   30.05.2007.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EHans Erik Weiergang   Larsen, den 30.05.2007, Fritz Neumann, den   30.05.2007.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EByrådsmedlem Hans Ole   Drost (næstformand), den   30.05.2007, Byrådsmedlem Ole Quist, den   30.05.2007.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet",
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "25133374",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "KORSØR EL A/S",
+        "offentliggoerelseId": "12710342",
+        "offentliggoerelseTidsstempel": "01.01.2007",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Cp\u003EVed kommunalreformen den 1. januar 2007 er   hjemstedskommunen ændret.\n\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Cp\u003EVed kommunalreformen den 1. januar 2007 er   hjemstedskommunen ændret.\u003Cbr/\u003E\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_adresse"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "25133374",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "KORSØR EL A/S",
+        "offentliggoerelseId": "12710338",
+        "offentliggoerelseTidsstempel": "14.07.2006",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E30.05.2006.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\u003Cbr/\u003E\u003Cp\u003E30.05.2006.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "25133374",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "KORSØR EL A/S",
+        "offentliggoerelseId": "12710331",
+        "offentliggoerelseTidsstempel": "04.01.2006",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EDirektion:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af direktionen:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004043946/deltager\" target=\"_blank\"\u003EHenning Eilif   Christensen\u003C/a\u003E, den 01.01.2006.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i direktionen:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000433191/deltager\" target=\"_blank\"\u003EHenrik Lundgaard\u003C/a\u003E, den   01.01.2006.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EDirektion:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af direktionen:\u003C/h2\u003E\n\u003Cp\u003EHenning Eilif   Christensen, den 01.01.2006.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i direktionen:\u003C/h2\u003E\n\u003Cp\u003EHenrik Lundgaard, den   01.01.2006.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet",
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Lilleøvej 3, 4220 Korsør",
+        "cvrNummer": "25133374",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "KORSØR EL A/S",
+        "offentliggoerelseId": "12710328",
+        "offentliggoerelseTidsstempel": "05.10.2005",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EDirektion:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af direktionen:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4003966556/deltager\" target=\"_blank\"\u003EMogens Serena Samer\u003C/a\u003E,   den 05.10.2005.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i direktionen:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004043946/deltager\" target=\"_blank\"\u003EHenning Eilif   Christensen\u003C/a\u003E, den   05.10.2005.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EDirektion:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af direktionen:\u003C/h2\u003E\n\u003Cp\u003EMogens Serena Samer,   den 05.10.2005.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i direktionen:\u003C/h2\u003E\n\u003Cp\u003EHenning Eilif   Christensen, den   05.10.2005.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet",
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Tårnborgvej 4, 4220 Korsør",
+        "cvrNummer": "25133374",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "KORSØR EL A/S",
+        "offentliggoerelseId": "7001365",
+        "offentliggoerelseTidsstempel": "18.11.2004",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003ENy adresse:\u003C/h1\u003E\n\u003Cp\u003ELilleøvej 3, 4220 Korsør.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003ENy adresse:\u003C/h1\u003E\u003Cbr/\u003E\u003Cp\u003ELilleøvej 3, 4220 Korsør.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_adresse"
+        ]
+      },
+      {
+        "adresse": "Tårnborgvej 4, 4220 Korsør",
+        "cvrNummer": "25133374",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "KORSØR ELFORSYNING A/S",
+        "offentliggoerelseId": "7001363",
+        "offentliggoerelseTidsstempel": "14.09.2004",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E03.09.2004.\u003C/p\u003E\n\u003Ch1\u003ENyt navn:\u003C/h1\u003E\n\u003Cp\u003EKORSØR EL A/S.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\u003Cbr/\u003E\u003Cp\u003E03.09.2004.\u003C/p\u003E\u003Cbr/\u003E\u003Ch1\u003ENyt navn:\u003C/h1\u003E\u003Cbr/\u003E\u003Cp\u003EKORSØR EL A/S.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Tårnborgvej 4, 4220 Korsør",
+        "cvrNummer": "25133374",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "KORSØR ELFORSYNING A/S",
+        "offentliggoerelseId": "7001361",
+        "offentliggoerelseTidsstempel": "08.04.2003",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E02.04.2003.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\u003Cbr/\u003E\u003Cp\u003E02.04.2003.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Tårnborgvej 4, 4220 Korsør",
+        "cvrNummer": "25133374",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "KORSØR ELFORSYNING A/S",
+        "offentliggoerelseId": "7001359",
+        "offentliggoerelseTidsstempel": "28.11.2002",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E18.11.2002.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\u003Cbr/\u003E\u003Cp\u003E18.11.2002.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Tårnborgvej 4, 4220 Korsør",
+        "cvrNummer": "25133374",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "KORSØR KOMMUNALE ELFORSYNING A/S",
+        "offentliggoerelseId": "7001357",
+        "offentliggoerelseTidsstempel": "21.08.2002",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E20.06.2002.\u003C/p\u003E\n\u003Ch1\u003ENyt navn:\u003C/h1\u003E\n\u003Cp\u003EKORSØR ELFORSYNING A/S.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\u003Cbr/\u003E\u003Cp\u003E20.06.2002.\u003C/p\u003E\u003Cbr/\u003E\u003Ch1\u003ENyt navn:\u003C/h1\u003E\u003Cbr/\u003E\u003Cp\u003EKORSØR ELFORSYNING A/S.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Tårnborgvej 4, 4220 Korsør",
+        "cvrNummer": "25133374",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "KORSØR KOMMUNALE ELFORSYNING A/S",
+        "offentliggoerelseId": "7001354",
+        "offentliggoerelseTidsstempel": "27.02.2002",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EDirektør \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4003951757/deltager\" target=\"_blank\"\u003EAage Rønn   Christensen\u003C/a\u003E,   den 20.02.2002.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EDirektør Aage Rønn   Christensen,   den 20.02.2002.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds",
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Tårnborgvej 4, 4220 Korsør",
+        "cvrNummer": "25133374",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "KORSØR KOMMUNALE ELFORSYNING A/S",
+        "offentliggoerelseId": "7001351",
+        "offentliggoerelseTidsstempel": "07.01.2002",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003ETiltrådt som formand:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004006163/deltager\" target=\"_blank\"\u003EFlemming Aarup   Erichsen\u003C/a\u003E, den 01.01.2002.\u003C/p\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004063835/deltager\" target=\"_blank\"\u003EMarius Petersen   Schmidt\u003C/a\u003E, den 01.01.2002, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004015160/deltager\" target=\"_blank\"\u003EUlrik Theodor   Johannes Luckow\u003C/a\u003E, den 01.01.2002, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004063837/deltager\" target=\"_blank\"\u003EKurt   Rehder\u003C/a\u003E, den 01.01.2002.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004071458/deltager\" target=\"_blank\"\u003EJørgen Christensen\u003C/a\u003E, den   01.01.2002, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4311149/deltager\" target=\"_blank\"\u003EPer Vesterholm\u003C/a\u003E, den 01.01.2002.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003ETiltrådt som formand:\u003C/h2\u003E\n\u003Cp\u003EFlemming Aarup   Erichsen, den 01.01.2002.\u003C/p\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EMarius Petersen   Schmidt, den 01.01.2002, Ulrik Theodor   Johannes Luckow, den 01.01.2002, Kurt   Rehder, den 01.01.2002.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EJørgen Christensen, den   01.01.2002, Per Vesterholm, den 01.01.2002.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet",
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "Tårnborgvej 4, 4220 Korsør",
+        "cvrNummer": "25133374",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "KORSØR KOMMUNALE ELFORSYNING A/S",
+        "offentliggoerelseId": "7001349",
+        "offentliggoerelseTidsstempel": "03.07.2001",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003ERevision:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af revisionen:\u003C/h2\u003E\n\u003Cp\u003EDELOITTE &amp; TOUCHE   STATSAUTORISERET REVISIONSAKTIESELSKAB,   den 31.05.2001.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i revisionen:\u003C/h2\u003E\n\u003Cp\u003END Revision Korsør   I/S, Jens Baggesens Gade 35, 4220 Korsør,   den 31.05.2001.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003ERevision:\u003C/h1\u003E\u003Cbr/\u003E\u003Ch2\u003EUdtrådt af revisionen:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003EDELOITTE &amp; TOUCHE   STATSAUTORISERET REVISIONSAKTIESELSKAB,   den 31.05.2001.\u003C/p\u003E\u003Cbr/\u003E\u003Ch2\u003EIndtrådt i revisionen:\u003C/h2\u003E\u003Cbr/\u003E\u003Cp\u003END Revision Korsør   I/S, Jens Baggesens Gade 35, 4220 Korsør,   den 31.05.2001.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_revision"
+        ]
+      },
+      {
+        "adresse": "Tårnborgvej 4, 4220 Korsør",
+        "cvrNummer": "25133374",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "KORSØR KOMMUNALE ELFORSYNING A/S",
+        "offentliggoerelseId": "7001346",
+        "offentliggoerelseTidsstempel": "18.04.2001",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004010939/deltager\" target=\"_blank\"\u003EOle Quist\u003C/a\u003E, den   29.03.2001.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EBorgmester \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004006163/deltager\" target=\"_blank\"\u003EFlemming   Aarup Erichsen\u003C/a\u003E, den   29.03.2001.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EOle Quist, den   29.03.2001.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EBorgmester Flemming   Aarup Erichsen, den   29.03.2001.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds",
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "Tårnborgvej 4, 4220 Korsør",
+        "cvrNummer": "25133374",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "KORSØR KOMMUNALE ELFORSYNING A/S",
+        "offentliggoerelseId": "7001344",
+        "offentliggoerelseTidsstempel": "18.12.2000",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E07.12.2000.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\u003Cbr/\u003E\u003Cp\u003E07.12.2000.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "C/O Rådhuset, Caspar Brands Plads 6, 4220 Korsør",
+        "cvrNummer": "25133374",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "KORSØR KOMMUNALE ELFORSYNING A/S",
+        "offentliggoerelseId": "7001342",
+        "offentliggoerelseTidsstempel": "28.08.2000",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003ENy adresse:\u003C/h1\u003E\n\u003Cp\u003ETårnborgvej 4, 4220 Korsør.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E\n",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\u003Cbr/\u003E\u003Chtml\u003E\u003Cbr/\u003E\u003Chead /\u003E\u003Cbr/\u003E\u003Cbody\u003E\u003Cbr/\u003E\u003Ch1\u003ENy adresse:\u003C/h1\u003E\u003Cbr/\u003E\u003Cp\u003ETårnborgvej 4, 4220 Korsør.\u003C/p\u003E\u003Cbr/\u003E\u003C/body\u003E\u003Cbr/\u003E\u003C/html\u003E\u003Cbr/\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_adresse"
+        ]
+      },
+      {
+        "adresse": "C/O Advokatfirmaet Stakemann, Kronprinsessegade 18, 4220 Korsør",
+        "cvrNummer": "25133374",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "A/S PSE 17 NR. 1170",
+        "offentliggoerelseId": "7001336",
+        "offentliggoerelseTidsstempel": "02.08.2000",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E29.06.2000.\u003C/p\u003E\n\u003Ch1\u003ENyt navn:\u003C/h1\u003E\n\u003Cp\u003EKORSØR KOMMUNALE ELFORSYNING A/S.\u003C/p\u003E\n\u003Ch1\u003ENy adresse:\u003C/h1\u003E\n\u003Cp\u003Ec/o Rådhuset, Caspar Brands Plads   6, 4220 Korsør.\u003C/p\u003E\n\u003Ch2\u003ENy kommune:\u003C/h2\u003E\n\u003Cp\u003EKorsør.\u003C/p\u003E\n\u003Ch2\u003EKapitalforhøjelse:\u003C/h2\u003E\n\u003Cp\u003Ekr. 100.000,00 indbetalt   kontant, kurs 1.550,00.\u003C/p\u003E\n\u003Cp\u003EKapitalen udgør herefter kr. 600.000,00.\n\u003C/p\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000047254/deltager\" target=\"_blank\"\u003EBent-Ove Feldung\u003C/a\u003E,   \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000176607/deltager\" target=\"_blank\"\u003ESuzanne Helsteen\u003C/a\u003E, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000220205/deltager\" target=\"_blank\"\u003EHans Henrik Skjødt\u003C/a\u003E.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EByrådsmedlem \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004063835/deltager\" target=\"_blank\"\u003EMarius   Petersen Schmidt\u003C/a\u003E (formand), den 29.06.2000, Pedel \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4003889313/deltager\" target=\"_blank\"\u003EHans   Erik Weiergang Larsen\u003C/a\u003E, den 29.06.2000, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004015160/deltager\" target=\"_blank\"\u003EUlrik   Theodor Johannes Luckow\u003C/a\u003E, den 29.06.2000, Direktør \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004159365/deltager\" target=\"_blank\"\u003EFritz   Neumann\u003C/a\u003E, den   29.06.2000, Byrådsmedlem \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004063836/deltager\" target=\"_blank\"\u003EAnders Peter   Møller Nielsen\u003C/a\u003E, den 29.06.2000, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004010939/deltager\" target=\"_blank\"\u003EOle Quist\u003C/a\u003E, den   29.06.2000, Byrådsmedlem \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004063837/deltager\" target=\"_blank\"\u003EKurt Rehder\u003C/a\u003E, den 29.06.2000.\u003C/p\u003E\n\u003Ch1\u003EDirektion:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af direktionen:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000176607/deltager\" target=\"_blank\"\u003ESuzanne Helsteen\u003C/a\u003E.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i direktionen:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4003966556/deltager\" target=\"_blank\"\u003EMogens Serena Samer\u003C/a\u003E, den   29.06.2000.\u003C/p\u003E\n\u003Cp\u003ESelskabet tegnes af et bestyrelsesmedlem og   en direktør eller af bestyrelsesformanden   sammen med et bestyrelsesmedlem eller af   den samlede bestyrelse.\n\u003C/p\u003E\n\u003Ch1\u003ERevision:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af revisionen:\u003C/h2\u003E\n\u003Cp\u003EERNST &amp; YOUNG   STATSAUTORISERET REVISIONSAKTIESELSKAB.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i revisionen:\u003C/h2\u003E\n\u003Cp\u003ECVR-NR. 24213714   DELOITTE &amp; TOUCHE STATSAUTORISERET   REVISIONSAKTIESELSKAB, H.C. Andersens   Boulevard 2, 1780 København V, den   29.06.2000.\u003C/p\u003E\n\u003Ch1\u003ERegnskabsår ændret til:\u003C/h1\u003E\n\u003Cp\u003E01.01 - 31.12.\u003C/p\u003E\n\u003Ch1\u003EFørste regnskabsår:\u003C/h1\u003E\n\u003Cp\u003E01.01.2000 - 31.12.2000.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EVedtægter ændret:\u003C/h1\u003E\n\u003Cp\u003E29.06.2000.\u003C/p\u003E\n\u003Ch1\u003ENyt navn:\u003C/h1\u003E\n\u003Cp\u003EKORSØR KOMMUNALE ELFORSYNING A/S.\u003C/p\u003E\n\u003Ch1\u003ENy adresse:\u003C/h1\u003E\n\u003Cp\u003Ec/o Rådhuset, Caspar Brands Plads   6, 4220 Korsør.\u003C/p\u003E\n\u003Ch2\u003ENy kommune:\u003C/h2\u003E\n\u003Cp\u003EKorsør.\u003C/p\u003E\n\u003Ch2\u003EKapitalforhøjelse:\u003C/h2\u003E\n\u003Cp\u003Ekr. 100.000,00 indbetalt   kontant, kurs 1.550,00.\u003C/p\u003E\n\u003Cp\u003EKapitalen udgør herefter kr. 600.000,00.\n\u003C/p\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EBent-Ove Feldung,   Suzanne Helsteen, Hans Henrik Skjødt.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EByrådsmedlem Marius   Petersen Schmidt (formand), den 29.06.2000, Pedel Hans   Erik Weiergang Larsen, den 29.06.2000, Ulrik   Theodor Johannes Luckow, den 29.06.2000, Direktør Fritz   Neumann, den   29.06.2000, Byrådsmedlem Anders Peter   Møller Nielsen, den 29.06.2000, Ole Quist, den   29.06.2000, Byrådsmedlem Kurt Rehder, den 29.06.2000.\u003C/p\u003E\n\u003Ch1\u003EDirektion:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af direktionen:\u003C/h2\u003E\n\u003Cp\u003ESuzanne Helsteen.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i direktionen:\u003C/h2\u003E\n\u003Cp\u003EMogens Serena Samer, den   29.06.2000.\u003C/p\u003E\n\u003Cp\u003ESelskabet tegnes af et bestyrelsesmedlem og   en direktør eller af bestyrelsesformanden   sammen med et bestyrelsesmedlem eller af   den samlede bestyrelse.\n\u003C/p\u003E\n\u003Ch1\u003ERevision:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af revisionen:\u003C/h2\u003E\n\u003Cp\u003EERNST &amp; YOUNG   STATSAUTORISERET REVISIONSAKTIESELSKAB.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i revisionen:\u003C/h2\u003E\n\u003Cp\u003ECVR-NR. 24213714   DELOITTE &amp; TOUCHE STATSAUTORISERET   REVISIONSAKTIESELSKAB, H.C. Andersens   Boulevard 2, 1780 København V, den   29.06.2000.\u003C/p\u003E\n\u003Ch1\u003ERegnskabsår ændret til:\u003C/h1\u003E\n\u003Cp\u003E01.01 - 31.12.\u003C/p\u003E\n\u003Ch1\u003EFørste regnskabsår:\u003C/h1\u003E\n\u003Cp\u003E01.01.2000 - 31.12.2000.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_revision",
+          "virksomhedsregistreringsstatus-aendring_adresse",
+          "virksomhedsregistreringsstatus-aendring_kapital",
+          "virksomhedsregistreringsstatus-andet",
+          "virksomhedsregistreringsstatus-aendring_personkreds"
+        ]
+      },
+      {
+        "adresse": "C/O Advokatfirmaet Stakemann, Kronprinsessegade 18, 1306 Kronprinsessegade",
+        "cvrNummer": "25133374",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "A/S PSE 17 NR. 1170",
+        "offentliggoerelseId": "7001333",
+        "offentliggoerelseTidsstempel": "28.06.2000",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000417793/deltager\" target=\"_blank\"\u003EKim Madsen\u003C/a\u003E, den   15.06.2000, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004150501/deltager\" target=\"_blank\"\u003EAnnemette Kristoffersen\u003C/a\u003E, den   15.06.2000, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000448343/deltager\" target=\"_blank\"\u003EPeter Andreas Stakemann\u003C/a\u003E, den   15.06.2000.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EAdvokat \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000047254/deltager\" target=\"_blank\"\u003EBent-Ove   Feldung\u003C/a\u003E, den 15.06.2000, Advokat   \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000176607/deltager\" target=\"_blank\"\u003ESuzanne Helsteen\u003C/a\u003E, den 16.06.2000,   Advokat \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000220205/deltager\" target=\"_blank\"\u003EHans Henrik Skjødt\u003C/a\u003E, den 15.06.2000.\u003C/p\u003E\n\u003Ch1\u003EDirektion:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af direktionen:\u003C/h2\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000448343/deltager\" target=\"_blank\"\u003EPeter Andreas   Stakemann\u003C/a\u003E, den 15.06.2000.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i direktionen:\u003C/h2\u003E\n\u003Cp\u003EAdvokat \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000176607/deltager\" target=\"_blank\"\u003ESuzanne   Helsteen\u003C/a\u003E, den 16.06.2000.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EKim Madsen, den   15.06.2000, Annemette Kristoffersen, den   15.06.2000, Peter Andreas Stakemann, den   15.06.2000.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i bestyrelsen:\u003C/h2\u003E\n\u003Cp\u003EAdvokat Bent-Ove   Feldung, den 15.06.2000, Advokat   Suzanne Helsteen, den 16.06.2000,   Advokat Hans Henrik Skjødt, den 15.06.2000.\u003C/p\u003E\n\u003Ch1\u003EDirektion:\u003C/h1\u003E\n\u003Ch2\u003EUdtrådt af direktionen:\u003C/h2\u003E\n\u003Cp\u003EPeter Andreas   Stakemann, den 15.06.2000.\u003C/p\u003E\n\u003Ch2\u003EIndtrådt i direktionen:\u003C/h2\u003E\n\u003Cp\u003EAdvokat Suzanne   Helsteen, den 16.06.2000.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-aendring_personkreds",
+          "virksomhedsregistreringsstatus-andet"
+        ]
+      },
+      {
+        "adresse": "C/O Advokatfirmaet Stakemann, Kronprinsessegade 18, 1306 Kronprinsessegade",
+        "cvrNummer": "25133374",
+        "dokumentReferencer": null,
+        "groenlandskRegistreringsnummer": null,
+        "liberaleErhvervRegistreringsstatus": "",
+        "navn": "A/S PSE 17 NR. 1170",
+        "offentliggoerelseId": "7001331",
+        "offentliggoerelseTidsstempel": "14.01.2000",
+        "overskrift": null,
+        "registreringsTekst": {
+          "tekstMedLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EStiftelsesdato:\u003C/h1\u003E\n\u003Cp\u003E01.01.2000.\u003C/p\u003E\n\u003Ch1\u003ESeneste vedtægtsdato:\u003C/h1\u003E\n\u003Cp\u003E01.01.2000.\u003C/p\u003E\n\u003Ch1\u003EKapital:\u003C/h1\u003E\n\u003Cp\u003Ekr. 500.000,00.\u003C/p\u003E\n\u003Ch2\u003EIndbetalingsmåde:\u003C/h2\u003E\n\u003Cp\u003Ekontant kr. 500.000,00 til   kurs 100,00.\u003C/p\u003E\n\u003Ch1\u003EStifter:\u003C/h1\u003E\n\u003Cp\u003ECVR-NR. 19270939 ApS KBUS 38 NR.   3117, c/o Adv.fa. Stakemann,   Kronprinsessegade 18, 1306 København K, den   01.01.2000.\u003C/p\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000417793/deltager\" target=\"_blank\"\u003EKim Madsen\u003C/a\u003E (formand), den 01.01.2000, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4004150501/deltager\" target=\"_blank\"\u003EAnnemette   Kristoffersen\u003C/a\u003E,   den 01.01.2000, \u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000448343/deltager\" target=\"_blank\"\u003EPeter Andreas Stakemann\u003C/a\u003E,   den 01.01.2000.\u003C/p\u003E\n\u003Ch1\u003EDirektion:\u003C/h1\u003E\n\u003Cp\u003E\u003Ca href=\"https://datacvr.virk.dk/enhed/person/4000448343/deltager\" target=\"_blank\"\u003EPeter Andreas Stakemann\u003C/a\u003E,   den 01.01.2000.\u003C/p\u003E\n\u003Cp\u003ESelskabet tegnes af 2 medlemmer af   bestyrelsen i forening, af en direktør   alene eller af bestyrelsesformanden alene.\n\u003C/p\u003E\n\u003Ch1\u003ERevision:\u003C/h1\u003E\n\u003Cp\u003EERNST &amp; YOUNG STATSAUTORISERET   REVISIONSAKTIESELSKAB, Østergade 11, 4000   Roskilde, den 01.01.2000.\u003C/p\u003E\n\u003Ch1\u003EFørste regnskabsår:\u003C/h1\u003E\n\u003Cp\u003E01.01.2000 - 30.06.2001.\u003C/p\u003E\n\u003Ch1\u003ERegnskabsår:\u003C/h1\u003E\n\u003Cp\u003E01.07 - 30.06.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "tekstUdenLink": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Chtml\u003E\n\u003Chead /\u003E\n\u003Cbody\u003E\n\u003Ch1\u003EStiftelsesdato:\u003C/h1\u003E\n\u003Cp\u003E01.01.2000.\u003C/p\u003E\n\u003Ch1\u003ESeneste vedtægtsdato:\u003C/h1\u003E\n\u003Cp\u003E01.01.2000.\u003C/p\u003E\n\u003Ch1\u003EKapital:\u003C/h1\u003E\n\u003Cp\u003Ekr. 500.000,00.\u003C/p\u003E\n\u003Ch2\u003EIndbetalingsmåde:\u003C/h2\u003E\n\u003Cp\u003Ekontant kr. 500.000,00 til   kurs 100,00.\u003C/p\u003E\n\u003Ch1\u003EStifter:\u003C/h1\u003E\n\u003Cp\u003ECVR-NR. 19270939 ApS KBUS 38 NR.   3117, c/o Adv.fa. Stakemann,   Kronprinsessegade 18, 1306 København K, den   01.01.2000.\u003C/p\u003E\n\u003Ch1\u003EBestyrelse:\u003C/h1\u003E\n\u003Cp\u003EKim Madsen (formand), den 01.01.2000, Annemette   Kristoffersen,   den 01.01.2000, Peter Andreas Stakemann,   den 01.01.2000.\u003C/p\u003E\n\u003Ch1\u003EDirektion:\u003C/h1\u003E\n\u003Cp\u003EPeter Andreas Stakemann,   den 01.01.2000.\u003C/p\u003E\n\u003Cp\u003ESelskabet tegnes af 2 medlemmer af   bestyrelsen i forening, af en direktør   alene eller af bestyrelsesformanden alene.\n\u003C/p\u003E\n\u003Ch1\u003ERevision:\u003C/h1\u003E\n\u003Cp\u003EERNST &amp; YOUNG STATSAUTORISERET   REVISIONSAKTIESELSKAB, Østergade 11, 4000   Roskilde, den 01.01.2000.\u003C/p\u003E\n\u003Ch1\u003EFørste regnskabsår:\u003C/h1\u003E\n\u003Cp\u003E01.01.2000 - 30.06.2001.\u003C/p\u003E\n\u003Ch1\u003ERegnskabsår:\u003C/h1\u003E\n\u003Cp\u003E01.07 - 30.06.\u003C/p\u003E\n\u003C/body\u003E\n\u003C/html\u003E"
+        },
+        "registreringstype": "VIRKSOMHEDSREGISTRERING",
+        "titelTekstnogler": [
+          "virksomhedsregistreringsstatus-nyt_selskab"
+        ]
+      }
+    ],
+    "virksomhedsMeddelelser": []
+  }
