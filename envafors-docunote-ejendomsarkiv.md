@@ -1,6 +1,6 @@
 # Ejendomsarkiv i DocuNote
 
-**Envafors · Forslag til pilot · Version 0.2 · 20. november 2026**
+**Envafors · Forslag til pilot · Version 0.3 · 20. november 2026**
 
 Læg ejendomssagen direkte i ejerens selskabsmappe. Brug selskabets registrerede navn og CVR som mappenavn. Begynd sagstitlen med BFE-nummeret, og tilføj kendenavn eller kort adresse, når det er kendt. For hver BFE med en dokumenteret, gældende ejer i arkivet bruges én hovedsag af typen **Ejendom** med ni faste emnemapper. Herfra skal brugeren kunne finde skøde, aftaler, tilladelser og tegninger, også når originalen ligger på en fælles sag eller i et fagsystem.
 
@@ -43,14 +43,19 @@ SK Vand A/S (27736033)
 | **08 Forsikring og skader** | Ejendomsspecifik dækningsdokumentation, forsikringsvurderinger, skadesager med bilag og afgørelser samt henvisninger til fælles policer. |
 | **09 Ejendomsøkonomi** | Ejendomsvurderinger, vurderingsklager, ejendomsskatter, afgifter og dokumenter om hæftelser eller finansiering. Gør tinglyst pant findbart fra 01. Henvis til økonomisystemet for løbende bogføring. |
 
-- **Lad dokumenterne følge sagen.** En landzonetilladelse til udstykning hører til i 04. Dokumentation for den gennemførte matrikulære ændring hører til i 01. Den samlede tingbogsattest ligger i 01, og den enkelte servitut ligger i 02.
-- **Bevar historikken ved emnet.** Behold en erstattet tilladelse som et selvstændigt dokument. Registrér den nye afgørelse, hvilken afgørelse den erstatter, og hvornår den nye gælder, hvis det er kendt.
+### Sådan placeres dokumenter og sager
 
-### Niveauet under emnemapperne
+De ni mapper er brugerens faste indgang fra ejendommen. En **ejendomssag** samler oplysninger om én BFE. En byggesag, skadesag eller klagesag er et **konkret forløb** med dokumenter, der bruges sammen. Vælg det emne, hvor brugeren vil lede efter resultatet. Undersøg så, om materialet allerede er journaliseret og kan genfindes.
 
-Enkeltstående dokumenter lægges direkte i emnemappen. Når flere dokumenter hører til samme forløb, samles de i en sagsmappe under emnet eller via en henvisning til en eksisterende sag. Brug de samme navnemønstre på tværs af ejendomme, fx **Tilladelse · emne eller sagsnr.** under 05, **Skadesag · skadenr. eller dato** under 08 og **Vurderingsklage · vurderingsår** under 09. En skatteopgørelse kan ligge direkte i 09, mens en klage med korrespondance og afgørelse får sin egen sagsmappe.
+| Situation | Hvad brugeren finder i emnemappen |
+|---|---|
+| Dokumentet er allerede journaliseret på en aftale-, projekt- eller myndighedssag eller i et fagsystem | En henvisning til den sag, hvor dokumenterne er samlet, eller til det enkelte dokument. Brug sagsnummer for et helt forløb og dokumentnummer for et bestemt dokument. Tilknyt henvisningen til BFE og emne, så den kan findes fra ejendommen. |
+| Et enkelt dokument eller et lille forløb vedrører ejendommen | Dokumenterne direkte i emnemappen, fx en skatteopgørelse i **09 Ejendomsøkonomi**. Et fælles sagsnummer kan samle dokumenterne i en søgning. |
+| Flere dokumenter skal behandles samlet på ejendommen | Én sagsmappe under det relevante emne, fx **Vurderingsklage · 2026** i 09 eller **Skadesag · skadenr.** i 08. Saml henvendelse, korrespondance og afgørelse dér. Brug forløbets sagsnummer, hvis det findes. Henvis fra andre berørte emner eller BFE’er til den samme sag eller det relevante dokument. |
 
-Når samme underinddeling er nødvendig på flere ejendomme, indarbejdes den i den fælles sagsskabelon. I DocuNotes skabelonbibliotek kan der fx ligge en fælles skabelon til besigtigelsesnotater. Den udfyldte fil oprettes ved en besigtigelse. Modtagne skøder, policer og afgørelser journaliseres, når de foreligger. Uafklaret materiale fra indlæsning får en ansvarlig for placeringen.
+Ved en udstykning findes landzonetilladelsen fra **04 Plan- og byggesager**, og registreringen af den gennemførte matrikelændring fra **01 Ejerskab og registrering**. Føres begge dokumenter på samme projektsag, peger de to emnemapper på hver sit dokument dér. Den samlede tingbogsattest hører til i 01 og den enkelte servitut i 02.
+
+Sagsmapper oprettes til et konkret forløb. Nye, faste underemner indføres kun i den fælles skabelon ved et tilbagevendende behov. Skabeloner til fx besigtigelsesnotater hentes fra skabelonbiblioteket, når der skal skrives et notat. Modtagne skøder, policer og afgørelser journaliseres, når de foreligger. Uafklaret materiale fra indlæsning får en ansvarlig for placeringen.
 
 ## Stamdata og ansvar
 
@@ -68,7 +73,15 @@ Genbrug kontrollerede registeroplysninger. Tilføj arealer og BBR-referencer, n�
 
 Brug **titel, dokumentkategori og dokumentdato** som fælles udgangspunkt. Brug få søgbare kategorier, fx skøde, servitut, lejekontrakt, tilladelse, tegning og forsikringspolice. Angiv aftalepart eller tilladelsesindehaver efter dokumentet og tilknyt de berørte BFE’er. Grundejeren og parten i dokumentet kan være forskellige selskaber.
 
-På aftaler, policer og tilladelser registreres status, kendt gyldighed og en relevant reference, fx policenummer eller myndighedens sagsnummer. Flere aftaler eller tilladelser kan være gældende for samme ejendom. Hver handling med egen frist eller ansvarlig følges på den tilhørende sag.
+På aftaler, policer og tilladelser registreres status, kendt gyldighed og en relevant reference, fx policenummer eller myndighedens sagsnummer. Flere aftaler eller tilladelser kan være gældende for samme ejendom. Hver handling med egen frist eller ansvarlig følges på den sag, hvor arbejdet udføres.
+
+### Dokumenthistorik uden faste undermapper
+
+Når fx en byggesag er færdigbehandlet, kan forløbet markeres **afsluttet**. Ejendomssagen kan fortsætte, og tilladelsen kan stadig gælde. Dokumenterne bliver dér, hvor de er journaliseret. Brug dokumentets versioner ved redigering af samme kladde. En ny afgørelse eller et underskrevet tillæg journaliseres som et selvstændigt dokument.
+
+Knyt en ny afgørelse til den tidligere med dokumentnummer eller med myndighedens sagsnummer, titel og dokumentdato. Angiv, om den **erstatter** eller **supplerer** det tidligere dokument. Registrér den dokumenterede virkningsdato særskilt fra dokumentdatoen. Ved fuld erstatning markeres den tidligere afgørelse som erstattet fra det dokumenterede tidspunkt. Ved et tillæg kan begge dokumenter være gældende. Er gyldigheden uafklaret, vises den som uafklaret.
+
+Fra BFE og emne skal en bruger kunne se både gældende og tidligere dokumenter i en liste eller søgning med dato, status og reference. Ved opslag i et fagsystem skal henvisningen føre til den bestemte udgave. Hvis systemet overskriver gamle udgaver, journaliserer den sagsansvarlige den relevante udgave én gang med kilde og dato. Henvisningen peger da på det bevarede dokument. Hvis kun omtalen af et ældre dokument findes, vises den kendte reference med bemærkningen **kun reference i arkivet**. Mappen **Tidligere ejendomme** bruges på selskabsniveau ved afsluttede ejerforhold.
 
 ## Fælles dokumenter og fagsystemer
 
@@ -94,7 +107,7 @@ Afprøv sagstypen på 5–10 forskellige ejendomme, fx en administrationsbygning
 
 1. **Ejerskifte.** Find BFE 5367067 direkte hos SK Forsyning og via **Tidligere ejendomme** hos SK Vand. Kontrollér, at en bruger med relevant adgang kan se den historiske ejerrelation og åbne den aktuelle hovedsag.
 2. **Sameje (tænkt eksempel).** Lad to medejere bytte sagsansvar. Åbn samme BFE fra begge selskabers rod før og efter skiftet. Begge andele skal fortsat være synlige som gældende, og ejendommen skal tælle én gang i ledelsens samlede oversigt.
-3. **Erstattet tilladelse.** Åbn 05 på BFE 5367073 og find Slagelse Kommunes afgørelse af 17. december 2020 om Slagelse Renseanlæg. Den erstattede tilladelsen af 24. november 1999 og omtaler SK Forsyning som ansøger. Ejendomskontrollen viser SK Spildevand som grundejer. Kontrollér, at både ansøger og henvisning til den tidligere afgørelse kan findes fra sagen. [Kommunens afgørelse, s. 3](https://b0301proddatasto.blob.core.windows.net/files/vrp2k3oj.pdf#page=3) · [Kobling til BFE og kilder S213, S215 og S217](research/decisions.md#krydskontrol-med-udgangspunkt-i-renseanlæg)
+3. **Erstattet tilladelse.** Start i **05 Miljø** på BFE 5367073. Find Slagelse Kommunes afgørelse af 17. december 2020 og henvisningen til tilladelsen af 24. november 1999, som afgørelsen erstattede. Prøv først med 2020-afgørelsen direkte i 05, dernæst i en sagsmappe under 05 og til sidst med en henvisning fra 05 til en eksisterende sag. Ved hver prøve skal brugeren kunne finde historikken ud fra BFE og emne og se, at SK Forsyning var ansøger, mens SK Spildevand er registreret som grundejer. [Kommunens afgørelse, s. 3](https://b0301proddatasto.blob.core.windows.net/files/vrp2k3oj.pdf#page=3) · [Kobling til BFE og kilder S213, S215 og S217](research/decisions.md#krydskontrol-med-udgangspunkt-i-renseanlæg)
 4. **Fælles police og ledelsesoverblik.** Vælg en police, der omfatter to BFE’er i hvert sit selskab. Find policen fra begge ejendomme. Luk en prøveopgave på aftalesagen, og kontrollér, at den forsvinder fra begge selskabers åbne punkter og fra den samlede liste. Find også en ejendom uden registreret gennemgang.
 5. **Ledningsret på fremmed grund.** Find aftalen fra både selskabet, der har indgået den, og den berørte grunds BFE. Kontrollér, at grunden kun tæller som ejet, hvis der også foreligger et dokumenteret ejerforhold.
 
