@@ -1,8 +1,8 @@
 # Ejendomsarkiv i DocuNote
 
-**Envafors · Forslag til pilot · Version 0.5 · 23. november 2026**
+**Envafors · Forslag til pilot · Version 0.6 · 23. november 2026**
 
-**Ejendomssagen** er den faste indgang til én ejendoms stamdata og ni emnemapper. I piloten foreslås den oprettet som en DocuNote-sag af typen **Ejendom**. For hver BFE med en dokumenteret, gældende ejer i arkivet ligger denne hovedsag direkte i selskabsmappen hos den ejer, der fører sagen. Brug selskabets registrerede navn og CVR som mappenavn. Begynd hovedsagens titel med BFE-nummeret, og tilføj kendenavn eller kort adresse, når det er kendt. Herfra skal brugeren kunne finde skøde, aftaler, tilladelser og tegninger, også når originalen ligger på en fælles sag eller i et fagsystem.
+**Ejendommen** har ét sæt stamdata pr. BFE-nummer. Når en gældende ejer i arkivet er dokumenteret, får ejendommen en fast plads direkte i selskabsmappen hos den ejer, der fører sagen. I piloten foreslås en DocuNote-sag af typen **Ejendom** til denne plads. Her ser brugeren ejendommens stamdata og ni emnemapper med adgang til skøder, aftaler, tilladelser og tegninger, også når originalen ligger på en fælles sag eller i et fagsystem. Brug selskabets registrerede navn og CVR som mappenavn. Begynd ejendomssagens titel med BFE-nummeret, og tilføj kendenavn eller kort adresse, når det er kendt.
 
 ## Hovedsag, medejere og tidligere ejere
 
@@ -17,7 +17,7 @@
 
 Brug **tinglyst adkomst** som udgangspunkt for placering hos den formelle ejer. Vælg først rollen `ejer` og status `gældende` i Matriklen Labs. Sammenhold CVR, BFE og de faktiske og tinglyste ejerandele med det daterede ejendomsopslag. Er andelene forskellige, er den tinglyste andel uoplyst, eller er adkomsten i øvrigt uklar, oprettes en afklaringsopgave med BFE, kilde og ansvarlig i den fælles opfølgning. Det kan gøres, før der findes en hovedsag. Ejendommen medtages i ejerens portefølje, når placeringen er afklaret. [Kontrol af status, andele og datoer](research/udtraekskontrol.md#status-og-andele)
 
-Ved ejerskifte afsluttes den gamle ejerrelation med den dokumenterede dato, hvis den kendes. Den tidligere ejers egne dokumenter bevares hos selskabet. Er den nye ejer omfattet af arkivet, vises den aktuelle hovedsag i den nye ejers rod. Opdatér eksisterende genveje med sagens nummer og kontrollér, at de fører til samme BFE.
+Ved ejerskifte afsluttes den gamle ejerrelation med den dokumenterede dato, hvis den kendes. Den tidligere ejers egne dokumenter og oprindelige sagsnummer bevares hos selskabet. Er den nye ejer omfattet af arkivet, vises den aktuelle hovedsag i den nye ejers rod. Hvis stamdata vedligeholdes på hovedsagen, overtager den nye hovedsag den opgave. Datoen for seneste faglige gennemgang følger ejendommen. Angiv, hvem der fremover holder oplysningerne ajour. Henvis fra den afsluttede sag til den aktuelle hovedsag, når den findes, og kontrollér de øvrige genveje til samme BFE.
 
 **Eksempel med tidligere ejer.** Ejendomsopslaget med virkningstid 20. november 2026 kl. 00.00 CET viste SK Forsyning A/S med faktisk og tinglyst andel 1/1 på BFE 5367067. I Labs var SK Forsynings ejerpost gældende og SK Vands historisk. Alle 15 BFE-numre, der optrådte under to CVR-numre i de 12 undersøgte Labs-udtræk, havde én gældende og én historisk ejerpost. [Projektets kontrol](research/udtraekskontrol.md#status-og-andele) · [Kildeindeks med opslagstider, S273, S349 og S512](research/sources.csv)
 
@@ -61,35 +61,51 @@ Nye, faste underemner indføres kun i den fælles skabelon ved et tilbagevendend
 
 ## Stamdata og ansvar
 
-Hver række beskriver ét felt. Genbrug DocuNotes sagsnummer og kontrollerede registeroplysninger. Felter om jordstykker, anlæg og selskabsforhold knyttes til den post, de beskriver, så samme ejendom kan have flere af hver.
+### Ejendomsstamdata for alle BFE-typer
 
-### På ejendomssagen
+Registrér oplysninger om hele ejendommen én gang, og vis dem samlet i ejendomsmappen. Findes der allerede en fælles ejendomspost, kan hovedsagen henvise til den med BFE-nummeret. Ellers kan felterne vedligeholdes i afsnittet **Ejendomsstamdata** på hovedsagen. Hver række nedenfor er ét felt.
+
+De fælles felter gælder for samlet fast ejendom, ejerlejlighed og bygning på fremmed grund. En ejendom kan findes på sit BFE-nummer, også uden oplysninger om jordstykker, bygninger eller anlæg. Viser kilden et BFE-nummer uden type, beholdes nummeret, og typen står uafklaret, indtil et ejendomsopslag dokumenterer den.
 
 | Felt | Udfyldelse |
 |---|---|
 | **BFE-nummer** | Ejendommens entydige nummer i Matriklen, fx `5367067`. |
 | **BFE-type** | Den registrerede ejendomstype. Værdien er *samlet fast ejendom*, *ejerlejlighed* eller *bygning på fremmed grund*. [Geodatastyrelsen om BFE](https://gst.dk/ansvarsomraader/matrikel-og-ejendomsregistrering/matriklen/bfe-nummer) |
-| **Sagsnummer i DocuNote** | Nummeret, der bruges til at henvise til ejendommens hovedsag. En særskilt aftalesag har sit eget sagsnummer. |
-| **Sagsførende CVR** | CVR-nummeret på det ejerselskab, som fører hovedsagen. |
 | **Beliggenhedsadresse** | Ejendommens officielle beliggenhedsadresse fra Ejendomsbeliggenhedsregistret. |
 | **Kortreference til ejendommen** | Henvisning til ejendommen på et kort, når adressen er upraktisk i felten. |
-| **Kendenavn** | Det navn medarbejderne søger på i det daglige, fx navnet på et vandværk. |
+| **Kendenavn** | Det navn medarbejderne bruger om ejendommen som helhed, når den har et. |
 | **Anvendelse** | Hvad ejendommen bruges til, fx administrationsbygning eller ubebygget areal. Gøres søgbart. |
-| **Ejendomsansvarlig** | Den funktion, der holder oplysningerne om ejendommen ajour. |
-| **Dato for seneste faglige gennemgang** | Udfyldes, når ejendommen er gennemgået. En tom dato betyder, at der endnu ikke er registreret en gennemgang. |
 
-### Jordstykker, bygninger og anlæg
+**Faglig opfølgning på ejendommen** registreres også én gang pr. BFE. Ændringer i en lejeaftale eller en byggesag kan følges på den konkrete sag.
 
-Registrér matrikelnummer og ejerlav sammen for hvert jordstykke. For hvert anlæg kan der angives et anlægs-ID, en GIS-reference eller begge dele. Flere BFE’er kan henvise til samme anlæg. Medtag arealer, BBR-referencer og miljøoplysninger, når de bruges til søgning eller opfølgning. Knyt hver miljøoplysning til dens kilde og opslagstidspunkt. Angiv også virkningsdatoen, hvis den fremgår.
+| Felt | Udfyldelse |
+|---|---|
+| **Ejendomsansvarlig** | Den funktion, der holder ejendommens oplysninger ajour. |
+| **Dato for seneste faglige gennemgang** | Datoen for den seneste samlede gennemgang af ejendommen. En tom dato betyder, at der endnu ikke er registreret en gennemgang. |
+
+### Supplerende stamdata efter BFE-type
+
+Brug tillægget for den registrerede type, når oplysningerne foreligger og er relevante. En samlet fast ejendom består af ét eller flere jordstykker. Registrér matrikelnummer og ejerlav sammen for hvert af dem. En ejerlejlighed og en bygning på fremmed grund har hver sit eget BFE-nummer. En henvisning til en anden BFE viser sammenhængen mellem ejendommene. Ejerskabet af hver BFE dokumenteres særskilt. [Kildeindeks med opslagstider, S536–S539](research/sources.csv)
+
+| Felt | Gælder for | Udfyldelse |
+|---|---|---|
+| **Matrikelnummer** | Samlet fast ejendom, pr. jordstykke | Jordstykkets matrikelnummer fra Matriklen. |
+| **Ejerlavsnummer** | Samlet fast ejendom, pr. jordstykke | Nummeret identificerer jordstykket sammen med matrikelnummeret. [Geodatastyrelsen om Matrikelregistret](https://gst.dk/data-og-kort/matrikelkort-og-data/matrikelregistret) |
+| **Ejerlavsnavn** | Samlet fast ejendom, pr. jordstykke | Vis det registrerede navn sammen med matrikelnummeret. Navnet hentes ud fra ejerlavsnummeret. |
+| **Jordstykkets areal** | Samlet fast ejendom, pr. jordstykke | Det registrerede areal i m² fra Matriklen, når det bruges til søgning eller opfølgning. |
+| **Ejerlejlighedsnummer** | Ejerlejlighed | Lejlighedens registrerede nummer inden for hovedejendommen. |
+| **Hovedejendommens BFE-nummer** | Ejerlejlighed | Henvisning til den ejendom, der er opdelt i ejerlejligheder. Det kan være en samlet fast ejendom eller en bygning på fremmed grund. [Geodatastyrelsen om ejerlejligheder](https://gst.dk/ansvarsomraader/matrikel-og-ejendomsregistrering/registrering-af-ejerlejligheder) |
+| **Grundens BFE-nummer** | Bygning på fremmed grund | Henvisning til den grund, hvor bygningen eller anlægget ligger, når grundens BFE er dokumenteret. [Geodatastyrelsen om bygning på fremmed grund](https://gst.dk/ansvarsomraader/matrikel-og-ejendomsregistrering/registrering-af-bygning-paa-fremmed-grund) |
+
+### Tilknyttede bygninger, anlæg og miljøoplysninger
+
+Vis kun disse oplysninger, når de bruges til søgning eller opfølgning. Registrér dem på den bygning, det anlæg eller det areal, de beskriver. Fx omfatter BFE 5371653 to jordstykker. Valbygård Vandværk er knyttet til det ene, matrikel 1d. Et anlæg kan tilsvarende berøre flere BFE’er. Brug anlægs-ID, GIS-reference eller begge dele til at finde det samme anlæg fra hver berørt ejendom. [Projektets kontrol af Valbygård Vandværk](research/decisions.md#valbygård-vandværk-og-sk-vand-piloten)
 
 | Felt | Hører til | Udfyldelse |
 |---|---|---|
-| **Matrikelnummer** | Jordstykke | Jordstykkets matrikelnummer fra Matriklen. |
-| **Ejerlavsnummer** | Jordstykke | Nummeret identificerer jordstykket sammen med matrikelnummeret. [Geodatastyrelsen om Matrikelregistret](https://gst.dk/data-og-kort/matrikelkort-og-data/matrikelregistret) |
-| **Ejerlavsnavn** | Jordstykke | Vis det registrerede navn sammen med matrikelnummeret. Navnet hentes ud fra ejerlavsnummeret. |
-| **Jordstykkets areal** | Jordstykke | Det registrerede areal i m² fra Matriklen. |
 | **BBR-reference** | Bygning eller teknisk anlæg | Henvisning til den konkrete post i BBR. |
 | **Bebygget areal** | Bygning | Bygningens bebyggede areal i m² fra BBR. |
+| **Anlægsnavn** | Anlæg | Anlæggets navn, fx Valbygård Vandværk. Vis navnet fra de ejendomme, anlægget er knyttet til. |
 | **Anlægs-ID** | Anlæg | Anlæggets identifikator i det relevante fagsystem. |
 | **GIS-reference til anlægget** | Anlæg | Henvisning til det konkrete anlæg i GIS. |
 | **Kortlægningsniveau for jordforurening** | Berørt areal | Kildens angivelse af V1 eller V2 for det konkrete areal, når det er kortlagt. |
@@ -97,11 +113,11 @@ Registrér matrikelnummer og ejerlav sammen for hvert jordstykke. For hvert anl�
 
 ### Selskaber og deres relationer til ejendommen
 
-Selskabets navn og status hentes fra CVR-stamdata. Hvert selskab kan have flere roller på samme BFE. Bevar hver rolle og dens historik særskilt. For begge slags ejerandel bevares en oplyst nulandel som nul, mens en uoplyst andel markeres som ukendt.
+Vis ejendommens gældende og historiske selskabsforhold fra BFE’en. Selskabets navn og status hentes fra CVR-stamdata. Rolle, periode og eventuel ejerandel registreres for det enkelte selskabs forhold til ejendommen. Et selskab kan have flere roller på samme BFE. For begge slags ejerandel bevares en oplyst nulandel som nul, mens en uoplyst andel markeres som ukendt.
 
 | Felt | Hører til | Udfyldelse |
 |---|---|---|
-| **Selskabets CVR-nummer** | Selskabsrelation | Henvisning til det selskab, der har rollen på ejendommen. Omfatter også en medejer, når et andet selskab fører hovedsagen. |
+| **Selskabets CVR-nummer** | Selskab | Nummeret identificerer selskabet. Hver rolle på ejendommen henviser til selskabet med dette CVR. |
 | **Registreret selskabsnavn** | Selskab | Navnet fra Virk for det pågældende CVR-nummer. |
 | **Selskabsstatus i Virk** | Selskab | Virks status for virksomheden på opslagstidspunktet, fx `NORMAL`. |
 | **Rolle på ejendommen** | Selskabsrelation | Fx ejer, administrator, lejer, rettighedshaver eller driftsansvarlig. |
@@ -113,7 +129,7 @@ Selskabets navn og status hentes fra CVR-stamdata. Hvert selskab kan have flere 
 
 ### Kilde og ajourføring
 
-Knyt kildebelæg til den oplysning, det underbygger. Samme kildepost kan bruges til flere oplysninger.
+Knyt kildebelæg til den oplysning, det underbygger. Samme kildepost kan bruges til flere oplysninger. For miljøoplysninger knyttes kilden og opslagstidspunktet til det berørte areal. Angiv også virkningsdatoen, hvis den fremgår.
 
 | Felt | Udfyldelse |
 |---|---|
@@ -128,7 +144,19 @@ Ved kontrol af ejerhistorik bevares Labs-feltet `virkningFra` og ejendomsopslage
 
 ## Metadata på dokumenter og sager
 
-Brug **titel, dokumentkategori og dokumentdato** som fælles udgangspunkt. Brug få søgbare kategorier, fx skøde, servitut, lejekontrakt, tilladelse, tegning og forsikringspolice. Angiv aftalepart eller tilladelsesindehaver efter dokumentet og tilknyt de berørte BFE’er. Grundejeren og parten i dokumentet kan være forskellige selskaber.
+### Sagens egne oplysninger og henvisning til ejendommen
+
+For et dokument eller et forløb i ejendomsmappen er placeringen tilstrækkelig, når sammenhængen med én BFE er entydig og søgbar. En aftale- eller projektsag, der føres andetsteds eller vedrører flere ejendomme, henviser til hver berørt BFE. Herfra kan brugeren finde de fælles ejendomsoplysninger uden at indtaste dem igen. Ved en aftale om fremmed grund uden ejendomspost i arkivet er det tilstrækkeligt at angive grundens BFE-nummer og henvise til registeropslaget.
+
+| Felt | Hører til | Udfyldelse |
+|---|---|---|
+| **Sagsnummer i DocuNote** | Den enkelte sag | DocuNotes nummer på hovedsagen, aftalesagen eller en anden selvstændig sag. Bruges til at genfinde den konkrete sag. |
+| **Sagsførende CVR** | Ejendommens hovedsag | Henvisning til det ejerselskab, som fører hovedsagen. Ved sameje vises alle ejere fra de registrerede ejerforhold. |
+| **Ejendomsreference** | Sag eller dokument | Brug BFE-nummeret, når placeringen alene ikke giver en søgbar kobling til ejendommen. Gentag henvisningen ved flere BFE’er. Gælder et dokument kun nogle af dem, angives de på dokumentet. |
+
+### Dokumenter og opgaver
+
+Brug **titel, dokumentkategori og dokumentdato** som fælles udgangspunkt. Brug få søgbare kategorier, fx skøde, servitut, lejekontrakt, tilladelse, tegning og forsikringspolice. Angiv aftalepart eller tilladelsesindehaver efter dokumentet. Grundejeren og parten i dokumentet kan være forskellige selskaber.
 
 På aftaler, policer og tilladelser registreres status, kendt gyldighed og en relevant reference, fx policenummer eller myndighedens sagsnummer. Flere aftaler eller tilladelser kan være gældende for samme ejendom. Hver handling med egen frist eller ansvarlig følges på den sag, hvor arbejdet udføres.
 
@@ -156,11 +184,11 @@ Registrér et åbent punkt, når en faglig gennemgang viser en mangel, eller der
 |---|---|
 | BFE-sagen | En mangel, der alene vedrører ejendommen, placeres her. Fx får en manglende henvisning til et skøde en ansvarlig, som kan finde det og lukke punktet. |
 | Aftale, tilladelse eller fælles selskabssag | Registrér handlingen dér, hvor ansvaret ligger. En fælles police har én fornyelsesopgave, som kan findes fra alle omfattede BFE’er. |
-| Selskab og arkivets top | Brug en delt liste over åbne punkter og kommende frister. Vis det valgte CVR på selskabsniveau og alle omfattede selskaber på toppen. Tæl hver opgave én gang. En særskilt søgning på BFE-sager uden gennemgangsdato viser, hvilke ejendomme der mangler en første registreret gennemgang. |
+| Selskab og arkivets top | Brug en delt liste over åbne punkter og kommende frister. Vis det valgte CVR på selskabsniveau og alle omfattede selskaber på toppen. Tæl hver opgave én gang. En søgning på ejendomme uden gennemgangsdato viser, hvilke BFE’er der mangler en første registreret gennemgang. |
 
 ## Pilot i DocuNote
 
-Afprøv sagstypen på 5–10 forskellige ejendomme, fx en administrationsbygning, et teknisk anlæg og et ubebygget areal. Brug disse arbejdsgange som acceptprøver.
+Afprøv sagstypen på 5–10 forskellige ejendomme. Lad alle tre BFE-typer indgå, eventuelt som tydeligt markerede prøveeksempler. Kontrollér, at en ejendom kan findes med de fælles felter alene. Åbn en særskilt aftalesag, og kontrollér, at den fører til samme aktuelle ejendomsoplysninger som ejendomsmappen. Brug også disse arbejdsgange som acceptprøver.
 
 1. **Ejerskifte.** Find BFE 5367067 direkte hos SK Forsyning og via **Tidligere ejendomme** hos SK Vand. Kontrollér, at en bruger med relevant adgang kan se den historiske ejerrelation og åbne den aktuelle hovedsag.
 2. **Sameje (tænkt eksempel).** Lad to medejere bytte sagsansvar. Åbn samme BFE fra begge selskabers rod før og efter skiftet. Begge andele skal fortsat være synlige som gældende, og ejendommen skal tælle én gang i ledelsens samlede oversigt.
