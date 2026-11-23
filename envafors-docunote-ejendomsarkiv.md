@@ -1,8 +1,8 @@
 # Ejendomsarkiv i DocuNote
 
-**Envafors · Forslag til pilot · Version 0.4 · 20. november 2026**
+**Envafors · Forslag til pilot · Version 0.5 · 23. november 2026**
 
-Læg ejendomssagen direkte i ejerens selskabsmappe. Brug selskabets registrerede navn og CVR som mappenavn. Begynd sagstitlen med BFE-nummeret, og tilføj kendenavn eller kort adresse, når det er kendt. For hver BFE med en dokumenteret, gældende ejer i arkivet bruges én hovedsag af typen **Ejendom** med ni faste emnemapper. Herfra skal brugeren kunne finde skøde, aftaler, tilladelser og tegninger, også når originalen ligger på en fælles sag eller i et fagsystem.
+**Ejendomssagen** er den faste indgang til én ejendoms stamdata og ni emnemapper. I piloten foreslås den oprettet som en DocuNote-sag af typen **Ejendom**. For hver BFE med en dokumenteret, gældende ejer i arkivet ligger denne hovedsag direkte i selskabsmappen hos den ejer, der fører sagen. Brug selskabets registrerede navn og CVR som mappenavn. Begynd hovedsagens titel med BFE-nummeret, og tilføj kendenavn eller kort adresse, når det er kendt. Herfra skal brugeren kunne finde skøde, aftaler, tilladelser og tegninger, også når originalen ligger på en fælles sag eller i et fagsystem.
 
 ## Hovedsag, medejere og tidligere ejere
 
@@ -45,17 +45,19 @@ SK Vand A/S (27736033)
 
 ### Sådan placeres dokumenter og sager
 
-De ni mapper er brugerens faste indgang fra ejendommen. En **ejendomssag** samler oplysninger om én BFE. En byggesag, skadesag eller klagesag er et **konkret forløb** med dokumenter, der bruges sammen. Vælg det emne, hvor brugeren vil lede efter resultatet. Undersøg så, om materialet allerede er journaliseret og kan genfindes.
+En sag samler dokumenter og oplysninger om et bestemt forhold eller forløb. Ved udlejning er **03 Brugsaftaler** emnemappen, hvor brugeren finder ejendommens lejeaftaler. En **aftalesag** kan samle kontrakten, senere tillæg og en opsigelse for ét bestemt lejemål. En forlængelse kan behandles på samme aftalesag. At indhente lejerens underskrift er en **opgave**. Den er løst, når underskriften er modtaget, mens lejeaftalen kan gælde i flere år endnu.
+
+Vælg den emnemappe, hvor brugeren vil lede efter resultatet, og se først, om der allerede findes en sag om forholdet. En selvstændig sag med eget sagsnummer er relevant, når et forløb skal kunne følges og afsluttes for sig, fx en tvist om fraflytning.
 
 | Situation | Hvad brugeren finder i emnemappen |
 |---|---|
-| Dokumentet er allerede journaliseret på en aftale-, projekt- eller myndighedssag eller i et fagsystem | En henvisning til den sag, hvor dokumenterne er samlet, eller til det enkelte dokument. Brug sagsnummer for et helt forløb og dokumentnummer for et bestemt dokument. Tilknyt henvisningen til BFE og emne, så den kan findes fra ejendommen. |
-| Et enkelt dokument eller et lille forløb vedrører ejendommen | Dokumenterne direkte i emnemappen, fx en skatteopgørelse i **09 Ejendomsøkonomi**. Et fælles sagsnummer kan samle dokumenterne i en søgning. |
-| Flere dokumenter skal behandles samlet på ejendommen | Én sagsmappe under det relevante emne, fx **Vurderingsklage · 2026** i 09 eller **Skadesag · skadenr.** i 08. Saml henvendelse, korrespondance og afgørelse dér. Brug forløbets sagsnummer, hvis det findes. Henvis fra andre berørte emner eller BFE’er til den samme sag eller det relevante dokument. |
+| Dokumentet er allerede journaliseret på en aftale-, projekt- eller myndighedssag eller i et fagsystem | Henvis til sagen eller dokumentet, fx fra 03 til lejemålets aftalesag i aftalearkivet. Brug sagsnummer for et helt forløb og dokumentnummer for et bestemt dokument. Knyt henvisningen til BFE og emne, så den kan findes fra ejendommen. |
+| Et enkelt dokument eller et lille forløb vedrører ejendommen | Dokumenterne direkte i emnemappen, fx en skatteopgørelse i **09 Ejendomsøkonomi**. |
+| Flere dokumenter hører sammen på ejendomssagen | Saml dem efter behov i en undermappe, fx **Vurderingsklage · 2026** i 09 eller **Skadesag · skadenr.** i 08. Dokumenterne hører fortsat til ejendomssagen. Brug fx forsikringsselskabets skadenummer som reference. Henvis fra andre berørte emner eller BFE’er til det samme forløb eller dokument. |
 
 Ved en udstykning findes landzonetilladelsen fra **04 Plan- og byggesager**, og registreringen af den gennemførte matrikelændring fra **01 Ejerskab og registrering**. Føres begge dokumenter på samme projektsag, peger de to emnemapper på hver sit dokument dér. Den samlede tingbogsattest hører til i 01 og den enkelte servitut i 02.
 
-Sagsmapper oprettes til et konkret forløb. Nye, faste underemner indføres kun i den fælles skabelon ved et tilbagevendende behov. Skabeloner til fx besigtigelsesnotater hentes fra skabelonbiblioteket, når der skal skrives et notat. Modtagne skøder, policer og afgørelser journaliseres, når de foreligger. Uafklaret materiale fra indlæsning får en ansvarlig for placeringen.
+Nye, faste underemner indføres kun i den fælles skabelon ved et tilbagevendende behov. Skabeloner til fx besigtigelsesnotater hentes fra skabelonbiblioteket, når der skal skrives et notat. Modtagne skøder, policer og afgørelser journaliseres, når de foreligger. Uafklaret materiale fra indlæsning får en ansvarlig for placeringen.
 
 ## Stamdata og ansvar
 
@@ -67,7 +69,7 @@ Hver række beskriver ét felt. Genbrug DocuNotes sagsnummer og kontrollerede re
 |---|---|
 | **BFE-nummer** | Ejendommens entydige nummer i Matriklen, fx `5367067`. |
 | **BFE-type** | Den registrerede ejendomstype. Værdien er *samlet fast ejendom*, *ejerlejlighed* eller *bygning på fremmed grund*. [Geodatastyrelsen om BFE](https://gst.dk/ansvarsomraader/matrikel-og-ejendomsregistrering/matriklen/bfe-nummer) |
-| **Sagsnummer i DocuNote** | Nummeret på ejendommens hovedsag. Bruges i henvisninger til sagen. |
+| **Sagsnummer i DocuNote** | Nummeret, der bruges til at henvise til ejendommens hovedsag. En særskilt aftalesag har sit eget sagsnummer. |
 | **Sagsførende CVR** | CVR-nummeret på det ejerselskab, som fører hovedsagen. |
 | **Beliggenhedsadresse** | Ejendommens officielle beliggenhedsadresse fra Ejendomsbeliggenhedsregistret. |
 | **Kortreference til ejendommen** | Henvisning til ejendommen på et kort, når adressen er upraktisk i felten. |
@@ -162,7 +164,7 @@ Afprøv sagstypen på 5–10 forskellige ejendomme, fx en administrationsbygning
 
 1. **Ejerskifte.** Find BFE 5367067 direkte hos SK Forsyning og via **Tidligere ejendomme** hos SK Vand. Kontrollér, at en bruger med relevant adgang kan se den historiske ejerrelation og åbne den aktuelle hovedsag.
 2. **Sameje (tænkt eksempel).** Lad to medejere bytte sagsansvar. Åbn samme BFE fra begge selskabers rod før og efter skiftet. Begge andele skal fortsat være synlige som gældende, og ejendommen skal tælle én gang i ledelsens samlede oversigt.
-3. **Erstattet tilladelse.** Start i **05 Miljø** på BFE 5367073. Find Slagelse Kommunes afgørelse af 17. december 2020 og henvisningen til tilladelsen af 24. november 1999, som afgørelsen erstattede. Prøv først med 2020-afgørelsen direkte i 05, dernæst i en sagsmappe under 05 og til sidst med en henvisning fra 05 til en eksisterende sag. Ved hver prøve skal brugeren kunne finde historikken ud fra BFE og emne og se, at SK Forsyning var ansøger, mens SK Spildevand er registreret som grundejer. [Kommunens afgørelse, s. 3](https://b0301proddatasto.blob.core.windows.net/files/vrp2k3oj.pdf#page=3) · [Kobling til BFE og kilder S213, S215 og S217](research/decisions.md#krydskontrol-med-udgangspunkt-i-renseanlæg)
+3. **Erstattet tilladelse.** Start i **05 Miljø** på BFE 5367073. Find Slagelse Kommunes afgørelse af 17. december 2020 og henvisningen til tilladelsen af 24. november 1999, som afgørelsen erstattede. Prøv først med 2020-afgørelsen direkte i 05, dernæst i en undermappe i 05 og til sidst med en henvisning fra 05 til en eksisterende sag. Ved hver prøve skal brugeren kunne finde historikken ud fra BFE og emne og se, at SK Forsyning var ansøger, mens SK Spildevand er registreret som grundejer. [Kommunens afgørelse, s. 3](https://b0301proddatasto.blob.core.windows.net/files/vrp2k3oj.pdf#page=3) · [Kobling til BFE og kilder S213, S215 og S217](research/decisions.md#krydskontrol-med-udgangspunkt-i-renseanlæg)
 4. **Fælles police og ledelsesoverblik.** Vælg en police, der omfatter to BFE’er i hvert sit selskab. Find policen fra begge ejendomme. Luk en prøveopgave på aftalesagen, og kontrollér, at den forsvinder fra begge selskabers åbne punkter og fra den samlede liste. Find også en ejendom uden registreret gennemgang.
 5. **Ledningsret på fremmed grund.** Find aftalen fra både selskabet, der har indgået den, og den berørte grunds BFE. Kontrollér, at grunden kun tæller som ejet, hvis der også foreligger et dokumenteret ejerforhold.
 
