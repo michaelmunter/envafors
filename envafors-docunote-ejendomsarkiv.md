@@ -1,6 +1,6 @@
 # Ejendomsarkiv i DocuNote
 
-**Envafors · Forslag til pilot · Version 0.6 · 23. november 2026**
+**Envafors · Forslag til pilot · Version 0.7 · 25. november 2026**
 
 **Ejendommen** har ét sæt stamdata pr. BFE-nummer. Når en gældende ejer i arkivet er dokumenteret, får ejendommen en fast plads direkte i selskabsmappen hos den ejer, der fører sagen. I piloten foreslås en DocuNote-sag af typen **Ejendom** til denne plads. Her ser brugeren ejendommens stamdata og ni emnemapper med adgang til skøder, aftaler, tilladelser og tegninger, også når originalen ligger på en fælles sag eller i et fagsystem. Brug selskabets registrerede navn og CVR som mappenavn. Begynd ejendomssagens titel med BFE-nummeret, og tilføj kendenavn eller kort adresse, når det er kendt.
 
@@ -113,19 +113,22 @@ Vis kun disse oplysninger, når de bruges til søgning eller opfølgning. Regist
 
 ### Selskaber og deres relationer til ejendommen
 
-Vis ejendommens gældende og historiske selskabsforhold fra BFE’en. Selskabets navn og status hentes fra CVR-stamdata. Rolle, periode og eventuel ejerandel registreres for det enkelte selskabs forhold til ejendommen. Et selskab kan have flere roller på samme BFE. For begge slags ejerandel bevares en oplyst nulandel som nul, mens en uoplyst andel markeres som ukendt.
+Fra én BFE kan brugeren åbne selskabernes gældende og historiske roller. I Matriklen Labs’ CVR-opslag (`CvrEjerskaber`) giver `bfe` ejendommens nummer. Det søgte CVR fremgår af opslagets URL og af filnavnet i projektet. Hver post i listerne `ejer` og `administrerer` beskriver dette selskabs rolle på én BFE. Selskabets navn og virksomhedsstatus hentes fra Virk. BFE-type og adresse suppleres fra ejendomsregistrene. [Labs’ feltbeskrivelse](https://labs.matriklen.dk/ejerskaber) · [Projektets kontrol af udtrækkene](research/udtraekskontrol.md#status-og-andele)
 
 | Felt | Hører til | Udfyldelse |
 |---|---|---|
 | **Selskabets CVR-nummer** | Selskab | Nummeret identificerer selskabet. Hver rolle på ejendommen henviser til selskabet med dette CVR. |
 | **Registreret selskabsnavn** | Selskab | Navnet fra Virk for det pågældende CVR-nummer. |
 | **Selskabsstatus i Virk** | Selskab | Virks status for virksomheden på opslagstidspunktet, fx `NORMAL`. |
-| **Rolle på ejendommen** | Selskabsrelation | Fx ejer, administrator, lejer, rettighedshaver eller driftsansvarlig. |
-| **Relationsstatus** | Selskabsrelation | Om den konkrete rolle er gældende eller historisk. |
+| **Rolle på ejendommen** | Selskabsrelation | Listen `ejer` giver rollen ejer, og `administrerer` giver administrator. Andre roller, fx lejer, rettighedshaver eller driftsansvarlig, kræver eget belæg. |
+| **Relationsstatus** | Selskabsrelation | Labs-feltet `status` angiver, om selskabets rolle var gældende eller historisk på opslagstidspunktet. |
+| **Virkningstidspunkt i Labs** | Selskabsrelation | Bevar hele `virkningFra` fra den konkrete post, med klokkeslæt, UTC-forskydning og tidszone. Læs tidspunktet sammen med rollen og dens status. |
 | **Rollens startdato** | Selskabsrelation | Den dokumenterede dato for rollens begyndelse, når den kendes. |
 | **Rollens ophørsdato** | Selskabsrelation | Den dokumenterede dato for rollens ophør, når den kendes. |
-| **Faktisk ejerandel** | Ejerforhold | Den faktiske andel, som kilden viser, angivet som brøk. |
-| **Tinglyst ejerandel** | Ejerforhold | Den tinglyste andel, som kilden viser, angivet som brøk. |
+| **Faktisk ejerandel** | Ejerforhold | Vis `faktiskEjerandel` som én brøk med kildens `tæller` og `nævner`. |
+| **Tinglyst ejerandel** | Ejerforhold | Vis `tinglystEjerandel` som en særskilt brøk med kildens `tæller` og `nævner`. |
+
+En oplyst nulandel vises som fx **0/1**. Mangler en andel på en ejerpost, vises **uoplyst**. I de 12 udtræk havde alle 220 ejerposter en faktisk andel, mens 31 manglede den tinglyste andel. På en administratorpost er begge andele **ikke relevante**, også når selskabet har en særskilt ejerpost for samme BFE. Knyt kilde og kendt opslagstidspunkt til hver post. Ved modstrid kan brugeren se begge kildeoplysninger og den åbne afklaring. [Andele i de kontrollerede udtræk](research/udtraekskontrol.md#status-og-andele)
 
 ### Kilde og ajourføring
 
@@ -140,7 +143,11 @@ Knyt kildebelæg til den oplysning, det underbygger. Samme kildepost kan bruges 
 | **Opslagstidspunkt** | Hvornår kildesvaret blev hentet, med tidszone. |
 | **Importtidspunkt** | Hvornår oplysningerne eventuelt blev indlæst i arkivet. |
 
-Ved kontrol af ejerhistorik bevares Labs-feltet `virkningFra` og ejendomsopslagets overtagelsesdato og tinglysningsdato hver for sig i kildesvarene. Brug kun en dato som rollens start eller ophør, når kilden dokumenterer den betydning. [Projektets kontrol af datoerne i Matriklen](research/udtraekskontrol.md#datoer-der-kræver-afklaring)
+Labs beskriver virkningen på en gældende post som første overtagelse og på en historisk post som rollens ophør. For BFE 2531352 viser Labs 23. februar 2009, mens ejendomsopslaget viser overtagelse 1. januar 2002 og tinglysning 22. juni 2004. Bevar de tre oplysninger med deres oprindelige betydning. Udfyld rollens start eller ophør, når den konkrete dato er dokumenteret. Oprindelige hentetider for de 12 leverede Labs-filer er ukendte. Kildeindeksets senere opslagstidspunkter daterer genopslagene. [Projektets datokontrol](research/udtraekskontrol.md#datoer-der-kræver-afklaring)
+
+### Andre opslag i Matriklen Labs
+
+Ud over CVR-udtrækkene kan historik for en samlet fast ejendom og registreringsmeddelelser belyse en matrikelændring i **01 Ejerskab og registrering**. En dokumenteret andel i en fælleslod knyttes til den ejendom, der har andelen i jordstykket. Samvurderingstjek er en demo og kan bruges til at finde en vurdering, der vedrører flere BFE’er. Brug selve vurderingen som belæg i **09 Ejendomsøkonomi**. [Labs’ værktøjskatalog](https://labs.matriklen.dk/) · [Fælleslodder](https://labs.matriklen.dk/faelleslod) · [Samvurderingstjek](https://labs.matriklen.dk/samvurderet)
 
 ## Metadata på dokumenter og sager
 
@@ -178,6 +185,25 @@ Fra BFE og emne skal en bruger kunne se både gældende og tidligere dokumenter 
 
 ## Ledelsens overblik
 
+### Ejendomme i porteføljen
+
+Vis én række pr. BFE med dokumenteret gældende ejerskab i porteføljen. Start med BFE-nummer, kendenavn eller adresse og de dokumenterede gældende ejere. Ved sameje vises alle kendte gældende ejere på samme række. Ejendomsansvarlig, seneste gennemgang og åbne punkter kan tilvælges ved opfølgning. Eksemplet nedenfor viser forholdet ved kontrollen den 20. november 2026. [Ejendomsopslag og adresse](research/decisions.md#faktiske-og-tinglyste-ejerandele-på-bfe-2539366-og-5367067)
+
+| BFE-nummer | Kendenavn eller adresse | Gældende formel ejer |
+|---|---|---|
+| 5367067 | Nordvej 7, 4200 Slagelse | SK Forsyning A/S |
+
+Under **Selskabsforhold** kan brugeren se én række pr. rollepost og finde kildesvaret fra rækken. I piloten kan denne visning afprøves som en separat søgning på BFE-nummeret. For ejendommen ovenfor giver det to rækker. [SK Forsynings udtræk](data/labs.matriklen/25797981.json) · [SK Vands udtræk](data/labs.matriklen/27736033.json)
+
+| Selskab (CVR) | Rolle | Status i Labs | Faktisk andel | Tinglyst andel | Virkningstid i Labs (dansk tid) |
+|---|---|---|---|---|---|
+| SK Forsyning A/S (25797981) | Ejer | Gældende | 1/1 | 1/1 | 20.05.2026 kl. 00.00 CEST |
+| SK Vand A/S (27736033) | Ejer | Historisk | 0/1 | 1/1 | 20.05.2026 kl. 00.00 CEST |
+
+Ved filtrering skal selskab, rolle og status passe på **samme række**. Et filter på SK Vand som gældende ejer skal derfor give nul træffere for denne BFE. Historiske roller og rene administratorforhold kan findes i selskabsforholdene. Uafklaret adkomst findes i listen over åbne punkter. I de 12 kontrollerede CVR-udtræk var der 220 ejerposter og seks administratorposter fordelt på 211 forskellige BFE’er. Fem udtræk havde to tomme lister. Det er resultatet for de undersøgte CVR-opslag. Antallet af ejede ejendomme opgøres ud fra de afklarede, gældende ejerforhold. [Kontrollens omfang og resultater](research/udtraekskontrol.md#status-og-andele)
+
+### Åbne punkter og frister
+
 Registrér et åbent punkt, når en faglig gennemgang viser en mangel, eller der er en handling at følge op på. Angiv **hvad der skal ske, ansvarlig og eventuel frist**. Ved afslutning henvises til resultatet, fx det modtagne dokument.
 
 | Niveau | Praktisk brug |
@@ -190,7 +216,7 @@ Registrér et åbent punkt, når en faglig gennemgang viser en mangel, eller der
 
 Afprøv sagstypen på 5–10 forskellige ejendomme. Lad alle tre BFE-typer indgå, eventuelt som tydeligt markerede prøveeksempler. Kontrollér, at en ejendom kan findes med de fælles felter alene. Åbn en særskilt aftalesag, og kontrollér, at den fører til samme aktuelle ejendomsoplysninger som ejendomsmappen. Brug også disse arbejdsgange som acceptprøver.
 
-1. **Ejerskifte.** Find BFE 5367067 direkte hos SK Forsyning og via **Tidligere ejendomme** hos SK Vand. Kontrollér, at en bruger med relevant adgang kan se den historiske ejerrelation og åbne den aktuelle hovedsag.
+1. **Ejerskifte.** Find BFE 5367067 direkte hos SK Forsyning og via **Tidligere ejendomme** hos SK Vand. Kontrollér, at ejendomslisten viser én række, og at de to kildeposter kan åbnes herfra. Skift filter mellem SK Vand som gældende og historisk ejer. Ejendommen skal kun findes for SK Vand i den historiske søgning, hvorfra brugeren kan åbne den aktuelle hovedsag.
 2. **Sameje (tænkt eksempel).** Lad to medejere bytte sagsansvar. Åbn samme BFE fra begge selskabers rod før og efter skiftet. Begge andele skal fortsat være synlige som gældende, og ejendommen skal tælle én gang i ledelsens samlede oversigt.
 3. **Erstattet tilladelse.** Start i **05 Miljø** på BFE 5367073. Find Slagelse Kommunes afgørelse af 17. december 2020 og henvisningen til tilladelsen af 24. november 1999, som afgørelsen erstattede. Prøv først med 2020-afgørelsen direkte i 05, dernæst i en undermappe i 05 og til sidst med en henvisning fra 05 til en eksisterende sag. Ved hver prøve skal brugeren kunne finde historikken ud fra BFE og emne og se, at SK Forsyning var ansøger, mens SK Spildevand er registreret som grundejer. [Kommunens afgørelse, s. 3](https://b0301proddatasto.blob.core.windows.net/files/vrp2k3oj.pdf#page=3) · [Kobling til BFE og kilder S213, S215 og S217](research/decisions.md#krydskontrol-med-udgangspunkt-i-renseanlæg)
 4. **Fælles police og ledelsesoverblik.** Vælg en police, der omfatter to BFE’er i hvert sit selskab. Find policen fra begge ejendomme. Luk en prøveopgave på aftalesagen, og kontrollér, at den forsvinder fra begge selskabers åbne punkter og fra den samlede liste. Find også en ejendom uden registreret gennemgang.
